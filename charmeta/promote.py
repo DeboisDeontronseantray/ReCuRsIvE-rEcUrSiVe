@@ -12,8 +12,10 @@ from typing import Any
 import yaml
 
 from charmeta.conflicts import check_proposal_conflicts
+from charmeta.config import allow_live_paths as env_allow_live_paths
 from charmeta.normalize import normalize_trait_text
 from charmeta.observations import load_observations
+from charmeta.paths import refuse_charmeta_path
 from charmeta.schema import proposal_threshold
 from charmeta.store import load_companion, save_companion
 from lineage.aired import build_aired_index, load_lineage_jsonl
@@ -128,7 +130,12 @@ def promote(
     observations_path: Path | str,
     lineage_path: Path | str,
     apply: bool = False,
+    allow_live_paths: bool | None = None,
 ) -> PromoteReport:
+    live_ok = env_allow_live_paths() if allow_live_paths is None else allow_live_paths
+    refuse_charmeta_path(companion_path, allow_live_paths=live_ok)
+    refuse_charmeta_path(observations_path, allow_live_paths=live_ok)
+    refuse_charmeta_path(lineage_path, allow_live_paths=live_ok)
     threshold = proposal_threshold()
     companion = load_companion(companion_path)
     observations = load_observations(observations_path)
