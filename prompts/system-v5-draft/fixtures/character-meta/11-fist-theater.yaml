@@ -1,0 +1,14 @@
+# Companion character meta for Ch11 Fist Theater (D5). Keyed by cast id. Invented fixture data.
+# The LEGEND look item is here on purpose: memory beats must never write looks for imaged cast.
+channel: Ch11 Fist Theater
+cast:
+  MARLO_QUILL:
+    name: MARLO QUILL
+    image_tag: MARLO_QUILL_threequarter_face
+    summon_count: 2
+    writein_level: 1
+    memories:
+      - {text: owes THE CONCIERGE a favour from the night of the flood, tier: MARK, since_index: 9, season: 1}
+      - {text: lost a button in the stairwell fight, tier: SCAR, since_index: 16, episode: 1}
+      - {text: heard the lobby clock tick wrong twice tonight, tier: FLASH, since_index: 15}
+      - {text: has a grey mustache, tier: LEGEND, since_index: 1}

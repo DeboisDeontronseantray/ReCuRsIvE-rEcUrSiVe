@@ -5,9 +5,10 @@ import re
 import socket
 
 import pytest
+import yaml
 
 import layers_v4
-from conftest import FIX, NP17, V4, NetworkBlocked
+from conftest import CHARMETA, FIX, NP17, V4, NetworkBlocked
 
 FORBIDDEN_KEYS = {"handle", "user", "username", "author", "avatar", "image", "img", "images", "media", "url", "contributor", "contributors"}
 HANDLE = re.compile(r"(?<![\w.])@[A-Za-z0-9_]+")
@@ -15,10 +16,12 @@ URL = re.compile(r"https?://\S+|www\.\S+")
 
 
 def _all_fixture_files():
-    return sorted(p for p in FIX.rglob("*") if p.is_file() and p.suffix in (".json", ".jsonl"))
+    return sorted(p for p in FIX.rglob("*") if p.is_file() and p.suffix in (".json", ".jsonl", ".yaml"))
 
 
 def _load(p):
+    if p.suffix == ".yaml":
+        return yaml.safe_load(p.read_text())
     if p.suffix == ".jsonl":
         return [json.loads(line) for line in p.read_text().splitlines() if line.strip()]
     return json.loads(p.read_text())
@@ -36,7 +39,7 @@ def _keys(o):
 
 def test_fixtures_parse():
     files = _all_fixture_files()
-    assert len(files) == 5
+    assert len(files) == 11
     for p in files:
         _load(p)
 
@@ -60,8 +63,9 @@ def test_handles_and_urls_are_placeholders_only():
         handles = HANDLE.findall(txt)
         urls = URL.findall(txt)
         if p.name == "comments.jsonl":
-            assert handles and all(h.startswith("@PLACEHOLDER_") for h in handles), handles
-            assert urls and all(".invalid/" in u for u in urls), urls
+            assert all(h.startswith("@PLACEHOLDER_") for h in handles), handles
+            assert all(".invalid/" in u for u in urls), urls
+            assert p.parent != NP17 or (handles and urls)
         else:
             assert not handles and not urls, (p, handles, urls)
 
@@ -74,10 +78,12 @@ def test_still_meta_is_stub_flash_and_short():
 
 
 def test_character_memory_shape():
-    m = _load(NP17 / "character_memory" / "MARLO_QUILL.json")
-    assert m["name"].replace(" ", "_") + ".json" == "MARLO_QUILL.json"
-    assert 0 <= m["writein_level"] <= 3 and m["summon_count"] >= 0
-    assert {x["tier"] for x in m["memories"]} <= set(layers_v4.TIER_LIFE)
+    docs = [_load(p) for p in sorted(CHARMETA.glob("*.yaml"))]
+    assert len(docs) == 2
+    for cast_id, m in ((k, v) for d in docs for k, v in d["cast"].items()):
+        assert m["name"].replace(" ", "_") == cast_id
+        assert 0 <= m["writein_level"] <= 3 and m["summon_count"] >= 0
+        assert {x["tier"] for x in m["memories"]} <= set(layers_v4.TIER_LIFE)
 
 
 def test_locked_meta_matches_static_and_has_no_fixed_threads():

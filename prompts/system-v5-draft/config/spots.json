@@ -1,0 +1,12 @@
+{
+ "_rule": "D6 (Trundle, Oct 31 2026, 10:32 PM CT): a minimal thread_holder field for each spot type, short and locked before any mutation. null = no holder set. When set it enters the prompt only as a hard constraint (D7).",
+ "thread_holder_max_words": 12,
+ "spot_types": {
+  "ad": {"thread_holder": null},
+  "beat": {"thread_holder": null},
+  "breather": {"thread_holder": null},
+  "fight": {"thread_holder": null},
+  "news": {"thread_holder": null},
+  "suit_up": {"thread_holder": null}
+ }
+}

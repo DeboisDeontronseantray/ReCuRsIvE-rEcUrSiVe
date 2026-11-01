@@ -1,0 +1,7 @@
+{
+ "TT_PROMPTS_V4": "<repo>/prompts/system-v4-20261030",
+ "TT_STORY_ENGINE": "<repo>/story-engine",
+ "TT_CLIPS": "<folder that holds <clip_id>_last.png stills>",
+ "TT_COMMENT_SPOOL": "<live comment spool .jsonl>",
+ "TT_CHARACTER_META": "<folder that holds character-meta/<NN-channel>.yaml and trait_observations.jsonl>"
+}

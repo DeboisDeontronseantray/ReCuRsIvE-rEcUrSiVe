@@ -1,0 +1,10 @@
+# Companion character meta for Ch4 Military Boutique / BLACK ICE (D5). Synthetic fixture data.
+channel: Ch4 Military Boutique / BLACK ICE
+cast:
+  HERON:
+    name: HERON
+    image_tag: HERON_photoreal_placeholder
+    summon_count: 0
+    writein_level: 0
+    memories:
+      - {text: swapped the canister once already tonight, tier: SCAR, since_index: 1, episode: 1}

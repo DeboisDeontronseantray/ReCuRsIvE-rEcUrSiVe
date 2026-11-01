@@ -1,0 +1,13 @@
+{
+ "_rule": "D4 comment intake (Trundle, Oct 31 2026, 10:32 PM CT): raw collection plus insertion only, no semantic parsing. Window = last 15 minutes, capped at 50. Block list empty but configurable. D5: write-in levels cap memory beats per prompt.",
+ "comment_window_minutes": 15,
+ "comment_cap": 50,
+ "comment_block_list": [],
+ "spool_fields": {"ts": "ts", "text": "text"},
+ "max_beats": 6,
+ "max_words": 330,
+ "beat_start_s": 0.5,
+ "beat_end_margin_s": 1.0,
+ "writein_cap": {"0": 0, "1": 1, "2": 1, "3": 2},
+ "writein_max": 3
+}

@@ -1,6 +1,6 @@
 """Acceptance specs for the NP17 dry run: placement, slot diff vs the current builder, gate, outputs.
 
-SKIPPED until Trundle approves the plan (PR #3). Interfaces are PROPOSED (docs/IMPLEMENTATION-STEPS-v1.md section 3).
+Interfaces follow docs/IMPLEMENTATION-STEPS-v1.md section 3; spec changes required by D4/D5 are listed in the implementation PR.
 Outputs go only to system-v5-draft/out/dryrun/, which is git-ignored (Decision 12)."""
 import json
 import re
@@ -9,9 +9,9 @@ import pytest
 
 import apply_check_v44
 import build_prompt_v42
-from conftest import DRYRUN, NP16, NP17
+import yaml
+from conftest import CHARMETA, DRYRUN, NP16, NP17, fixture_inputs
 
-pytestmark = pytest.mark.skip(reason="awaiting plan approval")
 
 BASE = json.loads((NP16 / "base_spec.json").read_text())
 OUT = DRYRUN / "night-porter"
@@ -21,7 +21,7 @@ ALLOWED_CHANGED_SLOTS = {"continue", "beats"}
 
 @pytest.fixture
 def run(v5):
-    return v5("assemble_next").assemble_next(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=OUT, clip_id="NP17")
+    return v5("assemble_next").assemble_next(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=OUT, clip_id="NP17", **fixture_inputs(NP17))
 
 
 @pytest.fixture
@@ -92,14 +92,17 @@ def test_cast_entry_stays_name_and_tag(run):
 
 
 def test_proposed_memory_update_is_output_only(run):
+    yml = CHARMETA / "11-fist-theater.yaml"
+    before = yml.read_bytes()
     proposed = json.loads((OUT / "NP17.memory.proposed.json").read_text())
-    original = json.loads((NP17 / "character_memory" / "MARLO_QUILL.json").read_text())
-    assert proposed["writein_level"] - original["writein_level"] in (0, 1)
-    assert json.loads((NP17 / "character_memory" / "MARLO_QUILL.json").read_text()) == original
+    original = yaml.safe_load(before)["cast"]["MARLO_QUILL"]
+    assert proposed["file"] == yml.name
+    assert proposed["cast"]["MARLO_QUILL"]["writein_level"] - original["writein_level"] in (0, 1)
+    assert yml.read_bytes() == before
 
 
 def test_deterministic(v5, tmp_path):
     an = v5("assemble_next").assemble_next
-    a = an(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=tmp_path / "a", clip_id="NP17")
-    b = an(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=tmp_path / "b", clip_id="NP17")
+    a = an(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=tmp_path / "a", clip_id="NP17", **fixture_inputs(NP17))
+    b = an(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=tmp_path / "b", clip_id="NP17", **fixture_inputs(NP17))
     assert a["args"] == b["args"] and a["sidecar"] == b["sidecar"]

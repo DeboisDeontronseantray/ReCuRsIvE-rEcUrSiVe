@@ -15,7 +15,9 @@ SE_ENGINE = REPO / "story-engine" / "engine"
 FIX = V5 / "fixtures"
 NP16 = FIX / "night-porter" / "NP16"
 NP17 = FIX / "night-porter" / "NP17"
+CHARMETA = FIX / "character-meta"
 DRYRUN = V5 / "out" / "dryrun"
+NOW = "2026-10-31T21:20:00-05:00"
 
 for p in (V5, V4_TOOLS, SE_ENGINE):
     if str(p) not in sys.path:
@@ -39,10 +41,12 @@ def no_network():
         yield
 
 
+def fixture_inputs(inputs_dir):
+    """Dry-run input sources for a fixture clip folder: its comments.jsonl stands in for the live spool (D4)."""
+    return {"spool_path": inputs_dir / "comments.jsonl", "character_meta_dir": CHARMETA, "now": NOW}
+
+
 @pytest.fixture
 def v5():
-    """Resolve system-v5-draft modules by name at test time.
-
-    The assembler modules do not exist until later steps of docs/IMPLEMENTATION-STEPS-v1.md,
-    so the skipped acceptance specs must still collect without them."""
+    """Resolve system-v5-draft modules by name at test time."""
     return importlib.import_module

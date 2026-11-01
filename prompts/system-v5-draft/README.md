@@ -1,26 +1,50 @@
 # system-v5-draft (DRAFT, not live)
 
-This is the future home of the next-clip prompt assembler described in `docs/PLAN-prompt-assembly-v1.md`. **It contains no assembler code yet.** Implementation waits for Trundle's approval of the plan (PR #3). The build order is `docs/IMPLEMENTATION-STEPS-v1.md`.
+Next-clip prompt assembler from `docs/PLAN-prompt-assembly-v1.md`, built step by step per `docs/IMPLEMENTATION-STEPS-v1.md`.
+Trundle approved the plan and resolved every decision on Oct 31, 2026, 10:32 PM CT. Trundle owns the rules and final approval;
+Director New assembles the next prompt from the other systems' outputs and does not invent or own the inputs (D1).
 
-Prompt-assembly ownership is OPEN.
+## How a next clip is assembled
 
-## What is here
+`assemble_next.py` wraps the unchanged v42 builder (D2). The previous clip's spec is the base; every slot is copied as is, and
+only these change:
 
-- `fixtures/night-porter/NP16/base_spec.json`: the NP16 v42 spec, reconstructed from `prompts_v44/odyssey/NP16.{args,meta}.json`. The live builder rebuilds the prompt, args and sidecar byte-for-byte from it. Its image paths are copied verbatim from the live args and are treated as opaque strings.
-- `fixtures/night-porter/NP17/` (all PROPOSED contracts, invented data):
-  - `locked_meta.json`: derived read-only from `config/static_v41.json`. `threads` is empty on purpose, because which threads are locked is a canon decision for Trundle. FT1–FT4 stay excluded.
-  - `still_meta.json`: a stub still description for `NP16_last`. No image file exists. One descriptor restates a look on purpose, so the R-REFDESC filter has something to drop.
-  - `comments.jsonl`: 5 raw comments, `{ts, text}` only. The handles (`@PLACEHOLDER_*`) and URLs (`*.invalid`) are placeholders, not real accounts or sites. One comment is a kid hit that must be HELD.
-  - `character_memory/MARLO_QUILL.json`: one memory file. It includes a FLASH item that has expired by NP17 and one look item that must never be emitted.
-- `tests/`:
-  - `test_v5_fixtures.py` and `test_v5_parity_np16.py` are **active**. They check the fixture data, NP16 parity, and the live v44 gate baseline (53 pass, 5 held).
-  - `test_v5_acceptance_*.py` are **skipped** (`awaiting plan approval`). They are specs for the build steps.
+- **Continue:** the start frame becomes the previous clip's last still (`<TT_CLIPS>/<prev>_last.png`).
+- **Beats:** the previous clip's beats have played, so the new clip's beats come only from the inputs, in this order:
+  1. one still-continuity beat from the previous clip's still meta (stub analyzer; the pinned vision model is never called, D3);
+  2. raw comments from the spool (D4): last 15 minutes, max 50, sanitized, inserted verbatim with no semantic parsing;
+  3. character memory beats from `character-meta/<NN-channel>.yaml`, capped by write-in level (D5).
+- Locked threads and the spot type's `thread_holder` are frozen before any change and enter only as `[Thread: Must hold: ...]`
+  (D6, D7). FT1–FT4 stay off (D8).
+
+Budget: 6 beats and 330 words. Comments that don't fit are carried, never dropped. A comment that would fail the gate is held.
+
+## Layout
+
+| Path | What |
+|---|---|
+| `paths.py`, `tt_paths.example.json` | `TT_*` path keys: env var, then git-ignored `tt_paths.json`, then repo default. The live spool, character-meta and clips folders have no default and must be configured. |
+| `config/assembly.json` | D4 window/cap/block list, beat and word budget, D5 write-in caps |
+| `config/vision_model.json` | D3 pinned model id, source and lookup date. Never called. |
+| `config/spots.json` | D6 `thread_holder` per spot type (all `null` for now) |
+| `contracts.py` | Strict input contracts (D11) |
+| `intake.py`, `sanitize.py` | D4 spool intake and comment sanitizer |
+| `adapters/` | Read-only bridges to v4 and story-engine; base spec, locked meta, still meta |
+| `memory.py` | D5 character meta, write-in, add-only `trait_observations.jsonl` |
+| `placement.py` | Beat order, timing and budget |
+| `report.py` | Slot split, diff and gate report |
+| `assemble_next.py` | The assembler (library + CLI) |
+| `dryrun.py` | Fixture dry run: NP16 parity, then NP16 -> NP17 |
+| `fixtures/` | Invented fixture data (placeholders only) |
 
 ## Run
 
 ```
-pip install -r ../../requirements-dev.txt
+pip install -r requirements.txt
 pytest tests
+python3 dryrun.py            # writes out/dryrun/night-porter/ (git-ignored)
+python3 assemble_next.py --inputs <dir> --base-spec <spec.json> --out out/dryrun/<show> [--spool ...] [--character-meta ...] [--now ...]
 ```
 
-The tests block all network access, write nothing outside `out/dryrun/` (git-ignored), and never edit `prompts_v44/`, `config/`, `tools/` or `tests/` under `system-v4-20261030`.
+Tests block all network access. Outputs go only to `out/dryrun/` (or a folder outside the repo). Nothing here edits
+`prompts_v44/`, `config/`, `tools/` or `tests/` under `system-v4-20261030`, or story-engine.

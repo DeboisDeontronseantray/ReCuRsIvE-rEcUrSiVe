@@ -1,0 +1,13 @@
+{
+ "_rule": "D3 (Trundle, Oct 31 2026, 10:32 PM CT): one read-only lookup of xAI's public docs, no key, no spend. Pin the strongest current Grok model that accepts image input. Do not call it.",
+ "provider": "xAI",
+ "model": "grok-4.7",
+ "use": "still analysis of the previous clip's last frame (image input)",
+ "called": false,
+ "analyzer_in_v1": "stub",
+ "source": "https://docs.x.ai/docs/models",
+ "looked_up_utc": "2026-11-01T03:33Z",
+ "looked_up_ct": "2026-10-31 10:33 PM CT",
+ "evidence": "The models page recommends grok-4.7 for everything except dedicated image/video/voice generation and calls it 'the most capable model we've built'. Its 'Image input models' note covers chat models (jpg/png, max 20 MiB, no image-count limit).",
+ "caveat": "The page does not list input modalities per model, so image input for grok-4.7 is inferred from the chat-model image-input note, not stated per model. 'grok-4.7' is the stable alias; the page lists no dated release id for it. Confirm both before the first real call, which needs its own go-ahead."
+}

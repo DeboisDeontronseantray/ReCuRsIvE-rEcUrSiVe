@@ -1,6 +1,6 @@
 """Acceptance specs for the hard canon rules (plan section 5), plus no-live-edit and gate-baseline checks.
 
-SKIPPED until Trundle approves the plan (PR #3). Interfaces are PROPOSED (docs/IMPLEMENTATION-STEPS-v1.md section 3)."""
+Interfaces follow docs/IMPLEMENTATION-STEPS-v1.md section 3; spec changes required by D4/D5 are listed in the implementation PR."""
 import copy
 import hashlib
 import json
@@ -10,9 +10,8 @@ import pytest
 
 import apply_check_v44
 import layers_v4
-from conftest import DRYRUN, FIX, NP16, NP17, REPO, V4
+from conftest import DRYRUN, FIX, NP16, NP17, REPO, V4, fixture_inputs
 
-pytestmark = pytest.mark.skip(reason="awaiting plan approval")
 
 BASE = json.loads((NP16 / "base_spec.json").read_text())
 OUT = DRYRUN / "night-porter"
@@ -29,7 +28,8 @@ def _manifest():
 def assemble(v5):
     def go(base=None, **kw):
         bs = base or NP16 / "base_spec.json"
-        return v5("assemble_next").assemble_next(inputs_dir=kw.pop("inputs_dir", NP17), base_spec=bs, out_dir=kw.pop("out_dir", OUT), clip_id=kw.pop("clip_id", "NP17"), **kw)
+        inputs_dir = kw.pop("inputs_dir", NP17)
+        return v5("assemble_next").assemble_next(inputs_dir=inputs_dir, base_spec=bs, out_dir=kw.pop("out_dir", OUT), clip_id=kw.pop("clip_id", "NP17"), **fixture_inputs(inputs_dir) | kw)
     return go
 
 

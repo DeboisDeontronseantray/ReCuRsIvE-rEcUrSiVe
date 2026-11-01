@@ -1,33 +1,61 @@
 """Acceptance specs for the four inputs (contracts, sanitizer, still meta, character memory).
 
-SKIPPED until Trundle approves the plan (PR #3). Module and function names follow the PROPOSED interfaces in
-docs/IMPLEMENTATION-STEPS-v1.md section 3; each step un-skips only the specs it implements."""
+Module and function names follow docs/IMPLEMENTATION-STEPS-v1.md section 3; spec changes required by D4/D5 are listed in the
+implementation PR."""
 import json
 
 import pytest
+import yaml
 
 import layers_v4
-from conftest import NP17
+from conftest import CHARMETA, NP17
 
-pytestmark = pytest.mark.skip(reason="awaiting plan approval")
 
 COMMENTS = [json.loads(line) for line in (NP17 / "comments.jsonl").read_text().splitlines() if line.strip()]
-MEMORY = json.loads((NP17 / "character_memory" / "MARLO_QUILL.json").read_text())
+MEMORY_FILE = CHARMETA / "11-fist-theater.yaml"
+MEMORY = yaml.safe_load(MEMORY_FILE.read_text())["cast"]["MARLO_QUILL"]
 STILL = json.loads((NP17 / "still_meta.json").read_text())
 
 
 # ---- contracts (step 2) ----
 def test_contracts_load_fixture_inputs(v5):
-    inp = v5("contracts").load_inputs(NP17)
-    assert set(inp) == {"locked_meta", "still_meta", "comments", "memory"}
-    assert [c["text"] for c in inp["comments"]] == [c["text"] for c in COMMENTS]
+    c = v5("contracts")
+    inp = c.load_inputs(NP17)
+    assert set(inp) == {"locked_meta", "still_meta"}
+    assert [c.validate_comment_row(r)["text"] for r in COMMENTS] == [r["text"] for r in COMMENTS]
+    assert c.load_character_meta(MEMORY_FILE)["cast"]["MARLO_QUILL"] == MEMORY
+
+
+def test_contracts_character_meta_keyed_by_cast_id(v5):
+    c = v5("contracts")
+    doc = yaml.safe_load(MEMORY_FILE.read_text())
+    assert c.channel_slug(doc["channel"]) + ".yaml" == MEMORY_FILE.name
+    for bad in ({"cast": {"marlo": MEMORY}}, {"cast": {"MARLO_QUILL": MEMORY | {"writein_level": 4}}},
+                {"cast": {"MARLO_QUILL": MEMORY | {"handle": "x"}}}, {"cast": {"MARLO_QUILL": MEMORY | {"looks": []}}},
+                {"cast": {"MARLO_QUILL": MEMORY | {"memories": [{"text": "x", "tier": "EPIC", "since_index": 1}]}}}):
+        with pytest.raises(c.ContractError):
+            c.validate_character_meta(doc | bad)
+
+
+def test_contracts_trait_observation_rows(v5):
+    c = v5("contracts")
+    rows = c.read_jsonl(CHARMETA / "trait_observations.jsonl")
+    assert rows and all(c.validate_trait_observation(r) for r in rows)
+    with pytest.raises(c.ContractError):
+        c.validate_trait_observation(rows[0] | {"user_id": "123"})
+
+
+def test_contracts_still_meta_must_be_stub(v5):
+    c = v5("contracts")
+    with pytest.raises(c.ContractError):
+        c.validate_still_meta(STILL | {"analyzer": "grok"})
 
 
 @pytest.mark.parametrize("extra", [{"handle": "x"}, {"image": "a.png"}, {"author": "x"}, {"url": "x"}, {"unexpected": 1}])
 def test_contracts_reject_unknown_and_identity_keys(v5, extra):
     c = v5("contracts")
     with pytest.raises(c.ContractError):
-        c.validate_comment_row({"ts": "2026-10-31T21:02:00-05:00", "text": "ok"} | extra)
+        c.validate_comment_row({"ts": "2026-10-31T21:06:00-05:00", "text": "ok"} | extra)
 
 
 def test_contracts_reject_fixed_threads(v5):
@@ -136,6 +164,6 @@ def test_memory_never_writes_looks(v5):
 
 
 def test_memory_fixture_is_not_written_back(v5):
-    before = (NP17 / "character_memory" / "MARLO_QUILL.json").read_bytes()
-    v5("memory").summon(json.loads(before))
-    assert (NP17 / "character_memory" / "MARLO_QUILL.json").read_bytes() == before
+    before = MEMORY_FILE.read_bytes()
+    v5("memory").summon(yaml.safe_load(before)["cast"]["MARLO_QUILL"])
+    assert MEMORY_FILE.read_bytes() == before
