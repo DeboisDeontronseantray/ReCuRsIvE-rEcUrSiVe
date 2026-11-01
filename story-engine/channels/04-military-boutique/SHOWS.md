@@ -6,4 +6,4 @@
 
 ## Canon notes (additive, 2026-11-01)
 
-See `docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md`. **Channel identity** = Military Boutique / **BLACK ICE** (not Forward Supply). **Forward Supply** segments stay approved **home filler** only (Trundle Oct 29, 2026).
+See `docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md`. **Channel identity** = Military Boutique / **BLACK ICE** (not Forward Supply). **Forward Supply** segments stay approved **home filler** only (trundle Oct 29, 2026).

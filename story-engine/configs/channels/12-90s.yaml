@@ -13,14 +13,14 @@ look:
   palette: [burgundy, teal, mustard, dove gray]
   era_feel: mid-1990s American local television
 
-# Added 2026-10-27 17:50 CT by Story Bot (add-only). Drew hard rules 17:44/17:46 CT.
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
 hard_rules_20261027_1744:
-  no_drew_name: "Never write 'Drew' in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_owner_real_first_name: "Never write the owner's real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
   no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
   no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
   negative_tags: [no on-screen names, no personal names, no children, no kids]
 
-# Added 2026-11-01 (add-only, Trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
+# Added 2026-11-01 (add-only, trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
 canon_resolution_ref: docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md
 home_show: Dale & Marla Live
 hosts_primary_channel: 12
@@ -29,7 +29,7 @@ ch2_anchors: [Dora Vance, Hal Brisk, Tess Okafor, Gale Morrow, Skip]
 ch2_crossover_rule: Any Dale/Marla Ch 2 appearance is deliberate crossover only (one live instance at a time per duplicates rule).
 surname_venn_oakes: unused_pending_trundle
 
-# Added 2026-11-01 (add-only, Trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
+# Added 2026-11-01 (add-only, trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
 canon_resolution_ref: docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md
 home_show: Dale & Marla Live
 hosts_primary_channel: 12

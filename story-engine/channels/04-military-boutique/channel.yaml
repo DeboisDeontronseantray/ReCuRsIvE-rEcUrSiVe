@@ -11,8 +11,8 @@ era_lean: {direction: nostalgic, score: 3}
 definition: /workspace/thunder-trundle/channels/04-military-boutique/channel.md
 prompt_layer2: /workspace/thunder-trundle/prompts/04-military-boutique/_channel.md
 
-# Added 2026-11-01 (add-only, Trundle canon defaults — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
+# Added 2026-11-01 (add-only, trundle canon defaults — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
 canon_resolution_ref: docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md
 channel_identity: Military Boutique / BLACK ICE   # locked index Oct 28, 2026; photoreal 1971 pick Oct 30, 2026
 identity_show: black-ice                         # primary on-air brand; Forward Supply is legacy filler only
-forward_supply_role: approved_home_filler          # Trundle Yes on forward supply segments, Oct 29, 2026 — not channel identity
+forward_supply_role: approved_home_filler          # trundle Yes on forward supply segments, Oct 29, 2026 — not channel identity

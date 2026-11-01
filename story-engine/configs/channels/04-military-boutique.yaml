@@ -15,12 +15,12 @@ tv_safe_rules:
   - Parody the ERA and advertising-channel formats only; invent original show and product names.
   - TV-safe: no explicit sex, no graphic gore, no real weapons tutorials, no actionable military advice.
   - No real people, faces, voices, or celebrity likeness.
-  - Channel number + name "Ch 4 Military Boutique" shows ONLY on a channel change, never always-on (Drew 2026-10-27 12:32 CT) (TV-guide style; network brand thunder trundle, lowercase). KTVM was old branding, retired Oct 26, 2026.
-  - Parody label stays off the live-stream player entirely; file names and metadata only (Drew 12:49 CT).
+  - Channel number + name "Ch 4 Military Boutique" shows ONLY on a channel change, never always-on (trundle 2026-10-27 12:32 CT) (TV-guide style; network brand thunder trundle, lowercase). KTVM was old branding, retired Oct 26, 2026.
+  - Parody label stays off the live-stream player entirely; file names and metadata only (trundle 12:49 CT).
   - No slapstick anywhere on the channel.
   - Intended on-screen text only via tagged registry; no unintended/garbled text.
   - Keep subjects center-weighted for 4:3-safe framing in later video.
-  - Thunder Trundle Workshop house products only in house ads; no outside brands.
+  - thundertrundle workshop house products only in house ads; no outside brands.
 banned:
   - real defense contractors and weapon brands
   - real game IPs and publisher names on screen
@@ -46,7 +46,7 @@ look:
 sound:
   music_style: low synth pads, quiet boutique ambience, soft servo chirps
   vo_style: stiff catalog host / dry co-host; never shouty
-  audio_rule_ref: continuity/ch04-military-boutique/bible-v2.yaml#audio_rule   # Drew 2026-10-27 17:33 CT, added 17:45 by Story Bot
+  audio_rule_ref: continuity/ch04-military-boutique/bible-v2.yaml#audio_rule   # trundle 2026-10-27 17:33 CT, added 17:45 by Story Bot
   music_note: "Synth pads stay light and mid-range: no sustained low drone, no sub-bass, no droning low hum; quiet ambient bed under dialogue/VO, per the bible audio_rule."
 hosts:
   - name: The Voice of Forward
@@ -57,7 +57,7 @@ hosts:
   - name: "Lt. Mira S'mirin'"
     role: channel co-face / product specialist
 house_ad_rules:
-  products_allowed: [Sky Diffuser, Lightning Lamp, StrataClip Ration Tin, Make A Clip Remote, Valuables Motion Guard, River-Cooled Peltier Ice Cooler]  # examples already detailed, NOT exclusive; invented + other Drew projects allowed (Drew 12:59 CT); see Bible open_product_list
+  products_allowed: [Sky Diffuser, Lightning Lamp, StrataClip Ration Tin, Make A Clip Remote, Valuables Motion Guard, River-Cooled Peltier Ice Cooler]  # examples already detailed, NOT exclusive; invented + other trundle projects allowed (trundle 12:59 CT); see Bible open_product_list
   max_length_s: 30
   preferred_lengths_s: [10, 15, 20, 30]
   max_per_hour: 6
@@ -68,7 +68,7 @@ house_ad_rules:
 news_style:
   enabled: true
   satire_level: medium  # absurd depot "briefs", never real geopolitics
-  parody_label: metadata_only  # Drew 12:49 CT: never on the live-stream player
+  parody_label: metadata_only  # trundle 12:49 CT: never on the live-stream player
   off_limits_topics:
     - real wars or current conflicts
     - real politicians or officers
@@ -85,7 +85,7 @@ reference_style: >
 station_id_clips:
   enabled: true
   description: Regular "you're watching" / channel ID clips for Channel 4.
-  interval_todo: "TODO — Drew to set interval."
+  interval_todo: "TODO — trundle to set interval."
   voice: The Voice of Forward
   bug: "Ch 4 Military Boutique"
   id_line: "You're watching thunder trundle Channel 4 Military Boutique"
@@ -97,16 +97,16 @@ inspiration_notes: >
   and MGS4 opening channel-select urban cooking/ad segments. Use the FEEL only.
 # Path alias (2026-10-27, verified with ls): /workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique -> 4_1_Military-Boutique (symlink). Old 4_1 paths and filenames stay valid as history. Channel number is Channel 4.
 
-# Added 2026-10-27 17:50 CT by Story Bot (add-only). Drew hard rules 17:44/17:46 CT.
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
 hard_rules_20261027_1744:
-  no_drew_name: "Never write 'Drew' in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_owner_real_first_name: "Never write the owner's real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
   no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
   no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
   negative_tags: [no on-screen names, no personal names, no children, no kids]
 
-# Added 2026-11-01 (add-only, Trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
+# Added 2026-11-01 (add-only, trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
 canon_resolution_ref: docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md
 channel_identity: Military Boutique / BLACK ICE
 identity_show: black-ice
 photoreal_1971_pick: 2026-10-30
-forward_supply_role: approved_home_filler   # legacy pre-reboot Ch4 show; not channel identity (Trundle Oct 29, 2026)
+forward_supply_role: approved_home_filler   # legacy pre-reboot Ch4 show; not channel identity (trundle Oct 29, 2026)
