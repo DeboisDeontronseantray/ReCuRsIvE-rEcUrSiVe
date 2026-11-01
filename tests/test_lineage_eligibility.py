@@ -1,21 +1,19 @@
 import json
-import os
 import tempfile
 import unittest
 from pathlib import Path
 
-from charmeta.config import proposal_threshold
 from charmeta.observations import ObservationValidationError, append_observation
 from charmeta.promote import promote
 from charmeta.store import build_companion_from_bible, save_companion
+from lineage.aired import load_lineage_jsonl
 from lineage.eligibility import (
     build_trait_promotion_aired_index,
     is_commercial_or_ad_row,
     is_forward_supply_row,
     is_show_master_row,
 )
-from lineage.aired import load_lineage_jsonl
-from tests.test_support import BIBLE_FIXTURE, CAST_IDS, FIXTURES, LINEAGE_AIRED, LINEAGE_LEGACY
+from tests.test_support import BIBLE_FIXTURE, CAST_IDS, LINEAGE_AIRED, LINEAGE_LEGACY
 
 
 class TestLineageEligibility(unittest.TestCase):
@@ -90,6 +88,78 @@ class TestPromoteUsesShowMastersOnly(unittest.TestCase):
                 apply=True,
             )
             self.assertEqual(report.proposals, [])
+
+
+class TestAdBreakCastNameNotTraitEvidence(unittest.TestCase):
+    """Commercial/break clips may name cast; they must not count toward N aired clips."""
+
+    def test_aired_break_clips_naming_cast_never_promotion_counted(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            lineage_path = root / "lineage.jsonl"
+            clip_ids = (
+                "ch4-break-mira-spot-a",
+                "ch4-break-mira-spot-b",
+                "ch4-break-mira-spot-c",
+            )
+            lineage_path.write_text(
+                "\n".join(
+                    json.dumps(
+                        {
+                            "clip_id": clip_id,
+                            "aired": True,
+                            "kind": "commercial",
+                            "format": "commercial_break",
+                            "character_id": "mira_smirin",
+                            "show": "black-ice",
+                        }
+                    )
+                    for clip_id in clip_ids
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            rows = load_lineage_jsonl(lineage_path)
+            index = build_trait_promotion_aired_index(rows)
+            for clip_id in clip_ids:
+                self.assertFalse(
+                    index.get(clip_id, True),
+                    f"{clip_id} must not count toward trait promotion",
+                )
+
+            companion_path = root / "companion.yaml"
+            save_companion(
+                companion_path,
+                build_companion_from_bible(BIBLE_FIXTURE, CAST_IDS),
+            )
+            observations_path = root / "observations.jsonl"
+            trait = "mira_smirin visible in break tag"
+            observations_path.write_text(
+                "\n".join(
+                    json.dumps(
+                        {
+                            "obs_id": f"obs-{clip_id}",
+                            "clip_id": clip_id,
+                            "character": "mira_smirin",
+                            "field": "traits.tangible",
+                            "extracted_text": trait,
+                            "method": "aired_event",
+                            "seen_count": 1,
+                        }
+                    )
+                    for clip_id in clip_ids
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            report = promote(
+                companion_path=companion_path,
+                observations_path=observations_path,
+                lineage_path=lineage_path,
+                apply=True,
+            )
+            self.assertEqual(report.proposals, [])
+            self.assertNotIn(trait, companion_path.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
