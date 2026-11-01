@@ -1,8 +1,8 @@
 """Path resolution for system-v5-draft.
 
 Order: environment variable, then the git-ignored `tt_paths.json` next to this file, then the repo-relative
-default below. Keys without a default (the live comment spool, the character-meta folder, the clip folder)
-must be configured on the live box; they are never guessed."""
+default below. Keys without a default (the live comment spool, the character-meta folder, the clip folder, the
+playout slot sheet, LINEAGE) must be configured on the live box; they are never guessed."""
 import json
 import os
 import pathlib
@@ -19,6 +19,8 @@ DEFAULTS = {
     "TT_COMMENT_SPOOL": None,
     "TT_COMMENT_CONSUMED": None,
     "TT_CHARACTER_META": None,
+    "TT_SLOTS": None,
+    "TT_LINEAGE": None,
 }
 
 

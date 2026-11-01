@@ -25,7 +25,8 @@ def main():
     live_meta = json.loads((LIVE / "NP16.meta.json").read_text())
     parity_ok = parity["args"] == current["args"] == live_args and parity["sidecar"] == current["sidecar"] == live_meta
     nxt = assemble_next(inputs_dir=NP17, base_spec=NP16, out_dir=out, spool_path=NP17 / "comments.jsonl",
-                        character_meta_dir=FIX / "character-meta", now=NOW)
+                        character_meta_dir=FIX / "character-meta", now=NOW,
+                        slots_path=FIX / "ledger" / "slots.jsonl", lineage_path=FIX / "ledger" / "lineage.jsonl")
     summary = {
         "parity_NP16_byte_identical": parity_ok,
         "NP17_changed_slots": nxt["diff"]["changed_slots"],

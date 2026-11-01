@@ -15,6 +15,7 @@ IDENTITY_KEYS = {"handle", "user", "username", "user_id", "author", "account", "
 TIERS = set(layers_v4.TIER_LIFE)
 CAST_ID = re.compile(r"^[A-Z0-9_]+$")
 FIXED_THREAD_ID = re.compile(r"^FT\d", re.I)
+SOURCE_CLIP_ID = re.compile(r"^[A-Za-z]+\d+$")
 DESCRIPTOR_MAX_WORDS = 12
 
 
@@ -109,8 +110,10 @@ def validate_still_meta(sm):
 
 
 def validate_memory_item(item):
-    _exact(item, {"text", "tier", "since_index"}, "memory item", optional={"episode", "season"})
+    _exact(item, {"text", "tier", "since_index"}, "memory item", optional={"episode", "season", "clip_id"})
     _str(item["text"], "memory item text")
+    if "clip_id" in item and not (isinstance(item["clip_id"], str) and SOURCE_CLIP_ID.match(item["clip_id"])):
+        raise ContractError(f"memory item clip_id must be letters followed by digits, got {item['clip_id']!r}")
     if item["tier"] not in TIERS:
         raise ContractError(f"memory tier must be one of {sorted(TIERS)}")
     return item

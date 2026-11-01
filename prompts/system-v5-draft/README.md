@@ -17,13 +17,20 @@ only these change:
 - Locked threads and the spot type's `thread_holder` are frozen before any change and enter only as `[Thread: Must hold: ...]`
   (D6, D7). FT1–FT4 stay off (D8).
 
+**Aired clips only.** A clip is aired when a playout slot row has `status: "AIRED"` and `aired_at` and its
+`occupant_global_no` joins a LINEAGE row's `clip_id` (playout queue-mutation plan section 3.1; pickup.py writes the
+status). The previous clip must have aired, or assembly stops with `PreviousClipNotAired`. Memory beats come only from
+memories whose `clip_id` aired. Any other status, a missing status, or a missing `clip_id` counts as unaired, and the
+assembly report lists what was ignored under `memory.unaired`. The slot sheet and LINEAGE are read-only here.
+
 Budget: 6 beats and 330 words. Comments that don't fit are carried, never dropped. A comment that would fail the gate is held.
 
 ## Layout
 
 | Path | What |
 |---|---|
-| `paths.py`, `tt_paths.example.json` | `TT_*` path keys: env var, then git-ignored `tt_paths.json`, then repo default. The live spool, character-meta and clips folders have no default and must be configured. |
+| `paths.py`, `tt_paths.example.json` | `TT_*` path keys: env var, then git-ignored `tt_paths.json`, then repo default. The live spool, character-meta and clips folders, slot sheet and LINEAGE have no default and must be configured. |
+| `aired.py` | Aired index from the slot sheet + LINEAGE; previous-clip and memory gates |
 | `config/assembly.json` | D4 window/cap/block list, beat and word budget, D5 write-in caps |
 | `config/vision_model.json` | D3 pinned model id, source and lookup date. Never called. |
 | `config/spots.json` | D6 `thread_holder` per spot type (all `null` for now) |
@@ -43,7 +50,7 @@ Budget: 6 beats and 330 words. Comments that don't fit are carried, never droppe
 pip install -r requirements.txt
 pytest tests
 python3 dryrun.py            # writes out/dryrun/night-porter/ (git-ignored)
-python3 assemble_next.py --inputs <dir> --base-spec <spec.json> --out out/dryrun/<show> [--spool ...] [--character-meta ...] [--now ...]
+python3 assemble_next.py --inputs <dir> --base-spec <spec.json> --out out/dryrun/<show> [--spool ...] [--character-meta ...] [--slots ...] [--lineage ...] [--now ...]
 ```
 
 Tests block all network access. Outputs go only to `out/dryrun/` (or a folder outside the repo). Nothing here edits

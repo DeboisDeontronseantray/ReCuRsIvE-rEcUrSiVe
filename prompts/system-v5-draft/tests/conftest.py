@@ -16,6 +16,7 @@ FIX = V5 / "fixtures"
 NP16 = FIX / "night-porter" / "NP16"
 NP17 = FIX / "night-porter" / "NP17"
 CHARMETA = FIX / "character-meta"
+LEDGER = FIX / "ledger"
 DRYRUN = V5 / "out" / "dryrun"
 NOW = "2026-10-31T21:20:00-05:00"
 
@@ -42,8 +43,10 @@ def no_network():
 
 
 def fixture_inputs(inputs_dir):
-    """Dry-run input sources for a fixture clip folder: its comments.jsonl stands in for the live spool (D4)."""
-    return {"spool_path": inputs_dir / "comments.jsonl", "character_meta_dir": CHARMETA, "now": NOW}
+    """Dry-run input sources for a fixture clip folder: its comments.jsonl stands in for the live spool (D4), and the
+    fixture ledger stands in for the live slot sheet and LINEAGE."""
+    return {"spool_path": inputs_dir / "comments.jsonl", "character_meta_dir": CHARMETA, "now": NOW,
+            "slots_path": LEDGER / "slots.jsonl", "lineage_path": LEDGER / "lineage.jsonl"}
 
 
 @pytest.fixture

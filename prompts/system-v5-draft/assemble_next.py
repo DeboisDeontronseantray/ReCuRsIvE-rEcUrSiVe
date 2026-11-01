@@ -4,7 +4,8 @@
 Base: the previous clip's v42 spec, built by the unchanged v42 builder (D2). New inputs only add beats:
 still continuity (D3, stub analyzer), raw comments from the spool (D4), and capped character memory (D5).
 Locked threads and the spot's thread_holder are frozen first and enter only as hard constraints (D6, D7). FT stays off (D8).
-Writes only to out_dir (system-v5-draft/out/dryrun/ or a folder outside the repo)."""
+Only aired clips are canon (playout slot `status: AIRED`, see aired.py): the previous clip must have aired, and memory
+beats come only from aired source clips. Writes only to out_dir (system-v5-draft/out/dryrun/ or a folder outside the repo)."""
 import argparse
 import copy
 import datetime
@@ -13,6 +14,7 @@ import json
 import pathlib
 import sys
 
+import aired
 import contracts
 import intake
 import memory
@@ -92,7 +94,7 @@ def _write(out_dir, name, obj):
 
 
 def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=None, character_meta_dir=None, now=None,
-                  episode=1, season=1, advance=True, consumed_path=None):
+                  episode=1, season=1, advance=True, consumed_path=None, slots_path=None, lineage_path=None):
     cfg = paths.config("assembly")
     _check_out_dir(out_dir)
     if json.loads(pathlib.Path(COMMENTER_IMAGES_CFG).read_text()).get("enabled"):
@@ -106,6 +108,12 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
         raise ReferenceImageRequired(f"{cid}: a reference image is required (hard rule); only the 16 listed ads are exempt")
     if advance and not base.get("start_frame"):
         raise ValueError(f"{prev} has no start frame; adding one would renumber its <IMAGE_n> tags (not supported in v1)")
+    aired_rec, aired_index = None, {}
+    if advance:
+        slots = slots_path or paths.get("TT_SLOTS", required=True)
+        lineage = lineage_path or paths.get("TT_LINEAGE", required=True)
+        aired_index = aired.load(slots, lineage)
+        aired_rec = {"prev": aired.require_aired(aired_index, prev), "slots": _file(slots), "lineage": _file(lineage)}
 
     inputs = contracts.load_inputs(inputs_dir)
     lm, sm = inputs["locked_meta"], inputs["still_meta"]
@@ -158,10 +166,13 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
             cm = memory.load_channel_meta(cmeta_dir, base["channel"])
             cmeta_rec = _file(cfile)
             summoned = memory.present_cast(cm, base)
+            unaired = []
             for cast_id in summoned:
-                for j, text in enumerate(memory.memory_beats(cm["cast"][cast_id], episode=episode, season=season, clip_index=idx)):
+                canon, dropped = aired.canon_memories(cm["cast"][cast_id], aired_index)
+                unaired += [{"cast_id": cast_id} | d for d in dropped]
+                for j, text in enumerate(memory.memory_beats(canon, episode=episode, season=season, clip_index=idx)):
                     mems.append({"id": f"{cast_id}#{j}", "text": text})
-            mem_rec = {"summoned": summoned, "beats": [m["id"] for m in mems]}
+            mem_rec = {"summoned": summoned, "beats": [m["id"] for m in mems], "unaired": unaired}
             proposed = memory.proposed_update(cm, summoned)
 
         spec["start_frame"] = still_meta.next_start_frame(prev, paths.get("TT_CLIPS"))
@@ -208,7 +219,7 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
         "builder": built["sidecar"]["builder"],
         "inputs": {"base_spec": _file(base_spec), "locked_meta": _file(pathlib.Path(inputs_dir) / "locked_meta.json"),
                    "still_meta": _file(pathlib.Path(inputs_dir) / "still_meta.json"), "spool": spool_rec, "character_meta": cmeta_rec},
-        "hard_constraints": list(locked), "still": still_rec, "comments": comments, "memory": mem_rec,
+        "aired": aired_rec, "hard_constraints": list(locked), "still": still_rec, "comments": comments, "memory": mem_rec,
         "beats": sources, "gate": {"fails": gate["fails"], "warns": gate["warns"]},
         "diff": {k: d[k] for k in ("changed_slots", "disallowed_slots", "identical_prompt")},
     }
@@ -232,12 +243,15 @@ def main(argv=None):
     ap.add_argument("--out", required=True, help="output folder (under system-v5-draft/out/dryrun/ or outside the repo)")
     ap.add_argument("--spool", help="comment spool .jsonl (default: TT_COMMENT_SPOOL)")
     ap.add_argument("--character-meta", help="character-meta folder (default: TT_CHARACTER_META)")
+    ap.add_argument("--slots", help="playout slot sheet .jsonl, read-only (default: TT_SLOTS)")
+    ap.add_argument("--lineage", help="LINEAGE .jsonl, read-only (default: TT_LINEAGE)")
     ap.add_argument("--now", help="assembly time, ISO-8601 (default: current UTC time)")
     ap.add_argument("--episode", type=int, default=1)
     ap.add_argument("--season", type=int, default=1)
     a = ap.parse_args(argv)
     r = assemble_next(inputs_dir=a.inputs, base_spec=a.base_spec, out_dir=a.out, spool_path=a.spool,
-                      character_meta_dir=a.character_meta, now=a.now, episode=a.episode, season=a.season)
+                      character_meta_dir=a.character_meta, now=a.now, episode=a.episode, season=a.season,
+                      slots_path=a.slots, lineage_path=a.lineage)
     print(json.dumps({"clip_id": r["args"]["filename"], "gate_fails": r["gate"]["fails"], **r["assembly"]["diff"]}, indent=1))
     return 1 if r["gate"]["fails"] or r["assembly"]["diff"]["disallowed_slots"] else 0
 

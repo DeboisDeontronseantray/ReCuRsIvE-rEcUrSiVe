@@ -3,5 +3,7 @@
  "TT_STORY_ENGINE": "<repo>/story-engine",
  "TT_CLIPS": "<folder that holds <clip_id>_last.png stills>",
  "TT_COMMENT_SPOOL": "<live comment spool .jsonl>",
- "TT_CHARACTER_META": "<folder that holds character-meta/<NN-channel>.yaml and trait_observations.jsonl>"
+ "TT_CHARACTER_META": "<folder that holds character-meta/<NN-channel>.yaml and trait_observations.jsonl>",
+ "TT_SLOTS": "<live playout slot sheet .jsonl (schema v2), read-only>",
+ "TT_LINEAGE": "<live LINEAGE.jsonl, read-only>"
 }

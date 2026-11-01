@@ -1,5 +1,7 @@
 # Companion character meta for Ch11 Fist Theater (D5). Keyed by cast id. Invented fixture data.
 # The LEGEND look item is here on purpose: memory beats must never write looks for imaged cast.
+# clip_id is each memory's source clip; only memories from aired clips (fixtures/ledger) reach a prompt.
+# NP14 is an unaired render (slot READY) and NP13's slot has no status, so both memories are ignored.
 channel: Ch11 Fist Theater
 cast:
   MARLO_QUILL:
@@ -8,7 +10,9 @@ cast:
     summon_count: 2
     writein_level: 1
     memories:
-      - {text: owes THE CONCIERGE a favour from the night of the flood, tier: MARK, since_index: 9, season: 1}
-      - {text: lost a button in the stairwell fight, tier: SCAR, since_index: 16, episode: 1}
-      - {text: heard the lobby clock tick wrong twice tonight, tier: FLASH, since_index: 15}
-      - {text: has a grey mustache, tier: LEGEND, since_index: 1}
+      - {text: owes THE CONCIERGE a favour from the night of the flood, tier: MARK, since_index: 9, season: 1, clip_id: NP09}
+      - {text: lost a button in the stairwell fight, tier: SCAR, since_index: 16, episode: 1, clip_id: NP16}
+      - {text: heard the lobby clock tick wrong twice tonight, tier: FLASH, since_index: 15, clip_id: NP15}
+      - {text: has a grey mustache, tier: LEGEND, since_index: 1, clip_id: NP01}
+      - {text: hid the night ledger under the lobby rug, tier: MARK, since_index: 14, season: 1, clip_id: NP14}
+      - {text: promised the bellhop a day off, tier: SCAR, since_index: 13, episode: 1, clip_id: NP13}

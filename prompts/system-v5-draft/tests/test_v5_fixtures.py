@@ -39,7 +39,7 @@ def _keys(o):
 
 def test_fixtures_parse():
     files = _all_fixture_files()
-    assert len(files) == 11
+    assert len(files) == 15
     for p in files:
         _load(p)
 
