@@ -1,0 +1,64 @@
+# CHARACTER META SCHEMA v1. Story Bot New, 2026-10-31 ~5:20 PM CT
+# Source: handoffs/current-job/CHARACTER-META-NOTE-v1.md. Schema only; holds no character data.
+# The live Ch4 bible (streaming/story-engine/continuity/ch04-military-boutique/bible-v2.yaml) is NOT modified.
+# Canon is emergent: every field starts empty and fills only from what airs. No forced roles.
+meta:
+  schema: character-meta
+  version: 1
+  status: initial
+  created_by: Story Bot New
+  created_at: 2026-10-31
+  applies_to: any cast entry on any channel (2-22); extends existing cast fields, replaces none
+  states: [proposed, approved, locked, retired]   # retired entries are kept, never deleted
+
+existing_cast_fields_kept: [locked_description, still, turnaround_paths, qualities_locked, demeanor, fuse, catchphrase, status, approved_by, approved_at, notes]
+
+cast_entry_additions:          # all optional, all start empty
+  traits:
+    tangible:                  # visible; extractable from stills by image analysis
+      item: {id: str, text: str, source_clip: str, confidence: float|null, status: state}
+      default: []
+    intangible:                # personality, habits, values, voice manner, from on-screen behavior
+      item: {id: str, text: str, source_clip: str, status: state}
+      default: []
+  abilities:                   # only what the character has actually done on screen
+    item: {id: str, text: str, first_seen_clip: str, times_seen: int, status: state}
+    default: []
+  relationships:               # pairwise; may be one-way
+    item: {with: character_id, kind: str, text: str, first_seen_clip: str, status: state}
+    default: []
+  meta_prompt:                 # distilled prompt text built only from approved/locked entries
+    text: ""
+    built_from: []             # ids of the entries used
+    version: 0
+
+trait_observations:            # one add-only log next to the existing observations log
+  item:
+    obs_id: str
+    clip_id: str
+    character: character_id
+    field: [traits.tangible, traits.intangible, abilities, relationships]
+    extracted_text: str
+    method: [still_analysis, aired_event, human_note]
+    seen_count: int
+    proposed_status: state|null
+    decision: str|null
+    decided_by: str|null
+    decided_at: str|null
+  default: []
+
+rules:
+  add_only: The log is append-only. Nothing is edited or deleted; corrections are new entries.
+  background_writes_log_only: A background process may append to trait_observations only. It never writes cast fields.
+  proposal_threshold: An item becomes 'proposed' on the cast entry only after it appears in N separate aired clips.
+  N: 3
+  approval: Moving from proposed to approved needs Trundle's yes. Locked qualities never change automatically.
+  conflicts: A clash with a locked or approved field is flagged for Trundle, never auto-applied.
+  quirks_separate: Generation mistakes go to generation_quirks, never to traits or abilities.
+  meta_prompt_rebuild: meta_prompt is rebuilt only from approved/locked entries; each rebuild bumps its version.
+
+open:
+  - Who runs the background process.
+  - Who assembles meta_prompt into clip prompts (story vs prompt-assembly ownership).
+  - Confidence cutoff for still analysis.
+  - Relationships per character or in one network-wide list for crossovers.
