@@ -5,9 +5,31 @@ from lineage.aired import (
     clip_id_aired,
     load_lineage_jsonl,
 )
+from lineage.derive_aired import (
+    append_aired_derivation_for_clip,
+    derive_aired_append_patches,
+    derive_aired_enriched_copy,
+    merge_lineage_with_derivations,
+)
+from lineage.eligibility import (
+    build_trait_promotion_aired_index,
+    clip_eligible_for_trait_promotion,
+    is_commercial_or_ad_row,
+    is_forward_supply_row,
+    is_show_master_row,
+)
 
 __all__ = [
+    "append_aired_derivation_for_clip",
     "build_aired_index",
+    "build_trait_promotion_aired_index",
+    "clip_eligible_for_trait_promotion",
     "clip_id_aired",
+    "derive_aired_append_patches",
+    "derive_aired_enriched_copy",
+    "is_commercial_or_ad_row",
+    "is_forward_supply_row",
+    "is_show_master_row",
     "load_lineage_jsonl",
+    "merge_lineage_with_derivations",
 ]
