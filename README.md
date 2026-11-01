@@ -9,5 +9,7 @@ This is the private Thunder Trundle prompt-assembly code for the Thunder Trundle
 | `story-engine/` | Story engine: `engine/` (incl. `assemble_prompt.py`), `live/`, `server/`, `client/`, `queues/`, `channels/`, `data/` fixtures |
 | `prompts/system-v4-20261030/` | Prompt system v4: `tools/` (builders `build_prompt_v4*`, gates `apply_check_v4*`, `layers_v4.py`), `config/`, `prompts_v4*/` outputs, `tests/` |
 | `briefs/` | Task briefs and project notes (e.g. `PROMPT-ASSEMBLY-WIRING-BRIEF-v1.md`) |
+| `charmeta/` | Character-meta companion store, trait observations, promotion (see `docs/plans/CHARACTER-META-PLAN.md`) |
+| `lineage/` | Shared LINEAGE helpers (`aired` index); lineage v1 validators extend this |
 | `docs/` | Plans (`docs/plans/`) and specs (`docs/spec/`, e.g. `character-meta/`) |
-| `tests/fixtures/` | Small scrubbed YAML/JSON/JSONL example data (see per-folder README) |
+| `tests/` | Unit tests and scrubbed fixtures (`tests/fixtures/`) |
