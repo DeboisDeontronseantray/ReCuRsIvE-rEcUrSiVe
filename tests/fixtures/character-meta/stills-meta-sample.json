@@ -1,0 +1,21 @@
+{
+  "description": "[fixture] still analysis sample for mira_smirin",
+  "meta": {
+    "source": {
+      "still_path": "tests/fixtures/stills/mira-C.png",
+      "clip_id": 1,
+      "channel": 4,
+      "show_or_ad": "forward-supply"
+    },
+    "tangible": ["olive utility scarf", "clipboard with color dots"],
+    "intangible": ["dry half-smile"],
+    "objects": [],
+    "flags": {
+      "look_into_camera": false,
+      "drift_from_prev": null,
+      "real_brand": false,
+      "personal_name": false,
+      "notes": []
+    }
+  }
+}
