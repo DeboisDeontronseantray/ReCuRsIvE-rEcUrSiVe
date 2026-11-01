@@ -23,6 +23,12 @@ status). The previous clip must have aired, or assembly stops with `PreviousClip
 memories whose `clip_id` aired. Any other status, a missing status, or a missing `clip_id` counts as unaired, and the
 assembly report lists what was ignored under `memory.unaired`. The slot sheet and LINEAGE are read-only here.
 
+**Ads and breaks are never trait evidence** (Trundle, Nov 1 2026). They may show cast, but `aired.not_trait_evidence()`
+marks every clip whose slot `kind` is not `segment` (or whose LINEAGE `kind`/`spot_type` is an ad or break), and
+`memory.append_trait_observation(..., skip_clips=...)` / `read_trait_observations(..., skip_clips=...)` skip them.
+**One live instance** means one copy of a character at a time, not one person on screen: `present_cast()` summons each
+character once however often it is named, and any number of different characters can share a clip.
+
 Budget: 6 beats and 330 words. Comments that don't fit are carried, never dropped. A comment that would fail the gate is held.
 
 ## Layout

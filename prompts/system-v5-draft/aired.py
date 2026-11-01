@@ -12,6 +12,9 @@ import datetime
 import contracts
 
 AIRED = "AIRED"
+SEGMENT = "segment"
+AD_OR_BREAK = {"ad", "commercial", "house_ad", "break", "station_break", "commercial_break", "bumper", "id", "ident",
+               "interstitial"}
 
 
 class PreviousClipNotAired(RuntimeError):
@@ -43,6 +46,20 @@ def build_index(slots, lineage):
             index.setdefault(clip_of[g], {"slot_id": row.get("slot_id"), "global_no": g, "aired_at": when})
     return index
 
+
+def not_trait_evidence(slots, lineage):
+    """Clip ids that played (or will play) as an ad or break item. They may show cast, but they are never trait
+    evidence (Trundle, Nov 1 2026). A slot of any kind other than `segment` marks its occupant; so does a LINEAGE
+    row whose `kind` or `spot_type` is an ad or break kind."""
+    clip_of = {r["global_no"]: r["clip_id"] for r in lineage
+               if type(r.get("global_no")) is int and isinstance(r.get("clip_id"), str)}
+    out = {r["clip_id"] for r in lineage if isinstance(r.get("clip_id"), str)
+           and AD_OR_BREAK & {str(r.get("kind", "")).lower(), str(r.get("spot_type", "")).lower()}}
+    for row in slots:
+        kind = row.get("kind")
+        if isinstance(kind, str) and kind.lower() != SEGMENT and row.get("occupant_global_no") in clip_of:
+            out.add(clip_of[row["occupant_global_no"]])
+    return out
 
 def load(slots_path, lineage_path):
     return build_index(contracts.read_jsonl(slots_path), contracts.read_jsonl(lineage_path))

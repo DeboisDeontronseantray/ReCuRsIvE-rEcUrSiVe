@@ -55,11 +55,17 @@ def proposed_update(channel_meta, summoned):
             "cast": {cid: {k: summon(channel_meta["cast"][cid])[k] for k in ("summon_count", "writein_level")} for cid in summoned}}
 
 
-def read_trait_observations(path):
-    return [contracts.validate_trait_observation(r) for r in contracts.read_jsonl(path)]
+def read_trait_observations(path, *, skip_clips=frozenset()):
+    """skip_clips (aired.not_trait_evidence) drops ad and break rows already in the add-only log."""
+    rows = [contracts.validate_trait_observation(r) for r in contracts.read_jsonl(path)]
+    return [r for r in rows if r["clip_id"] not in skip_clips]
 
 
-def append_trait_observation(path, row):
+def append_trait_observation(path, row, *, skip_clips=frozenset()):
+    """Appends one row; returns False without writing when its clip is an ad or break item (skip_clips)."""
     contracts.validate_trait_observation(row)
+    if row["clip_id"] in skip_clips:
+        return False
     with open(path, "a") as f:
         f.write(json.dumps(row) + "\n")
+    return True
