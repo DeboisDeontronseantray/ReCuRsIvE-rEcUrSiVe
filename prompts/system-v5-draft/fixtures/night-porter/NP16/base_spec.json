@@ -1,0 +1,39 @@
+{
+ "clip_id": "NP16",
+ "channel": "Ch11 Fist Theater",
+ "show": "THE NIGHT PORTER",
+ "duration": 9,
+ "clip_type": "fight",
+ "arc_stage": "threshold fight",
+ "parent_clip": "NP15_last",
+ "start_frame": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP15_last.png",
+ "refs_raw": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+ ],
+ "setting": "[Setting: the Jade Hotel back stairwell, green tile walls, a brass fire-hose cabinet with a glass door, a flight of stairs down.]",
+ "extra": [
+  "MARLO QUILL (<IMAGE_2>), a teal tape measure around his neck; a BELLHOP THUG (green bellhop uniform)."
+ ],
+ "camera": "Single shot: handheld, the camera close behind the thug, strikes travel toward the lens",
+ "eyeline_sentence": "Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter.",
+ "beats": [
+  {
+   "text": "At 1 s, the THUG throws a straight right punch at MARLO's head; MARLO tilts aside like balancing a tray and the punch lands in the fire-hose cabinet door, cracking its glass panel."
+  },
+  {
+   "text": "At 4 s, MARLO's palm shove lands on the thug's shoulder; the thug spins half around and grabs the rail."
+  },
+  {
+   "text": "At 7 s, MARLO hooks the tape measure around the thug's ankle and tugs; the thug sits down hard on the top step and slides down three stairs on his backside."
+  }
+ ],
+ "consequences": [
+  {
+   "id": "CQ-NP-0003",
+   "text": "torn button",
+   "tier": "SCAR",
+   "created_here": true
+  }
+ ]
+}

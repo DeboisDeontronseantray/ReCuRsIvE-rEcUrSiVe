@@ -275,6 +275,7 @@ __pycache__/
 # Outputs
 renders/
 **/out/**/*.mp4
+**/out/dryrun/
 logs/
 *.log
 *.bak*
