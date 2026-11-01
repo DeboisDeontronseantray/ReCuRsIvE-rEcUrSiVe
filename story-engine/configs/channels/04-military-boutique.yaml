@@ -1,0 +1,112 @@
+# thunder trundle Ch 4 Military Boutique — channel profile
+# Sources: STORY-CONFIG-PLAN.md §08:31, SERIES-PLAN.md, CHANNEL-MAPPING-DRAFT.md,
+# CHARACTER-BIBLE legal-safety rules, thunder-trundle 4_1 clips.
+# Written 2026-10-27 ~08:38 CT by Story Bot. Home-only. TV-safe.
+id: "4"
+number: "4"
+network: thunder trundle
+name: Military Boutique
+genre: military-futuristic
+tone: cool, clinical, slightly absurd, luxury-catalog
+tv_safe: true
+tv_safe_rules:
+  - No real defense brands, logos, or company names (no Anduril, Palantir, Lockheed, Raytheon, etc.).
+  - No real game IPs, characters, or trademarks (no Metal Gear, Death Stranding, Konami, Kojima likeness).
+  - Parody the ERA and advertising-channel formats only; invent original show and product names.
+  - TV-safe: no explicit sex, no graphic gore, no real weapons tutorials, no actionable military advice.
+  - No real people, faces, voices, or celebrity likeness.
+  - Channel number + name "Ch 4 Military Boutique" shows ONLY on a channel change, never always-on (Drew 2026-10-27 12:32 CT) (TV-guide style; network brand thunder trundle, lowercase). KTVM was old branding, retired Oct 26, 2026.
+  - Parody label stays off the live-stream player entirely; file names and metadata only (Drew 12:49 CT).
+  - No slapstick anywhere on the channel.
+  - Intended on-screen text only via tagged registry; no unintended/garbled text.
+  - Keep subjects center-weighted for 4:3-safe framing in later video.
+  - Thunder Trundle Workshop house products only in house ads; no outside brands.
+banned:
+  - real defense contractors and weapon brands
+  - real game IPs and publisher names on screen
+  - real people / celebrity likeness
+  - explicit sexual content
+  - graphic gore / torture
+  - weapon how-tos or actionable tactics
+  - outside commercial brands
+  - American Hostage
+  - dial / phone / keypad CTAs
+  - slapstick
+clip_length_s:
+  min: 5
+  max: 15
+clip_length_seconds:
+  min: 5
+  max: 15
+look:
+  palette: [matte black, graphite, olive, chrome, cyan edge light, amber HUD, cold white, velvet]
+  era_feel: near-future military advertising channel with late-90s broadcast polish
+  camera: slow orbits, museum-light push-ins, locked mediums on hosts; one move per shot
+  color: desaturated luxury showroom; cyan rim; soft practicals on faces
+sound:
+  music_style: low synth pads, quiet boutique ambience, soft servo chirps
+  vo_style: stiff catalog host / dry co-host; never shouty
+  audio_rule_ref: continuity/ch04-military-boutique/bible-v2.yaml#audio_rule   # Drew 2026-10-27 17:33 CT, added 17:45 by Story Bot
+  music_note: "Synth pads stay light and mid-range: no sustained low drone, no sub-bass, no droning low hum; quiet ambient bed under dialogue/VO, per the bible audio_rule."
+hosts:
+  - name: The Voice of Forward
+    role: continuity announcer
+    notes: warm late-night voice, never seen; used for bumpers and "we'll be right back"
+  - name: "Commander Bill D'bears"
+    role: channel face / Forward Supply host
+  - name: "Lt. Mira S'mirin'"
+    role: channel co-face / product specialist
+house_ad_rules:
+  products_allowed: [Sky Diffuser, Lightning Lamp, StrataClip Ration Tin, Make A Clip Remote, Valuables Motion Guard, River-Cooled Peltier Ice Cooler]  # examples already detailed, NOT exclusive; invented + other Drew projects allowed (Drew 12:59 CT); see Bible open_product_list
+  max_length_s: 30
+  preferred_lengths_s: [10, 15, 20, 30]
+  max_per_hour: 6
+  min_gap_minutes: 8
+  home_base_ok: true
+  no_phone_or_dial_cta: true
+  disclaimers_required: ["home-only", "parody in metadata"]
+news_style:
+  enabled: true
+  satire_level: medium  # absurd depot "briefs", never real geopolitics
+  parody_label: metadata_only  # Drew 12:49 CT: never on the live-stream player
+  off_limits_topics:
+    - real wars or current conflicts
+    - real politicians or officers
+    - real defense programs
+    - medical or legal advice framed as real
+seed_content_note: >
+  Death Stranding / similar playthroughs are seed VIDEO only (CHANNEL-MAPPING-DRAFT).
+  Stories invent original fiction; never put Konami/Kojima/game names on screen.
+reference_style: >
+  Luxury military-futuristic boutique. Matte black / graphite gear on velvet and glass,
+  museum lighting, slow orbits. Advertising-channel polish — not a sim, not real defense brands.
+  Recurring: pedestals, cyan edge light, empty showroom, "MILITARY BOUTIQUE" L3, Ch 4 number/name flash on channel change only.
+
+station_id_clips:
+  enabled: true
+  description: Regular "you're watching" / channel ID clips for Channel 4.
+  interval_todo: "TODO — Drew to set interval."
+  voice: The Voice of Forward
+  bug: "Ch 4 Military Boutique"
+  id_line: "You're watching thunder trundle Channel 4 Military Boutique"
+  no_dial: true
+
+inspiration_notes: >
+  REFERENCE FOR WRITERS ONLY — NEVER paste studio/IP names into generation prompts.
+  Dry catalog host + co-host dynamic inspired by Oats Studios "Cooking with Bill"
+  and MGS4 opening channel-select urban cooking/ad segments. Use the FEEL only.
+# Path alias (2026-10-27, verified with ls): /workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique -> 4_1_Military-Boutique (symlink). Old 4_1 paths and filenames stay valid as history. Channel number is Channel 4.
+
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). Drew hard rules 17:44/17:46 CT.
+hard_rules_20261027_1744:
+  no_drew_name: "Never write 'Drew' in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
+  no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
+  negative_tags: [no on-screen names, no personal names, no children, no kids]
+
+# Added 2026-11-01 (add-only, Trundle — docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md)
+canon_resolution_ref: docs/canon/BIBLE-CONFLICTS-RESOLUTION-v1.md
+channel_identity: Military Boutique / BLACK ICE
+identity_show: black-ice
+photoreal_1971_pick: 2026-10-30
+forward_supply_role: approved_home_filler   # legacy pre-reboot Ch4 show; not channel identity (Trundle Oct 29, 2026)
