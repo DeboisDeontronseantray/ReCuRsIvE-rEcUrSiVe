@@ -220,7 +220,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--allow-live-paths",
         action="store_true",
-        help="Allow known live LINEAGE paths (Trundle yes only)",
+        help="Allow known live LINEAGE paths (trundle yes only)",
     )
     args = parser.parse_args(argv)
 

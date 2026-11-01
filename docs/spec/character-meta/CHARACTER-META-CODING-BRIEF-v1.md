@@ -20,7 +20,13 @@ Composer 2.5 (Cursor's coding model): small, fully specified Python store with t
 - Character ids for BLACK ICE (HERON, LANTERN, WOLFHOUND) are NOT invented: the store accepts a cast id list as input and reports missing ids.
 
 ## Tests (must pass)
-Add-only enforced; N=3 threshold (2 aired clips -> no proposal, 3 -> proposal); unaired clips don't count; generation quirks never become traits; locked conflict is flagged; meta_prompt ignores proposed entries; bible fixture byte-identical after a full run.
+Add-only enforced; N=3 threshold (2 aired show-master clips -> no proposal, 3 -> proposal); unaired clips don't count; ads/commercials and Forward Supply filler never count; generation quirks never become traits; locked conflict is flagged; meta_prompt ignores proposed entries and trims to `CHARMETA_META_PROMPT_MAX_CHARS` (default 512); injected text lands in the shot `[characters]` layer before `[action]` (LAYERS-BODY-ORDER); name guard uses the same `\bdrew\b` filter as `assemble_prompt.py`; bible fixture byte-identical after a full run.
+
+## Director pipeline alignment (Nov 1, 2026)
+- Keep tested `assemble_prompt.py` layer order (global → channel → format → show_or_ad → shot → commenter; shot body characters before action).
+- Promotion joins observations to LINEAGE rows with derived `aired` / queue `AIRED` status but counts only **show-master** rows (`lineage/eligibility.py`).
+- Forward Supply segments remain home filler and are excluded from observations and trait promotion.
+- Config: `CHARMETA_PROPOSAL_THRESHOLD_N` (default schema `N: 3`), `CHARMETA_META_PROMPT_MAX_CHARS` (default 512).
 
 ## Hard limits
 No network calls, no paid APIs, no posting/airing, no personal names, home-only. Don't touch any existing repo.

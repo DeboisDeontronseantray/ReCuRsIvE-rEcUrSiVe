@@ -12,11 +12,14 @@ from typing import Any
 import yaml
 
 from charmeta.conflicts import check_proposal_conflicts
+from charmeta.config import allow_live_paths as env_allow_live_paths
 from charmeta.normalize import normalize_trait_text
 from charmeta.observations import load_observations
-from charmeta.schema import proposal_threshold
+from charmeta.paths import refuse_charmeta_path
+from charmeta.config import proposal_threshold
 from charmeta.store import load_companion, save_companion
-from lineage.aired import build_aired_index, load_lineage_jsonl
+from lineage.aired import load_lineage_jsonl
+from lineage.eligibility import build_trait_promotion_aired_index
 
 
 @dataclass
@@ -128,12 +131,17 @@ def promote(
     observations_path: Path | str,
     lineage_path: Path | str,
     apply: bool = False,
+    allow_live_paths: bool | None = None,
 ) -> PromoteReport:
+    live_ok = env_allow_live_paths() if allow_live_paths is None else allow_live_paths
+    refuse_charmeta_path(companion_path, allow_live_paths=live_ok)
+    refuse_charmeta_path(observations_path, allow_live_paths=live_ok)
+    refuse_charmeta_path(lineage_path, allow_live_paths=live_ok)
     threshold = proposal_threshold()
     companion = load_companion(companion_path)
     observations = load_observations(observations_path)
     lineage_rows = load_lineage_jsonl(lineage_path)
-    aired_index = build_aired_index(lineage_rows)
+    aired_index = build_trait_promotion_aired_index(lineage_rows)
     cast = companion.get("cast")
     if not isinstance(cast, dict):
         raise ValueError("companion missing cast mapping")

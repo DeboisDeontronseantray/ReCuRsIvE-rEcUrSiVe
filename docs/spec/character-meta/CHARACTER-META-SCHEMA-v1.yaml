@@ -50,9 +50,12 @@ trait_observations:            # one add-only log next to the existing observati
 rules:
   add_only: The log is append-only. Nothing is edited or deleted; corrections are new entries.
   background_writes_log_only: A background process may append to trait_observations only. It never writes cast fields.
-  proposal_threshold: An item becomes 'proposed' on the cast entry only after it appears in N separate aired clips.
+  proposal_threshold: An item becomes 'proposed' on the cast entry only after it appears in N separate aired show-master clips (not ads/commercials or Forward Supply filler).
   N: 3
-  approval: Moving from proposed to approved needs Trundle's yes. Locked qualities never change automatically.
+  N_env_override: CHARMETA_PROPOSAL_THRESHOLD_N
+  meta_prompt_max_chars: 512
+  meta_prompt_max_chars_env: CHARMETA_META_PROMPT_MAX_CHARS
+  approval: Moving from proposed to approved needs trundle's yes. Locked qualities never change automatically.
   conflicts: A clash with a locked or approved field is flagged for Trundle, never auto-applied.
   quirks_separate: Generation mistakes go to generation_quirks, never to traits or abilities.
   meta_prompt_rebuild: meta_prompt is rebuilt only from approved/locked entries; each rebuild bumps its version.
