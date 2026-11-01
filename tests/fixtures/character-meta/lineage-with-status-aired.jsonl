@@ -1,0 +1,5 @@
+{"clip_id": "e2e-aired-1", "lineage": "4.4", "gen": 1, "global_no": 101, "status": "AIRED"}
+{"clip_id": "e2e-aired-2", "lineage": "4.4", "gen": 1, "global_no": 102, "playout_status": "AIRED"}
+{"clip_id": "e2e-aired-3", "lineage": "4.4", "gen": 1, "global_no": 103, "queue_state": "aired"}
+{"clip_id": "e2e-not-aired-1", "lineage": "4.4", "gen": 1, "global_no": 104, "status": "READY"}
+{"clip_id": "e2e-legacy-air-yes", "lineage": "4.4", "gen": 1, "global_no": 105, "air_yes": true}
