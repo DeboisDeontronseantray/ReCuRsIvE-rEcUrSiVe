@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from charmeta.prompt_injection import trim_meta_for_injection
 from charmeta.schema import empty_meta_prompt
 
 _CANON_STATES = frozenset({"approved", "locked"})
@@ -62,7 +63,8 @@ def build_meta_prompt_text(entry: dict[str, Any]) -> tuple[str, list[str]]:
             built_from.append(item_id)
         prefix = field_name.replace(".", " ")
         parts.append(f"{prefix}: {text}")
-    return "\n".join(parts), built_from
+    raw = "\n".join(parts)
+    return trim_meta_for_injection(raw), built_from
 
 
 def rebuild_meta_prompt_for_character(

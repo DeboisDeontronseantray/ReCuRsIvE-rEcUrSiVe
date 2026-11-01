@@ -42,7 +42,7 @@ def refuse_charmeta_path(path: Path | str, *, allow_live_paths: bool) -> Path:
         return target
     if _matches_charmeta_live_policy(target):
         raise LivePathRefusalError(
-            f"refusing live character-meta path {target!s}; set CHARMETA_ALLOW_LIVE_PATHS=1 only with Trundle's yes"
+            f"refusing live character-meta path {target!s}; set CHARMETA_ALLOW_LIVE_PATHS=1 only with trundle's yes"
         )
     refuse_live_path(target, allow_live_paths=False)
     return target

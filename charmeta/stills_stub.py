@@ -7,6 +7,12 @@ from pathlib import Path
 from typing import Any
 
 from charmeta.observations import append_observation
+from lineage.aired import load_lineage_jsonl
+from lineage.eligibility import (
+    is_forward_supply_row,
+    is_show_master_row,
+    row_index_by_clip_id,
+)
 
 # Shape aligned with stills_meta scaffold (PR cursor/stills-meta-scaffold-plan-a5c4):
 # { "description": str, "meta": { "tangible": [str], "intangible": [str], "source": {...} } }
@@ -89,8 +95,16 @@ def ingest_stills_meta_to_log(
     character: str,
     image_path: str | Path | None = None,
     apply: bool = True,
+    lineage_path: Path | str | None = None,
 ) -> list[dict[str, Any]]:
     """Append stills-derived observations to trait_observations.jsonl only."""
+    if lineage_path is not None:
+        rows = load_lineage_jsonl(lineage_path)
+        clip_row = row_index_by_clip_id(rows).get(clip_id)
+        if clip_row is None or not is_show_master_row(clip_row) or is_forward_supply_row(
+            clip_row
+        ):
+            return []
     payload = load_stills_meta_json(stills_meta_path)
     rows = observations_from_stills_meta(payload, clip_id=clip_id, character=character)
     if image_path is not None:

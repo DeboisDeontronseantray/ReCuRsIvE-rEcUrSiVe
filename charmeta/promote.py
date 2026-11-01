@@ -16,9 +16,10 @@ from charmeta.config import allow_live_paths as env_allow_live_paths
 from charmeta.normalize import normalize_trait_text
 from charmeta.observations import load_observations
 from charmeta.paths import refuse_charmeta_path
-from charmeta.schema import proposal_threshold
+from charmeta.config import proposal_threshold
 from charmeta.store import load_companion, save_companion
-from lineage.aired import build_aired_index, load_lineage_jsonl
+from lineage.aired import load_lineage_jsonl
+from lineage.eligibility import build_trait_promotion_aired_index
 
 
 @dataclass
@@ -140,7 +141,7 @@ def promote(
     companion = load_companion(companion_path)
     observations = load_observations(observations_path)
     lineage_rows = load_lineage_jsonl(lineage_path)
-    aired_index = build_aired_index(lineage_rows)
+    aired_index = build_trait_promotion_aired_index(lineage_rows)
     cast = companion.get("cast")
     if not isinstance(cast, dict):
         raise ValueError("companion missing cast mapping")

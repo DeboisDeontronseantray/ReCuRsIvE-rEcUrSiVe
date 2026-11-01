@@ -8,6 +8,13 @@ from pathlib import Path
 from typing import Any
 
 from charmeta.schema import OBSERVATION_FIELDS, OBSERVATION_METHODS
+from lineage.eligibility import (
+    clip_id_looks_commercial,
+    clip_id_looks_forward_supply,
+    is_show_master_row,
+    row_index_by_clip_id,
+)
+from lineage.aired import load_lineage_jsonl
 
 
 class ObservationValidationError(ValueError):
@@ -48,6 +55,10 @@ def validate_observation_row(row: dict[str, Any]) -> dict[str, Any]:
     extracted = _require_str(row, "extracted_text")
     character = _require_str(row, "character")
     clip_id = _require_str(row, "clip_id")
+    if clip_id_looks_commercial(clip_id) or clip_id_looks_forward_supply(clip_id):
+        raise ObservationValidationError(
+            "commercial/ad and Forward Supply clips must not produce trait observations"
+        )
 
     seen_count = row.get("seen_count", 1)
     if not isinstance(seen_count, int) or seen_count < 1:
@@ -75,9 +86,22 @@ def validate_observation_row(row: dict[str, Any]) -> dict[str, Any]:
     return normalized
 
 
-def append_observation(path: Path | str, row: dict[str, Any]) -> dict[str, Any]:
+def append_observation(
+    path: Path | str,
+    row: dict[str, Any],
+    *,
+    lineage_path: Path | str | None = None,
+) -> dict[str, Any]:
     """Validate and append one observation row. No update or delete API."""
     normalized = validate_observation_row(row)
+    if lineage_path is not None:
+        lineage_rows = load_lineage_jsonl(lineage_path)
+        by_id = row_index_by_clip_id(lineage_rows)
+        clip_row = by_id.get(normalized["clip_id"])
+        if clip_row is None or not is_show_master_row(clip_row):
+            raise ObservationValidationError(
+                f"clip_id {normalized['clip_id']!r} is not a show-master row in lineage"
+            )
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
     with target.open("a", encoding="utf-8") as handle:

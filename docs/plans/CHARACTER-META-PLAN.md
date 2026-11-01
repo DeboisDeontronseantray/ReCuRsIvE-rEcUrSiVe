@@ -252,6 +252,23 @@ One commit per milestone (or per task inside milestone), branch stays green. **D
 
 ---
 
+## 11. Director-tested pipeline reconciliation (Nov 1, 2026)
+
+Implementation branches align with the approved Director prompt path (context bundle: PROMPT-LESSONS, LAYERS/LAYERS-BODY-ORDER, lineage SCHEMA) without replacing working assembler behavior:
+
+| Requirement | Implementation |
+|---|---|
+| Layer order | `charmeta/prompt_injection.py` merges `meta_prompt.text` into the shot **`characters`** block (before **`action`**); system wrappers 1–4 unchanged. |
+| Prompt density / cap | `trim_meta_for_injection()` default 512 chars (`CHARMETA_META_PROMPT_MAX_CHARS`). |
+| Never-words | `charmeta/name_guard.py` — same `\bdrew\b` pattern as `assemble_prompt.py` / live checker. |
+| Aired + N=3 | `lineage/eligibility.py` + `build_trait_promotion_aired_index()`; config `CHARMETA_PROPOSAL_THRESHOLD_N` (default 3). |
+| Forward Supply | Excluded from observations ingest and promotion; stays home filler per bible resolutions PR #17. |
+| Show masters only | Ads/commercials/embed rows never count toward trait promotion. |
+
+Live `bible-v2.yaml` is still not modified by character-meta tooling.
+
+---
+
 ## 10. References
 
 - Continuity promotion model: `story-engine/continuity/ch04-military-boutique/SCHEMA.md` (on `import/snapshot-20261031`)

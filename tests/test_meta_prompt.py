@@ -3,6 +3,7 @@ import unittest
 from pathlib import Path
 
 from charmeta.meta_prompt import build_meta_prompt_text, rebuild_meta_prompt_for_character
+from charmeta.prompt_injection import max_character_meta_chars
 from charmeta.store import build_companion_from_bible
 from tests.test_support import BIBLE_FIXTURE, CAST_IDS
 
@@ -51,6 +52,21 @@ class TestMetaPrompt(unittest.TestCase):
         applied = rebuild_meta_prompt_for_character(doc, "tim", apply=True)
         self.assertEqual(applied.new_version, 1)
         self.assertIn("hovers at shoulder height", entry["meta_prompt"]["text"])
+
+    def test_rebuilt_text_respects_injection_cap(self) -> None:
+        doc = build_companion_from_bible(BIBLE_FIXTURE, ["tim"])
+        entry = doc["cast"]["tim"]
+        for i in range(30):
+            entry["traits"]["tangible"].append(
+                {
+                    "id": f"trait-{i}",
+                    "text": f"visible detail number {i} with extra words",
+                    "source_clip": "z",
+                    "status": "approved",
+                }
+            )
+        text, _ = build_meta_prompt_text(entry)
+        self.assertLessEqual(len(text), max_character_meta_chars())
 
 
 if __name__ == "__main__":
