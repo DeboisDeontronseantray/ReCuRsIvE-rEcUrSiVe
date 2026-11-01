@@ -12,7 +12,7 @@ Purpose: resolve overlapping channel/show/character labels found across INDEX dr
 |---|---|
 | **Channel identity** | **Military Boutique / BLACK ICE** — locked network index choice **Oct 28, 2026**; **photoreal 1971** look pick **Oct 30, 2026**. |
 | **Primary show brand on Ch 4** | **BLACK ICE** (Military Boutique is the channel shell / boutique framing). |
-| **Forward Supply** | **Legacy pre-reboot Ch 4 show.** Its segments remain **approved home filler** (trundle: *“Yes on forward supply segments”*, **Oct 29, 2026**). Forward Supply is **not** the channel identity and must not replace BLACK ICE / Military Boutique indexing. |
+| **Forward Supply** | **Legacy pre-reboot Ch 4 show.** Its segments remain **approved home filler** (trundle: *“Yes on forward supply segments”*, **Oct 29, 2026**). Forward Supply is **not** the channel identity and must not replace BLACK ICE / Military Boutique indexing. **Character-meta:** Forward Supply clips must not append trait observations or feed BLACK ICE `meta_prompt` / photoreal 1971 look (home filler only). |
 | **Other Ch 4 shows** | Clearance Brief, Depot After Hours, house ads, etc. stay as catalog/filler per existing bible; this doc does not retire them. |
 
 ---
