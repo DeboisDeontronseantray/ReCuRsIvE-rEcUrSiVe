@@ -1,0 +1,8 @@
+{"clip_id": "test-aired-1", "lineage": "test", "gen": 1, "aired": true}
+{"clip_id": "test-aired-2", "lineage": "test", "gen": 1, "aired": true}
+{"clip_id": "test-aired-3", "lineage": "test", "gen": 1, "aired": true}
+{"clip_id": "test-unaired-1", "lineage": "test", "gen": 1, "aired": false}
+{"clip_id": "test-missing-aired", "lineage": "test", "gen": 1}
+{"clip_id": "ch4-ad-armored-showroom-cruiser", "tag": "4.4 g1 #1", "lineage": "4.4", "gen": 1, "global_no": 1, "aired": true}
+{"clip_id": "ch4-ad-exo-gauntlet-vitrine", "tag": "4.4 g1 #2", "lineage": "4.4", "gen": 1, "global_no": 2, "aired": true}
+{"clip_id": "ch4-ad-modular-field-pack", "tag": "4.4 g1 #3", "lineage": "4.4", "gen": 1, "global_no": 3, "aired": false}
