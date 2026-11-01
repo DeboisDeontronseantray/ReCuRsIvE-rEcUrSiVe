@@ -26,6 +26,20 @@ This pull request stops at:
 
 Tasks in sections 5–7 wait for Trundle’s **go**. An unqualified **go** accepts the integration assumptions in section 8; it does **not** decide the open questions in section 9.
 
+**Plan approval for implementation is still pending** (recording owner technical points below does not substitute for **go**).
+
+---
+
+## Accepted technical points (Trundle, Oct 31, 2026)
+
+Owner decisions recorded on PR #6 (`cursor/character-meta-plan-8490`). Docs-only; no implementation on this basis until separate **go**.
+
+1. **`.gitignore` proposals (section 1):** The suggested additions called out in this plan (companion YAML / observation log paths, lineage `*.jsonl` allowlist reconciliation, optional archive extensions) are **accepted as proposals only**. The **existing `.gitignore` stays unchanged** until a **separate, explicit** `.gitignore` change (its own review), not bundled silently with store implementation.
+
+2. **LINEAGE aired fields:** The sample fixture `tests/fixtures/character-meta/lineage-sample.jsonl` **lacks `aired` / `air_yes` fields**. That gap is acknowledged. The **implementation build will require those fields** on LINEAGE rows used for promotion joins; the **N=3 distinct aired-clip rule depends on them**. Tests will use synthetic aired flags on fixtures and/or lineage schema once canonical field names land (coordinate with `plan/lineage-v1`).
+
+3. **Standing rule (technical vs creative):** Questions that are **purely technical** and **outside personal/creative scope** are resolved with **recommended defaults** documented in the plan or PR (agents need not block on Trundle for those). Personal, creative, canon, approval, and spend/airing decisions still require Trundle’s yes.
+
 ---
 
 ## 1. Repo survey (2026-11-01)
@@ -41,7 +55,7 @@ Tasks in sections 5–7 wait for Trundle’s **go**. An unqualified **go** accep
 
 Current `main` `.gitignore` already covers: `.env` / secrets, venvs, `node_modules/`, live media (`*.mp4`, images, etc.), `LINEAGE.jsonl`, and `**/data/spend/`. Comment block states small YAML/JSON/JSONL fixtures may stay tracked.
 
-**Proposals for a later implementation PR (not applied silently here):**
+**Proposals for a later implementation PR** (accepted as proposals only per Trundle, Oct 31, 2026 — see **Accepted technical points**; `.gitignore` unchanged until a separate explicit edit):
 
 - If implementation adds repo-local `trait_observations.jsonl` or per-channel `character-meta/*.yaml` with real rows, consider ignoring `**/character-meta/*.yaml` outside `tests/fixtures/` (same pattern as lineage plan’s `data/copies/` + `*.jsonl` exceptions).
 - Lineage plan branch proposes stricter `*.jsonl` ignore with allowlists under `tests/fixtures/` — reconcile when both land; CHARACTER-META should not fight lineage’s template path `lineage/CHARACTER-META.jsonl`.
