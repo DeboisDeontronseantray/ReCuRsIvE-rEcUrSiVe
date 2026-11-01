@@ -14,6 +14,7 @@ dependencies = [
 
 [project.scripts]
 charmeta-promote = "charmeta.promote:main"
+lineage-derive-aired = "lineage.derive_aired:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

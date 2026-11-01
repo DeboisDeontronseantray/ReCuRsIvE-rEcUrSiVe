@@ -42,11 +42,17 @@ def load_lineage_jsonl(path: Path | str) -> list[dict[str, Any]]:
 
 
 def build_aired_index(rows: list[dict[str, Any]]) -> dict[str, bool]:
-    """Map clip_id → aired (missing clip_id rows are skipped)."""
+    """Map clip_id → aired (missing clip_id rows are skipped).
+
+    When several rows share a clip_id, any explicit aired/air_yes/patch wins True.
+    """
     index: dict[str, bool] = {}
     for row in rows:
         clip_id = row.get("clip_id")
         if not isinstance(clip_id, str) or not clip_id:
             continue
-        index[clip_id] = clip_id_aired(row)
+        if clip_id_aired(row):
+            index[clip_id] = True
+        elif clip_id not in index:
+            index[clip_id] = False
     return index
