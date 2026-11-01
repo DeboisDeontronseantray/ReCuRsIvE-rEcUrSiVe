@@ -1,8 +1,8 @@
 # CHARACTER-META implementation plan (v1)
 
-> **Status: PLAN ONLY.** This branch adds specification and plan documents only. **No store, promote, conflict-check, meta_prompt builder, or stills implementation** lands until Trundle replies **go** on this pull request.
+> **Status: PLAN APPROVED (Trundle, Oct 31, 2026, 10:32 PM CT).** Specification on this branch is approved for implementation on a separate branch/PR. This PR remains the plan + spec landing; implementation is tracked separately.
 
-**Goal:** Add a per-channel **companion character-meta store** (YAML keyed by cast id) that keeps all existing bible cast fields and four optional additions (`traits`, `abilities`, `relationships`, `meta_prompt`), plus an add-only **`trait_observations.jsonl`** log that background processes append to. Promotion to `proposed` on the companion file happens only after **N=3 distinct aired clips** (join observation `clip_id` to LINEAGE rows with aired/air_yes). **Approval to `approved`/`locked` is owner-only (Trundle).** Conflicts with locked/approved canon are **flagged, never applied.** Generation quirks **never** become traits.
+**Goal:** Add a per-channel **companion character-meta store** (YAML keyed by cast id) that keeps all existing bible cast fields and four optional additions (`traits`, `abilities`, `relationships`, `meta_prompt`), plus an add-only **`trait_observations.jsonl`** log that background processes append to. Promotion to `proposed` on the companion file happens only after **N=3 distinct aired clips** (join observation `clip_id` to LINEAGE rows with **`aired: true`**). **Approval to `approved`/`locked` is owner-only (Trundle).** Conflicts with locked/approved canon are **flagged, never applied.** Generation quirks **never** become traits.
 
 **Spec sources (this repo):**
 
@@ -18,17 +18,24 @@
 
 ## 0. Stop line (this PR)
 
-This pull request stops at:
+This pull request delivers:
 
 1. Spec files under `docs/spec/character-meta/`
 2. This plan under `docs/plans/CHARACTER-META-PLAN.md`
 3. Labeled fixtures under `tests/fixtures/character-meta/`
 
-Tasks in sections 5–7 wait for Trundle’s **go**. An unqualified **go** accepts the integration assumptions in section 8; it does **not** decide the open questions in section 9.
+**Plan approved:** Trundle, **Oct 31, 2026, 10:32 PM CT** — implementation proceeds on a follow-up branch/PR (see milestone section 7). Merging this PR is not required before starting implementation, but the implementation PR should target this branch or `main` after merge.
 
-**Plan approval for implementation is still pending** (recording owner technical points below does not substitute for **go**).
+Tasks in sections 5–7 were unblocked by plan approval. An implementation **go** on a code PR is still separate from merging this docs PR.
 
 ---
+
+## Plan approval (Trundle, Oct 31, 2026, 10:32 PM CT)
+
+| Decision | Record |
+|---|---|
+| **Plan status** | **APPROVED** for implementation (Oct 31, 2026, 10:32 PM CT). |
+| **LINEAGE `aired` field** | **RESOLVED.** Media Librarian New (or the lineage validator) adds a derived boolean **`aired`** on each clip’s LINEAGE row when the clip reaches **AIRED** status. Character-meta promotion counts only observations whose `clip_id` joins to a row with **`aired: true`**. A **missing** `aired` field is treated as **not aired**. Legacy `air_yes: true` may be read as aired until rows are normalized. The N=3 distinct aired-clip rule depends on this field. |
 
 ## Accepted technical points (Trundle, Oct 31, 2026)
 
@@ -36,7 +43,7 @@ Owner decisions recorded on PR #6 (`cursor/character-meta-plan-8490`). Docs-only
 
 1. **`.gitignore` proposals (section 1):** The suggested additions called out in this plan (companion YAML / observation log paths, lineage `*.jsonl` allowlist reconciliation, optional archive extensions) are **accepted as proposals only**. The **existing `.gitignore` stays unchanged** until a **separate, explicit** `.gitignore` change (its own review), not bundled silently with store implementation.
 
-2. **LINEAGE aired fields:** The sample fixture `tests/fixtures/character-meta/lineage-sample.jsonl` **lacks `aired` / `air_yes` fields**. That gap is acknowledged. The **implementation build will require those fields** on LINEAGE rows used for promotion joins; the **N=3 distinct aired-clip rule depends on them**. Tests will use synthetic aired flags on fixtures and/or lineage schema once canonical field names land (coordinate with `plan/lineage-v1`).
+2. **LINEAGE aired fields (superseded by plan approval):** Canonical field is boolean **`aired`** on LINEAGE rows at AIRED status; missing ⇒ not aired. See **Plan approval** table.
 
 3. **Standing rule (technical vs creative):** Questions that are **purely technical** and **outside personal/creative scope** are resolved with **recommended defaults** documented in the plan or PR (agents need not block on Trundle for those). Personal, creative, canon, approval, and spend/airing decisions still require Trundle’s yes.
 
@@ -74,7 +81,7 @@ Current `main` `.gitignore` already covers: `.env` / secrets, venvs, `node_modul
 | Live continuity bible | **Read-only** (e.g. `.../continuity/ch04-military-boutique/bible-v2.yaml`). Never written by this system. |
 | Companion store | `character-meta/<NN>-<channel-slug>.yaml` — one file per channel; top-level map **keyed by cast id**; each entry **copies/retains all existing bible cast fields** plus optional additions (empty until promotion). |
 | Observation log | `trait_observations.jsonl` beside existing per-channel observation logs — **append-only**; corrections are new rows. |
-| LINEAGE ledger | Join source for **aired** clip ids (`aired` / `air_yes` on row). Held out of git (`LINEAGE.jsonl` ignored). |
+| LINEAGE ledger | Join source for **aired** clip ids — boolean **`aired: true`** on row (derived at AIRED status). Missing `aired` ⇒ not aired. Held out of git (`LINEAGE.jsonl` ignored). |
 
 Package name/path (from coding brief): top-level **`charmeta/`** (flat layout, consistent with lineage brief’s “one folder per brief” pattern).
 
@@ -99,7 +106,7 @@ Package name/path (from coding brief): top-level **`charmeta/`** (flat layout, c
 | Add-only log | No update/delete API on `trait_observations.jsonl`; new row per correction. |
 | Background writes | Append log only; **never** write cast fields directly. |
 | Proposal threshold | Same normalized `(character, field, text)` across **N=3 distinct aired `clip_id`s** → eligible for **`proposed`** on companion YAML (default **N=3** in schema). |
-| Aired definition | LINEAGE row indicates aired / `air_yes` (exact field names to match lineage implementation). Unaired drafts do not count. |
+| Aired definition | LINEAGE row has **`aired: true`** (set by Media Librarian New / lineage pipeline at AIRED). Missing field ⇒ not aired. Unaired drafts do not count. |
 | Approval | `proposed` → `approved` / `locked` requires **Trundle’s yes** only; tools never set approved/locked automatically. |
 | Conflicts | Contradiction with locked/approved field or `qualities_locked` → **flag for Trundle**, never auto-applied. |
 | Quirks | Generation mistakes → **`generation_quirks`** (bible), **never** traits/abilities. |
@@ -146,18 +153,13 @@ Package name/path (from coding brief): top-level **`charmeta/`** (flat layout, c
 
 **Their scope:** Queue mutation planning under `playout/queue-mutation/`.
 
-**Integration:** No shared files. Future: aired clips that count toward N=3 may correlate with playout queue state; **out of scope** until lineage defines aired on LINEAGE rows.
+**Integration:** No shared files. Future: aired clips that count toward N=3 correlate with LINEAGE **`aired: true`** (see plan approval).
 
 ---
 
 ## 4. Fixture caveat (lineage sample)
 
-`tests/fixtures/character-meta/lineage-sample.jsonl` has **20 rows** and **no `aired` / `air_yes` fields**. Implementation tests must either:
-
-1. Add **`tests/fixtures/character-meta/lineage-sample-aired.jsonl`** (synthetic aired flags on a subset of `clip_id`s), or  
-2. Mock the aired filter in unit tests until lineage documents the canonical aired fields.
-
-Promotion integration tests (**2 aired → no proposal, 3 → proposal**) depend on that fixture extension or lineage schema merge.
+`tests/fixtures/character-meta/lineage-sample.jsonl` is a **legacy** twenty-row sample **without** `aired` (missing ⇒ not aired at runtime). Implementation tests use **`lineage-with-aired.jsonl`** (synthetic `aired: true/false` on selected `clip_id`s) for threshold and unaired cases.
 
 ---
 
@@ -230,7 +232,7 @@ One commit per milestone (or per task inside milestone), branch stays green. **D
 
 1. Companion files are **YAML**, not the JSONL template in `lineage/CHARACTER-META.jsonl` (that file remains lineage’s JSONL schema unless reconciled in section 9).
 2. **PyYAML** is an acceptable sole runtime dependency (coding brief).
-3. Aired clip membership comes from **LINEAGE** fields chosen by the lineage implementation (`aired` / `air_yes` or successor names).
+3. Aired clip membership comes from LINEAGE boolean **`aired: true`** (see **Plan approval**). Missing ⇒ not aired.
 4. Implementation tests use **fixture paths only**; default code paths refuse live bible and live `LINEAGE.jsonl` (mirror lineage plan’s `--live` / copy-dir pattern).
 5. **`docs/spec/character-meta/CHARACTER-META-SCHEMA-v1.yaml`** is the schema of record unless Trundle bumps version in spec first.
 
@@ -238,7 +240,7 @@ One commit per milestone (or per task inside milestone), branch stays green. **D
 
 ## 9. Open questions (need Trundle or cross-agent agreement)
 
-1. **Lineage aired fields:** Canonical names and semantics on LINEAGE rows; sample fixture lacks them today.
+1. ~~**Lineage aired fields:**~~ **RESOLVED** (plan approval, Oct 31, 2026, 10:32 PM CT) — boolean **`aired`** on LINEAGE row at AIRED status; missing ⇒ not aired.
 2. **JSONL vs YAML character meta:** Relationship between lineage’s `CHARACTER-META.jsonl` rows and per-channel `character-meta/*.yaml` — merge, mirror, or separate concerns?
 3. **Background process owner:** Who runs append-only writers (Story Bot, cron, manual agent)?
 4. **meta_prompt in clip prompts:** Story engine vs prompt-assembly v4 ownership for injecting `meta_prompt.text`.

@@ -5,6 +5,7 @@ Synthetic, scrubbed example data for plan review and future unit tests. Not live
 | File | Purpose |
 |---|---|
 | `bible-v2.fixture.yaml` | Read-only copy of Ch 4 Military Boutique continuity bible v2 (cast ids and locked fields). The live bible on the box is never modified. |
-| `lineage-sample.jsonl` | Twenty sample LINEAGE rows (Ch 4 ads/overlays). **No `aired` / `air_yes` fields** — promotion tests will need synthetic aired flags or a fixture extension after the lineage agent lands those fields. |
+| `lineage-sample.jsonl` | Twenty sample LINEAGE rows (legacy; no `aired` — missing counts as not aired). |
+| `lineage-with-aired.jsonl` | Same clip ids with synthetic `aired: true/false` for promotion tests. |
 
 Paths inside rows point at historical box locations; they are labels only in git.
