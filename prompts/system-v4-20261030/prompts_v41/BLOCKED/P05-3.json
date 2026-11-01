@@ -1,0 +1,20 @@
+{
+ "id": "P05-3",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: Mounted-camera chase TV at night, real footage look.] [Invented tow-truck driver in a grey hoodie.] [Dashcam view again: on the bridge the tow truck slows and stops.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 5 s the driver climbs out with both hands up, sheepish, and sits on the curb. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "P05-3.mp4",
+  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P05-2/P05-2_last.png"
+ },
+ "notes": [
+  "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+  "safety bracket regenerated from pool",
+  "special POV: must come from the start frame (r9: dashcam/aerial text ignored)"
+ ]
+}

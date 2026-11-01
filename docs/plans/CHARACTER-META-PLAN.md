@@ -260,12 +260,26 @@ Implementation branches align with the approved Director prompt path (context bu
 |---|---|
 | Layer order | `charmeta/prompt_injection.py` merges `meta_prompt.text` into the shot **`characters`** block (before **`action`**); system wrappers 1–4 unchanged. |
 | Prompt density / cap | `trim_meta_for_injection()` default 512 chars (`CHARMETA_META_PROMPT_MAX_CHARS`). |
-| Never-words | `charmeta/name_guard.py` — same `\bdrew\b` pattern as `assemble_prompt.py` / live checker. |
+| Never-words | `charmeta/name_guard.py` — same runtime-decoded real-first-name pattern as `assemble_prompt.py` / live checker. |
 | Aired + N=3 | `lineage/eligibility.py` + `build_trait_promotion_aired_index()`; config `CHARMETA_PROPOSAL_THRESHOLD_N` (default 3). |
 | Forward Supply | Excluded from observations ingest and promotion; stays home filler per bible resolutions PR #17. |
 | Show masters only | Ads/commercials/embed rows never count toward trait promotion. |
 
 Live `bible-v2.yaml` is still not modified by character-meta tooling.
+
+---
+
+## Locked decisions (Nov 1, 2026)
+
+- **Director pipeline:** Keep approved/tested Director behavior that still works; layer the Nov 1 improvements on top. The new version wins only where this chat explicitly advanced it.
+- **Ads and breaks vs trait evidence:** Ads and commercial breaks **may** contain characters (on screen or in copy). They **never** count as trait evidence for promotion. Enforced via show-master eligibility: `lineage/eligibility.py`, `is_show_master_row()`, `build_trait_promotion_aired_index()` (implementation PRs #8 / #15 / #16).
+- **One live instance:** Means one **copy** of the same character at a time (duplicate-instance rule), **not** a limit of one person on screen.
+- **Promotion threshold:** Environment variable `CHARMETA_PROPOSAL_THRESHOLD_N`, default **3** (schema `rules.N` in `CHARACTER-META-SCHEMA-v1.yaml`).
+- **Forward Supply:** Never feeds character-meta observations or BLACK ICE / photoreal 1971 prompt look; approved home filler only (canon PR #17).
+- **Unresolved doc conflicts (default pending trundle):**
+  1. **Eye contact global vs per-show** — *Sources:* `prompts/LAYERS.md` (2026-10-28 12:45 CT: global) vs `prompts/LAYERS-BODY-ORDER.md` (2026-10-28 12:40 CT: per-show opt-in). **Default used:** treat no eye contact as global per LAYERS.md correction. **Status:** default pending trundle.
+  2. **`meta_prompt` injection owner** — *Sources:* plan §9.4 (open: story engine vs prompt-assembly v4) vs PROMPT-ASSEMBLY-NOTE-v1 (OPEN owners). **Default used:** `charmeta/prompt_injection.py` on the charmeta side until assembler merge. **Status:** default pending trundle.
+  3. **Character meta storage shape** — *Sources:* plan §9.2 (JSONL vs YAML open) vs `CHARACTER-META-SCHEMA-v1.yaml` (YAML companion + `trait_observations.jsonl`). **Default used:** YAML companion + observation log per schema. **Status:** default pending trundle.
 
 ---
 

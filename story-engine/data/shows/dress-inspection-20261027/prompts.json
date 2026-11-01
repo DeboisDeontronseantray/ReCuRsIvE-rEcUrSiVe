@@ -1,0 +1,654 @@
+{
+ "title": "Dress Inspection",
+ "show": "clearance-brief (rebuild)",
+ "channel": "4",
+ "home_only": true,
+ "brief": "/workspace/director/brief-dress-inspection-20261027.md",
+ "written": "2026-10-27 CT by Story Bot",
+ "shots": [
+  {
+   "id": "DI-01",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "locked symmetrical wide, no camera move.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Graphite Cloak: product on pedestal",
+    "Scout Drone: product on pedestal",
+    "Quietline Helmet: product on pedestal",
+    "Modular Field Pack: product on pedestal",
+    "Exo-Gauntlet: product on pedestal",
+    "Night Cruiser: product on pedestal",
+    "Field Glass: product on pedestal"
+   ],
+   "continues_from": "cold open",
+   "action": "Seven products stand on matte pedestals in a straight line across the wet deck like recruits. Bill enters from frame left, boots loud, and halts at the first pedestal.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: locked symmetrical wide, no camera move. ACTION: Seven products stand on matte pedestals in a straight line across the wet deck like recruits. Bill enters from frame left, boots loud, and halts at the first pedestal. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-1",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Graphite Cloak: on pedestal"
+   ],
+   "continues_from": "DI-01 end: Bill at the line of pedestals",
+   "action": "Bill stops nose-to-nose with the Graphite Cloak on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "You are a curtain. With ambitions."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Graphite Cloak on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "A curtain with ambitions"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-2",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Scout Drone: on pedestal"
+   ],
+   "continues_from": "ad #36 hard cut back to the deck",
+   "action": "Bill stops nose-to-nose with the Scout Drone on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "You are jewelry. Stop pretending."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Scout Drone on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "Jewelry that thinks it's a weapon"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-3",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Quietline Helmet: on pedestal"
+   ],
+   "continues_from": "ad #34 hard cut back to the deck",
+   "action": "Bill stops nose-to-nose with the Quietline Helmet on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "Salad bowl. Reporting for duty."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Quietline Helmet on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "A salad bowl that reports for duty"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-4",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Modular Field Pack: on pedestal"
+   ],
+   "continues_from": "ad #30 hard cut back to the deck",
+   "action": "Bill stops nose-to-nose with the Modular Field Pack on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "Pockets. All the way down."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Modular Field Pack on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "Pockets. Just pockets. Pockets all the way down"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-5",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Exo-Gauntlet: on pedestal"
+   ],
+   "continues_from": "ad #31 hard cut back to the deck",
+   "action": "Bill stops nose-to-nose with the Exo-Gauntlet on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "An oven mitt. With clearance."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Exo-Gauntlet on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "An oven mitt with a security clearance"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-6",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Night Cruiser: on pedestal"
+   ],
+   "continues_from": "ad #33 hard cut back to the deck",
+   "action": "Bill stops nose-to-nose with the Night Cruiser on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "One self-defense class. One."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Night Cruiser on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "A minivan that took one self-defense class"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-02-7",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "low-angle handheld with an aggressive push-in.",
+   "cast": [
+    "Commander Bill D'bears"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Field Glass: on pedestal"
+   ],
+   "continues_from": "ad #32 hard cut back to the deck",
+   "action": "Bill stops nose-to-nose with the Field Glass on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line.",
+   "dialogue": [
+    {
+     "speaker": "Commander Bill D'bears",
+     "line": "Afraid of distance. Noted."
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Field Glass on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "Binoculars that are afraid of distance"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-03",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "over the shoulder of Bill, handheld, slow drift.",
+   "cast": [
+    "Commander Bill D'bears",
+    "Lt. Mira S'mirin'"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [],
+   "continues_from": "cutaway after any takedown",
+   "action": "Mira walks behind Bill along the pedestal line, writing on her clipboard without looking up; she never reacts.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. Mira: compact adult officer, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots, cool cyan rim light on her face. LOCATION: forward depot bay parade deck. CAMERA: over the shoulder of Bill, handheld, slow drift. ACTION: Mira walks behind Bill along the pedestal line, writing on her clipboard without looking up; she never reacts. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-04",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "tight close shot, locked.",
+   "cast": [
+    "Osmund"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [],
+   "continues_from": "cutaway after any takedown",
+   "action": "Osmund stands rigid at attention, sweat on his brow, his eyes flicking sideways toward Bill off-frame; he does not move.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, earnest worried expression. LOCATION: forward depot bay parade deck. CAMERA: tight close shot, locked. ACTION: Osmund stands rigid at attention, sweat on his brow, his eyes flicking sideways toward Bill off-frame; he does not move. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  },
+  {
+   "id": "DI-05",
+   "duration_s": 8,
+   "model": "grok-imagine-video-1.5",
+   "resolution": "480p",
+   "camera": "medium wide, locked, then holds on the empty deck.",
+   "cast": [
+    "Commander Bill D'bears",
+    "Osmund"
+   ],
+   "location": "Forward depot bay parade deck, wet concrete, seven pedestals",
+   "lighting_fog": "hard top light, deep shadows, cold haze",
+   "props_products": [
+    "Modular Field Pack: lifted from pedestal"
+   ],
+   "continues_from": "last ad hard cut back to the deck",
+   "action": "Bill lifts the Modular Field Pack off its pedestal, presses it into the hands of Osmund, turns and walks out of frame without a word. Osmund does not move. Hold two seconds on the empty deck.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, earnest worried expression. LOCATION: forward depot bay parade deck. CAMERA: medium wide, locked, then holds on the empty deck. ACTION: Bill lifts the Modular Field Pack off its pedestal, presses it into the hands of Osmund, turns and walks out of frame without a word. Osmund does not move. Hold two seconds on the empty deck. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+   ],
+   "negative_prompt": [
+    "no real brands",
+    "no logos",
+    "no flags",
+    "no insignia",
+    "no on-screen text (all text added in post)",
+    "no burned-in text, tags, badges or overlays",
+    "no names",
+    "no watermarks",
+    "no extra people",
+    "no young people",
+    "no weapons",
+    "no gore",
+    "no slapstick",
+    "no smoke",
+    "no vapor",
+    "no sleeveless Bill",
+    "no Bill without glasses",
+    "no eye contact with the lens",
+    "no presenter pose",
+    "no extra fingers",
+    "no warped faces",
+    "no music",
+    "no low hum",
+    "no sub-bass"
+   ],
+   "on_screen_text_post": [
+    "PASSED: 1 / 7"
+   ],
+   "post_audio": "Quiet dry bed: boots, breath, voice only; no music until the ad hits; no low hum or sub-bass; level to the house loudness standard in post.",
+   "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"
+  }
+ ]
+}

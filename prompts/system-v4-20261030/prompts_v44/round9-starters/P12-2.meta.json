@@ -1,0 +1,44 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P12-2",
+ "parent_clip": "P12-1",
+ "channel_show": "Ch12 90s",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "c97ceabe1bb6417e5f14f64ae111e87ecaedcd876fb2e09e8c3322ce55421200",
+ "prompt_words": 149,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "DALE": "DALE_P12-1.png"
+ },
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

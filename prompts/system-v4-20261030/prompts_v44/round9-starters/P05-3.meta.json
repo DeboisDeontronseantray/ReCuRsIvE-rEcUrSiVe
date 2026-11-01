@@ -1,0 +1,34 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P05-3",
+ "parent_clip": "P05-2",
+ "channel_show": "Ch5 Night Patrol",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "6a8106ebe154f01c78e02626d3165f84e58e3e28c14d8b879c1bbc69db9e021f",
+ "prompt_words": 144,
+ "air_status": "design-not-rendered",
+ "ref_for": {},
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

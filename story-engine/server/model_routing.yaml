@@ -1,0 +1,49 @@
+# Story Bot / thunder trundle — Grok only via direct xAI API (OpenAI-compatible).
+# Key: box env var XAI_API_KEY (see /workspace/shared/INVENTORY/accounts-subs-apis.md).
+# No OpenRouter. No Anthropic. Never put the key in this file.
+models:
+  grok-cheap:
+    provider: xai
+    model: grok-4.20-0309-non-reasoning
+    max_tokens: 4096
+    max_tokens_ceiling: 16000
+    temperature: [0.7, 0.95]
+
+  grok-4.20:
+    provider: xai
+    model: grok-4.20-0309-non-reasoning
+    max_tokens: 8000
+    max_tokens_ceiling: 32000
+    temperature: [0.7, 0.95]
+
+  grok-4.7:
+    provider: xai
+    model: grok-4.7
+    max_tokens: 8000
+    max_tokens_ceiling: 64000
+    temperature: [0.7, 0.95]
+
+  grok-build:
+    provider: xai
+    model: grok-build-0.1
+    max_tokens: 4096
+    max_tokens_ceiling: 16000
+    temperature: [0.5, 0.9]
+
+defaults:
+  metadata: grok-cheap
+  genre_conventions: grok-cheap
+  characters: grok-cheap
+  worldbuilding: grok-cheap
+  primary_thread: grok-cheap
+  secondary_arcs: grok-cheap
+  outline: grok-cheap
+  outline_audit: grok-cheap
+  entities: grok-cheap
+  initial_state: grok-cheap
+  generate: grok-cheap
+  edit: grok-cheap
+  state: grok-cheap
+  bible: grok-cheap
+  episode_beats: grok-cheap
+  ad: grok-cheap

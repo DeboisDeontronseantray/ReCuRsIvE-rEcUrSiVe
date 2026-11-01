@@ -1,0 +1,31 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.1-20261030",
+ "builder": {
+  "name": "build_prompt_v41",
+  "version": "4.1.0",
+  "sha": "c5efb5f0574c"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "LS4",
+ "parent_clip": "r9-D1",
+ "channel_show": "Ch2 News",
+ "clip_type": "news",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "7abb8addd80503aa7364cf8bf6d42444a027775286d879313a41ce11c83118f3",
+ "prompt_words": 139,
+ "air_status": "design-not-rendered"
+}

@@ -1,0 +1,12 @@
+{
+ "prompt": "1962 spy-thriller, live action, muted period colour, film grain. WREN (<IMAGE_1>): rain-dark belted trench coat, headscarf, gloves. Plain walls, no figures appear on walls. GRAVES (<IMAGE_2>): grey guard uniform and cap. Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN walks down the corridor past a wall clock stopped at a quarter past three. At 4 s she pushes through a door into the archive stacks. The last 0.4 s eases into the planned end image. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P16-2.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P16-1/P16-1_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/WREN_side_full.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/GRAVES_guard_side_full.png"
+ ],
+ "last_frame_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/refs/C16-20pm-c3_FIRSTFRAME.png"
+}

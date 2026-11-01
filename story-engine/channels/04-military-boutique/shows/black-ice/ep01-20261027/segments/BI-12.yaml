@@ -1,0 +1,84 @@
+shot_id: BI-12
+show: black-ice
+episode: ep01-20261027
+scene: SC5
+tc_in: 113.756
+tc_out: 120.798
+tc_basis: ffprobe of leveled files in cut/cut_order_v2.txt, summed in order incl. ad breaks (measured, not estimated)
+duration_planned_s: 7
+rendered_prompt_record: '[Camera & Style] Photorealistic early-1970s cold-war espionage film, fictional frozen border river, winter 1971. Shot on 35mm film with a vintage 25-85mm zoom lens set at 50mm. Naturalistic 24fps motion, subtle film grain, desaturated steel-blue palette with ink-black shadows. MEDIUM, static. ONE CONTINUOUS SHOT. The first image is the exact starting frame. Preserve composition, lighting and character appearance.
+
+  [Action] In the dark, a match flares; WOLFHOUND sits on a crate, rifle across his knees, and speaks calmly.
+
+  [Environment] Dark listening hall, orange bulb behind.
+
+  [Physics] Match flame flickers, smoke rises, his breath visible.
+
+  [Audio] No music. WOLFHOUND, an older man, calm from the dark: "Still crawling too fast, Vera."
+
+  [SFX] Match strike and flare, hum.
+
+  [Constraints] One continuous shot, no cuts. Fictional adults only. Every lamp, bulb and lantern glows signal orange, never green. Strictly photorealistic live action. No text, no subtitles, no signage, no logos, no insignia, no brands, no readable dials. No eye contact with camera, eyeline off-lens; characters never look into the lens.'
+keyframes:
+  first_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC5_HALL_AROLL/BI-S12_start_try2_parody.png
+  last_frame: null
+  last_frame_clean_extract: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/lastframes/BI-12_g110_last_clean_parody.jpg
+characters:
+- WOLFHOUND
+location: Island Nine listening hall
+look: early-1970s 35mm, 50mm, MEDIUM, static; desaturated steel blue, ink-black shadows, signal orange lamps only
+in_scene_text: []
+overlay_post:
+- WOLFHOUND
+overlay_fallback: false
+continuity_ref: ../../continuity.yaml#shots.BI-12
+no_eye_contact: true
+clean_master: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/masters/BI-12_try1_480p_clean_parody.mp4
+airing_file: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/leveled/BI-12_g110_cap_tag_lev_v2_parody.mp4
+qc_flags:
+- HERON shown front-on in olive jacket, not from behind
+lineage:
+  tag: '4.13 g1 #110'
+  clip_no: 110
+  parent: null
+  gen: 1
+pending_retry: v2
+retry_status: No v2 render exists as of 2026-10-28 11:58 CT (masters/ has only try1; video_log has try 1 only). BI-12 _v2 post files are a re-post of try1 (name overlay moved right), not a new generation.
+rendered_prompt_record_note: 'prompt is the current shots_ep1.py text (10:41 AM CT). The v1 render (~8:15 AM CT) used shots_ep1.py.bak-20261028-1042, which is identical except it lacks the final no-eye-contact sentence.'
+
+# --- Locks + chain (Director 12:26 PM CT / CNB 12:27 PM CT; Story Bot add-only 12:28) ---
+locks:
+  chr:
+  - CHR-WOLFHOUND-v1
+  - CHR-HERON-v1
+  war:
+  - WAR-WOLFHOUND-GREATCOAT-v1
+  - WAR-HERON-SNOWSMOCK-v1
+  loc:
+  - LOC-LISTENING-HALL-v2
+  look:
+  - LOOK-BLACK-ICE-v1
+  prp:
+  - PRP-WOLFHOUND-RIFLE-v1
+  - PRP-MATCH-v1
+chain: false
+chain_basis: 'director_confirmed_20261028: cut (new angle/size or new scene)'
+blocks:
+  camera: MEDIUM, static, 50mm lens
+  action: In the dark, a match flares; WOLFHOUND sits on a crate, rifle slung vertically on his back, and speaks calmly; HERON stands in the foreground in her white snow smock, seen only from behind, facing him.
+  environment: Dark listening hall, orange bulb behind.
+  physics: Match flame flickers, smoke rises, his breath visible.
+  audio: 'No music. WOLFHOUND, an older man, calm from the dark: "Still crawling too fast, Vera."'
+  sfx: Match strike and flare, hum.
+  extra_constraints: No other people in frame, no glowing monitors except the amber-orange phosphor oscilloscopes of this listening hall; nothing glows green.
+blocks_source: CNB shots_ep1.py SH (current, 12:27 PM CT; BI-12/BI-15 = v2 spec)
+seed: null
+end_frame: null
+start_frame_v2: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC5_HALL_AROLL/BI-S12_start_try2_parody.png
+
+# pure show-only master (no ads), Oct 28 2026
+master_pure: black-ice-20261027_ch4_ep1_showonly_v2_720p_parody.mp4
+tc_pure_in: 89.756
+tc_pure_out: 96.856
+tc_superseded: true  # old tc_in/tc_out measured with ads; use tc_pure_*
+prompt_source: 'Not stored here. assemble_prompt.py builds the live prompt from blocks + locks + wrappers each time (Story Bot, Oct 28 2026 3:00 PM CT). rendered_prompt_record is a frozen history of what was rendered and is never read for assembly.'

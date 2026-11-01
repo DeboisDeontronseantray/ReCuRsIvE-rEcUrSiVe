@@ -1,0 +1,14 @@
+meta:
+  channel: 12
+cast:
+  ch12.marla:
+    locked_description: co-host
+    meta_prompt:
+      text: warm studio smile
+      built_from: []
+      version: 1
+    traits:
+      tangible: []
+      intangible: []
+    abilities: []
+    relationships: []

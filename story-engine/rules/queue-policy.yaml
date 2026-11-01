@@ -1,0 +1,53 @@
+slots_hold: lineage            # play the newest approved generation
+replace: mark_replaced_never_delete
+rollback: point_slot_at_older_generation
+promotion: genealogy/../queues/PROMOTION-PROCESS.md  # see /workspace/streaming/queues/PROMOTION-PROCESS.md
+comment_prompts:
+  delete: never
+  failed_filter: hold
+  merge_compatible: true       # merged clip lists every prompt id
+  priority_aging: rises_with_wait
+  max_wait_breaks: null        # TO SET: guaranteed a slot in the next break after this
+  duplicates: sibling_version_in_lineage
+audio: {lufs: -16, true_peak_max_dbtp: -1.5}
+prompt_layers:   # Trundle Oct 28 12:07 PM CT
+  system_wrappers: [global, channel, show_or_commercial]   # inserted by us, always, not comment prompts
+  commenter_may_set: [screen_inserts, look, in_scene_text, action, location, props]
+  commenter_may_not_override: system_wrappers
+  embed_refs_from_commenters: resolve via engine/resolve_embed.py; clean masters only; unknown ref = hold, not delete
+# Director Oct 28 12:26 PM CT (add-only; Story Bot): lock library thunder-trundle/prompts/locks/
+prompt_layers_locks:
+  commenter_may_set_also: [dialogue, weather, lock_swap]   # in addition to prompt_layers.commenter_may_set
+  lock_swap: one existing lock -> another EXISTING lock of the same type (CHR/LOC/LOOK/PRP/WAR)
+  commenter_may_not_create: [CHR, LOOK]   # new CHR/LOOK lock definitions are dropped + reported
+  lock_ids_sent_to_imagine: never          # assembler replaces ids with their sentence
+  seed: null                               # Grok Imagine video has no seed (CNB 12:27 PM CT); use consistency_key
+  refs: {per_character_max: 2, total_max: 14, mode: ref_mode_unverified}
+  max_clip_s: 15
+# Trundle 12:55 PM CT Oct 28 via Director, assigned by Smart Home Lead (workitem-20261028-1257-queue-policy-slots). Add-only; this block wins over comment_prompts.max_wait_breaks: null above.
+comment_prompt_slots:
+  render_lead_time:
+    target: first_future_slot_starting_at_least(now + render_eta + margin)
+    render_eta: p90_logged_render_time_for_prompt_kind
+    render_eta_default_min: 15          # no history
+    margin_min: 10
+  protect_unaired_prompt_video: true    # slot holding an unaired comment-prompt video is never replaced
+  on_protected_slot: move_to_next_open_slot
+  merge_same_clip:
+    allowed_when: [no_conflict, passes_global_channel_show_rules]
+    on_conflict: later_prompt_moves_to_later_slot
+  max_wait_breaks: 3
+  after_max_wait: very_next_open_slot_ahead_of_house_replacements
+  drop_valid_prompt: never
+  hard_limit_violation:                 # Lead correction 12:56 PM CT
+    applies_to: [kids, trundle_real_name, home_only, no_air_rule]
+    action: reject_and_log_reason
+    air: never
+  render_not_ready_at_slot_start:
+    play: scheduled_clip
+    prompt: move_to_next_slot
+    counts_toward_wait_limit_if_render_failed: false
+  show_masters: pure                    # no embedded ads or unrelated clips
+  ads: separate_queue_items_own_slots
+  breaks_placed_by: scheduler
+  lineage_row_on_every_replace_or_move: [slot, old_clip_no, new_clip_no, reason]

@@ -1,0 +1,37 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P09-2",
+ "parent_clip": "P09-1",
+ "channel_show": "Ch9 Iron League",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "3eb72f23c151fd7447027f045d7424fc34b65d2bc6593b953beefd7d2bdb6ee2",
+ "prompt_words": 129,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "VIK": "VIK_P09-1.png",
+  "SABLE": "SABLE_P09-1.png"
+ },
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

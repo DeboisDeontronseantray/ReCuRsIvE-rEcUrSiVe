@@ -1,0 +1,10 @@
+{
+ "prompt": "[Look: 1980s-future full-contact sport broadcast, neon arena.] [VIK: invented player, chrome helmet with a red stripe, orange armor.] [SABLE: black armor, purple visor.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s VIK races toward the glowing goal ring. At 5 s he hurls the ball through the ring, sparks burst, and SABLE taps his helmet in respect. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P09-3.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P09-2/P09-2_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/channels/09-iron-league/refs/sheets/SHEET_CH9_CAST_v1.jpg"
+ ]
+}

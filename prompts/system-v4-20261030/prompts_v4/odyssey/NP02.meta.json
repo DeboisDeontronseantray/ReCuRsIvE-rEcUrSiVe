@@ -1,0 +1,56 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "NP02",
+ "parent_clip": "NP01_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "episode": null,
+ "clip_type": "breather",
+ "arc_stage": "ordinary world",
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  },
+  {
+   "layer": "setting",
+   "kind": "clip"
+  }
+ ],
+ "prompt_sha256": "5939f8c15e9556502c9e3d0ff10ff02388ab34279d541a7186e7179167bf380b",
+ "prompt_words": 219,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

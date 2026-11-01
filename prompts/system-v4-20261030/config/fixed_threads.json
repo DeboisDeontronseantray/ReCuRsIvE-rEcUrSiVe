@@ -1,0 +1,8 @@
+{"_status":"PENDING - proposal only; awaiting Trundle's answer (t368u: 'there are a few continuous threads that have to remain focused and can't change'). Everything NOT listed here is fluid meta.",
+ "version":"fixed-threads-v0-proposal",
+ "threads":[
+  {"id":"FT1","what":"hero's arc stage of the current show","status":"PENDING","form":"one short clause naming the stage goal, phrasing may vary, meaning may not"},
+  {"id":"FT2","what":"each protagonist's core want","status":"PENDING"},
+  {"id":"FT3","what":"each protagonist's identity (name + fixed card parts)","status":"PENDING"},
+  {"id":"FT4","what":"the show's central goal","status":"PENDING"}],
+ "always_on_rules_not_threads":["hardlines/safety bracket","eyeline target (never lens)","seam continuity line when chained"]}

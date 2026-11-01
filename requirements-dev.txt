@@ -1,0 +1,4 @@
+# Test deps for prompts/system-v4-20261030 (`pytest tests`). test_v4.py media tests also need the ffmpeg binary on PATH.
+pytest==9.2.0
+opencv-python-headless==5.0.0.93
+numpy==2.5.4

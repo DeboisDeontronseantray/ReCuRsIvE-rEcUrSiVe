@@ -1,0 +1,36 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "AD-Atomic-Antacid",
+ "parent_clip": null,
+ "channel_show": "Ch7 Monster Hour",
+ "episode": null,
+ "clip_type": "ad",
+ "arc_stage": null,
+ "beats": [],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  }
+ ],
+ "prompt_sha256": "e3bf76e8917dccfe050e6e0397f5fdb2519e4c6c8a64f647cd9c2a9dbdbec139",
+ "prompt_words": 116,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

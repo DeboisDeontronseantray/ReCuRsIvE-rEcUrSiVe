@@ -1,0 +1,9 @@
+{
+ "prompt": "[Look: 1962 spy-thriller, live action, muted period colour, film grain.] [WREN (<IMAGE_0>).] [Plain walls, no figures appear on walls.] [Records-building service alley at night in rain.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN crouches at the service door and picks the lock. At 5 s the door clicks open and she slips into a dim corridor, the door swinging closed behind her. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P16-1.mp4",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/WREN_side_full.png"
+ ]
+}

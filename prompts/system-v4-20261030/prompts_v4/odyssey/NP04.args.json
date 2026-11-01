@@ -1,0 +1,12 @@
+{
+ "prompt": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); MADAM HU (<IMAGE_3>, teal dress, red embroidered apron). Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot: medium two-shot, eye level, static camera. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MADAM HU walks past with a tray of steamed dumplings and, without stopping, tucks one into MARLO's waistcoat pocket. At 4 s, he takes it out and eats it in one bite, a small smile. At 6 s, she walks on, eyes ahead. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 9 s take.]",
+ "duration": 9,
+ "resolution": "480p",
+ "filename": "NP04.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP03_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png",
+  "/workspace/thunder-trundle/prompts/experiments/round4-20261030/refs/MADAM_HU.png"
+ ]
+}

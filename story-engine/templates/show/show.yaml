@@ -1,0 +1,8 @@
+slug: ""
+title: ""
+channel: null
+lineage: null         # e.g. 4.12; register in genealogy/LINEAGES.yaml
+status: draft         # draft | active | shelved | pulled
+director_pitch_id: null
+brief_ids: []
+episodes: []

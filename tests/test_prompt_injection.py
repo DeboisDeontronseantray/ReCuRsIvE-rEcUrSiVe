@@ -2,7 +2,7 @@ import os
 import unittest
 
 from charmeta.config import proposal_threshold
-from charmeta.name_guard import find_blocked_name_tokens, reject_if_blocked
+from charmeta.name_guard import CREATOR_NAME, find_blocked_name_tokens, reject_if_blocked
 from charmeta.prompt_injection import (
     SHOT_BODY_LAYER_ORDER,
     inject_character_meta_into_shot_body,
@@ -12,9 +12,11 @@ from charmeta.prompt_injection import (
 
 class TestNameGuard(unittest.TestCase):
     def test_blocks_real_first_name(self) -> None:
-        self.assertEqual(find_blocked_name_tokens("hello Drew there"), ["Drew"])
+        name = CREATOR_NAME.capitalize()
+        self.assertEqual(find_blocked_name_tokens(f"hello {name} there"), [name])
         with self.assertRaises(ValueError):
-            reject_if_blocked("Hi Drew")
+            reject_if_blocked(f"Hi {name}")
+        self.assertEqual(find_blocked_name_tokens("thundertrundle with trundle"), [])
 
 
 class TestPromptInjection(unittest.TestCase):

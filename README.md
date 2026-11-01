@@ -11,5 +11,5 @@ This is the private Thunder Trundle prompt-assembly code for the Thunder Trundle
 | `briefs/` | Task briefs and project notes (e.g. `PROMPT-ASSEMBLY-WIRING-BRIEF-v1.md`) |
 | `charmeta/` | Character-meta store, promotion, `meta_prompt`, stills ingest, CLI (`python -m charmeta`) |
 | `lineage/` | Shared LINEAGE helpers (`aired` index, `derive_aired` CLI); see `lineage/MEDIA_LIBRARIAN_HOOK.md` |
-| `docs/` | Plans (`docs/plans/`) and specs (`docs/spec/`, e.g. `character-meta/`) |
+| `docs/` | Plans (`docs/plans/`), specs (`docs/spec/`, e.g. `character-meta/`), canon notes (`docs/canon/`) |
 | `tests/` | Unit tests and scrubbed fixtures (`tests/fixtures/`) |

@@ -1,0 +1,9 @@
+{
+ "prompt": "Parody network promo, 1990s multi-camera sitcom look, a heat-lamp-lit apartment. <IMAGE_0> is STEVE as he is now (lizard man, same red bowling shirt and khakis). Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. At 0 s STEVE walks toward the apartment door, seen from behind. At 4 s he turns side-on and slides on sunglasses, eyes on the door. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "AD-Steve-Cold-Blooded-promo.mp4",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round9-20261030/refs/STATE_STEVE_E1_lizard.png"
+ ]
+}

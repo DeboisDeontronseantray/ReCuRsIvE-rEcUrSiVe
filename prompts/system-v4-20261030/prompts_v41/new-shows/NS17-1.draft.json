@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: Mid-2000s desert war film, 35mm pushed, bleach-bypass grade, heat shimmer.] [Setting: an abandoned desert motor pool, one dusty armored truck, oil drums.] [Cast: DECLAN HARGROVE (sweat-dark tan shirt, aviator sunglasses); SAMIRA NADEER (white headscarf, clipboard).] Single shot: handheld medium shot, 28mm, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, DECLAN kicks the truck's tire; dust bursts off it. At 4 s, SAMIRA NADEER speaks [flat: \"Your company is gone. The truck is all you have.\"]. At 8 s, DECLAN slaps the hood and climbs in. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS17-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "DEBT OF IRON"
+}

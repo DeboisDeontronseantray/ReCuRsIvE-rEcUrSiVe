@@ -1,0 +1,89 @@
+{
+  "rule": "post-process overlay on a separate copy; never in generation; clean master is the anchor/mutation parent",
+  "overlays": [
+    {
+      "text": "THE EFFICIENCY REVIEW",
+      "kind": "caption",
+      "role": "title",
+      "position": "lower_third",
+      "start_s": 0.5,
+      "end_s": 4.0,
+      "style": "title",
+      "blocked": [],
+      "airable": true,
+      "shot_id": "ER-01",
+      "disabled": true,
+      "disabled_reason": "default 2026-10-28: decorative caption, not needed for the story"
+    },
+    {
+      "text": "EFFICIENCY REVIEW",
+      "kind": "caption",
+      "role": "caption",
+      "position": "lower_third",
+      "start_s": 2.0,
+      "end_s": 6.0,
+      "style": "default",
+      "blocked": [],
+      "airable": true,
+      "shot_id": "ER-03",
+      "disabled": true,
+      "disabled_reason": "default 2026-10-28: decorative caption, not needed for the story"
+    },
+    {
+      "text": "B",
+      "kind": "caption",
+      "role": "caption",
+      "position": "lower_third",
+      "start_s": 5.0,
+      "end_s": 10.0,
+      "style": "default",
+      "blocked": [],
+      "airable": true,
+      "shot_id": "ER-05",
+      "disabled": true,
+      "disabled_reason": "default 2026-10-28: decorative caption, not needed for the story"
+    },
+    {
+      "text": "FILED BY: TIM",
+      "kind": "caption",
+      "role": "caption",
+      "position": "lower_third",
+      "start_s": 3.0,
+      "end_s": 9.0,
+      "style": "default",
+      "blocked": [],
+      "airable": true,
+      "shot_id": "ER-11",
+      "disabled": false,
+      "disabled_reason": null
+    },
+    {
+      "text": "VERDICT: BOTH HOSTS TO OUTBOUND LOGISTICS. OSMUND: FLOOR HOST.",
+      "kind": "caption",
+      "role": "caption",
+      "position": "lower_third",
+      "start_s": 1.0,
+      "end_s": 8.0,
+      "style": "default",
+      "blocked": [],
+      "airable": true,
+      "shot_id": "ER-13",
+      "disabled": false,
+      "disabled_reason": null
+    },
+    {
+      "text": "EFFICIENCY: IMPROVED.",
+      "kind": "caption",
+      "role": "caption",
+      "position": "lower_third",
+      "start_s": 8.0,
+      "end_s": 12.0,
+      "style": "default",
+      "blocked": [],
+      "airable": true,
+      "shot_id": "ER-14",
+      "disabled": true,
+      "disabled_reason": "default 2026-10-28: decorative caption, not needed for the story"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+submit 200 {"request_id":"9064717e-80d6-90d8-8f25-cb28dc05ceda"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C01_480p_grok-imagine-video-1.5-lite_parody.mp4 0.16 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1600000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"4c609cfd-a5d6-9ed7-b49d-96917e3d68af"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C03_480p_grok-imagine-video-1.5_parody.mp4 0.7 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 7000000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"baa469ca-ec48-9aac-9b7b-2c5b8ea65ce6"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C04_480p_grok-imagine-video-1.5_parody.mp4 0.67 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 6700000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"5edabbc4-1461-9b33-b167-e75a44958edf"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C05_480p_grok-imagine-video-1.5_parody.mp4 0.51 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 5100000000}, "progress": 100, "video_meta": {"duration": 6, "respect_moderation": true}}
+submit 200 {"request_id":"4ae33aa5-806d-9091-ac31-c87783ed1902"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C06_480p_grok-imagine-video-1.5_parody.mp4 0.61 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 6100000000}, "progress": 100, "video_meta": {"duration": 7, "respect_moderation": true}}
+submit 200 {"request_id":"ea7fab32-b341-9d32-aca5-3c70e059d837"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C07_480p_grok-imagine-video-1.5-lite_parody.mp4 0.16 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1600000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"f9a5a0f4-8fa3-99a7-a345-79693f16354d"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C08_480p_grok-imagine-video-1.5_parody.mp4 0.59 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 5900000000}, "progress": 100, "video_meta": {"duration": 7, "respect_moderation": true}}
+submit 200 {"request_id":"0d489378-5e36-976e-b221-b7b0eaebf9bb"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C09_480p_grok-imagine-video-1.5_parody.mp4 0.53 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 5300000000}, "progress": 100, "video_meta": {"duration": 6, "respect_moderation": true}}
+submit 200 {"request_id":"78d06771-4940-9ac3-b86c-8c48e572e9b2"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C10_480p_grok-imagine-video-1.5-lite_parody.mp4 0.1 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1000000000}, "progress": 100, "video_meta": {"duration": 5, "respect_moderation": true}}
+submit 200 {"request_id":"a9eefeb3-b557-9b0c-a64a-0b44d5bc0085"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C11_480p_grok-imagine-video-1.5-lite_parody.mp4 0.1 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1000000000}, "progress": 100, "video_meta": {"duration": 5, "respect_moderation": true}}
+submit 200 {"request_id":"a4b9926f-fd74-94c2-9bc3-d46b00bd1ece"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C12_480p_grok-imagine-video-1.5-lite_parody.mp4 0.1 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1000000000}, "progress": 100, "video_meta": {"duration": 5, "respect_moderation": true}}
+submit 200 {"request_id":"4dbe1a07-913a-9251-859c-d26ef09fe126"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C13_480p_grok-imagine-video-1.5_parody.mp4 0.67 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 6700000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"617dff47-44a8-9570-8a9f-020290d727fa"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C14_480p_grok-imagine-video-1.5_parody.mp4 0.62 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 6200000000}, "progress": 100, "video_meta": {"duration": 7, "respect_moderation": true}}
+submit 200 {"request_id":"aeed96f2-4d5e-9833-8b83-c696fdbc19f4"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C15_480p_grok-imagine-video-1.5_parody.mp4 0.73 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 7300000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"1832561a-4e93-92b1-8ae4-8af05bebf35b"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C16_480p_grok-imagine-video-1.5_parody.mp4 0.69 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 6900000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"5296742f-5342-9748-9fc4-2b79bf4fd8df"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C17_480p_grok-imagine-video-1.5-lite_parody.mp4 0.16 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1600000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"f1ef8c5b-7493-9720-a230-cc5dfdf07215"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C18_480p_grok-imagine-video-1.5_parody.mp4 0.66 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 6600000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"cbd6de15-26d7-9e76-a452-5715e3258943"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C19_480p_grok-imagine-video-1.5_parody.mp4 0.7 {"status": "done", "model": "grok-imagine-video-1.5", "usage": {"cost_in_usd_ticks": 7000000000}, "progress": 100, "video_meta": {"duration": 8, "respect_moderation": true}}
+submit 200 {"request_id":"8526bf19-783d-9498-b71a-9011369da93b"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C20_480p_grok-imagine-video-1.5-lite_parody.mp4 0.1 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1000000000}, "progress": 100, "video_meta": {"duration": 5, "respect_moderation": true}}
+submit 200 {"request_id":"09dca31b-2f06-9d21-954f-e78309ab3c33"}
+done /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027/renders-480p-draft-20261027_1424/FS-P01-C21_480p_grok-imagine-video-1.5-lite_parody.mp4 0.1 {"status": "done", "model": "grok-imagine-video-1.5-lite", "usage": {"cost_in_usd_ticks": 1000000000}, "progress": 100, "video_meta": {"duration": 5, "respect_moderation": true}}
+ALLDONE

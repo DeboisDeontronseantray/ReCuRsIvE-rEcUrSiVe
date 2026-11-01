@@ -1,0 +1,23 @@
+{
+ "id": "P12-2",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ],
+  "R-SPEAKER named + bracketed (t134u,t139u)": [
+   "FAIL",
+   1
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: Mid-1990s American local TV camcorder look.] [DALE: invented reporter, wide floral tie, helmet hair, parody microphone.] [Van: white news van.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s a derby car bumps the van, it rocks. At 4 s DALE climbs onto the van roof with his microphone. At 7 s he keeps reporting, \"We're live, and we're fine!\". Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "P12-2.mp4",
+  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P12-1/P12-1_last.png"
+ },
+ "notes": [
+  "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+  "safety bracket regenerated from pool"
+ ]
+}

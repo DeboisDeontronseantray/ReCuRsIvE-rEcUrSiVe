@@ -1,0 +1,60 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "NP10",
+ "parent_clip": "NP09_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "episode": null,
+ "clip_type": "beat",
+ "arc_stage": "refusal \u2192 flight",
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  },
+  {
+   "layer": "setting",
+   "kind": "clip"
+  },
+  {
+   "layer": "FT1 arc",
+   "kind": "fixed-thread"
+  }
+ ],
+ "prompt_sha256": "67cbeaa313ff392c4b6e455758847b836308932a5eddc88612e1ef89258f5837",
+ "prompt_words": 243,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

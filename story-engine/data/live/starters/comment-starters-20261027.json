@@ -1,0 +1,1285 @@
+{
+ "title": "Ch 4 lineage 4.3 commenter-style starters",
+ "written": "2026-10-27 CT Story Bot",
+ "shots": [
+  {
+   "id": "LIVE-STARTER-01",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Osmund recounts every ration tin in the supply bay while Tim floats beside him keeping score with chirps\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Osmund recounts every ration tin in the supply bay while Tim floats beside him keeping score with chirps\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "supply_bay",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "cast",
+      "key": "tim",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png"
+     },
+     {
+      "kind": "crew",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     }
+    ],
+    "location": "supply_bay",
+    "cast_keys": [
+     "osmund",
+     "tim"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Osmund recounts every ration tin in the supply bay while Tim floats beside him keeping score with chirps",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 18
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-02",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Mira re-stickers the whole depot shelf by fog color while Bill watches with his arms crossed\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Mira re-stickers the whole depot shelf by fog color while Bill watches with his arms crossed\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "supply_bay",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "bill_dbears",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+     },
+     {
+      "kind": "cast",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     },
+     {
+      "kind": "crew",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     }
+    ],
+    "location": "supply_bay",
+    "cast_keys": [
+     "bill_dbears",
+     "mira_smirin"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Mira re-stickers the whole depot shelf by fog color while Bill watches with his arms crossed",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 17
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-03",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Bill tries to fold the Graphite Cloak into a perfect square the way Osmund does and gets close\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Bill tries to fold the Graphite Cloak into a perfect square the way Osmund does and gets close\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "mess_hall",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "bill_dbears",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+     },
+     {
+      "kind": "cast",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "crew",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     }
+    ],
+    "location": "mess_hall",
+    "cast_keys": [
+     "bill_dbears",
+     "osmund"
+    ],
+    "products": [
+     "graphite-cloak"
+    ],
+    "products_without_still": [
+     "graphite-cloak"
+    ],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Bill tries to fold the Graphite Cloak into a perfect square the way Osmund does and gets close",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 18
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-04",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Tim scouts the fog outside the porthole and comes back with a single brass tag clipped to his ring\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Tim scouts the fog outside the porthole and comes back with a single brass tag clipped to his ring\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "mess_hall",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "tim",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png"
+     },
+     {
+      "kind": "crew",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "crew",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     }
+    ],
+    "location": "mess_hall",
+    "cast_keys": [
+     "tim"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Tim scouts the fog outside the porthole and comes back with a single brass tag clipped to his ring",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 19
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-05",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Osmund and Mira test the Field Glass from the hatch and argue about which shade of grey the fog is today\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [
+    {
+     "speaker": "Osmund",
+     "line": "Osmund, flat, to Mira across the table, never to camera: \"Reminder. This channel runs on viewer prompts.\"",
+     "injected": "disc-osmund-01"
+    }
+   ],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Osmund and Mira test the Field Glass from the hatch and argue about which shade of grey the fog is today\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Flair (added, not from viewer): The Lightning Lamp on the shelf flickers twice, a soft blue-white pulse across the walls. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S3E_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S3E_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "hatch",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S3E_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     },
+     {
+      "kind": "cast",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "crew",
+      "key": "bill_dbears",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+     }
+    ],
+    "location": "hatch",
+    "cast_keys": [
+     "mira_smirin",
+     "osmund"
+    ],
+    "products": [
+     "field-binoculars"
+    ],
+    "products_without_still": [
+     "field-binoculars"
+    ],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Osmund and Mira test the Field Glass from the hatch and argue about which shade of grey the fog is today",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": true,
+      "weak_reasons": [
+       "no verb"
+      ],
+      "people_on_screen": true,
+      "words": 21
+     },
+     "injections": [
+      {
+       "id": "disc-osmund-01",
+       "kind": "spoken_line",
+       "speaker": "Osmund",
+       "text": "Osmund, flat, to Mira across the table, never to camera: \"Reminder. This channel runs on viewer prompts.\"",
+       "when": "weak_prompt"
+      },
+      {
+       "id": "vis-lamp-flicker",
+       "kind": "visual_flair",
+       "speaker": null,
+       "text": "The Lightning Lamp on the shelf flickers twice, a soft blue-white pulse across the walls.",
+       "when": "weak_prompt"
+      }
+     ]
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-06",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Bill does his morning stretch routine in the command hut while Mira reads the inventory list beside him\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Bill does his morning stretch routine in the command hut while Mira reads the inventory list beside him\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S5B_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S5B_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "command_hut",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S5B_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "bill_dbears",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+     },
+     {
+      "kind": "cast",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     },
+     {
+      "kind": "crew",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     }
+    ],
+    "location": "command_hut",
+    "cast_keys": [
+     "bill_dbears",
+     "mira_smirin"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Bill does his morning stretch routine in the command hut while Mira reads the inventory list beside him",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 18
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-07",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"The crew sets up the Lightning Lamp in the mess hall during a storm and eats dinner by its flicker\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"The crew sets up the Lightning Lamp in the mess hall during a storm and eats dinner by its flicker\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S7D_1.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S7D_1.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "mess_hall",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg"
+     },
+     {
+      "kind": "product",
+      "key": "lightning-lamp",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S7D_1.jpg"
+     },
+     {
+      "kind": "crew",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "crew",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     }
+    ],
+    "location": "mess_hall",
+    "cast_keys": [],
+    "products": [
+     "lightning-lamp"
+    ],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "The crew sets up the Lightning Lamp in the mess hall during a storm and eats dinner by its flicker",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 20
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-08",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Osmund loses his helmet again and Tim finds it by warmth in the bunk room\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Osmund loses his helmet again and Tim finds it by warmth in the bunk room\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S4C_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S4C_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "bunk_room",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S4C_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "cast",
+      "key": "tim",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png"
+     },
+     {
+      "kind": "crew",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     }
+    ],
+    "location": "bunk_room",
+    "cast_keys": [
+     "osmund",
+     "tim"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Osmund loses his helmet again and Tim finds it by warmth in the bunk room",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 15
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-09",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Mira teaches Tim to sort colored stickers onto her clipboard one dot at a time\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Mira teaches Tim to sort colored stickers onto her clipboard one dot at a time\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "mess_hall",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S1A_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     },
+     {
+      "kind": "cast",
+      "key": "tim",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png"
+     },
+     {
+      "kind": "crew",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     }
+    ],
+    "location": "mess_hall",
+    "cast_keys": [
+     "mira_smirin",
+     "tim"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Mira teaches Tim to sort colored stickers onto her clipboard one dot at a time",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 15
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  },
+  {
+   "id": "LIVE-STARTER-10",
+   "scene": "LIVE viewer request",
+   "duration_s": 6,
+   "model": "grok-imagine-video-1.5",
+   "camera": "medium locked",
+   "cast": [
+    "Osmund",
+    "Lt. Mira S'mirin'",
+    "Tim",
+    "Commander Bill D'bears"
+   ],
+   "location": "Outpost Quiet mess hall, fog never lifts outside the porthole",
+   "lighting_fog": "Warm overhead practicals, cyan edge light, grey fog glow.",
+   "props_products": [],
+   "continues_from": "last frame of /workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4 (default: run2 S7D)",
+   "action": "Viewer request, kept as written: \"Bill inspects the supply bay with a white glove and finds exactly one speck of dust\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog.",
+   "dialogue": [],
+   "visual_prompt": "Photoreal grounded near-future outpost, Ch 4 Military Boutique, late-90s broadcast polish, 4:3-safe. Osmund in olive coveralls, buzz cut; Mira with long dark braid and clipboard; Bill muscular with blank name tag; Tim floating brain under glass dome with cyan optic. Viewer request, kept as written: \"Bill inspects the supply bay with a white glove and finds exactly one speck of dust\". The crew of Outpost Quiet carries it out deadpan, procedural, inside the fog. Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "camera_rule": "Camera rule (2026-10-27): characters never look at or address the camera; candid observational fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
+   "negative_prompt": "no names, no signatures, no watermarks, no on-screen text, no logos, no brand names, no real people, no slapstick, no looking into the camera, no addressing the viewer",
+   "reference_images": [
+    "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+   ],
+   "reference_picks": {
+    "paths": [
+     "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+     "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+    ],
+    "picks": [
+     {
+      "kind": "location",
+      "key": "supply_bay",
+      "path": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/frames/S2G_0.jpg"
+     },
+     {
+      "kind": "cast",
+      "key": "bill_dbears",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png"
+     },
+     {
+      "kind": "crew",
+      "key": "osmund",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png"
+     },
+     {
+      "kind": "crew",
+      "key": "mira_smirin",
+      "path": "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png"
+     }
+    ],
+    "location": "supply_bay",
+    "cast_keys": [
+     "bill_dbears"
+    ],
+    "products": [],
+    "products_without_still": [],
+    "cap": 4,
+    "rejected_tainted": []
+   },
+   "end_frame": {
+    "source_mp4": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+    "frame": "last_frame",
+    "from": "default: run2 S7D",
+    "extract": "CNB at render time"
+   },
+   "end_frame_source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7D_480p_grok-imagine-video-1.5_parody.mp4",
+   "est_usd": 0.52,
+   "status": "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live",
+   "live_wrapper": {
+    "header": {
+     "network": "thunder trundle",
+     "channel": "Ch 4 Military Boutique",
+     "show": "Forward Supply",
+     "bible": "continuity/ch04-military-boutique/bible-v2.yaml",
+     "rules": [
+      "home-only until trundle's yes",
+      "TV-safe",
+      "no real brands or people",
+      "no dial/phone CTA",
+      "no slapstick",
+      "fog never lifts",
+      "Tim chirps only",
+      "cast: Osmund, Tim, Lt. Mira S'mirin', Commander Bill D'bears"
+     ]
+    },
+    "commenter": {
+     "handle": "@starter",
+     "text_verbatim": "Bill inspects the supply bay with a white glove and finds exactly one speck of dust",
+     "received_at": "2026-10-27T17:35:00-05:00"
+    },
+    "levers": {
+     "realtime_data_slots": {
+      "local_time_ct": null,
+      "weather_line": null,
+      "vote_leader": null
+     },
+     "out_of_character": false,
+     "ooc_performer": null,
+     "self_reflection_speaker": null,
+     "self_reflection_line": null,
+     "prompt_features": {
+      "weak": false,
+      "weak_reasons": [],
+      "people_on_screen": true,
+      "words": 16
+     },
+     "injections": []
+    }
+   },
+   "lineage": {
+    "lineage": "4.3",
+    "origin": "first_render",
+    "parent": null
+   },
+   "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "post_audio": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots.",
+   "audio_leveled": false
+  }
+ ],
+ "mix_note": "Mix: dialogue forward at a steady, consistent level; music bed low and constant under it (light, mid-range, no low hum or sub-bass); no loudness swings between shots."
+}

@@ -1,0 +1,35 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.1-20261030",
+ "builder": {
+  "name": "build_prompt_v41",
+  "version": "4.1.0",
+  "sha": "c5efb5f0574c"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P06-3",
+ "parent_clip": "P06-2",
+ "channel_show": "Ch6 Shopping",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "fdbbcdbdaf7d0e48dd1782c5ba9605e546664218d5215a4ad74f98c6a9e02fe2",
+ "prompt_words": 152,
+ "air_status": "design-not-rendered"
+}

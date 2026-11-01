@@ -1,0 +1,62 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "NP07",
+ "parent_clip": "NP06_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "episode": null,
+ "clip_type": "beat",
+ "arc_stage": "call (shadow appears)",
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [
+  "H12 remote on key ring"
+ ],
+ "hints_paid": [],
+ "saga": "DEAD AIR (pending pick #6)",
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  },
+  {
+   "layer": "setting",
+   "kind": "clip"
+  },
+  {
+   "layer": "FT1 arc",
+   "kind": "fixed-thread"
+  }
+ ],
+ "prompt_sha256": "f923edec19d8bd4392442571c230bf374b3a3217dfa2ef260e59f38c6f48e002",
+ "prompt_words": 234,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

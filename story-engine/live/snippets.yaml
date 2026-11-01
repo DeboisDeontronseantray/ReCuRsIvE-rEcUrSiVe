@@ -1,0 +1,29 @@
+# Flair-injection snippet library for Forward Supply (Ch 4 Military Boutique, thunder trundle).
+# Snippets are ADDED around a commenter's prompt by intake.inject(); they never edit commenter text.
+# NO money/donation/tip/price asks (trundle 4:35 PM CT) - checker.money_hits rejects them.
+# OBSERVATIONAL RULE (trundle 4:51 PM CT): spoken lines are said to each other, never to camera.
+# kind: spoken_line | visual_flair | camera | sound_cue
+# when: weak_prompt | always | ooc | random     requires.people_on_screen: true => only if cast is on screen
+# speaker: Osmund | Lt. Mira S'mirin' | Commander Bill D'bears   (NEVER Tim - Tim chirps only)
+config:
+  enabled: true
+  disclosure_every_n: 3        # disclosure spoken lines eligible on every Nth injected clip (1 = every time, 0 = never)
+  random_chance: 0.25          # probability a 'random' snippet is eligible
+  max_spoken: 1
+  max_visual: 1                # visual_flair / camera / sound_cue combined
+snippets:
+  - {id: disc-osmund-01, kind: spoken_line, speaker: Osmund, disclosure: true, text: "Osmund, flat, to Mira across the table, never to camera: \"Reminder. This channel runs on viewer prompts.\"", requires: {people_on_screen: true}, when: weak_prompt, weight: 3, max_per_hour: 4, tv_safe: true}
+  - {id: disc-mira-01, kind: spoken_line, speaker: "Lt. Mira S'mirin'", disclosure: true, text: "Mira, to Osmund, without looking up from her clipboard: \"Logged. Somebody in the comments wanted this.\"", requires: {people_on_screen: true}, when: weak_prompt, weight: 3, max_per_hour: 4, tv_safe: true}
+  - {id: disc-bill-01, kind: spoken_line, speaker: "Commander Bill D'bears", disclosure: true, text: "Bill, at attention, to Mira and Osmund: \"For the record, the comments steer this place.\"", requires: {people_on_screen: true}, when: weak_prompt, weight: 2, max_per_hour: 3, tv_safe: true}
+  - {id: spk-osmund-fog, kind: spoken_line, speaker: Osmund, text: "Osmund, glancing at the porthole: \"Fog's still there. Noted.\"", requires: {people_on_screen: true}, when: weak_prompt, weight: 2, max_per_hour: 6, tv_safe: true}
+  - {id: spk-mira-form, kind: spoken_line, speaker: "Lt. Mira S'mirin'", text: "Mira: \"There's a form for this. There's a form for everything.\"", requires: {people_on_screen: true}, when: weak_prompt, weight: 2, max_per_hour: 6, tv_safe: true}
+  - {id: spk-bill-ooc, kind: spoken_line, speaker: "Commander Bill D'bears", text: "Bill, deadpan: \"This is not in the manual. Proceeding anyway.\"", requires: {people_on_screen: true}, when: ooc, weight: 2, max_per_hour: 6, tv_safe: true}
+  - {id: vis-fog-swirl, kind: visual_flair, text: "Outside the porthole the grey fog slowly swirls into a lazy spiral, then settles; it never lifts.", requires: {people_on_screen: false}, when: weak_prompt, weight: 3, max_per_hour: 8, tv_safe: true}
+  - {id: vis-lamp-flicker, kind: visual_flair, text: "The Lightning Lamp on the shelf flickers twice, a soft blue-white pulse across the walls.", requires: {people_on_screen: false}, when: weak_prompt, weight: 3, max_per_hour: 6, tv_safe: true}
+  - {id: vis-diffuser-shift, kind: visual_flair, text: "The Sky Diffuser's mist drifts from pale cyan to warm amber and back, clearly a tabletop mist device, not a window.", requires: {people_on_screen: false}, when: weak_prompt, weight: 2, max_per_hour: 6, tv_safe: true}
+  - {id: vis-tim-optic, kind: visual_flair, text: "Tim's cyan optic brightens in the background as he lets out a short curious chirp.", requires: {people_on_screen: true}, when: random, weight: 1, max_per_hour: 4, tv_safe: true}
+  - {id: cam-slow-push, kind: camera, text: "Camera: slow, steady push-in over the six seconds, ending on the nearest face in profile or three-quarter; eyes stay off-lens.", requires: {people_on_screen: true}, when: weak_prompt, weight: 2, max_per_hour: 8, tv_safe: true}
+  - {id: cam-porthole-rack, kind: camera, text: "Camera: rack focus from the fogged porthole to the room.", requires: {people_on_screen: false}, when: weak_prompt, weight: 2, max_per_hour: 8, tv_safe: true}
+  - {id: cam-dutch-ooc, kind: camera, text: "Camera: a subtle, almost apologetic dutch tilt for the out-of-character moment.", requires: {people_on_screen: true}, when: ooc, weight: 2, max_per_hour: 6, tv_safe: true}
+  - {id: snd-hatch-clank, kind: sound_cue, text: "Sound: a distant hatch clanks shut somewhere in the outpost; low generator hum underneath.", requires: {people_on_screen: false}, when: weak_prompt, weight: 2, max_per_hour: 8, tv_safe: true}
+  - {id: snd-foghorn, kind: sound_cue, text: "Sound: one far-off foghorn note, muffled by the fog.", requires: {people_on_screen: false}, when: always, weight: 1, max_per_hour: 2, tv_safe: true}

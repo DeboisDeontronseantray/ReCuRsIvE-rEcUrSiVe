@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: Late-1970s cold-war border thriller, live action, 35mm, muted steel-blue winter colour.] [Setting: an ice-choked river landing at dusk, timber cable ferry, ferry hut with stove smoke.] [Cast: VERA KOST (patched army greatcoat, rifle on her back); PAVEL KOST (torn deserter tunic, bandaged hand).] Single shot: wide static camera, 32mm, low on the landing, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, PAVEL stumbles out of the birches onto the planks. At 4 s, VERA swings her rifle toward him, then lowers it. At 7 s, VERA KOST speaks [hard, low: \"Get on the boat. Don't talk.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS15-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "THE FERRY AT KOSTIN CROSSING"
+}

@@ -1,0 +1,45 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P07-2",
+ "parent_clip": "P07-1",
+ "channel_show": "Ch7 Monster Hour",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "2144a5292faf58b32f7611f2ff6cc7a6aab873df7afb2d648826e4e898d01137",
+ "prompt_words": 153,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "RITA": "RITA_P07-1.png",
+  "BEAR": "BEAR_P07-1.png"
+ },
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

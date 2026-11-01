@@ -1,0 +1,12 @@
+{"old":"fixed_violations","new":"fixed_hits","since":"tt-clipmeta/v2","kind":"field"}
+{"old":"end_still_t","new":"pinned_hold_s","since":"tt-clipmeta/v2","kind":"field","note":"only when pinned"}
+{"old":"schema","new":"schema_version","since":"tt-clipmeta/v2","kind":"field"}
+{"old":"static_flip.py","new":"tools/static_flip_v3.py","since":"2026-10-30","kind":"tool","note":"v1 gray -> v2 real CRT -> v3 adds walk/cut-ins/dot"}
+{"old":"nest_zoom.py","new":"round9-design tools/nest_zoom_v2.py","since":"2026-10-30","kind":"tool"}
+{"old":"Jade Hotel","new":"Ch11 Fist Theater","since":"rule","kind":"display"}
+{"old":"BLACK ICE","new":"Ch4 Military Boutique / BLACK ICE","since":"rule","kind":"display"}
+{"old":"Ch4 flat 2D ink look","new":"Ch4 photoreal 1971","since":"2026-10-30 7:13 PM CT","kind":"look","swap_timing":"episode_boundary","note":"Trundle pick; ink clips = pre-canon"}
+{"old":"settles into a held still","new":"motion carries on through the last half second","since":"2026-10-30","kind":"wording"}
+{"old":"Piper dub","new":"native in-prompt dialogue (Kokoro fallback)","since":"2026-10-30","kind":"tool"}
+{"old":"burned seam labels","new":"sidecar + mp4 tags","since":"2026-10-30","kind":"tool"}
+{"old":"front-view look-sheet ref","new":"side / three-quarter crop ref","since":"2026-10-30 SU1 pilot","kind":"ref"}

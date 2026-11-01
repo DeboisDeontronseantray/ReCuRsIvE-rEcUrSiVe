@@ -1,0 +1,11 @@
+{
+ "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the Jade Hotel back stairwell, green tile walls, a brass fire-hose cabinet with a glass door, a flight of stairs down.] [MARLO QUILL (<IMAGE_2>), a teal tape measure around his neck; a BELLHOP THUG (green bellhop uniform).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: handheld, the camera close behind the thug, strikes travel toward the lens, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the THUG throws a straight right punch at MARLO's head; MARLO tilts aside like balancing a tray and the punch lands in the fire-hose cabinet door, cracking its glass panel. At 4 s, MARLO's palm shove lands on the thug's shoulder; the thug spins half around and grabs the rail. At 7 s, MARLO hooks the tape measure around the thug's ankle and tugs; the thug sits down hard on the top step and slides down three stairs on his backside. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 9,
+ "resolution": "480p",
+ "filename": "NP16.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP15_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+ ]
+}

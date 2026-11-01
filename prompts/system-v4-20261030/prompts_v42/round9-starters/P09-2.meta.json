@@ -1,0 +1,35 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P09-2",
+ "parent_clip": "P09-1",
+ "channel_show": "Ch9 Iron League",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "4b516974fdd8675dd57713b212a134ff357e7bdb328bc559c79935d42a668c67",
+ "prompt_words": 118,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "VIK": "VIK_P09-1.png",
+  "SABLE": "SABLE_P09-1.png"
+ }
+}

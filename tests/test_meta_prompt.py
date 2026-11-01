@@ -5,13 +5,13 @@ from pathlib import Path
 from charmeta.meta_prompt import build_meta_prompt_text, rebuild_meta_prompt_for_character
 from charmeta.prompt_injection import max_character_meta_chars
 from charmeta.store import build_companion_from_bible
-from tests.test_support import BIBLE_FIXTURE, CAST_IDS
+from tests.test_support import BIBLE_FIXTURE, CAST_IDS, companion_cast_entry
 
 
 class TestMetaPrompt(unittest.TestCase):
     def test_ignores_proposed_entries(self) -> None:
         doc = build_companion_from_bible(BIBLE_FIXTURE, ["mira_smirin"])
-        entry = doc["cast"]["mira_smirin"]
+        entry = companion_cast_entry(doc, "mira_smirin")
         entry["traits"]["tangible"].append(
             {
                 "id": "trait-proposed",
@@ -36,7 +36,7 @@ class TestMetaPrompt(unittest.TestCase):
 
     def test_rebuild_bumps_version_on_apply(self) -> None:
         doc = build_companion_from_bible(BIBLE_FIXTURE, ["tim"])
-        entry = doc["cast"]["tim"]
+        entry = companion_cast_entry(doc, "tim")
         entry["abilities"].append(
             {
                 "id": "ability-locked-1",
@@ -55,7 +55,7 @@ class TestMetaPrompt(unittest.TestCase):
 
     def test_rebuilt_text_respects_injection_cap(self) -> None:
         doc = build_companion_from_bible(BIBLE_FIXTURE, ["tim"])
-        entry = doc["cast"]["tim"]
+        entry = companion_cast_entry(doc, "tim")
         for i in range(30):
             entry["traits"]["tangible"].append(
                 {

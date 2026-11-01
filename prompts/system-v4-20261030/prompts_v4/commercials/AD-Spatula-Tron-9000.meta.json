@@ -1,0 +1,31 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "AD-Spatula-Tron-9000",
+ "parent_clip": null,
+ "channel_show": "Ch6 Shopping",
+ "episode": null,
+ "clip_type": "ad",
+ "arc_stage": null,
+ "beats": [],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [],
+ "prompt_sha256": "dce222a357ed2085db409a2ebb03d9e5498533d6750cf77e949f4067f9e93a5e",
+ "prompt_words": 111,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

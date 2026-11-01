@@ -1,0 +1,12 @@
+{
+ "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: over MARLO's shoulder toward THE CONCIERGE, 50mm, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the lobby clock's minute hand jumps forward with a loud tick. At 3 s, the small TV behind the front desk ripples with grey static and a soft hiss. At 6 s, THE CONCIERGE extends one gloved hand, palm up, and speaks [smooth, too warm: \"That belongs to the house.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 9,
+ "resolution": "480p",
+ "filename": "NP08.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP07_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/CONCIERGE_threequarter_face.png"
+ ]
+}

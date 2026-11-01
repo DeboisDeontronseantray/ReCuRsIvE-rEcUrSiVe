@@ -1,0 +1,5 @@
+line1: "{channel}.{lineage} g{generation} #{clip}"
+line2_child: "from #{parent}"
+line2_original: "original"
+example: ["4.12 g1 #85", "original"]
+clip_numbers: global, increasing, never reused

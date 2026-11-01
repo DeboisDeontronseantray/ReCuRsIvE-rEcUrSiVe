@@ -1,0 +1,35 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.1-20261030",
+ "builder": {
+  "name": "build_prompt_v41",
+  "version": "4.1.0",
+  "sha": "c5efb5f0574c"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "AD-Steve-Cold-Blooded-promo",
+ "parent_clip": null,
+ "channel_show": "Ch8 Sitcom",
+ "clip_type": "ad",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "a8d2d7bc20323fdb40b375f252c944a0ca4f152adeef55e4091dfa428e67abd8",
+ "prompt_words": 130,
+ "air_status": "design-not-rendered"
+}

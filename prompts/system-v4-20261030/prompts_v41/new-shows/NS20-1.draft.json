@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: 1960s Japanese giant-monster film, live action, miniatures, Eastmancolor.] [Setting: a miniature 1960s harbor city at night, searchlights.] [Cast: GORUMBA (rubber-suit sea monster, yellow dorsal fins); CAPTAIN MIYAKE (navy uniform, binoculars).] Single shot: low wide shot, 25mm, static camera, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, GORUMBA rises out of the harbor, water sheeting off its fins. At 4 s, GORUMBA swats a searchlight tower and it topples into the bay. At 7 s, CAPTAIN MIYAKE speaks [shouting over sirens: \"It came back for the lighthouse.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS20-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "GORUMBA VS. THE CITY"
+}

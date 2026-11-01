@@ -1,0 +1,12 @@
+home_only: true             # nothing airs, posts or loads into ErsatzTV without Trundle's own yes
+air_approval: trundle_own_words_only   # an agent's relay is not approval; check the transcript
+tv_safe: true
+no_kids: true
+no_real_brands: true
+never_on_screen_or_spoken_b64: ["ZHJldw=="]   # his real first name, base64; decoded by live/legacy_names.py, enforced by live/checker.py CREATOR
+address_user_as: ["trundle", "thundertrundle"]
+no_money_or_tip_lines: true
+never_delete: true
+paid_renders_need_yes: true
+spend: {xai: {warn: 120, cap: 150}, fal: {warn: 40, cap: 50}, period: monthly}
+retries_per_clip: 2

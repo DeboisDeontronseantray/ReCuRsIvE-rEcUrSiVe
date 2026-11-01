@@ -1,0 +1,43 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P07-3",
+ "parent_clip": "P07-2",
+ "channel_show": "Ch7 Monster Hour",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "5c80131de7632d3ccff6581411470e37e434f77974e9aee533ab378f3629aad5",
+ "prompt_words": 143,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "RITA": "RITA_P07-2.png",
+  "BEAR": "BEAR_P07-2.png"
+ }
+}

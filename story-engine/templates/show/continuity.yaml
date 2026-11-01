@@ -1,0 +1,4 @@
+# Re-rendered segments are checked against this before they are cut back in.
+show: ""
+shots:
+  # <shot_id>: {wounds: [], props_held: {}, time_of_day: "", weather: "", wardrobe: {}}

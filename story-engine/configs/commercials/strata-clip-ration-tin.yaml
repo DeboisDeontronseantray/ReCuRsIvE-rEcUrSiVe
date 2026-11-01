@@ -1,0 +1,42 @@
+# StrataClip Ration Tin — Forward Supply house-fiction SKU (not an outside brand)
+# Mentioned in configs/slots/smoke-outline.yaml as midroll product.
+# Original Story Bot house brand for Channel 4. Written 2026-10-27 ~08:40 CT.
+id: strata-clip-ration-tin
+product: StrataClip Ration Tin
+owner: Thunder Trundle Workshop  # house fiction under thunder trundle / Forward Supply
+brand_house: Forward Supply
+what_it_does: Absurd sealed tin that "clips to any brief" and contains nothing useful on purpose.
+price_line: "Clearance color of the day."
+spokesperson:
+  name: "Lt. Mira S'mirin'"
+  role: co-host
+length_s: 15
+pitch_beats:
+  hook: "Your brief is hungry."
+  problem: "Loose stickers. Loose plans."
+  fix: "StrataClip Ration Tin clamps the sticker shut."
+  call_to_action: "Ask the Catalog Floor. Let's ship it forward."
+tone: cool catalog absurdity
+vo_lines:
+  - "Your brief is hungry."
+  - "Loose stickers. Loose plans."
+  - "StrataClip Ration Tin. Clamps the sticker shut."
+  - "Ask the Catalog Floor. Let's ship it forward."
+shot_list:
+  - {shot: 1, dur_s: 4, visual: "Matte tin on velvet pedestal; cyan edge; no logos.", super: "STRATACLIP"}
+  - {shot: 2, dur_s: 5, visual: "Mira S'mirin' places a blank color sticker on the lid.", super: "CLEARANCE"}
+  - {shot: 3, dur_s: 6, visual: "Slow orbit; tin clip clicks; museum quiet.", super: "LET'S SHIP IT FORWARD"}
+on_screen_text: ["STRATACLIP", "CLEARANCE", "LET'S SHIP IT FORWARD"]
+tagline: "Let's ship it forward."
+allowed_channels: ["4"]
+allowed_slots: ["ch04-prime-1900", "ch04-midroll", "smoke-outline"]
+disclaimers:
+  - home-only
+  - parody / house fiction
+  - no phone numbers or dial CTAs
+repeat:
+  max_per_hour: 3
+  min_gap_minutes: 12
+# audio_rule (trundle 2026-10-27 17:33 CT), added 17:35 by Story Bot
+audio_prompt_line: "Audio: quiet, unobtrusive ambient bed (soft room tone, faint servo ticks, light showroom air); no droning low hum, no sub-bass rumble, no engine drone; dialogue and VO sit clearly above the bed."
+audio_negative_tags: [no low hum, no droning bass, no sub-bass rumble, no engine drone]

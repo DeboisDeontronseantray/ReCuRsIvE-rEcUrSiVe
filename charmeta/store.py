@@ -9,6 +9,7 @@ from typing import Any
 import yaml
 
 from charmeta.schema import empty_cast_additions, load_schema
+from charmeta.channels import local_cast_id, namespaced_cast_id, parse_channel_from_cast_id
 
 
 def _read_yaml(path: Path) -> dict[str, Any]:
@@ -40,7 +41,8 @@ def build_companion_from_bible(
     """Build an in-memory companion document; does not write the bible."""
     bible = _read_yaml(Path(bible_path))
     cast = load_bible_cast(bible_path)
-    missing = missing_cast_ids(cast, cast_ids)
+    bible_locals = [local_cast_id(c) for c in cast_ids]
+    missing = missing_cast_ids(cast, bible_locals)
     if missing:
         raise ValueError(f"missing cast ids in bible: {', '.join(missing)}")
 
@@ -53,11 +55,20 @@ def build_companion_from_bible(
             channel_value = bible_meta["channel"]
 
     companion_cast: dict[str, Any] = {}
+    ch_num = channel_value
+    if ch_num is None and cast_ids:
+        ch_num = parse_channel_from_cast_id(cast_ids[0])
     for cast_id in cast_ids:
-        entry = copy.deepcopy(cast[cast_id])
+        local = local_cast_id(cast_id)
+        storage_key = (
+            namespaced_cast_id(ch_num, local)
+            if ch_num is not None and parse_channel_from_cast_id(cast_id) is None
+            else cast_id
+        )
+        entry = copy.deepcopy(cast[local])
         additions = empty_cast_additions()
         entry.update(additions)
-        companion_cast[cast_id] = entry
+        companion_cast[storage_key] = entry
 
     return {
         "meta": {

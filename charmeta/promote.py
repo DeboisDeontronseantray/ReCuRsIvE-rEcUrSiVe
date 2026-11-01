@@ -17,6 +17,7 @@ from charmeta.normalize import normalize_trait_text
 from charmeta.observations import load_observations
 from charmeta.paths import refuse_charmeta_path
 from charmeta.config import proposal_threshold
+from charmeta.channels import local_cast_id
 from charmeta.store import load_companion, save_companion
 from lineage.aired import load_lineage_jsonl
 from lineage.eligibility import build_trait_promotion_aired_index
@@ -125,6 +126,17 @@ def _append_proposed_item(
     return item_id
 
 
+def _resolve_cast_entry(
+    cast: dict[str, Any], character: str
+) -> tuple[str, dict[str, Any] | None]:
+    if character in cast and isinstance(cast[character], dict):
+        return character, cast[character]
+    for key, entry in cast.items():
+        if isinstance(key, str) and local_cast_id(key) == character and isinstance(entry, dict):
+            return key, entry
+    return character, None
+
+
 def promote(
     *,
     companion_path: Path | str,
@@ -155,10 +167,10 @@ def promote(
                 f"{character}/{field_name}/{norm_text!r}: only {len(clip_ids)} aired clip(s)"
             )
             continue
-        if character not in cast:
+        storage_key, entry = _resolve_cast_entry(cast, character)
+        if entry is None:
             report.skipped.append(f"unknown character {character!r}")
             continue
-        entry = cast[character]
         sample_text = next(
             (
                 row["extracted_text"]
@@ -188,7 +200,7 @@ def promote(
             continue
 
         proposal = {
-            "character": character,
+            "character": storage_key,
             "field": field_name,
             "text": sample_text,
             "aired_clip_ids": sorted(clip_ids),

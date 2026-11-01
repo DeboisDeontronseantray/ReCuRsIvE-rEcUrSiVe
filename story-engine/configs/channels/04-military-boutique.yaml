@@ -20,7 +20,7 @@ tv_safe_rules:
   - No slapstick anywhere on the channel.
   - Intended on-screen text only via tagged registry; no unintended/garbled text.
   - Keep subjects center-weighted for 4:3-safe framing in later video.
-  - thundertrundle workshop house products only in house ads; no outside brands.
+  - Thunder Trundle Workshop house products only in house ads; no outside brands.
 banned:
   - real defense contractors and weapon brands
   - real game IPs and publisher names on screen
@@ -99,7 +99,7 @@ inspiration_notes: >
 
 # Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
 hard_rules_20261027_1744:
-  no_owner_real_first_name: "Never write the owner's real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_trundle_name: "Never write his real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
   no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
   no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
   negative_tags: [no on-screen names, no personal names, no children, no kids]

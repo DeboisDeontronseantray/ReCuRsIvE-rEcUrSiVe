@@ -1,0 +1,36 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P02-3",
+ "parent_clip": "P02-2",
+ "channel_show": "Ch2 News",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "6a0f81571587ab94d605073c173ce53a62f02f13a86a5f81fe9408881b0cd598",
+ "prompt_words": 145,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "TESS": "SHEET_CH2_NEWS_CAST_v1.jpg"
+ },
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

@@ -1,0 +1,55 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "NP06",
+ "parent_clip": "NP05_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "clip_type": "beat",
+ "arc_stage": "call to adventure",
+ "static_intangible": {
+  "core_want": {
+   "MARLO QUILL": "get the jade key to the roof before dawn"
+  },
+  "relationships": [
+   "MARLO distrusts THE CONCIERGE, who wants the key back for the house"
+  ],
+  "arc_thread": "the night porter's hero's journey from tired porter to the man who opens the roof door",
+  "world_rules": [
+   "the hotel adds a floor each time the clock ticks wrong"
+  ],
+  "running_threads": [
+   "H4 the static TV behind the desk",
+   "the lobby clock jumping"
+  ]
+ },
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "e2ef16b96ba5eec502e297a59fd2836f7e8f7fc40d63e9253ae92e45cb758917",
+ "prompt_words": 170,
+ "air_status": "design-not-rendered",
+ "ref_for": {}
+}

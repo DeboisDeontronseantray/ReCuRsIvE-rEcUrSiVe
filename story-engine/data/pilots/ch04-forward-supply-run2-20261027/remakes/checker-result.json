@@ -1,0 +1,101 @@
+{
+ "file": "run2-remakes-20261027.json",
+ "overall": "pass",
+ "counts": {
+  "pass": 15,
+  "warn": 0,
+  "fail": 0
+ },
+ "shots": [
+  {
+   "id": "S1D-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1E-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2C-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S3C-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5B-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5C-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5D-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S6E-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1B-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2A-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S4C-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5A-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2B-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S7A-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1A-R1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  }
+ ]
+}

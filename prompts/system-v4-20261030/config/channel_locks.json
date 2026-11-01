@@ -1,0 +1,9 @@
+{"version":"channel-locks-v4-20261030",
+ "Ch4 Military Boutique / BLACK ICE":{"canon":"photoreal 1971","decided_by":"Trundle 2026-10-30 7:13 PM CT (t367 card: 'Ch4 canon look is photoreal 1971')",
+   "look_pool":["Look: photoreal 1971 Cold War spy thriller, live action, 35mm film grain, muted winter colour.","Look: live-action 1971 spy film, photographed on 35mm, grain, cold muted palette.","Look: 1971 winter espionage drama, real photography, film grain, desaturated steel and ivory tones."],
+   "forbidden_regex":"(hand-?inked|ink outlines|crosshatch|comic[- ]book|flat 2D|2D ink|ink comic)",
+   "forbidden_ref_regex":"(shinkawa|_ink|SHEET_HERON|SHEET_WOLFHOUND|JW5-C4-v7)",
+   "note":"Existing HERON/WOLFHOUND sheets and the alley plate are ink art; they conflict with canon. Photoreal look sheets need a GenerateImage yes (NEEDS TRUNDLE)."},
+ "Ch11 Fist Theater":{"canon":"faded 1970s 35mm martial-arts film","display_alias":"Jade Hotel",
+   "look_pool":["Look: faded 1970s 35mm martial-arts film, live action photographed, film grain, red lacquer, gold and teal.","Look: live-action 1970s kung-fu picture on faded 35mm, grain, red lacquer with gold and teal.","Look: 1970s martial-arts film, real photography, faded 35mm grain, red lacquer, gold, teal."]},
+ "Ch2 News":{"canon":"modern parody local TV news","comedy_layer":true}}

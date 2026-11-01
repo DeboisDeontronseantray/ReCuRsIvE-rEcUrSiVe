@@ -1,0 +1,113 @@
+{
+ "rule": "post-process overlay on a separate copy; never in generation; clean master is the anchor/mutation parent",
+ "overlays": [
+  {
+   "text": "DRESS INSPECTION",
+   "kind": "caption",
+   "role": "bug",
+   "position": "top_left",
+   "start_s": 0.0,
+   "end_s": null,
+   "style": "bug",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "ALL"
+  },
+  {
+   "text": "A curtain with ambitions",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-1"
+  },
+  {
+   "text": "Jewelry that thinks it's a weapon",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-2"
+  },
+  {
+   "text": "A salad bowl that reports for duty",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-3"
+  },
+  {
+   "text": "Pockets. Just pockets. Pockets all the way down",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-4"
+  },
+  {
+   "text": "An oven mitt with a security clearance",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-5"
+  },
+  {
+   "text": "A minivan that took one self-defense class",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-6"
+  },
+  {
+   "text": "Binoculars that are afraid of distance",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 6,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-02-7"
+  },
+  {
+   "text": "PASSED: 1 / 7",
+   "kind": "caption",
+   "role": "caption",
+   "position": "lower_third",
+   "start_s": 0.0,
+   "end_s": 8,
+   "style": "default",
+   "blocked": [],
+   "airable": true,
+   "shot_id": "DI-05"
+  }
+ ]
+}

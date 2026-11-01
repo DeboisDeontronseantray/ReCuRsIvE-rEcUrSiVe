@@ -1,0 +1,60 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "NP06",
+ "parent_clip": "NP05_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "episode": null,
+ "clip_type": "beat",
+ "arc_stage": "call to adventure",
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  },
+  {
+   "layer": "setting",
+   "kind": "clip"
+  },
+  {
+   "layer": "FT1 arc",
+   "kind": "fixed-thread"
+  }
+ ],
+ "prompt_sha256": "80420341e72d6031193a8f9441c022781828e2695d3fc6e04bf8fcad54264a91",
+ "prompt_words": 224,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

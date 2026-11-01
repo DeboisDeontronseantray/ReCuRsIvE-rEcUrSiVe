@@ -1,0 +1,11 @@
+{
+ "prompt": "[Look: 1950s creature-feature look, practical effects, Technicolor night.] [Monster: the giant mechanical bear (<IMAGE_2>).] [RITA (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA levers the bear backward with the pole. At 4 s it topples back into the open grate with a crash of steam. At 7 s she slams the grate shut and sits on it, panting. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P07-3.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P07-2/P07-2_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/PENDING/RITA_P07-2.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/PENDING/BEAR_P07-2.png"
+ ]
+}

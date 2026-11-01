@@ -1,0 +1,10 @@
+{
+ "prompt": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS (<IMAGE_1>).] [Studio as in <IMAGE_0>.] [The two invented anchors MARLA DEAN (<IMAGE_0>) and RON PIKE (<IMAGE_0>) watch a monitor showing the parked sweeper; at 3 s RON speaks [crisp anchor cadence, measured pace: \"Cleanest getaway I've ever seen\"] and MARLA laughs.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P02-4.mp4",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png",
+  "/workspace/thunder-trundle/channels/02-news/refs/sheets/SHEET_CH2_NEWS_CAST_v1.jpg"
+ ]
+}

@@ -1,0 +1,119 @@
+# Forward Supply — main Channel 4 show (exhaustive)
+# Source: STORY-CONFIG-PLAN.md §2 (4 starter); Series look from SERIES-PLAN.md.
+# Original fiction. Written 2026-10-27 ~08:38 CT by Story Bot.
+id: forward-supply
+title: Forward Supply
+channel: "4"
+format: military-futuristic boutique / mission-brief hybrid  # SUPERSEDED 2026-10-27 15:26 CT, see format_v2
+episode_length_seconds: 360
+segments_per_episode: 4
+logline: >
+  A near-future catalog hour from a fictional forward depot where hosts sell
+  absurd tactical gadgets and present sanitized "mission briefs" as entertainment.
+cast:
+  - name: "Commander Bill D'bears"
+    role: host
+    look: >
+      Tall, stiff posture, boxy charcoal duty jacket with blank brass shift tag,
+      short dark hair with a sharp side part, pale cool skin, thin mouth that rarely smiles,
+      amber HUD glasses with no readable text, standing center-frame behind a chrome catalog podium.
+    traits:
+      - Treats every gadget like classified gear
+      - Over-serious; humor lands by accident
+      - Never admits he does not know a clearance color
+    goal: Clear the depot backlog before the undefined quarterly inspection
+    voice: clipped military-catalog cadence; short sentences; never slangy
+    catchphrase: "Let's ship it forward."
+  - name: "Lt. Mira S'mirin'"
+    role: co-host / product specialist
+    look: >
+      Compact, unflappable, slate duty tunic, olive utility scarf, neat braid,
+      dry half-smile, holding a blank clipboard with color stickers, cyan rim light on left cheek.
+    traits:
+      - Reads absurd specs flawlessly
+      - Invents a new clearance color each episode
+      - Corrects Bill without raising her voice
+    goal: Keep the catalog "accurate" while inventing the rules
+    voice: dry, precise, slightly amused; never rushes
+    catchphrase: "Per the sticker, Commander."
+  - name: Tim
+    role: mascot courier drone
+    look: >
+      Small matte-graphite courier drone, rabbit-ear antennas, single cyan optic,
+      soft LED pulse, no logos, hovering at shoulder height near the podium.
+    traits:
+      - Chirps when "signal drifts"
+      - Drops props at the worst moment
+      - Loyal to whoever last wiped its optic
+    goal: Deliver the wrong prop on time
+    voice: soft chirps and servo clicks only (no speech)
+    catchphrase: "*chirp*"
+  - name: Depot Clerk Osmund
+    role: supporting / bay runner
+    look: >
+      Young adult in olive coveralls, brass shift tag, always slightly out of breath,
+      carrying a modular field pack that never matches the order.
+    traits:
+      - Takes every brief literally
+      - Terrified of quarterly inspection
+    goal: Get one order right before the credits
+    voice: earnest, too loud for the boutique
+    catchphrase: "Is this the priority brief?"
+places:
+  - name: Catalog Floor
+    look: >
+      Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines,
+      chrome and olive walls, blank HUD monitors with soft cyan glow, museum lighting,
+      empty of shoppers, center-weighted composition, no logos, no readable text.
+  - name: Briefing Tube
+    look: >
+      Narrow glass booth with frosted floor light, single stool, blank amber HUD strip,
+      cold white key, slight fog at ankles, no logos.
+  - name: Forward Depot Bay
+    look: >
+      Sterile loading bay, rolling fog at night, amber safety lights, empty crates with blank tags,
+      slow push toward a sealed hatch, no vehicles with badges, no insignia.
+  - name: Pedestal Row
+    look: >
+      Line of three velvet pedestals under cyan edge light, slow orbit camera path,
+      one product per pedestal, museum quiet.
+world_facts:
+  - Couriers wear brass shift tags that double as store loyalty chips.
+  - Every product comes with a fake "clearance level" sticker invented by Mira S'mirin'.
+  - The depot motto is "Ship It Forward" — never explain where.
+  - "House fiction: all gear is original to the channel. No real defense brands or game IPs."
+  - "Gear rule: the majority of gear and merchant items are absurd military equipment that is still realistic and logically consistent."
+  - The quarterly inspection has no date, no inspector, and total authority.
+  - Clearance colors are not on any chart; Mira S'mirin' invents them live.
+running_gags:
+  - Mira S'mirin' invents a new clearance color each episode and Bill pretends he knew it.
+  - Tim chirps when "signal drifts," usually mid-pitch.
+  - Osmund brings the wrong pack; it somehow fits the new brief.
+  - Bill salutes a pedestal before the reveal.
+season_arc:
+  main: >
+    Depot must clear a backlog of absurd "priority briefs" before the quarterly
+    inspection nobody can define. Each episode ships one impossible order and
+    invents the paperwork to match.
+  side_arcs:
+    - Mira's clearance-color chart grows until it needs its own vitrine.
+    - Tim keeps delivering a mysterious blank envelope Bill will not open.
+    - Osmund trains for "inspector handshake protocol" that does not exist.
+  episode_count: 8
+  episode_beats:
+    - "E1 Cold Clearance — first invented color; helmet pedestal demo; Osmund wrong pack."
+    - "E2 Signal Drift — Tim chirps through a live brief; scout-drone jewelry pitch."
+    - "E3 Velvet Brief — binoculars on velvet; Bill salutes the wrong pedestal."
+    - "E4 Gauntlet Protocol — exo-gauntlet vitrine; Mira S'mirin' adds 'ultraviolet taupe' clearance."
+    - "E5 Bay Fog — modular field pack demo in Depot Bay; inspection rumor spikes."
+    - "E6 Cloak Hour — graphite cloak torso plate; blank envelope returns."
+    - "E7 Cruiser Window — armored showroom cruiser B-roll; Osmund almost gets an order right."
+    - "E8 Quarterly Maybe — backlog cleared on paper; inspector never arrives; motto card."
+continuity: data/continuity/forward-supply.json
+continuity_key: forward-supply
+# Add-only 2026-10-27 15:27 CT Story Bot (trundle 15:26 CT premise correction)
+format_v2: ensemble outpost-life comedy-drama with plot; catalog is backdrop or small in-world segment (OPEN)
+logline_status: "logline and season_arc_main SUPERSEDED (catalog framing)"
+logline_v2_draft: "DRAFT-pending-trundle: Four mismatched crew members live and work together at a remote forward outpost where the fog never lifts; between impossible orders from a command nobody has met, their friendships, rivalries and Bill's slow-burning fuse drive each episode."
+ad_placement: clean breaks between story segments only; never inside a scene
+premise_flag: premise-correction-20261027-1526

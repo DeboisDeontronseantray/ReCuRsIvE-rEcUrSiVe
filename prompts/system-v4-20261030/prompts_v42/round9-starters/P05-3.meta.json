@@ -1,0 +1,32 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P05-3",
+ "parent_clip": "P05-2",
+ "channel_show": "Ch5 Night Patrol",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "8b7a9b057ce327fac480e346d7098708fb235c6cae1ce3827dfcf168a6b934d2",
+ "prompt_words": 133,
+ "air_status": "design-not-rendered",
+ "ref_for": {}
+}

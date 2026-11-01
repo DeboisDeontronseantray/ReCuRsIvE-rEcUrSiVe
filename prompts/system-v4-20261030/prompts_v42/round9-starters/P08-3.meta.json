@@ -1,0 +1,39 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P08-3",
+ "parent_clip": "P08-2",
+ "channel_show": "Ch8 Sitcom",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "c3acfd98a02157f06846f2ef33b3a652c7e8f597c121cbfb1f2e056cf7f1e3d6",
+ "prompt_words": 152,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "DEV": "DEV_P08-2.png",
+  "OSCAR": "OSCAR_P08-2.png"
+ }
+}

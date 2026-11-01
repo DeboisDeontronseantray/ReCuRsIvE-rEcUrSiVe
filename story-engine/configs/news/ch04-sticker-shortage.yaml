@@ -1,0 +1,32 @@
+# Parody news segment for 4 — clearance sticker "shortage"
+# Original. No real people, no real geopolitics, no phone/dial. 2026-10-27.
+id: ch04-sticker-shortage
+format: desk_report
+length_s: 45
+parody_label: required_innocuous  # metadata/filename; on-screen bug thunder trundle only
+no_real_people: true
+channel_tie:
+  channel: "4"
+  show_arc: forward-supply  # riffs on Mira's invented colors
+  how: "Treats depot sticker chaos like breaking news."
+anchors:
+  - name: "Commander Bill D'bears"
+    role: stiff desk reader (channel face, not 12 Dale)
+  - name: "Lt. Mira S'mirin'"
+    role: "field specialist at Pedestal Row"
+desks:
+  - Catalog Desk
+  - Clearance Color Desk
+headline: "Depot Reports Critical Shortage of Invented Clearance Colors"
+angle: Mira S'mirin' invents three new colors live; Bill declares the backlog solved on paper.
+satire_level: medium
+shot_list:
+  - {shot: 1, dur_s: 8, visual: "Bill at Catalog Floor podium; blank HUD; serious face.", lower_third: "BILL — CATALOG DESK"}
+  - {shot: 2, dur_s: 12, visual: "Mira S'mirin' at Pedestal Row applying stickers; cyan rim.", lower_third: "MIRA — CLEARANCE"}
+  - {shot: 3, dur_s: 10, visual: "Close on blank stickers fanning out; no readable text in gen.", lower_third: "COLOR OF THE DAY"}
+  - {shot: 4, dur_s: 15, visual: "Two-shot; Bill salutes; Tim chirps.", lower_third: "Ch 4 Military Boutique"}
+lower_third: ["BILL — CATALOG DESK", "MIRA — CLEARANCE", "COLOR OF THE DAY", "Ch 4 Military Boutique"]
+banned_here:
+  - real wars / politicians / officers
+  - excluded held titles (see report)
+  - phone numbers, dial prompts, call-ins

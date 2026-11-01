@@ -1,0 +1,67 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "NP16",
+ "parent_clip": "NP15_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "episode": null,
+ "clip_type": "fight",
+ "arc_stage": "threshold fight",
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [
+  {
+   "id": "CQ-NP-0003",
+   "text": "torn button",
+   "tier": "SCAR",
+   "created_here": true
+  }
+ ],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  },
+  {
+   "layer": "setting",
+   "kind": "clip"
+  },
+  {
+   "layer": "FT1 arc",
+   "kind": "fixed-thread"
+  }
+ ],
+ "prompt_sha256": "50d74d869c57fc2b87e3dfdeab8c42813cd6a9bd5d61247b56d1e84e90f06c6f",
+ "prompt_words": 273,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

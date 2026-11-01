@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: 1980s late-night talk show, studio video, warm tungsten.] [Setting: a wood-panel talk-show set, city-skyline backdrop, coffee mug on the desk.] [Cast: GUS BELLWEATHER (powder-blue tux, huge pompadour); SIDEKICK LOU (band leader's sequined jacket).] Single shot: medium two-shot, 35mm, static camera, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, GUS swivels his chair toward LOU. At 3 s, GUS BELLWEATHER speaks [deadpan: \"Lou, the static on channel nine is following me home.\"]. At 7 s, the TV on the desk ripples with grey static and LOU backs away from it. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS18-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "AFTER HOURS WITH GUS BELLWEATHER"
+}

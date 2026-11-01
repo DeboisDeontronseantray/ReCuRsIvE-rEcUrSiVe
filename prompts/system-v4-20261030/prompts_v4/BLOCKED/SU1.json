@@ -1,0 +1,25 @@
+{
+ "id": "SU1",
+ "why": {
+  "V4_start_frame_for_camera": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. MARLO QUILL (<IMAGE_0> full body, <IMAGE_1> face; maroon porter's waistcoat with brass buttons, white shirt, grey mustache) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. He is already mid-stride in the first frame. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, a teal tape measure flies in from frame left; MARLO catches it without breaking stride and loops it around his neck. Everyone keeps moving; motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 3 s take.]",
+  "duration": 3,
+  "resolution": "480p",
+  "filename": "SU1.mp4",
+  "reference_image_paths": [
+   "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_side_full.png",
+   "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+  ]
+ },
+ "notes": [
+  "ending replaced: 'Motion carries on through the last half second.'",
+  "safety bracket regenerated from pool",
+  "ref swapped to side/3-4 crop: MARLO_QUILL_side_full.png",
+  "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+  "SU1: no side-on corridor start frame exists -> BLOCKED until still-prep (NP40 frame or side-on corridor plate); SU1 is at its 2-gen max, retry needs Trundle's yes as new shot version"
+ ]
+}

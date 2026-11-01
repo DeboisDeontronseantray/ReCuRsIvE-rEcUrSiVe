@@ -1,0 +1,64 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "NP05",
+ "parent_clip": "NP04_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "clip_type": "breather",
+ "arc_stage": "ordinary world (refusal of identity)",
+ "static_intangible": {
+  "core_want": {
+   "MARLO QUILL": "get the jade key to the roof before dawn"
+  },
+  "relationships": [
+   "MARLO distrusts THE CONCIERGE, who wants the key back for the house"
+  ],
+  "arc_thread": "the night porter's hero's journey from tired porter to the man who opens the roof door",
+  "world_rules": [
+   "the hotel adds a floor each time the clock ticks wrong"
+  ],
+  "running_threads": [
+   "H4 the static TV behind the desk",
+   "the lobby clock jumping"
+  ]
+ },
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [
+  {
+   "id": "CQ-NP-0002",
+   "text": "cap on desk",
+   "tier": "SCAR",
+   "created_here": true
+  }
+ ],
+ "hints_planted": [
+  "H3 cap left on desk"
+ ],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "102949853013e367f9c7dfbd061a703d44dd7b3f7e2cbd5449b3a7d9a7a3020f",
+ "prompt_words": 162,
+ "air_status": "design-not-rendered",
+ "ref_for": {}
+}

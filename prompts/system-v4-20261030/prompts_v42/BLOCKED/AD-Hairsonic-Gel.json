@@ -1,0 +1,15 @@
+{
+ "id": "AD-Hairsonic-Gel",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: 1990s late-night ad.] [A singer in a leather jacket rubs gel in; at 3 s his hair stands up into a perfect lightning-bolt; at 6 s a backup dancer copies it.] [Eyes on the mirror.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "AD-Hairsonic-Gel.mp4"
+ },
+ "notes": []
+}

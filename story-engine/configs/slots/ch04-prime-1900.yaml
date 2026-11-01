@@ -1,0 +1,19 @@
+# Channel 4 prime slot — Forward Supply
+# Grid daypart from SCHEDULE-GRID 19:00 prime block; channel-specific.
+id: ch04-prime-1900
+label: Military Boutique prime — Forward Supply
+time: "19:00"
+daypart: prime
+episode_length_seconds: 360
+length_minutes: 6
+episode_count: 1
+tone: cool catalog absurdity; short episodic cold opens
+ad_breaks:
+  - {at_seconds: 180, duration_seconds: 15, product: Sky Diffuser}
+  - {at_seconds: 330, duration_seconds: 15, product: Lightning Lamp}
+news_segments: ["ch04-sticker-shortage"]
+constraints:
+  - TV-safe only
+  - No phone/dial CTAs
+  - No excluded held titles
+  - Output useful as CNB clip-prompt source

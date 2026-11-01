@@ -1,0 +1,36 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P16-1",
+ "parent_clip": null,
+ "channel_show": "Ch16 DOSSIER",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "8de1817edb16713cb758f2820c6f0cfeb867b50a89009462115a0ae74301d2e9",
+ "prompt_words": 138,
+ "air_status": "design-not-rendered",
+ "ref_for": {}
+}

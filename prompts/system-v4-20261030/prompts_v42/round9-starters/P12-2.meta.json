@@ -1,0 +1,42 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P12-2",
+ "parent_clip": "P12-1",
+ "channel_show": "Ch12 90s",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "b63636f26727d72371e0757d0322c23e4ac49f2b51cbb727398028b72ba5e271",
+ "prompt_words": 138,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "DALE": "DALE_P12-1.png"
+ }
+}

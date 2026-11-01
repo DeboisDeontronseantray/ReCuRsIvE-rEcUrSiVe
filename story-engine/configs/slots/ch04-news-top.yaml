@@ -1,0 +1,14 @@
+id: ch04-news-top
+label: Military Boutique news at :00/:30
+time: ":00/:30"
+daypart: news
+episode_length_seconds: 45
+length_minutes: 1
+episode_count: 0
+tone: absurd-serious depot news
+ad_breaks: []
+news_segments: ["ch04-sticker-shortage", "ch04-pigeon-signal-drift"]
+constraints:
+  - Parody only; no real people
+  - No phone/dial CTAs
+  - No excluded held titles

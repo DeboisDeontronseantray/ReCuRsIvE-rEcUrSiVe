@@ -1,0 +1,31 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P02-4",
+ "parent_clip": "P02-3",
+ "channel_show": "Ch2 News",
+ "clip_type": "news",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "26f4e617e7805a44610960031f6054603fd25f872b9820e8ce6d69e9440f6957",
+ "prompt_words": 129,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "MARLA DEAN": "D1_last.png",
+  "RON PIKE": "D1_last.png",
+  "TESS": "SHEET_CH2_NEWS_CAST_v1.jpg"
+ }
+}

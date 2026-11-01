@@ -1,0 +1,38 @@
+[
+ {
+  "clip_id": "S1",
+  "mount": "eye-level handheld",
+  "only_weapon": "KOLOKOL-7 resonance baton (HERON) and a mooring chain (WOLFHOUND)",
+  "camera": "Low 35mm handheld tracking shot at eye level, one continuous take, rain streaking through the lamp light.",
+  "beats": [
+   "HERON in @Image2 walks the frozen pier of the ferry landing in @Image1 toward the ticket hut as WOLFHOUND in @Image3 steps out of its doorway onto the planks",
+   "he lunges with a Sambo grab, she slips it in a relaxed circular Systema turn and the baton rings off his forearm",
+   "he drops to one knee on the ice and stays down"
+  ],
+  "end_state": "HERON standing still by the hut door, baton lowered, WOLFHOUND kneeling on the ice beside her, both turned three-quarters away from the lens, rain falling, no motion"
+ },
+ {
+  "clip_id": "S2",
+  "mount": "eye-level handheld",
+  "only_weapon": "LANTERN's cane",
+  "camera": "Slow 50mm handheld push-in at eye level, one continuous take, then the camera rises smoothly up to the high lamp-post mount angle and settles there.",
+  "beats": [
+   "on the same frozen pier, WOLFHOUND in @Image3 gets up off his knees on the ice and rushes HERON in @Image2",
+   "LANTERN in @Image4 steps forward from beside the ticket hut door, hooks his wrist with her cane and turns him face-down onto the planks in one move",
+   "he stays down while LANTERN hands HERON a coiled mooring rope"
+  ],
+  "end_state": "seen from high on the lamp-post, HERON holding the rope, LANTERN beside the hut door leaning on her cane, WOLFHOUND face-down on the planks, all still, rain falling"
+ },
+ {
+  "clip_id": "S3",
+  "mount": "high fixed cam on the pier lamp-post",
+  "only_weapon": "a mooring rope",
+  "camera": "high fixed",
+  "beats": [
+   "seen from the high mounted lamp-post camera on the same pier, HERON in @Image2 loops the mooring rope around WOLFHOUND's ankle while LANTERN in @Image4 watches from the hut door",
+   "HERON drags WOLFHOUND in @Image3 across the icy planks toward the pier edge as he claws at the boards",
+   "he stops flat at the edge and stays down"
+  ],
+  "end_state": "HERON standing still at the pier edge holding the rope, LANTERN still by the hut door, WOLFHOUND lying flat at the edge, rain and sleet falling, the frame static"
+ }
+]

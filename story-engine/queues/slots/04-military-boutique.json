@@ -1,0 +1,1 @@
+{"channel": 4, "slots": [], "note": "each slot = {slot_id, lineage, length_s}; resolve_slot.py picks the newest approved generation"}

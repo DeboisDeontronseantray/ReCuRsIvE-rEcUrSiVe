@@ -1,0 +1,49 @@
+# Clearance Brief — short Channel 4 briefing sketch show
+# Original Story Bot invention for channel depth (lineup had no second Channel 4 show).
+# Written 2026-10-27 ~08:38 CT. Home-only. TV-safe.
+id: clearance-brief
+title: Clearance Brief
+channel: "4"
+format: sketch / cold-open briefing
+episode_length_seconds: 90
+segments_per_episode: 2
+logline: >
+  Ninety-second "priority briefs" delivered from the Briefing Tube as if they matter,
+  then revealed to be catalog pitches.
+cast:
+  - name: "Lt. Mira S'mirin'"
+    role: briefing officer
+    look: >
+      Same Mira S'mirin' look as Forward Supply: slate tunic, braid, clipboard, cyan rim.
+    traits: [deadpan, invents rules]
+    goal: Finish the brief before Bill interrupts
+    voice: dry and fast
+    catchphrase: "Color of the day."
+  - name: "Commander Bill D'bears"
+    role: interrupt host
+    look: charcoal duty jacket, amber HUD glasses, stiff salute
+    traits: [over-serious]
+    goal: Turn every brief into a sale
+    voice: clipped
+    catchphrase: "Let's ship it forward."
+places:
+  - name: Briefing Tube
+    look: narrow glass booth, frosted floor light, amber HUD strip, no logos
+world_facts:
+  - Every brief ends in a product SKU that did not exist at the start.
+  - Clearance colors are announced like weather.
+running_gags:
+  - The brief stamp says PRIORITY in three fonts at once (on_screen_text registry id ost_priority_three_fonts; post, not in gen).
+season_arc:
+  main: A week of escalating nonsense briefs that all sell the same blank crate.
+  side_arcs: []
+  episode_count: 6
+  episode_beats:
+    - "B1 Color of the day is 'signal mauve'."
+    - "B2 Brief stamped three times; still wrong pack."
+    - "B3 Bill salutes the stamp."
+    - "B4 Mira S'mirin' invents dual-clearance."
+    - "B5 Blank crate becomes limited edition."
+    - "B6 Brief cancelled; crate ships anyway."
+continuity: data/continuity/clearance-brief.json
+continuity_key: clearance-brief

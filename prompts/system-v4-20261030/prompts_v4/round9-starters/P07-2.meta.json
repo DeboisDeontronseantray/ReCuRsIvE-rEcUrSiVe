@@ -1,0 +1,52 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "P07-2",
+ "parent_clip": "P07-1",
+ "channel_show": "Ch7 Monster Hour",
+ "episode": null,
+ "clip_type": "beat",
+ "arc_stage": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  }
+ ],
+ "prompt_sha256": "c795fc9b9f879db235b8a554a5be819cfca8f1278508a7ccc93cb60f1ee31e70",
+ "prompt_words": 150,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

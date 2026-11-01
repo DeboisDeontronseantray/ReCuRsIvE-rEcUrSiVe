@@ -1,0 +1,47 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "P14-1",
+ "parent_clip": null,
+ "channel_show": "Ch14 Music",
+ "episode": null,
+ "clip_type": "beat",
+ "arc_stage": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  },
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  }
+ ],
+ "prompt_sha256": "f37ef2ee0a986323e528c32cefd6da8930d3eeae92ca64da8afd3d2f53479d57",
+ "prompt_words": 117,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

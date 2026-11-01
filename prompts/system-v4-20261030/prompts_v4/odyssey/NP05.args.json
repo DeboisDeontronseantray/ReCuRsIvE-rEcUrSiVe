@@ -1,0 +1,11 @@
+{
+ "prompt": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache). Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: medium, slow push-in toward the desk. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO takes a maroon brass-buttoned porter's cap from under the desk and looks at it. At 4 s, he sets the cap down on the desk, crown down, not on his head. At 7 s, he turns away from it toward the trolley. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 9 s take.]",
+ "duration": 9,
+ "resolution": "480p",
+ "filename": "NP05.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP04_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+ ]
+}

@@ -1,0 +1,962 @@
+[
+ {
+  "group": "odyssey",
+  "id": "NP01",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-start-frame-for-tracking (SU1)"
+  ],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache). Lighting: dim warm chandelier light, 4:50 on the big lobby clock above the desk. The shot opens on the set exactly as in <IMAGE_0> (empty plate, same light); the cast enters it. Single shot: slow side-on dolly tracking, 35mm, waist height. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 0 s, MARLO pushes a brass luggage trolley piled high with guests' suitcases left to right across the marble, shoulders slumped, eyes on the trolley. At 4 s, a top suitcase slides; he catches it with one hand without stopping. At 7 s, he passes under the chandelier and glances up at it, tired. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "still-prep: set plate passed as START frame (tracking needs a real start image); also fixes old off-by-one <IMAGE_n> numbering (no start frame but slots counted from 1)",
+   "v4.1: set plate removed as start frame (Trundle t121u: refs are reference only, not the output/start)"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_0>.] [MARLO QUILL (<IMAGE_1>).] [Lighting: dim warm chandelier light, 4:50 on the big lobby clock above the desk.] Single shot: slow side-on dolly tracking, 35mm, waist height, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 0 s, MARLO pushes a brass luggage trolley piled high with guests' suitcases left to right across the marble, shoulders slumped, eyes on the trolley. At 4 s, a top suitcase slides; he catches it with one hand without stopping. At 7 s, he passes under the chandelier and glances up at it, tired. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_0>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_1>; maroon porter's waistcoat with brass buttons, grey mustache).] [Lighting: dim warm chandelier light, 4:50 on the big lobby clock above the desk.] Single shot: slow side-on dolly tracking, 35mm, waist height, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 0 s, MARLO pushes a brass luggage trolley piled high with guests' suitcases left to right across the marble, shoulders slumped, eyes on the trolley. At 4 s, a top suitcase slides; he catches it with one hand without stopping. At 7 s, he passes under the chandelier and glances up at it, tired. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP02",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); a GUEST in a camel coat (invented adult). Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot: medium, eye level, handheld drift. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the GUEST snaps his fingers at a huge brass-cornered steamer trunk; MARLO bends and hoists it onto his shoulder. At 4 s, his back audibly creaks and he winces, steadying the trunk. At 7 s, he carries it toward the stairs, eyes on the steps. Motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP01_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); a GUEST in a camel coat (invented adult).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium, eye level, handheld drift, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the GUEST snaps his fingers at a huge brass-cornered steamer trunk; MARLO bends and hoists it onto his shoulder. At 4 s, his back audibly creaks and he winces, steadying the trunk. At 7 s, he carries it toward the stairs, eyes on the steps. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); a GUEST in a camel coat (invented adult).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium, eye level, handheld drift, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the GUEST snaps his fingers at a huge brass-cornered steamer trunk; MARLO bends and hoists it onto his shoulder. At 4 s, his back audibly creaks and he winces, steadying the trunk. At 7 s, he carries it toward the stairs, eyes on the steps. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP03",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache). Continue from <IMAGE_0>, same positions and light, mid-motion. Single shot: close-up, 85mm, slow push-in. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO polishes the brass desk bell with a cloth in slow circles. At 4 s, the bell's curved reflection shows the dark gold roof door at the top of the stairs. At 6 s, a hotel clothes rack rolls past behind him with a teal tape measure hanging from it. Everyone keeps moving; motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP02_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: close-up, 85mm, slow push-in, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO polishes the brass desk bell with a cloth in slow circles. At 4 s, the bell's curved reflection shows the dark gold roof door at the top of the stairs. At 6 s, a hotel clothes rack rolls past behind him with a teal tape measure hanging from it. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: close-up, 85mm, slow push-in, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO polishes the brass desk bell with a cloth in slow circles. At 4 s, the bell's curved reflection shows the dark gold roof door at the top of the stairs. At 6 s, a hotel clothes rack rolls past behind him with a teal tape measure hanging from it. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP04",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); MADAM HU (<IMAGE_3>, teal dress, red embroidered apron). Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot: medium two-shot, eye level, static camera. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MADAM HU walks past with a tray of steamed dumplings and, without stopping, tucks one into MARLO's waistcoat pocket. At 4 s, he takes it out and eats it in one bite, a small smile. At 6 s, she walks on, eyes ahead. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP03_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); MADAM HU (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, eye level, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MADAM HU walks past with a tray of steamed dumplings and, without stopping, tucks one into MARLO's waistcoat pocket. At 4 s, he takes it out and eats it in one bite, a small smile. At 6 s, she walks on, eyes ahead. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); MADAM HU (<IMAGE_3>, teal dress, red embroidered apron).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, eye level, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MADAM HU walks past with a tray of steamed dumplings and, without stopping, tucks one into MARLO's waistcoat pocket. At 4 s, he takes it out and eats it in one bite, a small smile. At 6 s, she walks on, eyes ahead. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP05",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache). Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: medium, slow push-in toward the desk. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO takes a maroon brass-buttoned porter's cap from under the desk and looks at it. At 4 s, he sets the cap down on the desk, crown down, not on his head. At 7 s, he turns away from it toward the trolley. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP04_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium, slow push-in toward the desk, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO takes a maroon brass-buttoned porter's cap from under the desk and looks at it. At 4 s, he sets the cap down on the desk, crown down, not on his head. At 7 s, he turns away from it toward the trolley. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium, slow push-in toward the desk, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO takes a maroon brass-buttoned porter's cap from under the desk and looks at it. At 4 s, he sets the cap down on the desk, crown down, not on his head. At 7 s, he turns away from it toward the trolley. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP06",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. This clip's story beat is call to adventure -. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache). Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: low angle, static camera, the chandelier above. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the chandelier crystals flicker and chime. At 4 s, a small glowing green jade key drops from the chandelier and lands with a clink in the trolley's top suitcase. At 7 s, MARLO lifts the key between two fingers, its glow lighting his face from below, eyes on the key. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP05_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: low angle, static camera, the chandelier above, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the chandelier crystals flicker and chime. At 4 s, a small glowing green jade key drops from the chandelier and lands with a clink in the trolley's top suitcase. At 7 s, MARLO lifts the key between two fingers, its glow lighting his face from below, eyes on the key. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: low angle, static camera, the chandelier above, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the chandelier crystals flicker and chime. At 4 s, a small glowing green jade key drops from the chandelier and lands with a clink in the trolley's top suitcase. At 7 s, MARLO lifts the key between two fingers, its glow lighting his face from below, eyes on the key. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP07",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>; very tall thin man, long black frock coat, silver key ring at his hip, black lacquer cane). (call (shadow appears)). Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: whip pan from MARLO to the stairs. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, THE CONCIERGE glides down the staircase, cane tapping each step. At 4 s, his silver key ring swings; among the keys hangs a small grey TV remote. At 7 s, he stops at the bottom step, eyes fixed on the key in MARLO's hand. Motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 9 s take.]",
+  "notes": [
+   "camera simplified to one move (r9: multi-stage camera -> model cuts)",
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: CONCIERGE_threequarter_face.png",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP06_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: whip pan from MARLO to the stairs, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, THE CONCIERGE glides down the staircase, cane tapping each step. At 4 s, his silver key ring swings; among the keys hangs a small grey TV remote. At 7 s, he stops at the bottom step, eyes fixed on the key in MARLO's hand. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>; very tall thin man, long black frock coat, silver key ring at his hip, black lacquer cane).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: whip pan from MARLO to the stairs, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, THE CONCIERGE glides down the staircase, cane tapping each step. At 4 s, his silver key ring swings; among the keys hangs a small grey TV remote. At 7 s, he stops at the bottom step, eyes fixed on the key in MARLO's hand. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP08",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>). Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: over MARLO's shoulder toward THE CONCIERGE, 50mm, static camera. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the lobby clock's minute hand jumps forward with a loud tick. At 3 s, the small TV behind the front desk ripples with grey static and a soft hiss. At 6 s, THE CONCIERGE extends one gloved hand, palm up, and says politely, \"[smooth, too warm] That belongs to the house.\" Motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: CONCIERGE_threequarter_face.png",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP07_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: over MARLO's shoulder toward THE CONCIERGE, 50mm, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the lobby clock's minute hand jumps forward with a loud tick. At 3 s, the small TV behind the front desk ripples with grey static and a soft hiss. At 6 s, THE CONCIERGE extends one gloved hand, palm up, and speaks [smooth, too warm: \"That belongs to the house.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: over MARLO's shoulder toward THE CONCIERGE, 50mm, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the lobby clock's minute hand jumps forward with a loud tick. At 3 s, the small TV behind the front desk ripples with grey static and a soft hiss. At 6 s, THE CONCIERGE extends one gloved hand, palm up, and speaks [smooth, too warm: \"That belongs to the house.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP09",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. (refusal (forced)). MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>). Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: tight two-shot of their hands, 85mm, slow push-in. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO holds out the key to THE CONCIERGE. At 3 s, frost crackles over MARLO's fingers and the key will not leave his palm; he shakes his hand but it stays. At 6 s, THE CONCIERGE's smile drops; he steps back and snaps his fingers twice. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: CONCIERGE_threequarter_face.png",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP08_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: tight two-shot of their hands, 85mm, slow push-in, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO holds out the key to THE CONCIERGE. At 3 s, frost crackles over MARLO's fingers and the key will not leave his palm; he shakes his hand but it stays. At 6 s, THE CONCIERGE's smile drops; he steps back and snaps his fingers twice. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: tight two-shot of their hands, 85mm, slow push-in, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO holds out the key to THE CONCIERGE. At 3 s, frost crackles over MARLO's fingers and the key will not leave his palm; he shakes his hand but it stays. At 6 s, THE CONCIERGE's smile drops; he steps back and snaps his fingers twice. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP10",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); two BELLHOP THUGS (invented adult men, green bellhop uniforms, pillbox hats). Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: handheld follow behind MARLO, 35mm. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the two BELLHOP THUGS march out from behind the potted palms toward MARLO. At 4 s, MARLO shoves the luggage trolley into them; the trolley's front bar hits the first thug's chest and both stumble back into the palms. At 7 s, MARLO backs into the brass elevator and the doors slide shut on the thugs' reaching hands, which bump the doors and pull back. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP09_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); two BELLHOP THUGS (invented adult men, green bellhop uniforms, pillbox hats).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: handheld follow behind MARLO, 35mm, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the two BELLHOP THUGS march out from behind the potted palms toward MARLO. At 4 s, MARLO shoves the luggage trolley into them; the trolley's front bar hits the first thug's chest and both stumble back into the palms. At 7 s, MARLO backs into the brass elevator and the doors slide shut on the thugs' reaching hands, which bump the doors and pull back. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache); two BELLHOP THUGS (invented adult men, green bellhop uniforms, pillbox hats).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: handheld follow behind MARLO, 35mm, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the two BELLHOP THUGS march out from behind the potted palms toward MARLO. At 4 s, MARLO shoves the luggage trolley into them; the trolley's front bar hits the first thug's chest and both stumble back into the palms. At 7 s, MARLO backs into the brass elevator and the doors slide shut on the thugs' reaching hands, which bump the doors and pull back. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "NP16",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. This clip's story beat is threshold fight -. Setting: the Jade Hotel back stairwell, green tile walls, a brass fire-hose cabinet with a glass door, a flight of stairs down. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache), a teal tape measure around his neck; a BELLHOP THUG (green bellhop uniform). Continue from <IMAGE_0>, same positions and light, mid-motion. Single shot: handheld, the camera close behind the thug, strikes travel toward the lens. Every strike travels toward the lens and lands with a visible jolt; the camera jerks slightly on each impact. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the THUG throws a straight right punch at MARLO's head; MARLO tilts aside like balancing a tray and the punch lands in the fire-hose cabinet door, cracking its glass panel. At 4 s, MARLO's palm shove lands on the thug's shoulder; the thug spins half around and grabs the rail. At 7 s, MARLO hooks the tape measure around the thug's ankle and tugs; the thug sits down hard on the top step and slides down three stairs on his backside. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 9 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool",
+   "start frame pending render: NP15_last.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the Jade Hotel back stairwell, green tile walls, a brass fire-hose cabinet with a glass door, a flight of stairs down.] [MARLO QUILL (<IMAGE_2>), a teal tape measure around his neck; a BELLHOP THUG (green bellhop uniform).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: handheld, the camera close behind the thug, strikes travel toward the lens, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the THUG throws a straight right punch at MARLO's head; MARLO tilts aside like balancing a tray and the punch lands in the fire-hose cabinet door, cracking its glass panel. At 4 s, MARLO's palm shove lands on the thug's shoulder; the thug spins half around and grabs the rail. At 7 s, MARLO hooks the tape measure around the thug's ankle and tugs; the thug sits down hard on the top step and slides down three stairs on his backside. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the Jade Hotel back stairwell, green tile walls, a brass fire-hose cabinet with a glass door, a flight of stairs down.] [MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache), a teal tape measure around his neck; a BELLHOP THUG (green bellhop uniform).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: handheld, the camera close behind the thug, strikes travel toward the lens, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, the THUG throws a straight right punch at MARLO's head; MARLO tilts aside like balancing a tray and the punch lands in the fire-hose cabinet door, cracking its glass panel. At 4 s, MARLO's palm shove lands on the thug's shoulder; the thug spins half around and grabs the rail. At 7 s, MARLO hooks the tape measure around the thug's ankle and tugs; the thug sits down hard on the top step and slides down three stairs on his backside. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "SU1",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-start-frame-for-tracking (SU1)"
+  ],
+  "v4": null,
+  "notes": [
+   "SU1: no side-on corridor start frame exists -> BLOCKED until still-prep (NP40 frame or side-on corridor plate); SU1 is at its 2-gen max, retry needs Trundle's yes as new shot version",
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_side_full.png",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_0> full body, <IMAGE_1> face) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] [He is already mid-stride in the first frame.] Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, a teal tape measure flies in from frame left; MARLO catches it without breaking stride and loops it around his neck. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_0> full body, <IMAGE_1> face; maroon porter's waistcoat with brass buttons, white shirt, grey mustache) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] [He is already mid-stride in the first frame.] Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, a teal tape measure flies in from frame left; MARLO catches it without breaking stride and loops it around his neck. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "SU2",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the teal tape measure now around his neck; <IMAGE_3> face) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, still walking, MARLO ties a red silk sash around his waistcoat in one quick knot. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 3 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png",
+   "safety bracket regenerated from pool"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the teal tape measure now around his neck; <IMAGE_3> face) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, still walking, MARLO ties a red silk sash around his waistcoat in one quick knot. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the teal tape measure now around his neck; <IMAGE_3> face) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, still walking, MARLO ties a red silk sash around his waistcoat in one quick knot. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "SU3",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO pulls on fingerless brown leather gloves, flexing each hand once as he walks. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 3 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "safety bracket regenerated from pool",
+   "start frame pending render: SU2_last.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): MARLO_full_<prev>.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): gloves_detail.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO pulls on fingerless brown leather gloves, flexing each hand once as he walks. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO pulls on fingerless brown leather gloves, flexing each hand once as he walks. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "SU4",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO slings a wooden rolling pin across his back on a cord, like a sword. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 3 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "safety bracket regenerated from pool",
+   "start frame pending render: SU3_last.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): MARLO_full_<prev>.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): rolling pin_detail.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO slings a wooden rolling pin across his back on a cord, like a sword. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO slings a wooden rolling pin across his back on a cord, like a sword. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "SU5",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, the maroon brass-buttoned porter's cap is tossed in from frame right by MADAM HU's hand; MARLO catches it and sets it firmly on his head, straightening the brim. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 3 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "safety bracket regenerated from pool",
+   "start frame pending render: SU4_last.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): MARLO_full_<prev>.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): cap_detail.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, the maroon brass-buttoned porter's cap is tossed in from frame right by MADAM HU's hand; MARLO catches it and sets it firmly on his head, straightening the brim. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, the maroon brass-buttoned porter's cap is tossed in from frame right by MADAM HU's hand; MARLO catches it and sets it firmly on his head, straightening the brim. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "odyssey",
+  "id": "SU6",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO slows and stops at a gold roof door, the glowing jade key in his right hand; at 2 s he turns side-on toward the door, wind lifting the red sash; the camera slows and stops with him. The last 0.4 s eases into the planned end image. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 4 s take.]",
+  "notes": [
+   "ending replaced: 'Motion carries on through the last half second.'",
+   "safety bracket regenerated from pool",
+   "start frame pending render: SU5_last.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): MARLO_full_<prev>.png",
+   "state still pending (made from the real last frame by ref_policy_v4.state_stills after the parent renders): final form_detail.png"
+  ],
+  "v42": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 4 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO slows and stops at a gold roof door, the glowing jade key in his right hand; at 2 s he turns side-on toward the door, wind lifting the red sash; the camera slows and stops with him. The last 0.4 s eases into the planned end image. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 4 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO slows and stops at a gold roof door, the glowing jade key in his right hand; at 2 s he turns side-on toward the door, wind lifting the red sash; the camera slows and stops with him. The last 0.4 s eases into the planned end image. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P02-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Modern parody local TV news, broadcast video look. On the bridge, the sweeper slows and parks neatly between two lines, brushes stopping. Field reporter TESS: invented woman, yellow rain jacket, short black curls, parody microphone. Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. At 4 s TESS hops off, straightens her jacket, and says, \"[crisp anchor cadence, measured pace] Back to you in the studio.\" Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "bare 'never at camera' replaced by named eyeline target",
+   "delivery cue added to dialogue",
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool"
+  ],
+  "v42": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS (<IMAGE_1>).] [On the bridge, the sweeper slows and parks neatly between two lines, brushes stopping.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. At 4 s TESS hops off, straightens her jacket, and speaks [crisp anchor cadence, measured pace: \"Back to you in the studio.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS: invented woman, yellow rain jacket, short black curls, parody microphone.] [On the bridge, the sweeper slows and parks neatly between two lines, brushes stopping.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. At 4 s TESS hops off, straightens her jacket, and speaks [crisp anchor cadence, measured pace: \"Back to you in the studio.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P02-4",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Modern parody local TV news, broadcast video look. Same studio desk look: the two invented anchors MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie) watch a monitor showing the parked sweeper; at 3 s RON says, \"[crisp anchor cadence, measured pace] Cleanest getaway I've ever seen,\" and MARLA laughs. Field reporter TESS: invented woman, yellow rain jacket, short black curls, parody microphone. Studio as in <IMAGE_0>. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. At 7 s, behind the anchors a floor director in a headset trips over a cable and catches a falling studio light with both arms, in full view, clearly visible in frame. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "bare 'never at camera' replaced by named eyeline target",
+   "delivery cue added to dialogue",
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool"
+  ],
+  "v42": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS (<IMAGE_1>).] [Studio as in <IMAGE_0>.] [The two invented anchors MARLA DEAN (<IMAGE_0>) and RON PIKE (<IMAGE_0>) watch a monitor showing the parked sweeper; at 3 s RON speaks [crisp anchor cadence, measured pace: \"Cleanest getaway I've ever seen\"] and MARLA laughs.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS: invented woman, yellow rain jacket, short black curls, parody microphone.] [Studio as in <IMAGE_0>.] [Same studio desk look: the two invented anchors MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie) watch a monitor showing the parked sweeper; at 3 s RON speaks [crisp anchor cadence, measured pace: \"Cleanest getaway I've ever seen\"] and MARLA laughs.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P03-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1970s heist TV, 35mm film grain, amber and brown tones. MAE: invented woman thief, auburn shag haircut, black turtleneck, tan utility vest. Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s MAE pushes the mop bucket down a long basement corridor, a canvas sack of play-money bundles hidden in the bucket. At 6 s she pushes through a service door into the night alley and walks away calmly. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH3_CREW_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1970s heist TV, 35mm film grain, amber and brown tones.] [MAE (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s MAE pushes the mop bucket down a long basement corridor, a canvas sack of play-money bundles hidden in the bucket. At 6 s she pushes through a service door into the night alley and walks away calmly. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1970s heist TV, 35mm film grain, amber and brown tones.] [MAE: invented woman thief, auburn shag haircut, black turtleneck, tan utility vest.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s MAE pushes the mop bucket down a long basement corridor, a canvas sack of play-money bundles hidden in the bucket. At 6 s she pushes through a service door into the night alley and walks away calmly. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P05-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Mounted-camera chase TV at night, dashcam footage look, city lights. Dashcam view again: on the bridge the tow truck slows and stops. Invented tow-truck driver in a grey hoodie. Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 5 s the driver climbs out with both hands up, sheepish, and sits on the curb. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "special POV: must come from the start frame (r9: dashcam/aerial text ignored)"
+  ],
+  "v42": "[Look: Mounted-camera chase TV at night, real footage look.] [Invented tow-truck driver in a grey hoodie.] [Dashcam view again: on the bridge the tow truck slows and stops.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 5 s the driver climbs out with both hands up, sheepish, and sits on the curb. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Mounted-camera chase TV at night, real footage look.] [Invented tow-truck driver in a grey hoodie.] [Dashcam view again: on the bridge the tow truck slows and stops.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 5 s the driver climbs out with both hands up, sheepish, and sits on the curb. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P06-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Host CANDY: invented woman, big teased blonde hair, sequined teal jacket. Product: the parody 'Indestructo-Cooler', a chunky orange cooler. 1990s overnight home-shopping channel, glossy studio, pastel set. Start exactly where <IMAGE_0> leaves off, same light, already moving. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s CANDY shoves the cooler off the loft; it drops and bounces on the studio floor. At 5 s she opens it below, pulls out a cold soda and says, \"[natural, conversational] Still cold, folks!\" Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "delivery cue added to dialogue",
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool"
+  ],
+  "v42": "[Look: 1990s overnight home-shopping channel, glossy studio video.] [CANDY (<IMAGE_0>).] [Product: the parody 'Indestructo-Cooler' (<IMAGE_0>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s CANDY shoves the cooler off the loft; it drops and bounces on the studio floor. At 5 s CANDY opens it below, pulls out a cold soda and speaks [natural, conversational: \"Still cold, folks!\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s overnight home-shopping channel, glossy studio video.] [Host CANDY: invented woman, big teased blonde hair, sequined teal jacket.] [Product: the parody 'Indestructo-Cooler', a chunky orange cooler.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s CANDY shoves the cooler off the loft; it drops and bounces on the studio floor. At 5 s CANDY opens it below, pulls out a cold soda and speaks [natural, conversational: \"Still cold, folks!\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P07-2",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1950s creature-feature look, practical effects, Technicolor night. RITA: invented mechanic, red headscarf, oil-stained coveralls. Monster: a giant mechanical bear with riveted brass plates and glowing eyes (practical suit). Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA grabs a long stall pole. At 4 s she jabs it into the bear's chest plate with a loud clang, the bear rocks back. At 7 s she wedges the pole under its arm. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH7_CAST_v2.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1950s creature-feature look, practical effects, Technicolor night.] [Monster: the giant mechanical bear (<IMAGE_2>).] [RITA (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA grabs a long stall pole. At 4 s she jabs it into the bear's chest plate with a loud clang, the bear rocks back. At 7 s she wedges the pole under its arm. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1950s creature-feature look, practical effects, Technicolor night.] [Monster: a giant mechanical bear with riveted brass plates and glowing eyes (practical suit).] [RITA: invented mechanic, red headscarf, oil-stained coveralls.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA grabs a long stall pole. At 4 s she jabs it into the bear's chest plate with a loud clang, the bear rocks back. At 7 s she wedges the pole under its arm. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P07-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1950s creature-feature look, practical effects, Technicolor night. RITA: invented mechanic, red headscarf, oil-stained coveralls. Monster: a giant mechanical bear with riveted brass plates and glowing eyes (practical suit). Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA levers the bear backward with the pole. At 4 s it topples back into the open grate with a crash of steam. At 7 s she slams the grate shut and sits on it, panting. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P07-2_last.png",
+   "v4.2: channel sheet SHEET_CH7_CAST_v2.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1950s creature-feature look, practical effects, Technicolor night.] [Monster: the giant mechanical bear (<IMAGE_2>).] [RITA (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA levers the bear backward with the pole. At 4 s it topples back into the open grate with a crash of steam. At 7 s she slams the grate shut and sits on it, panting. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1950s creature-feature look, practical effects, Technicolor night.] [Monster: a giant mechanical bear with riveted brass plates and glowing eyes (practical suit).] [RITA: invented mechanic, red headscarf, oil-stained coveralls.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s RITA levers the bear backward with the pole. At 4 s it topples back into the open grate with a crash of steam. At 7 s she slams the grate shut and sits on it, panting. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P08-2",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1990s multi-camera sitcom look, bright flat studio lighting, apartment building stairwell. OSCAR: short, plaid shirt, glasses. Rival twins: two neighbours in matching purple tracksuits. DEV: tall, mustard cardigan. Pick up from <IMAGE_0> mid-movement, same positions, same light. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the couch wedges between the railings. At 4 s the twins push the couch back, DEV and OSCAR push forward. At 7 s the couch pops loose. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH8_SITCOM_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s multi-camera sitcom look, bright flat studio lighting.] [DEV (<IMAGE_1>).] [OSCAR (<IMAGE_2>).] [Rival twins: two neighbours in matching purple tracksuits.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the couch wedges between the railings. At 4 s the twins push the couch back, DEV and OSCAR push forward. At 7 s the couch pops loose. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s multi-camera sitcom look, bright flat studio lighting.] [DEV: tall, mustard cardigan.] [OSCAR: short, plaid shirt, glasses.] [Rival twins: two neighbours in matching purple tracksuits.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the couch wedges between the railings. At 4 s the twins push the couch back, DEV and OSCAR push forward. At 7 s the couch pops loose. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P08-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1990s multi-camera sitcom look, bright flat studio lighting, apartment building stairwell. DEV: tall, mustard cardigan. Rival twins: two neighbours in matching purple tracksuits. OSCAR: short, plaid shirt, glasses. Start exactly where <IMAGE_0> leaves off, same light, already moving. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the couch slides back down the stairs with DEV and OSCAR sitting on it, the twins tumbling on too. At 6 s it lands in the lobby and everyone laughs, OSCAR saying, \"[sitcom timing, slight laugh] Same time next week?\" Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "delivery cue added to dialogue",
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P08-2_last.png",
+   "v4.2: channel sheet SHEET_CH8_SITCOM_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s multi-camera sitcom look, bright flat studio lighting.] [DEV (<IMAGE_1>).] [OSCAR (<IMAGE_2>).] [Rival twins: two neighbours in matching purple tracksuits.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the couch slides back down the stairs with DEV and OSCAR sitting on it, the twins tumbling on too. At 6 s it lands in the lobby and everyone laughs, OSCAR speaks [sitcom timing, slight laugh: \"Same time next week?\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s multi-camera sitcom look, bright flat studio lighting.] [DEV: tall, mustard cardigan.] [OSCAR: short, plaid shirt, glasses.] [Rival twins: two neighbours in matching purple tracksuits.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the couch slides back down the stairs with DEV and OSCAR sitting on it, the twins tumbling on too. At 6 s it lands in the lobby and everyone laughs, OSCAR speaks [sitcom timing, slight laugh: \"Same time next week?\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P09-2",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "VIK: invented player, chrome helmet with a red stripe, orange armor. SABLE: black armor, purple visor. 1980s-future full-contact sport, neon arena, banked track. Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot from the arena roof camera looking down: the pack of armored players swirl around the banked oval. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 6 s VIK breaks clear with the ball. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH9_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1980s-future full-contact sport broadcast, neon arena.] [VIK (<IMAGE_1>).] [SABLE (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot from the arena roof camera looking down: the pack of armored players swirl around the banked oval, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 6 s VIK breaks clear with the ball. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1980s-future full-contact sport broadcast, neon arena.] [VIK: invented player, chrome helmet with a red stripe, orange armor.] [SABLE: black armor, purple visor.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot from the arena roof camera looking down: the pack of armored players swirl around the banked oval, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 6 s VIK breaks clear with the ball. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P09-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1980s-future full-contact sport, neon arena, banked track. VIK: invented player, chrome helmet with a red stripe, orange armor. SABLE: black armor, purple visor. Start exactly where <IMAGE_0> leaves off, same light, already moving. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s VIK races toward the glowing goal ring. At 5 s he hurls the ball through the ring, sparks burst, and SABLE taps his helmet in respect. Everyone keeps moving; motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P09-2_last.png",
+   "v4.2: channel sheet SHEET_CH9_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1980s-future full-contact sport broadcast, neon arena.] [VIK (<IMAGE_1>).] [SABLE (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s VIK races toward the glowing goal ring. At 5 s he hurls the ball through the ring, sparks burst, and SABLE taps his helmet in respect. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1980s-future full-contact sport broadcast, neon arena.] [VIK: invented player, chrome helmet with a red stripe, orange armor.] [SABLE: black armor, purple visor.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s VIK races toward the glowing goal ring. At 5 s he hurls the ball through the ring, sparks burst, and SABLE taps his helmet in respect. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P10-2",
+  "status": "BLOCKED",
+  "fails": [
+   "v4.2: P10-1's rendered JACE closely resembles a real, famous actor (no-real-likeness rule). Needs Trundle's call before chaining off that frame."
+  ],
+  "warns": [],
+  "v4": null,
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH10_ACTION_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s syndicated action-hour look, 35mm, warm sunset grade.] [JACE: invented stuntman, brown leather jacket, mullet, aviator sunglasses.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s JACE weaves between stacked containers on the pier, the sedans close behind. At 6 s he guns it toward the pier's end where a barge is moving away. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s syndicated action-hour look, 35mm, warm sunset grade.] [JACE: invented stuntman, brown leather jacket, mullet, aviator sunglasses.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s JACE weaves between stacked containers on the pier, the sedans close behind. At 6 s he guns it toward the pier's end where a barge is moving away. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P10-3",
+  "status": "BLOCKED",
+  "fails": [
+   "v4.2: Chains off P10-2 (blocked: JACE likeness)."
+  ],
+  "warns": [],
+  "v4": null,
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P10-2_last.png",
+   "v4.2: channel sheet SHEET_CH10_ACTION_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s syndicated action-hour look, 35mm, warm sunset grade.] [JACE: invented stuntman, brown leather jacket, mullet, aviator sunglasses.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s JACE launches off the pier and lands on the moving barge's deck with a bounce. At 5 s the sedans skid to a stop at the edge, and JACE salutes them from the barge, side-on. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s syndicated action-hour look, 35mm, warm sunset grade.] [JACE: invented stuntman, brown leather jacket, mullet, aviator sunglasses.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s JACE launches off the pier and lands on the moving barge's deck with a bounce. At 5 s the sedans skid to a stop at the edge, and JACE salutes them from the barge, side-on. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P12-2",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Mid-1990s American local TV camcorder look, county fair at dusk. Van: white news van. DALE: invented reporter, wide floral tie, helmet hair, parody microphone. Start exactly where <IMAGE_0> leaves off, same light, already moving. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s a derby car bumps the van, it rocks. At 4 s DALE climbs onto the van roof with his microphone. At 7 s he keeps reporting, \"We're live, and we're fine!\" Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH12_DALE_MARLA_STATIC_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: Mid-1990s American local TV camcorder look.] [DALE (<IMAGE_1>).] [Van: the news van (<IMAGE_0>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s a derby car bumps the van, it rocks. At 4 s DALE climbs onto the van roof with his microphone. At 7 s DALE keeps speaks [clear, natural: \"We're live, and we're fine!\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Mid-1990s American local TV camcorder look.] [DALE: invented reporter, wide floral tie, helmet hair, parody microphone.] [Van: white news van.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s a derby car bumps the van, it rocks. At 4 s DALE climbs onto the van roof with his microphone. At 7 s DALE keeps speaks [clear, natural: \"We're live, and we're fine!\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P12-3",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Mid-1990s American local TV camcorder look, county fair at dusk. DALE: invented reporter, wide floral tie, helmet hair, parody microphone. Van: white news van. Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s derby cars circle the van like sharks. At 5 s the crowd in the grandstand cheers and DALE takes a bow on the roof, tie flapping. Motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P12-2_last.png",
+   "v4.2: channel sheet SHEET_CH12_DALE_MARLA_STATIC_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: Mid-1990s American local TV camcorder look.] [DALE (<IMAGE_1>).] [Van: the news van (<IMAGE_0>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s derby cars circle the van like sharks. At 5 s the crowd in the grandstand cheers and DALE takes a bow on the roof, tie flapping. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Mid-1990s American local TV camcorder look.] [DALE: invented reporter, wide floral tie, helmet hair, parody microphone.] [Van: white news van.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s derby cars circle the van like sharks. At 5 s the crowd in the grandstand cheers and DALE takes a bow on the roof, tie flapping. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P14-1",
+  "status": "BLOCKED",
+  "fails": [
+   "v4.2: Attached Ch14 sheet v2 does not show KILO (red tracksuit, bucket hat); no KILO image exists. Needs a KILO ref (look sheet = GenerateImage, needs Trundle's yes) or his OK to use a sheet character."
+  ],
+  "warns": [],
+  "v4": null,
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "v4.2: channel sheet SHEET_CH14_MUSIC_CAST_v2.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s KILO steps into the moving subway car as the doors close. At 5 s he pops and locks down the aisle to a beat, riders nodding. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s KILO steps into the moving subway car as the doors close. At 5 s he pops and locks down the aisle to a beat, riders nodding. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P14-2",
+  "status": "BLOCKED",
+  "fails": [
+   "v4.2: Chains off P14-1 (blocked: no KILO image)."
+  ],
+  "warns": [],
+  "v4": null,
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P14-1_last.png",
+   "v4.2: channel sheet SHEET_CH14_MUSIC_CAST_v2.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s KILO spins around a pole, feet off the floor. At 6 s he lands in a freeze pose, then keeps grooving. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s KILO spins around a pole, feet off the floor. At 6 s he lands in a freeze pose, then keeps grooving. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P14-3",
+  "status": "BLOCKED",
+  "fails": [
+   "v4.2: Chains off P14-1 (blocked: no KILO image)."
+  ],
+  "warns": [],
+  "v4": null,
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P14-2_last.png",
+   "v4.2: channel sheet SHEET_CH14_MUSIC_CAST_v2.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+  ],
+  "v42": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the doors slide open at a lit station. At 5 s KILO moonwalks out onto the platform mid-beat and the doors close behind him. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the doors slide open at a lit station. At 5 s KILO moonwalks out onto the platform mid-beat and the doors close behind him. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P16-1",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1962 spy-thriller, live action, muted period colour, film grain. Plain walls, no figures appear on walls. WREN (<IMAGE_0>): rain-dark belted trench coat, headscarf, gloves. Records-building service alley at night in rain. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN crouches at the service door and picks the lock. At 5 s the door clicks open and she slips into a dim corridor, the door swinging closed behind her. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+   "ref swapped to side/3-4 crop: WREN_side_full.png",
+   "safety bracket regenerated from pool"
+  ],
+  "v42": "[Look: 1962 spy-thriller, live action, muted period colour, film grain.] [WREN (<IMAGE_0>).] [Plain walls, no figures appear on walls.] [Records-building service alley at night in rain.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN crouches at the service door and picks the lock. At 5 s the door clicks open and she slips into a dim corridor, the door swinging closed behind her. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1962 spy-thriller, live action, muted period colour, film grain.] [WREN (<IMAGE_0>): rain-dark belted trench coat, headscarf, gloves.] [Plain walls, no figures appear on walls.] [Records-building service alley at night in rain.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN crouches at the service door and picks the lock. At 5 s the door clicks open and she slips into a dim corridor, the door swinging closed behind her. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "round9-starters",
+  "id": "P16-2",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "1962 spy-thriller, live action, muted period colour, film grain. WREN (<IMAGE_1>): rain-dark belted trench coat, headscarf, gloves. Plain walls, no figures appear on walls. GRAVES (<IMAGE_2>): grey guard uniform and cap. Continue from <IMAGE_0>, same positions and light, mid-motion. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN walks down the corridor past a wall clock stopped at a quarter past three. At 4 s she pushes through a door into the archive stacks. The last 0.4 s eases into the planned end image. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "ending replaced: 'The clip ends exactly on the planned end image: the archive '",
+   "ref swapped to side/3-4 crop: GRAVES_guard_side_full.png",
+   "ref swapped to side/3-4 crop: WREN_side_full.png",
+   "safety bracket regenerated from pool",
+   "start frame pending parent render: P16-1_last.png"
+  ],
+  "v42": "[Look: 1962 spy-thriller, live action, muted period colour, film grain.] [WREN (<IMAGE_1>).] [Plain walls, no figures appear on walls.] [GRAVES (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN walks down the corridor past a wall clock stopped at a quarter past three. At 4 s she pushes through a door into the archive stacks. The last 0.4 s eases into the planned end image. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: 1962 spy-thriller, live action, muted period colour, film grain.] [WREN (<IMAGE_1>): rain-dark belted trench coat, headscarf, gloves.] [Plain walls, no figures appear on walls.] [GRAVES (<IMAGE_2>): grey guard uniform and cap.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN walks down the corridor past a wall clock stopped at a quarter past three. At 4 s she pushes through a door into the archive stacks. The last 0.4 s eases into the planned end image. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Hush-Mart-Insurance",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1990s local-TV commercial, soft video look. A man in a tan windbreaker backs his sedan out of a suburban driveway; at 3 s a runaway inflatable pumpkin rolls into the bumper and bounces off; at 6 s an invented agent in a blue blazer steps from behind a hedge holding a clipboard and nods calmly to the man, eyes on him. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1990s local-TV commercial, soft video look.] [A man in a tan windbreaker backs his sedan out of a suburban driveway; at 3 s a runaway inflatable pumpkin rolls into the bumper and bounces off; at 6 s an invented agent in a blue blazer steps from behind a hedge holding a clipboard and nods calmly to the man, eyes on him.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1990s local-TV commercial, soft video look.] [A man in a tan windbreaker backs his sedan out of a suburban driveway; at 3 s a runaway inflatable pumpkin rolls into the bumper and bounces off; at 6 s an invented agent in a blue blazer steps from behind a hedge holding a clipboard and nods calmly to the man, eyes on him.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Ledgerline-Bank",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1990s local bank ad, warm glow. An invented loan officer in a mauve suit slides a giant novelty pen across a desk to a delighted couple; at 4 s confetti blows from an air vent; at 7 s all three freeze in a toast with paper cups, eyes on each other. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1990s local bank ad, warm glow.] [An invented loan officer in a mauve suit slides a giant novelty pen across a desk to a delighted couple; at 4 s confetti blows from an air vent; at 7 s all three freeze in a toast with paper cups, eyes on each other.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1990s local bank ad, warm glow.] [An invented loan officer in a mauve suit slides a giant novelty pen across a desk to a delighted couple; at 4 s confetti blows from an air vent; at 7 s all three freeze in a toast with paper cups, eyes on each other.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Vaultmaster-Safes",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1970s TV ad, film grain, wood panelling. A salesman in a brown leisure suit pats a huge green safe; at 3 s two invented burglars in striped shirts try to lift it and fall over backwards; at 7 s the salesman polishes the dial, eyes on the safe. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1970s TV ad, film grain, wood panelling.] [A salesman in a brown leisure suit pats a huge green safe; at 3 s two invented burglars in striped shirts try to lift it and fall over backwards; at 7 s the salesman polishes the dial, eyes on the safe.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1970s TV ad, film grain, wood panelling.] [A salesman in a brown leisure suit pats a huge green safe; at 3 s two invented burglars in striped shirts try to lift it and fall over backwards; at 7 s the salesman polishes the dial, eyes on the safe.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Getaway-Gum",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1970s ad. A driver in aviators chews, blows a huge pink bubble; at 4 s the bubble lifts the whole station wagon an inch off the road; at 8 s it pops and the car lands with a bounce. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1970s ad.] [A driver in aviators chews, blows a huge pink bubble; at 4 s the bubble lifts the whole station wagon an inch off the road; at 8 s it pops and the car lands with a bounce.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1970s ad.] [A driver in aviators chews, blows a huge pink bubble; at 4 s the bubble lifts the whole station wagon an inch off the road; at 8 s it pops and the car lands with a bounce.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Polar-Thermos-Co",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "Look: live-action 1971 spy film, photographed on 35mm, grain, cold muted palette. An invented spy in a white parka pours steaming tea from a dented army-green thermos on a frozen rooftop; at 4 s the steam forms a perfect little cloud that follows her; at 8 s she nods to it, eyes on the cloud. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "Ch4 ink lock removed -> photoreal 1971 pool",
+   "look = Ch4 photoreal 1971 lock pool"
+  ],
+  "v42": "[Look: Photoreal live-action 1971 Cold War spy thriller, 35mm film grain, muted winter colour.] [An invented spy in a white parka pours steaming tea from a dented army-green thermos on a frozen rooftop; at 4 s the steam forms a perfect little cloud that follows her; at 8 s she nods to it, eyes on the cloud.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: Photoreal live-action 1971 Cold War spy thriller, 35mm film grain, muted winter colour.] [An invented spy in a white parka pours steaming tea from a dented army-green thermos on a frozen rooftop; at 4 s the steam forms a perfect little cloud that follows her; at 8 s she nods to it, eyes on the cloud.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Roadeye-Dash-Cam",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [
+   "W-start-frame-for-tracking (SU1)"
+  ],
+  "v4": null,
+  "notes": [],
+  "v42": "[Look: Mounted-camera look, 1990s dashcam footage.] [Through a windshield at night a shopping cart rolls slowly across an empty road; at 4 s a raccoon-costumed adult mascot chases it; at 8 s the cart stops at the curb.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: Mounted-camera look, 1990s dashcam footage.] [Through a windshield at night a shopping cart rolls slowly across an empty road; at 4 s a raccoon-costumed adult mascot chases it; at 8 s the cart stops at the curb.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Spatula-Tron-9000",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "Two invented hosts at a counter; at 2 s the woman flips forty pancakes with one wide spatula; at 6 s the man applauds and drops his mug, which the spatula catches. 1990s home-shopping set, pastel. Eyes on the pancakes. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1990s overnight home-shopping channel, glossy studio video.] [1990s home-shopping set, pastel.] [Two invented hosts at a counter; at 2 s the woman flips forty pancakes with one wide spatula; at 6 s the man applauds and drops his mug, which the spatula catches.] [Eyes on the pancakes.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1990s overnight home-shopping channel, glossy studio video.] [1990s home-shopping set, pastel.] [Two invented hosts at a counter; at 2 s the woman flips forty pancakes with one wide spatula; at 6 s the man applauds and drops his mug, which the spatula catches.] [Eyes on the pancakes.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Atomic-Antacid",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1950s black-and-white TV ad. Eyes on the glass. A man in a fedora clutches his stomach beside a cardboard city; at 3 s he drinks a fizzing glass; at 6 s a rubber-suit lizard monster behind him also drinks one and calmly sits down. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1950s black-and-white TV ad.] [A man in a fedora clutches his stomach beside a cardboard city; at 3 s he drinks a fizzing glass; at 6 s a rubber-suit lizard monster behind him also drinks one and calmly sits down.] [Eyes on the glass.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1950s black-and-white TV ad.] [A man in a fedora clutches his stomach beside a cardboard city; at 3 s he drinks a fizzing glass; at 6 s a rubber-suit lizard monster behind him also drinks one and calmly sits down.] [Eyes on the glass.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Couch-Potato-Chips",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1990s multi-cam look. A family of three adults on a plaid couch reach into one chip bag; at 4 s the couch cushion swallows the bag; at 7 s all three dig into the cushion together, laugh track. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1990s multi-cam look.] [A family of three adults on a plaid couch reach into one chip bag; at 4 s the couch cushion swallows the bag; at 7 s all three dig into the cushion together, laugh track.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1990s multi-cam look.] [A family of three adults on a plaid couch reach into one chip bag; at 4 s the couch cushion swallows the bag; at 7 s all three dig into the cushion together, laugh track.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Steve-Cold-Blooded-promo",
+  "status": "OK",
+  "fails": [],
+  "warns": [],
+  "v4": "Parody network promo, 1990s multi-camera sitcom look, a heat-lamp-lit apartment. <IMAGE_0> is STEVE as he is now (lizard man, same red bowling shirt and khakis). Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. At 0 s STEVE walks toward the apartment door, seen from behind. At 4 s he turns side-on and slides on sunglasses, eyes on the door. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [
+   "costume must be carried by a state still of lizard+shirt (r9 E1 lost the shirt) - current STATE_STEVE_E1 shows no shirt -> needs a costume still",
+   "title card moved to post (no on-screen text rule)"
+  ],
+  "v42": "[Look: Parody network promo, 1990s multi-camera sitcom look, a heat-lamp-lit apartment.] [STEVE (<IMAGE_0>), now in his red bowling shirt and khakis (not in <IMAGE_0>).] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. At 0 s STEVE walks toward the apartment door, seen from behind. At 4 s he turns side-on and slides on sunglasses, eyes on the door. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: Parody network promo, 1990s multi-camera sitcom look, a heat-lamp-lit apartment.] [<IMAGE_0> is STEVE as he is now (lizard man, same red bowling shirt and khakis).] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. At 0 s STEVE walks toward the apartment door, seen from behind. At 4 s he turns side-on and slides on sunglasses, eyes on the door. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-ProtoPads-Armor",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1980s future-sports ad, neon grid. An invented athlete straps chrome shoulder pads; at 3 s a foam boulder bounces off him; at 7 s he poses side-on toward a stadium, eyes ahead. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1980s future-sports ad, neon grid.] [An invented athlete straps chrome shoulder pads; at 3 s a foam boulder bounces off him; at 7 s he poses side-on toward a stadium, eyes ahead.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1980s future-sports ad, neon grid.] [An invented athlete straps chrome shoulder pads; at 3 s a foam boulder bounces off him; at 7 s he poses side-on toward a stadium, eyes ahead.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Turbo-Muffler-Hut",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1990s syndicated-TV ad. A red sports car skids into a garage bay; at 3 s a mechanic in coveralls slaps a chrome muffler on in one motion; at 6 s the car roars out leaving a smoke ring. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1990s syndicated-TV ad.] [A red sports car skids into a garage bay; at 3 s a mechanic in coveralls slaps a chrome muffler on in one motion; at 6 s the car roars out leaving a smoke ring.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1990s syndicated-TV ad.] [A red sports car skids into a garage bay; at 3 s a mechanic in coveralls slaps a chrome muffler on in one motion; at 6 s the car roars out leaving a smoke ring.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Jade-Tiger-Balm-ish-Tiger-Ru",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1970s kung-fu film ad, grain, red lacquer. An invented master in a white gi rubs ointment on his knuckles; at 3 s he chops a stack of foam boards that puff into dust; at 7 s he bows to his student, eyes on him. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1970s kung-fu film ad, grain, red lacquer.] [An invented master in a white gi rubs ointment on his knuckles; at 3 s he chops a stack of foam boards that puff into dust; at 7 s he bows to his student, eyes on him.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1970s kung-fu film ad, grain, red lacquer.] [An invented master in a white gi rubs ointment on his knuckles; at 3 s he chops a stack of foam boards that puff into dust; at 7 s he bows to his student, eyes on him.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Porter-s-Pride-Luggage",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1970s hotel lobby ad. An invented porter in a maroon waistcoat lifts a suitcase that is clearly far too light; at 4 s he tosses it in the air and catches it on one finger; at 8 s he sets it on a trolley, eyes on the trolley. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1970s hotel lobby ad.] [An invented porter in a maroon waistcoat lifts a suitcase that is clearly far too light; at 4 s he tosses it in the air and catches it on one finger; at 8 s he sets it on a trolley, eyes on the trolley.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1970s hotel lobby ad.] [An invented porter in a maroon waistcoat lifts a suitcase that is clearly far too light; at 4 s he tosses it in the air and catches it on one finger; at 8 s he sets it on a trolley, eyes on the trolley.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Mega-Video-Rental",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1994 local ad, VHS noise. An invented clerk in a vest stacks tapes into a tower; at 4 s the tower sways and he catches the top tape; at 7 s a customer applauds slowly. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1994 local ad, VHS noise.] [An invented clerk in a vest stacks tapes into a tower; at 4 s the tower sways and he catches the top tape; at 7 s a customer applauds slowly.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1994 local ad, VHS noise.] [An invented clerk in a vest stacks tapes into a tower; at 4 s the tower sways and he catches the top tape; at 7 s a customer applauds slowly.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Hairsonic-Gel",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1990s late-night ad. Eyes on the mirror. A singer in a leather jacket rubs gel in; at 3 s his hair stands up into a perfect lightning-bolt; at 6 s a backup dancer copies it. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1990s late-night ad.] [A singer in a leather jacket rubs gel in; at 3 s his hair stands up into a perfect lightning-bolt; at 6 s a backup dancer copies it.] [Eyes on the mirror.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1990s late-night ad.] [A singer in a leather jacket rubs gel in; at 3 s his hair stands up into a perfect lightning-bolt; at 6 s a backup dancer copies it.] [Eyes on the mirror.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "commercials",
+  "id": "AD-Cipher-Typewriters",
+  "status": "BLOCKED",
+  "fails": [
+   "R-REF required (t132u)"
+  ],
+  "warns": [],
+  "v4": "1960s film look, office. An invented secretary types; at 4 s the paper scrolls out in invisible ink, she holds it to a lamp and words-shapes glow (unreadable); at 8 s she nods, eyes on the page. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 10 s take.]",
+  "notes": [],
+  "v42": "[Look: 1960s film look, office.] [An invented secretary types; at 4 s the paper scrolls out in invisible ink, she holds it to a lamp and words-shapes glow (unreadable); at 8 s she nods, eyes on the page.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41": "[Look: 1960s film look, office.] [An invented secretary types; at 4 s the paper scrolls out in invisible ink, she holds it to a lamp and words-shapes glow (unreadable); at 8 s she nods, eyes on the page.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "v41_status": "BLOCKED"
+ },
+ {
+  "group": "lipsync",
+  "id": "LS1",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk. Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie). Start exactly where <IMAGE_0> leaves off, same light, already moving. Single shot: medium two-shot, static camera, eye level. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN says, \"[neutral read] Good evening, Austin. Here is what we know tonight.\" Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 8 s take.]",
+  "notes": [
+   "comedy layer OFF (serious=True) so the test isolates voice; LS1 uses a neutral cue because v4 requires a cue on every line - NEEDS TRUNDLE if he wants a true cue-free control"
+  ],
+  "v42": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>.] [Two invented anchors: MARLA DEAN (<IMAGE_1>) and RON PIKE (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN speaks [neutral read: \"Good evening, Austin. Here is what we know tonight.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk.] [Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN speaks [neutral read: \"Good evening, Austin. Here is what we know tonight.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "lipsync",
+  "id": "LS2",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie). Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk. Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: medium two-shot, static camera, eye level. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and says, \"[crisp anchor cadence, slight smile, measured pace] Good evening, Austin. Here is what we know tonight.\" Everyone keeps moving; motion carries on through the last half second. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 8 s take.]",
+  "notes": [
+   "comedy layer OFF (serious=True) so the test isolates voice; LS1 uses a neutral cue because v4 requires a cue on every line - NEEDS TRUNDLE if he wants a true cue-free control"
+  ],
+  "v42": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>.] [Two invented anchors: MARLA DEAN (<IMAGE_1>) and RON PIKE (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks [crisp anchor cadence, slight smile, measured pace: \"Good evening, Austin. Here is what we know tonight.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk.] [Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks [crisp anchor cadence, slight smile, measured pace: \"Good evening, Austin. Here is what we know tonight.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "lipsync",
+  "id": "LS3",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk. Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie). Continue from <IMAGE_0>, same positions and light, mid-motion. Single shot: medium two-shot, static camera, eye level. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and says, \"[crisp anchor cadence, slight smile, measured pace] Good evening, Austin. Here is what we know tonight.\" Close lavalier mic sound, quiet studio, no music. Everyone keeps moving; motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 8 s take.]",
+  "notes": [
+   "comedy layer OFF (serious=True) so the test isolates voice; LS1 uses a neutral cue because v4 requires a cue on every line - NEEDS TRUNDLE if he wants a true cue-free control"
+  ],
+  "v42": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>.] [Two invented anchors: MARLA DEAN (<IMAGE_1>) and RON PIKE (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks [crisp anchor cadence, slight smile, measured pace: \"Good evening, Austin. Here is what we know tonight.\"] Close lavalier mic sound, quiet studio, no music. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk.] [Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks [crisp anchor cadence, slight smile, measured pace: \"Good evening, Austin. Here is what we know tonight.\"] Close lavalier mic sound, quiet studio, no music. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ },
+ {
+  "group": "lipsync",
+  "id": "LS4",
+  "status": "OK",
+  "fails": [],
+  "warns": [
+   "W-front refs (SU1)"
+  ],
+  "v4": "Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk. Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie). Continue from <IMAGE_0>, same positions and light, mid-motion. Single shot: medium two-shot, static camera, eye level. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks one short sentence, mouth clearly moving; no audio needed. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 8 s take.]",
+  "notes": [
+   "comedy layer OFF (serious=True) so the test isolates voice; LS1 uses a neutral cue because v4 requires a cue on every line - NEEDS TRUNDLE if he wants a true cue-free control"
+  ],
+  "v42": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>.] [Two invented anchors: MARLA DEAN (<IMAGE_1>) and RON PIKE (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks one short sentence, mouth clearly moving; no audio needed. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>, curved blue desk.] [Two invented anchors: MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN turns three-quarter toward RON PIKE and speaks one short sentence, mouth clearly moving; no audio needed. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "v41_status": "OK"
+ }
+]

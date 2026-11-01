@@ -1,0 +1,12 @@
+{
+ "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); THE CONCIERGE (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: whip pan from MARLO to the stairs, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, THE CONCIERGE glides down the staircase, cane tapping each step. At 4 s, his silver key ring swings; among the keys hangs a small grey TV remote. At 7 s, he stops at the bottom step, eyes fixed on the key in MARLO's hand. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 9,
+ "resolution": "480p",
+ "filename": "NP07.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP06_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/CONCIERGE_threequarter_face.png"
+ ]
+}

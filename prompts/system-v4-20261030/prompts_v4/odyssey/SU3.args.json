@@ -1,0 +1,11 @@
+{
+ "prompt": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the newest gear piece) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera. Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns. Pick up from <IMAGE_0> mid-movement, same positions, same light. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, MARLO pulls on fingerless brown leather gloves, flexing each hand once as he walks. Motion carries on through the last half second, nothing freezes. [Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous 3 s take.]",
+ "duration": 3,
+ "resolution": "480p",
+ "filename": "SU3.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU2_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/MARLO_full_<prev>.png",
+  "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/gloves_detail.png"
+ ]
+}

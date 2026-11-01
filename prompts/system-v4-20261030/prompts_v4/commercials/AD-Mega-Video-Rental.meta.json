@@ -1,0 +1,36 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "AD-Mega-Video-Rental",
+ "parent_clip": null,
+ "channel_show": "Ch12 90s",
+ "episode": null,
+ "clip_type": "ad",
+ "arc_stage": null,
+ "beats": [],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  }
+ ],
+ "prompt_sha256": "908595c2e9fef2ab1a32bfca32caa0839bad5e20f0c33df2a315b01da12b1224",
+ "prompt_words": 104,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

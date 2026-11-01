@@ -1,0 +1,21 @@
+services:
+  server:
+    build: ./server
+    working_dir: /app
+    volumes:
+      - ./server/app:/app/app
+      - ./server/db:/app/db
+      - ./server/model_routing.yaml:/app/model_routing.yaml
+    env_file:
+      - ./.env
+    ports:
+      - "8000:8000"
+
+  client:
+    build: ./client
+    working_dir: /app
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"

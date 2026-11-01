@@ -1,0 +1,11 @@
+{
+ "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: close-up, 85mm, slow push-in, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MARLO polishes the brass desk bell with a cloth in slow circles. At 4 s, the bell's curved reflection shows the dark gold roof door at the top of the stairs. At 6 s, a hotel clothes rack rolls past behind him with a teal tape measure hanging from it. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 9,
+ "resolution": "480p",
+ "filename": "NP03.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP02_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+ ]
+}

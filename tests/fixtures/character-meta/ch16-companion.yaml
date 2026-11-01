@@ -1,0 +1,14 @@
+meta:
+  channel: 16
+cast:
+  ch16.night_porter:
+    locked_description: porter lead
+    meta_prompt:
+      text: graphite coat, no eye contact
+      built_from: []
+      version: 1
+    traits:
+      tangible: []
+      intangible: []
+    abilities: []
+    relationships: []

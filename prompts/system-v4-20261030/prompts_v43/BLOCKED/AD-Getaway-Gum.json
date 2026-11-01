@@ -1,0 +1,15 @@
+{
+ "id": "AD-Getaway-Gum",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: 1970s ad.] [A driver in aviators chews, blows a huge pink bubble; at 4 s the bubble lifts the whole station wagon an inch off the road; at 8 s it pops and the car lands with a bounce.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "AD-Getaway-Gum.mp4"
+ },
+ "notes": []
+}

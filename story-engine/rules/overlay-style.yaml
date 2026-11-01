@@ -1,0 +1,15 @@
+# Trundle, Oct 28 2026 11:55 AM CT (Director chat): replaces overlay-only
+text_policy: story_needs_only   # no decorative or title captions
+in_scene_text: generate          # signs, screens, papers, dials: write the exact words into the generation prompt
+overlay_only_for: [genealogy_corner_tag, lower_thirds_kept_clean_for_mutation, generation_failed_text]
+generation_prompts: in_scene_text_allowed_quote_exact_words
+lower_third: {position: lower_third, centered: false}
+corner_tag:
+  position: top_right
+  line_height_pct_of_frame: 3.5   # about 25 px at 720p; 1.5-2 was too small
+  font: bold
+  color: white
+  box: small_dark
+  lines: 2
+  fade_after_s: 4                 # open question: keep it on screen the whole clip?
+burn: ffmpeg_on_copy_only        # masters are never touched

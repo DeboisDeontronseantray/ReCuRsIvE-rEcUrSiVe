@@ -1,0 +1,15 @@
+{
+ "id": "AD-Roadeye-Dash-Cam",
+ "why": {
+  "V4_start_frame_for_camera": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "Mounted-camera look, 1990s dashcam footage. Through a windshield at night a shopping cart rolls slowly across an empty road; at 4 s a raccoon-costumed adult mascot chases it; at 8 s the cart stops at the curb. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "AD-Roadeye-Dash-Cam.mp4"
+ },
+ "notes": []
+}

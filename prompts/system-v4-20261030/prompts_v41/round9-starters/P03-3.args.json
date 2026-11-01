@@ -1,0 +1,10 @@
+{
+ "prompt": "[Look: 1970s heist TV, 35mm film grain, amber and brown tones.] [MAE: invented woman thief, auburn shag haircut, black turtleneck, tan utility vest.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s MAE pushes the mop bucket down a long basement corridor, a canvas sack of play-money bundles hidden in the bucket. At 6 s she pushes through a service door into the night alley and walks away calmly. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P03-3.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P03-2/P03-2_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/channels/03-clean-job/refs/sheets/SHEET_CH3_CREW_v1.jpg"
+ ]
+}

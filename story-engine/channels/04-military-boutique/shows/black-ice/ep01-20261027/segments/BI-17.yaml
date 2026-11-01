@@ -1,0 +1,76 @@
+shot_id: BI-17
+show: black-ice
+episode: ep01-20261027
+scene: SC5
+tc_in: 171.281
+tc_out: 179.381
+tc_basis: ffprobe of leveled files in cut/cut_order_v2.txt, summed in order incl. ad breaks (measured, not estimated)
+duration_planned_s: 8
+rendered_prompt_record: '[Camera & Style] Photorealistic early-1970s cold-war espionage film, fictional frozen border river, winter 1971. Shot on 35mm film with a vintage 25-85mm zoom lens set at 32mm. Naturalistic 24fps motion, subtle film grain, desaturated steel-blue palette with ink-black shadows. MEDIUM, violent unstabilized handheld. ONE CONTINUOUS SHOT. The first image is the exact starting frame and the last image is the exact ending frame. Preserve composition, lighting and character appearance.
+
+  [Action] HERON fires and shoots out a lamp; muzzle flashes in black, glass bursts, tape reels spill tape.
+
+  [Environment] Near-black listening hall, only orange bulb and screen glow.
+
+  [Physics] Glass shards fly, tape unspools, smoke, flashes.
+
+  [Audio] No music. Chaos, no dialogue.
+
+  [SFX] Suppressed rifle shots, glass shatter, reels clatter, shouting in the distance with no words.
+
+  [Constraints] One continuous shot, no cuts. Fictional adults only. Every lamp, bulb and lantern glows signal orange, never green. Strictly photorealistic live action. No text, no subtitles, no signage, no logos, no insignia, no brands, no readable dials. No eye contact with camera, eyeline off-lens; characters never look into the lens.'
+keyframes:
+  first_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC5_HALL_AROLL/BI-S17_start_try1_parody.png
+  last_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC5_HALL_AROLL/BI-S17_end_try1_parody.png
+  last_frame_clean_extract: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/lastframes/BI-17_g115_last_clean_parody.jpg
+characters:
+- HERON
+location: Island Nine listening hall
+look: early-1970s 35mm, 32mm, MEDIUM, violent unstabilized handheld; desaturated steel blue, ink-black shadows, signal orange lamps only
+in_scene_text: []
+overlay_post: []
+overlay_fallback: false
+continuity_ref: ../../continuity.yaml#shots.BI-17
+no_eye_contact: true
+clean_master: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/masters/BI-17_try1_480p_clean_parody.mp4
+airing_file: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/leveled/BI-17_g115_cap_tag_lev_parody.mp4
+qc_flags: []
+lineage:
+  tag: '4.13 g1 #115'
+  clip_no: 115
+  parent: null
+  gen: 1
+rendered_prompt_record_note: 'prompt is the current shots_ep1.py text (10:41 AM CT). The v1 render (~8:15 AM CT) used shots_ep1.py.bak-20261028-1042, which is identical except it lacks the final no-eye-contact sentence.'
+
+# --- Locks + chain (Director 12:26 PM CT / CNB 12:27 PM CT; Story Bot add-only 12:28) ---
+locks:
+  chr:
+  - CHR-HERON-v1
+  war:
+  - WAR-HERON-SNOWSMOCK-v1
+  loc:
+  - LOC-LISTENING-HALL-v2
+  look:
+  - LOOK-BLACK-ICE-v1
+  prp:
+  - PRP-HERON-RIFLE-v1
+chain: false
+chain_basis: 'director_confirmed_20261028: cut (new angle/size or new scene)'
+blocks:
+  camera: MEDIUM, violent unstabilized handheld, 32mm lens
+  action: HERON fires and shoots out a lamp; muzzle flashes in black, glass bursts, tape reels spill tape.
+  environment: Near-black listening hall, only orange bulb and screen glow.
+  physics: Glass shards fly, tape unspools, smoke, flashes.
+  audio: No music. Chaos, no dialogue.
+  sfx: Suppressed rifle shots, glass shatter, reels clatter, shouting in the distance with no words.
+  extra_constraints: No other people in frame, no glowing monitors except the amber-orange phosphor oscilloscopes of this listening hall; nothing glows green.
+blocks_source: CNB shots_ep1.py SH (current, 12:27 PM CT; BI-12/BI-15 = v2 spec)
+seed: null
+end_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC5_HALL_AROLL/BI-S17_end_try1_parody.png
+
+# pure show-only master (no ads), Oct 28 2026
+master_pure: black-ice-20261027_ch4_ep1_showonly_v2_720p_parody.mp4
+tc_pure_in: 129.14
+tc_pure_out: 137.24
+tc_superseded: true  # old tc_in/tc_out measured with ads; use tc_pure_*
+prompt_source: 'Not stored here. assemble_prompt.py builds the live prompt from blocks + locks + wrappers each time (Story Bot, Oct 28 2026 3:00 PM CT). rendered_prompt_record is a frozen history of what was rendered and is never read for assembly.'

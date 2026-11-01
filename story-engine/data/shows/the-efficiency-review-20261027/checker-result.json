@@ -1,0 +1,95 @@
+{
+ "file": "prompts.json",
+ "overall": "pass",
+ "counts": {
+  "pass": 14,
+  "warn": 0,
+  "fail": 0
+ },
+ "shots": [
+  {
+   "id": "ER-01",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-02",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-03",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-04",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-05",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-06",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-07",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-08",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-09",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-10",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-11",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-12",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-13",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "ER-14",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  }
+ ]
+}

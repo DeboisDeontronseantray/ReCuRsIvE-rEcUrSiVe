@@ -1,0 +1,77 @@
+shot_id: BI-04
+show: black-ice
+episode: ep01-20261027
+scene: SC2
+tc_in: 23.242
+tc_out: 33.283
+tc_basis: ffprobe of leveled files in cut/cut_order_v2.txt, summed in order incl. ad breaks (measured, not estimated)
+duration_planned_s: 10
+rendered_prompt_record: '[Camera & Style] Photorealistic early-1970s cold-war espionage film, fictional frozen border river, winter 1971. Shot on 35mm film with a vintage 25-85mm zoom lens set at 50mm. Naturalistic 24fps motion, subtle film grain, desaturated steel-blue palette with ink-black shadows. MEDIUM, very slow push-in. ONE CONTINUOUS SHOT. The first image is the exact starting frame. Preserve composition, lighting and character appearance.
+
+  [Action] LANTERN lights a fresh cigarette off the stub of the last one, exhales, speaks into her headset mic.
+
+  [Environment] Cramped attic radio room at night, valve radios with blank glowing dials, orange-shaded desk lamp, smoke hanging.
+
+  [Physics] Smoke curls and hangs in the lamp light, ember glows as she draws.
+
+  [Audio] No music. LANTERN, calm, easy: "Island Nine. They''ve finished it. Lorelei hears everything on that river. You, your ferry, your passengers."
+
+  [SFX] Lighter flick, cigarette crackle, radio hum and faint static.
+
+  [Constraints] One continuous shot, no cuts. Fictional adults only. Every lamp, bulb and lantern glows signal orange, never green. Strictly photorealistic live action. No text, no subtitles, no signage, no logos, no insignia, no brands, no readable dials. No eye contact with camera, eyeline off-lens; characters never look into the lens.'
+keyframes:
+  first_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC2_RADIOROOM_AROLL/BI-S04_start_try2_parody.png
+  last_frame: null
+  last_frame_clean_extract: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/lastframes/BI-04_g102_last_clean_parody.jpg
+characters:
+- LANTERN
+location: LANTERN's attic radio room
+look: early-1970s 35mm, 50mm, MEDIUM, very slow push-in; desaturated steel blue, ink-black shadows, signal orange lamps only
+in_scene_text: []
+overlay_post:
+- LANTERN
+overlay_fallback: false
+continuity_ref: ../../continuity.yaml#shots.BI-04
+no_eye_contact: true
+clean_master: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/masters/BI-04_try1_480p_clean_parody.mp4
+airing_file: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/leveled/BI-04_g102_cap_tag_lev_parody.mp4
+qc_flags: []
+lineage:
+  tag: '4.13 g1 #102'
+  clip_no: 102
+  parent: null
+  gen: 1
+rendered_prompt_record_note: 'prompt is the current shots_ep1.py text (10:41 AM CT). The v1 render (~8:15 AM CT) used shots_ep1.py.bak-20261028-1042, which is identical except it lacks the final no-eye-contact sentence.'
+
+# --- Locks + chain (Director 12:26 PM CT / CNB 12:27 PM CT; Story Bot add-only 12:28) ---
+locks:
+  chr:
+  - CHR-LANTERN-v1
+  war:
+  - WAR-LANTERN-CARDIGAN-v1
+  loc:
+  - LOC-RADIO-ROOM-v1
+  look:
+  - LOOK-BLACK-ICE-v1
+  prp:
+  - PRP-CIGARETTE-v1
+chain: false
+chain_basis: 'director_confirmed_20261028: cut (new angle/size or new scene)'
+blocks:
+  camera: MEDIUM, very slow push-in, 50mm lens
+  action: LANTERN lights a fresh cigarette off the stub of the last one, exhales, speaks into her headset mic.
+  environment: Cramped attic radio room at night, valve radios with blank glowing dials, orange-shaded desk lamp, smoke hanging.
+  physics: Smoke curls and hangs in the lamp light, ember glows as she draws.
+  audio: 'No music. LANTERN, calm, easy: "Island Nine. They''ve finished it. Lorelei hears everything on that river. You, your ferry, your passengers."'
+  sfx: Lighter flick, cigarette crackle, radio hum and faint static.
+  extra_constraints: No other people in frame, no glowing monitors.
+blocks_source: CNB shots_ep1.py SH (current, 12:27 PM CT; BI-12/BI-15 = v2 spec)
+seed: null
+end_frame: null
+
+# pure show-only master (no ads), Oct 28 2026
+master_pure: black-ice-20261027_ch4_ep1_showonly_v2_720p_parody.mp4
+tc_pure_in: 23.242
+tc_pure_out: 33.283
+tc_superseded: true  # old tc_in/tc_out measured with ads; use tc_pure_*
+prompt_source: 'Not stored here. assemble_prompt.py builds the live prompt from blocks + locks + wrappers each time (Story Bot, Oct 28 2026 3:00 PM CT). rendered_prompt_record is a frozen history of what was rendered and is never read for assembly.'

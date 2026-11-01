@@ -1,0 +1,55 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "SU6",
+ "parent_clip": "SU5_last",
+ "channel_show": "Ch11 Fist Theater / THE NIGHT PORTER",
+ "episode": null,
+ "clip_type": "suit_up",
+ "arc_stage": "approach: suit-up",
+ "beats": [
+  {
+   "t": null,
+   "requester": "story",
+   "kind": "action"
+  }
+ ],
+ "tier_consequences": [
+  {
+   "id": null,
+   "text": "final form",
+   "tier": "MARK",
+   "created_here": true
+  }
+ ],
+ "hints_planted": [],
+ "hints_paid": [
+  "H1"
+ ],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  },
+  {
+   "layer": "setting",
+   "kind": "clip"
+  }
+ ],
+ "prompt_sha256": "d34bc43726df87540056f49abaf73991e12de78df983b78e26a3eca6bff17960",
+ "prompt_words": 218,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

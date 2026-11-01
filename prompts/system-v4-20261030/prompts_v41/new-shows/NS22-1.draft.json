@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: 1960s spaghetti western, live action, Techniscope 35mm, sun-bleached.] [Setting: a sun-blasted desert way station, hitching rail, stagecoach.] [Cast: ROSALIND 'ROE' VANCE (black duster, silver spurs); THE PREACHER (dusty black suit, flat hat).] Single shot: extreme wide to medium, slow push-in, 40mm, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, ROE steps off the stagecoach, eyes on THE PREACHER at the rail. At 4 s, THE PREACHER speaks [slow drawl: \"That coach was supposed to be empty.\"]. At 7 s, ROE lets her duster fall open, hand resting near her holster. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS22-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "THE LAST STAGE TO SALT CREEK"
+}

@@ -1,0 +1,36 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "AD-Polar-Thermos-Co",
+ "parent_clip": null,
+ "channel_show": "Ch4 Military Boutique / BLACK ICE",
+ "episode": null,
+ "clip_type": "ad",
+ "arc_stage": null,
+ "beats": [],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "look",
+   "kind": "durable"
+  }
+ ],
+ "prompt_sha256": "afd8f3b3e3f4486d41facb78ae62bc425090e2357033e8fffe6499de10b82a57",
+ "prompt_words": 125,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

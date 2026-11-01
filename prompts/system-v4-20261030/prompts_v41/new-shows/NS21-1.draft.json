@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: 1980s home-workout tape, bright VHS colour, spandex and mirrors.] [Setting: a mirrored aerobics studio, neon stripes, boombox.] [Cast: BRANDI (teal leotard, pink leg warmers, giant side ponytail); THE BACK ROW (three adult dancers in headbands).] Single shot: wide shot, 28mm, static camera, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, BRANDI leads high kicks, the back row follows. At 4 s, BRANDI speaks [chirpy, a little scary: \"And kick! And kick! And never stop!\"]. At 7 s, the back row keeps kicking faster than BRANDI, sweat flying. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS21-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "SWEAT TAPE WITH BRANDI"
+}

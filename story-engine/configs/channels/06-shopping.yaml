@@ -1,0 +1,21 @@
+id: "6"
+number: "6"
+network: thunder trundle
+name: Shopping
+genre: qvc-style home shopping
+tone: upbeat overnight sales energy
+tv_safe: true
+rules:
+  - Original fake products and hosts only; no real brands.
+  - TV-safe; absurd products OK; no medical claims that sound real.
+  - Fake phone numbers only in 555-01xx range if any appear in scripts (usually post-graphics).
+look:
+  palette: [hot pink, teal, gold, studio white]
+  era_feel: 1990s home-shopping channel
+
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
+hard_rules_20261027_1744:
+  no_trundle_name: "Never write his real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
+  no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
+  negative_tags: [no on-screen names, no personal names, no children, no kids]

@@ -1,0 +1,47 @@
+# Reusable 4 prompt snippets — style / camera / era / safety
+# Sources: SERIES-PLAN.md, templates/PROMPT-TEMPLATES.md
+id: 4-style
+channel: "4"
+style_tail: >
+  Photoreal Military Boutique commercial look, luxury near-future showroom,
+  matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish,
+  center-weighted composition, no unintended text, no logos, no watermarks; intended text via tagged registry (post)
+camera_tags:
+  - slow orbit
+  - museum-light push-in
+  - locked medium
+  - one move per shot
+era_tags:
+  - near-future advertising channel
+  - late-90s broadcast polish
+  - 4:3-safe center framing
+negative_safety_tags:
+  - no unintended or garbled text
+  - intended text only via tagged on_screen_text registry
+  - no slapstick physical comedy
+  - no logos
+  - no brand names
+  - no real people
+  - no celebrity likeness
+  - no real defense insignia
+  - no real game IP
+  - no weapons pointed at camera
+  - no phone
+  - no keypad
+  - no dial UI
+  - no extra fingers
+  - no deformed hands
+  - no warped faces
+product_template: >
+  Photoreal Military Boutique commercial. {PRODUCT} on {PEDESTAL} in a dark luxury showroom.
+  Soft museum lighting, slow {CAMERA}. No logos, no real insignia, no real people. Intended text only via tagged registry (post). No slapstick.
+  Quiet boutique ambience.
+host_template: >
+  Photoreal Military Boutique studio. {CHARACTER_LOOK}. Background: {LOCATION_LOOK}.
+  Lighting: cool key, cyan rim. Camera: {CAMERA}. Mood: cool, clinical, slightly absurd.
+  No logos, no real insignia. Intended text only via tagged registry (post). No slapstick.
+# audio_rule (trundle 2026-10-27 17:33 CT), added 17:35 by Story Bot
+audio_prompt_line: "Audio: quiet, unobtrusive ambient bed (soft room tone, faint servo ticks, light showroom air); no droning low hum, no sub-bass rumble, no engine drone; dialogue and VO sit clearly above the bed."
+audio_negative_tags: [no low hum, no droning bass, no sub-bass rumble, no engine drone]
+# hard rule no_creator_name_on_screen (trundle 2026-10-27 17:43 CT), added 18:00 by Story Bot
+name_negative_tags: [no names, no signatures, no watermarks]

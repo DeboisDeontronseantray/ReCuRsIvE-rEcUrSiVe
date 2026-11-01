@@ -1,0 +1,20 @@
+id: "10"
+number: "10"
+network: thunder trundle
+name: Action
+genre: tv-safe action
+tone: energetic, chase-and-stunt friendly
+tv_safe: true
+rules:
+  - No real brands or real military orgs.
+  - "TV-safe action: implied stakes, no graphic violence, no torture, no real weapon how-tos."
+look:
+  palette: [orange sodium, navy, wet asphalt]
+  era_feel: 1990s syndicated action hour
+
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
+hard_rules_20261027_1744:
+  no_trundle_name: "Never write his real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
+  no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
+  negative_tags: [no on-screen names, no personal names, no children, no kids]

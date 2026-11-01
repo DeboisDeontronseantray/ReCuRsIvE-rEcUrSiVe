@@ -1,0 +1,20 @@
+# Smoke test outline slot — ONE episode (trundle 08:36/08:40 CT)
+id: smoke-outline
+label: Smoke test outline slot (1 episode)
+time: "19:00"
+length_minutes: 6
+episode_length_seconds: 360
+episode_count: 1
+tone: cool catalog absurdity; short episodic cold opens
+constraints:
+  - Keep each episode beat to a short TV segment (cold open + 2 beats), not a novel chapter.
+  - TV-safe only.
+  - No phone/dial CTAs.
+  - No excluded held titles.
+  - Output must stay useful as clip-prompt source for Commercial News Break.
+ad:
+  duration_seconds: 15
+  product: StrataClip Ration Tin
+  brand_house: Forward Supply house brand
+ad_breaks:
+  - {at_seconds: 180, duration_seconds: 15, product: StrataClip Ration Tin}

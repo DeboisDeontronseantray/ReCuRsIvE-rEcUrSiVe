@@ -1,0 +1,24 @@
+# Channel definitions live ONLY in /workspace/thunder-trundle/channels/<NN-name>/channel.md and prompts/<NN-name>/_channel.md. This registry is an index only.
+# Whole-number channels 2-22. Decimals are lineage tags, never channels.
+channels:
+  - number: 4
+    slug: military-boutique
+    name: Military Boutique
+    folder: channels/04-military-boutique
+    status: active
+    legacy_paths:
+      configs: configs/channels/04-military-boutique.yaml
+      bible: continuity/ch04-military-boutique/bible-v2.yaml
+      shows_data: data/shows/
+      renders: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/
+  # configs exist but no folder yet: 6 shopping, 8 sitcom, 10 action, 12 90s, 14 music
+
+# Added 2026-10-28 by Director (add-only): era lean + definition pointers for all defined channels.
+channel_definitions:
+  - {number: 2, slug: news, name: "News", era_lean: {direction: modern, score: 2}, definition: /workspace/thunder-trundle/channels/02-news/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/02-news/_channel.md}
+  - {number: 4, slug: military-boutique, name: "Military Boutique", era_lean: {direction: nostalgic, score: 3}, definition: /workspace/thunder-trundle/channels/04-military-boutique/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/04-military-boutique/_channel.md}
+  - {number: 6, slug: shopping, name: "Shopping", era_lean: {direction: nostalgic, score: 4}, definition: /workspace/thunder-trundle/channels/06-shopping/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/06-shopping/_channel.md}
+  - {number: 8, slug: sitcom, name: "Sitcom", era_lean: {direction: nostalgic, score: 4}, definition: /workspace/thunder-trundle/channels/08-sitcom/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/08-sitcom/_channel.md}
+  - {number: 10, slug: action, name: "Action", era_lean: {direction: nostalgic, score: 3}, definition: /workspace/thunder-trundle/channels/10-action/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/10-action/_channel.md}
+  - {number: 12, slug: 90s, name: "90s", era_lean: {direction: nostalgic, score: 5}, definition: /workspace/thunder-trundle/channels/12-90s/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/12-90s/_channel.md}
+  - {number: 14, slug: music, name: "Music", era_lean: {direction: nostalgic, score: 4}, definition: /workspace/thunder-trundle/channels/14-music/channel.md, prompt_layer2: /workspace/thunder-trundle/prompts/14-music/_channel.md}

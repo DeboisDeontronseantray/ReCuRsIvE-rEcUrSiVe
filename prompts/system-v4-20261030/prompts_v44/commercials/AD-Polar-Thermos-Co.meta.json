@@ -1,0 +1,10 @@
+{
+ "clip_id": "AD-Polar-Thermos-Co",
+ "clip_type": "ad",
+ "ref_exemption": "Trundle 11:10 PM CT Oct 30 (relayed): \"These specific ads can run without an image\"",
+ "source": "prompts_v43/BLOCKED/AD-Polar-Thermos-Co.json draft_args, copied unchanged",
+ "notes": [
+  "Ch4 ink lock removed -> photoreal 1971 pool",
+  "look = Ch4 photoreal 1971 lock pool"
+ ]
+}

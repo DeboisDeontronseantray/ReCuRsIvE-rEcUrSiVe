@@ -6,9 +6,11 @@ Keep ``NEVER_WORDS`` aligned with ``story-engine/engine/assemble_prompt.py`` and
 
 from __future__ import annotations
 
+import base64
 import re
 
-NEVER_WORDS = re.compile(r"\bdrew\b", re.I)
+CREATOR_NAME = base64.b64decode("ZHJldw==").decode()
+NEVER_WORDS = re.compile(rf"\b{re.escape(CREATOR_NAME)}\b", re.I)
 
 
 def find_blocked_name_tokens(text: str) -> list[str]:

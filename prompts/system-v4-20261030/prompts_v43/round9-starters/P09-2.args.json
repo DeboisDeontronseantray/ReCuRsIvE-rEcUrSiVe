@@ -1,0 +1,11 @@
+{
+ "prompt": "[Look: 1980s-future full-contact sport broadcast, neon arena.] [VIK (<IMAGE_1>).] [SABLE (<IMAGE_2>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot from the arena roof camera looking down: the pack of armored players swirl around the banked oval, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 6 s VIK breaks clear with the ball. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P09-2.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P09-1/P09-1_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/VIK_P09-1.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/SABLE_P09-1.png"
+ ]
+}

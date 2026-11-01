@@ -1,0 +1,39 @@
+# Environment
+.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# V1 generated outputs
+V1/outputs/
+V1/manuscripts/
+
+# V2 generated outputs
+V2/outputs/
+V2/db/
+
+# V2 virtual environment
+V2/venv/
+V2/.venv/
+
+# Claude settings (local only)
+**/.claude/settings.local.json
+
+# Story Bot local
+.venv/
+data/spend/
+data/smoke/
+data/exports/
+data/continuity/
+server/db/
+*.pyc
+__pycache__/

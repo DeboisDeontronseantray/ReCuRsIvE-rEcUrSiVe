@@ -1,0 +1,773 @@
+#app-window {
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  zoom: 1.5;
+}
+
+.app-body {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.app-nav {
+  width: 180px;
+  flex-shrink: 0;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  a.active {
+    background: navy;
+    color: white;
+  }
+}
+
+/* One novel's row in the sidebar tree — the duplicate button sits to the
+   right of the title link and only shows up on hover, like a classic
+   Explorer inline-action icon. */
+.novel-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  a {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.novel-duplicate-btn {
+  flex-shrink: 0;
+  visibility: hidden;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin-left: 2px;
+  line-height: 1;
+  font-size: 11px;
+}
+
+.novel-row:hover .novel-duplicate-btn {
+  visibility: visible;
+}
+
+.novel-duplicate-icon {
+  display: inline-block;
+}
+
+.novel-duplicate-icon.spinning {
+  animation: novel-duplicate-spin 0.8s linear infinite;
+}
+
+@keyframes novel-duplicate-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-content {
+  flex: 1;
+  padding: 8px;
+  overflow: auto;
+  /* Chrome's scroll anchoring can lock trackpad scroll on tall, late-populated
+     content (e.g. a novel form that grows once its data loads in) until the
+     scrollbar is dragged directly. Not needed here since content doesn't
+     shift after initial paint in a way we want to preserve scroll position for. */
+  overflow-anchor: none;
+}
+
+/* Caps and centers every tab's content (Home/Novels/Pipeline/Settings) so
+   lines of text stay readable instead of stretching to the window edge. */
+.app-content > * {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Classic Windows 98 "copying files" dialog, shown while a novel is generating */
+.copy-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.copy-dialog {
+  width: 280px;
+}
+
+.copy-dialog-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.copy-dialog-gif {
+  width: 204px;
+  height: 45px;
+  image-rendering: pixelated;
+}
+
+.copy-dialog-text {
+  margin: 0;
+  text-align: center;
+}
+
+/* Classic Windows 98 message box with an exclamation icon, for confirmations */
+.confirm-dialog {
+  width: 320px;
+}
+
+.confirm-dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.confirm-dialog-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 8px 4px;
+}
+
+.confirm-dialog-icon {
+  flex-shrink: 0;
+}
+
+.confirm-dialog-text {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.confirm-dialog-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Novels tab: create form on top, novel grid below, whole page scrolls together */
+.novels-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.novels-create {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.novels-create textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: inherit;
+  padding: 8px 10px;
+  line-height: 1.5;
+}
+
+.novels-create-title {
+  width: 50%;
+  min-width: 12.5rem;
+  align-self: flex-start;
+}
+
+.novels-create-word-count {
+  width: 12rem;
+  min-width: 10rem;
+  align-self: flex-start;
+}
+
+.novels-create-word-count .field-invalid {
+  border: 2px solid #ff0000;
+}
+
+.novels-create-word-count .novels-error {
+  font-weight: normal;
+}
+
+.novels-create-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.novels-create-pipeline {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.novels-create-pipeline-step {
+  width: 100%;
+  min-width: 12.5rem;
+}
+
+.novels-create-pipeline-step--disabled {
+  opacity: 0.5;
+}
+
+.novels-create-pipeline-step--disabled legend {
+  color: #808080;
+}
+
+.novels-create-pipeline-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.novels-create-pipeline-select {
+  flex: 0 0 auto;
+}
+
+.novels-create-pipeline-step select {
+  width: 12rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  align-self: flex-start;
+}
+
+.novels-create-pipeline-row .field-row {
+  flex-shrink: 0;
+  margin-top: 0 !important;
+  padding-bottom: 4px;
+}
+
+.novels-create-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.novels-secondary-thread-form {
+  border: 1px solid #808080;
+  padding: 6px;
+  margin-bottom: 8px;
+  gap: 4px;
+}
+
+.novels-secondary-thread-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: inherit;
+  padding: 8px 10px;
+  line-height: 1.5;
+}
+
+.novels-secondary-thread-form input[type="range"] {
+  width: 12rem;
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.novels-secondary-thread-form-actions {
+  justify-content: flex-end;
+}
+
+.novels-secondary-thread-form-actions button {
+  width: 7rem;
+}
+
+.novels-error {
+  color: #ff0000;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Novel detail page */
+.novel-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.novel-detail-saved {
+  color: #006600;
+  font-weight: bold;
+}
+
+/* Category heading above each group of world facts. */
+.novel-worldbuilding-category {
+  margin: 16px 0 4px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Sub-heading naming one genre within the Genre Conventions block. */
+.novel-genre-conventions-genre {
+  margin: 10px 0 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.novel-genre-conventions-list {
+  margin: 0 0 8px;
+  padding-left: 20px;
+}
+
+.novel-genre-conventions-list li {
+  margin-bottom: 4px;
+}
+
+/* Common/Deep Cut tag before each selected convention. */
+.novel-genre-convention-type {
+  display: inline-block;
+  padding: 0 4px;
+  border: 1px solid #808080;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.novel-genre-convention-type--common {
+  background: #dfdfdf;
+}
+
+.novel-genre-convention-type--deep_cut {
+  background: silver;
+  color: navy;
+}
+
+.novel-detail-tabs {
+  margin-top: 4px !important;
+}
+
+.novel-detail-tabs > li:not([aria-selected="true"]) > a:hover {
+  background: #dfdfdf;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.novel-detail-tabpanel-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Uniform field style: label above a plain bordered white box, same as the Premise field */
+.novel-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.novel-field label {
+  font-weight: bold;
+}
+
+.novel-field input[type="text"],
+.novel-field input[type="number"],
+.novel-field select,
+.novel-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  background: #fff;
+  border: 1px solid #808080;
+  padding: 8px 10px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.novel-field textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+.novel-characters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.novel-character-card {
+  background: silver;
+  border: 2px solid;
+  border-color: #dfdfdf #808080 #808080 #dfdfdf;
+  padding: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.novel-character-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+/* Chapters tab: sidebar of outline beats + prose body, in place of the
+   generic single-column EntityCard list every other tab uses. */
+.chapters-layout {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.chapters-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 11rem;
+  flex-shrink: 0;
+  max-height: 28rem;
+  overflow-y: auto;
+}
+
+.chapters-sidebar-item {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  text-align: left;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 4px 6px;
+  background: silver;
+  border: 2px solid;
+  border-color: #dfdfdf #808080 #808080 #dfdfdf;
+}
+
+.chapters-sidebar-item[aria-current='true'] {
+  background: navy;
+  color: white;
+  border-color: #000080 #000080 #000080 #000080;
+}
+
+.chapters-sidebar-item:disabled {
+  color: #808080;
+  cursor: not-allowed;
+}
+
+.chapters-sidebar-number {
+  font-weight: bold;
+}
+
+.chapters-sidebar-title {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chapters-sidebar-status {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.chapters-sidebar-word-count {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.chapters-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chapters-body-title {
+  margin: 0;
+}
+
+.chapters-body-word-count {
+  margin: 0;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.chapters-body-prose {
+  background: #fff;
+  border: 1px solid #808080;
+  padding: 10px 12px;
+  line-height: 1.6;
+  max-height: 32rem;
+  overflow-y: auto;
+}
+
+.chapters-body-prose p {
+  margin: 0 0 1em 0;
+}
+
+.chapters-body-prose p:last-child {
+  margin-bottom: 0;
+}
+
+/* Home tab: 90s geocities splash page */
+@keyframes blink-anim {
+  0%, 49% { visibility: visible; }
+  50%, 100% { visibility: hidden; }
+}
+
+@keyframes rainbow-text-anim {
+  0%   { color: #ff0000; }
+  16%  { color: #ff9900; }
+  33%  { color: #ffff00; }
+  50%  { color: #00ff00; }
+  66%  { color: #00ffff; }
+  83%  { color: #ff00ff; }
+  100% { color: #ff0000; }
+}
+
+.home-page {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  background-color: #000080;
+  background-image:
+    radial-gradient(circle, #0000b0 1px, transparent 1px),
+    radial-gradient(circle, #0000b0 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+  color: #ffff00;
+  padding: 10px;
+  text-align: center;
+  border: 4px dashed #ff00ff;
+}
+
+.home-page * {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.blink {
+  animation: blink-anim 1s steps(1) infinite;
+}
+
+.home-marquee {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background: black;
+  color: #00ff00;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 4px 0;
+  border: 2px solid #ffff00;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.home-title {
+  font-size: 2.2em;
+  margin: 8px 0 0;
+  text-shadow: 2px 2px 0 #000;
+  letter-spacing: 2px;
+}
+
+.rainbow-text {
+  animation: rainbow-text-anim 2s linear infinite;
+}
+
+.home-subtitle {
+  color: #00ffff;
+  font-weight: bold;
+  margin: 4px 0 12px;
+}
+
+.home-layout-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: #c0c0c0;
+  border: 4px ridge #ff00ff;
+  /* 98.css sets `table { white-space: nowrap }` globally for its file-list styling — undo that here. */
+  white-space: normal;
+}
+
+.home-layout-table td {
+  vertical-align: top;
+  padding: 8px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.home-sidebar-cell {
+  width: 100px;
+  border-right: 3px dashed #000080;
+}
+
+.home-badge-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.7em;
+  line-height: 1.1;
+  color: white;
+  border: 3px solid black;
+  box-shadow: 2px 2px 0 black;
+  margin: 0 auto;
+}
+
+.home-badge-new {
+  background: radial-gradient(circle, #ff0000, #990000);
+  transform: rotate(-8deg);
+}
+
+.home-badge-hot {
+  background: radial-gradient(circle, #ff9900, #cc3300);
+  transform: rotate(6deg);
+}
+
+.home-badge-award {
+  background: radial-gradient(circle, #ffff00, #cc9900);
+  color: black;
+  transform: rotate(-4deg);
+}
+
+.home-under-construction {
+  background: #ffff00;
+  color: black;
+  border: 3px solid black;
+  padding: 6px;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #ffff00,
+    #ffff00 10px,
+    #000 10px,
+    #000 12px
+  );
+}
+
+.home-under-construction > div:first-child {
+  background: #ffff00;
+  padding: 2px;
+}
+
+.home-under-construction > div:last-child {
+  background: #ffff00;
+  margin-top: 4px;
+  padding: 2px;
+}
+
+.home-main-cell {
+  background: white;
+  color: black;
+}
+
+.home-panel {
+  border: 2px inset #808080;
+  background: #f0f0f0;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.home-panel p {
+  margin: 0 0 8px;
+}
+
+.home-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.home-features h2 {
+  margin-top: 0;
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+.home-features ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.home-cta {
+  background: #ffffcc;
+  text-align: center;
+  font-weight: bold;
+}
+
+.home-hr {
+  border: none;
+  border-top: 3px double #ffff00;
+  margin: 14px 0;
+}
+
+.home-counter-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.home-counter {
+  display: flex;
+  gap: 2px;
+  background: black;
+  padding: 4px;
+  border: 2px solid #808080;
+}
+
+.home-counter-digit {
+  font-family: "Courier New", monospace;
+  background: black;
+  color: #00ff00;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+.home-footer-note {
+  font-size: 0.75em;
+  color: #c0c0ff;
+  margin: 12px 0 4px;
+}
+
+.home-webring {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-weight: bold;
+  color: #ff00ff;
+  background: black;
+  padding: 6px;
+  border: 2px solid #ffff00;
+}

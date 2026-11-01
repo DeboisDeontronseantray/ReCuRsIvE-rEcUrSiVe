@@ -1,0 +1,15 @@
+id: ch04-late-night
+label: Military Boutique late night — Depot After Hours
+time: "00:30"
+daypart: late-night
+episode_length_seconds: 180
+length_minutes: 3
+episode_count: 1
+tone: quieter, weirder, foggy bay energy
+ad_breaks:
+  - {at_seconds: 90, duration_seconds: 15, product: Lightning Lamp}
+news_segments: ["ch04-pigeon-signal-drift"]
+constraints:
+  - TV-safe only
+  - No phone/dial CTAs
+  - No excluded held titles

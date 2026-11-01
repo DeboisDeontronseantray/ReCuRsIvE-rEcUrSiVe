@@ -1,0 +1,10 @@
+{
+ "prompt": "[Look: Modern parody local TV news, broadcast video look.] [Setting: the same bright parody news studio as <IMAGE_0>.] [Two invented anchors: MARLA DEAN (<IMAGE_1>) and RON PIKE (<IMAGE_1>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, static camera, eye level, one continuous 8 s take. Eyelines: MARLA looks at RON, RON looks at his papers; faces three-quarter, never into the lens. At 1 s, MARLA DEAN speaks [neutral read: \"Good evening, Austin. Here is what we know tonight.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 8,
+ "resolution": "480p",
+ "filename": "LS1.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/channels/02-news/refs/sheets/SHEET_CH2_NEWS_CAST_v1.jpg"
+ ]
+}

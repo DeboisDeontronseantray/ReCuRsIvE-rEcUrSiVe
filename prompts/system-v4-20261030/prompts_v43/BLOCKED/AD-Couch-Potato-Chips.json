@@ -1,0 +1,15 @@
+{
+ "id": "AD-Couch-Potato-Chips",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: 1990s multi-cam look.] [A family of three adults on a plaid couch reach into one chip bag; at 4 s the couch cushion swallows the bag; at 7 s all three dig into the cushion together, laugh track.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "AD-Couch-Potato-Chips.mp4"
+ },
+ "notes": []
+}

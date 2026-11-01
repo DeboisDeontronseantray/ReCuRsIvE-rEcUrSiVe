@@ -1,0 +1,3 @@
+{"episode": null, "lineage": null,
+ "text_rule": "In-scene text (signs, screens, papers, dials) goes in the prompt with exact quoted words. Lower thirds and the corner tag are overlays only. If the generated text fails, add a fix in overlays/ and log it.",
+ "shots": [{"id": "", "prompt": "", "in_scene_text": [], "overlay_fallback": false, "mutable_segment": true}]}

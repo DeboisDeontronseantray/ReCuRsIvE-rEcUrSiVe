@@ -1,0 +1,10 @@
+{
+ "prompt": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS (<IMAGE_1>).] [On the bridge, the sweeper slows and parks neatly between two lines, brushes stopping.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. At 4 s TESS hops off, straightens her jacket, and speaks [crisp anchor cadence, measured pace: \"Back to you in the studio.\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P02-3.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P02-2/P02-2_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/channels/02-news/refs/sheets/SHEET_CH2_NEWS_CAST_v1.jpg"
+ ]
+}

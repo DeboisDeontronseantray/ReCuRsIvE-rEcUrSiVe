@@ -1,0 +1,49 @@
+# one file per shot: segments/<shot_id>.yaml. A commenter change = edit one field, re-render this shot.
+shot_id: ""
+tc_in: null
+tc_out: null
+prompt: ""
+keyframes: {first_frame: anchors/<shot_id>-first.png, last_frame: anchors/<shot_id>-last.png}
+characters: []
+location: ""
+look: ""
+in_scene_text: []        # exact quoted words, generated in video
+overlay_fallback: false  # true only if generated text failed
+continuity_ref: ../continuity.yaml#<shot_id>
+lineage: {tag: null, clip_no: null, parent: null}
+# Optional: older lineage clips played on a screen in this shot (Trundle via Director, Oct 28 2026).
+# Generate the screen blank or green; CNB pins the CLEAN master in with ffmpeg afterward.
+screen_inserts: []
+#  - ref: "#58"            # global_no, or {lineage: "4.1", gen: 2}
+#    surface: "wall CRT left"
+#    in: 0.0               # seconds into the source clip
+#    out: 4.0
+#    loop: false
+#    treatment: crt        # crt | scanlines | none
+#    audio: muted          # muted | low
+
+# --- Prompt layers (Trundle, Oct 28 2026, 12:07 PM CT) ---
+# System wrappers are ours, always applied in this order, never editable by commenters:
+system_wrappers:
+  global: rules/hard-limits.yaml          # TV-safe, no kids, no real brands, never the owner's real first name
+  channel: channels/<NN>-<slug>/channel.yaml
+  show: ../../show.yaml                    # show look / bible refs
+  segment_kind: show                       # show | commercial | news -> matching wrapper
+# Commenter changes are optional, logged by permanent prompt id, filtered before use:
+commenter_mutations: []
+#  - prompt_id: "CP-000123"                # from queues/COMMENT-PROMPTS.jsonl
+#    fields: {look: "...", in_scene_text: ["..."]}   # which sidecar fields it changes
+#    screen_inserts: [{ref: "#58", surface: "wall CRT left", in: 0, out: 4, loop: false, treatment: crt}]
+# Build order: system_wrappers -> base shot fields -> commenter_mutations -> filters (hard limits win).
+# screen_inserts above = ours; commenter_mutations[].screen_inserts = viewer-requested. Both use engine/resolve_embed.py.
+
+# New shot prompts: do NOT add "No text, no signage". In-scene text is allowed where it fits (11:55 rule); write the exact words in in_scene_text.
+
+# --- Locks + chain (Director 12:26 PM CT, CNB 12:27 PM CT; add-only) ---
+locks: {chr: [], war: [], loc: [], look: [], prp: []}   # ids from thunder-trundle/prompts/locks/; ids are NEVER sent to Imagine
+chain: false            # true = continuous action in same scene: start frame = previous shot's clean last frame; false = cut: own keyframe
+chain_basis: ""         # why; 'inferred: ...' if guessed
+blocks: {camera: "", action: "", environment: "", physics: "", audio: "", sfx: "", extra_constraints: "No other people in frame, no glowing monitors."}
+seed: null              # Grok Imagine video has no seed; consistency_key is used instead
+end_frame: null         # sent as last_frame; start frame is sent as image
+# clips over 15 s are flagged by the assembler

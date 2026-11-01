@@ -1,0 +1,20 @@
+{
+ "id": "P14-3",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: 1990s late-night music-video look, VHS colour.] [KILO: invented adult dancer, red tracksuit, bucket hat.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s the doors slide open at a lit station. At 5 s KILO moonwalks out onto the platform mid-beat and the doors close behind him. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "P14-3.mp4",
+  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P14-2/P14-2_last.png"
+ },
+ "notes": [
+  "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+  "safety bracket regenerated from pool",
+  "start frame pending parent render: P14-2_last.png"
+ ]
+}

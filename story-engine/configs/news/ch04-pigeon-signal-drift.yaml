@@ -1,0 +1,31 @@
+# Parody news segment for 4 — Tim signal drift (filename keeps pigeon-signal-drift)
+# Original. No real people, no dial/phone. 2026-10-27.
+id: ch04-pigeon-signal-drift
+format: field_report
+length_s: 40
+parody_label: required_innocuous
+no_real_people: true
+channel_tie:
+  channel: "4"
+  show_arc: forward-supply
+  how: "Mascot chirp treated as a weather-desk event."
+anchors:
+  - name: Depot Clerk Osmund
+    role: winded field runner in Depot Bay
+  - name: The Voice of Forward
+    role: booth VO
+desks:
+  - Signal Desk
+headline: "Local Drone Declares Mild Signal Drift; Stickers Hold"
+angle: Osmund chases Tim through fog; brief ends with a chirp and a motto card.
+satire_level: light
+shot_list:
+  - {shot: 1, dur_s: 8, visual: "Depot Bay fog; amber lights; Osmund with blank checklist.", lower_third: "OSMUND — BAY"}
+  - {shot: 2, dur_s: 12, visual: "Tim hovering; cyan optic pulse; antennas twitch.", lower_third: "TIM"}
+  - {shot: 3, dur_s: 10, visual: "Pedestal Row dim; one sticker flutters (practical).", lower_third: "SIGNAL DESK"}
+  - {shot: 4, dur_s: 10, visual: "Motto card energy: empty frame ready for post text LET'S SHIP IT FORWARD.", lower_third: "Ch 4 Military Boutique"}
+lower_third: ["OSMUND — BAY", "TIM", "SIGNAL DESK", "Ch 4 Military Boutique"]
+banned_here:
+  - real weather emergencies framed as real advice
+  - excluded held titles (see report)
+  - phone numbers, dial prompts, call-ins

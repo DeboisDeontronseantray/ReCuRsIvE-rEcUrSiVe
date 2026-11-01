@@ -1,0 +1,7 @@
+number: null          # whole number 2-22 only
+slug: ""
+name: ""
+lineage_prefix: null  # same as number; tags read <number>.<lineage>
+status: draft
+bible: bible.yaml
+slots: ../../queues/slots/<NN>-<slug>.json

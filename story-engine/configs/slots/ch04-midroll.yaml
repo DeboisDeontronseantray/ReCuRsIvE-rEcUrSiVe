@@ -1,0 +1,13 @@
+id: ch04-midroll
+label: Military Boutique midroll house-ad bed
+time: midroll
+daypart: any
+episode_length_seconds: 18
+length_minutes: 0
+episode_count: 0
+tone: soft product; inherits channel
+ad_breaks:
+  - {at_seconds: 0, duration_seconds: 18, product: Sky Diffuser}
+constraints:
+  - house (Thunder Trundle Workshop) products only
+  - No phone/dial CTAs

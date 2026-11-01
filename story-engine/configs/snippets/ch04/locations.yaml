@@ -1,0 +1,12 @@
+id: 4-locations
+channel: "4"
+tags:
+  catalog_floor: >
+    Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines,
+    chrome and olive walls, blank HUD monitors soft cyan glow, museum lighting, empty of shoppers
+  briefing_tube: >
+    Narrow glass booth, frosted floor light, single stool, blank amber HUD strip, cold white key, ankle fog
+  forward_depot_bay: >
+    Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch
+  pedestal_row: >
+    Three velvet pedestals under cyan edge light, museum quiet, one product each

@@ -1,0 +1,77 @@
+{
+ "file": "prompts.json",
+ "overall": "pass",
+ "counts": {
+  "pass": 11,
+  "warn": 0,
+  "fail": 0
+ },
+ "shots": [
+  {
+   "id": "DI-01",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-1",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-2",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-3",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-4",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-5",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-6",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-02-7",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-03",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-04",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "DI-05",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  }
+ ]
+}

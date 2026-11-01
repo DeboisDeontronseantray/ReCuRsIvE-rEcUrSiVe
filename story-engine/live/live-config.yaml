@@ -1,0 +1,5 @@
+# Story Bot live config. Only trundle turns auto_approve_enabled on (spec COMMENTER-CLIP-PATH 16:41 update).
+# 2026-10-27 17:35 CT: trundle approved (17:25 CT) auto-approval of commenter prompts from the start.
+# Automated filters (moderation, checker, clean-source guard, watchlist) still run on every item. Going live stays false.
+auto_approve_enabled: true
+live_enabled: false

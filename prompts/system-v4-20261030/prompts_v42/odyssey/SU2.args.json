@@ -1,0 +1,12 @@
+{
+ "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the long red-carpeted ninth-floor corridor of the Jade Hotel, endless identical lacquer doors, paper lanterns.] [MARLO QUILL (<IMAGE_1> as he is now; <IMAGE_2> is the teal tape measure now around his neck; <IMAGE_3> face) walks left to right in a steady deliberate walk, about two steps per second, eyes on the far end of the corridor, never at the camera.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: side-on dolly tracking at walking pace, MARLO held frame-centre, 50mm, eye level, the camera moves at exactly his pace, one continuous 3 s take. Eyelines: everyone looks at the far end of the corridor, never into the lens; faces in profile or three-quarter. At 0.5 s, still walking, MARLO ties a red silk sash around his waistcoat in one quick knot. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+ "duration": 3,
+ "resolution": "480p",
+ "filename": "SU2.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU1_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/MARLO_full_SU1.png",
+  "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/tape_detail_SU1.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+ ]
+}

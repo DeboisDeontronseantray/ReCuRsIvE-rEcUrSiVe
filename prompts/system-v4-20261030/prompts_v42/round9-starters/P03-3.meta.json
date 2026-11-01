@@ -1,0 +1,38 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "36896185d166"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P03-3",
+ "parent_clip": "P03-2",
+ "channel_show": "Ch3 Clean Job",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "93bb99b3c9e3c01172b720896ce92be3a6dbe209872e5c0a55470be60e9b9e8f",
+ "prompt_words": 141,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "MAE": "MAE_P03-2.png"
+ }
+}

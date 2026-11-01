@@ -1,0 +1,24 @@
+{
+ "id": "P02-4",
+ "why": {
+  "R-SPEAKER named + bracketed (t134u,t139u)": [
+   "FAIL",
+   1
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: Modern parody local TV news, broadcast video look.] [Field reporter TESS: invented woman, yellow rain jacket, short black curls, parody microphone.] [Studio as in <IMAGE_0>.] [Same studio desk look: the two invented anchors MARLA DEAN (silver bob, plum blazer) and RON PIKE (grey suit, red tie) watch a monitor showing the parked sweeper; at 3 s RON says, \"[crisp anchor cadence, measured pace] Cleanest getaway I've ever seen,\" and MARLA laughs.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the desk monitor, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "P02-4.mp4",
+  "reference_image_paths": [
+   "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png"
+  ]
+ },
+ "notes": [
+  "bare 'never at camera' replaced by named eyeline target",
+  "delivery cue added to dialogue",
+  "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+  "safety bracket regenerated from pool"
+ ]
+}

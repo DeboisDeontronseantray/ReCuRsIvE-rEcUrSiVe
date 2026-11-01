@@ -1,0 +1,22 @@
+{
+ "id": "P16-1",
+ "why": {
+  "V3_no_front_refs": [
+   "FAIL",
+   1
+  ]
+ },
+ "draft_args": {
+  "prompt": "1962 spy-thriller, live action, muted period colour, film grain. Plain walls, no figures appear on walls. WREN (<IMAGE_0>): rain-dark belted trench coat, headscarf, gloves. Records-building service alley at night in rain. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s WREN crouches at the service door and picks the lock. At 5 s the door clicks open and she slips into a dim corridor, the door swinging closed behind her. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "P16-1.mp4",
+  "reference_image_paths": [
+   "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_WREN_v1.jpg"
+  ]
+ },
+ "notes": [
+  "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+  "safety bracket regenerated from pool"
+ ]
+}

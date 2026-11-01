@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from charmeta.channels import local_cast_id
 from charmeta.prompt_injection import trim_meta_for_injection
 from charmeta.schema import empty_meta_prompt
 
@@ -67,6 +68,17 @@ def build_meta_prompt_text(entry: dict[str, Any]) -> tuple[str, list[str]]:
     return trim_meta_for_injection(raw), built_from
 
 
+def _resolve_cast_entry(
+    cast: dict[str, Any], character_id: str
+) -> tuple[str, dict[str, Any] | None]:
+    if character_id in cast and isinstance(cast[character_id], dict):
+        return character_id, cast[character_id]
+    for key, entry in cast.items():
+        if isinstance(key, str) and local_cast_id(key) == character_id and isinstance(entry, dict):
+            return key, entry
+    return character_id, None
+
+
 def rebuild_meta_prompt_for_character(
     companion: dict[str, Any],
     character_id: str,
@@ -74,9 +86,11 @@ def rebuild_meta_prompt_for_character(
     apply: bool = False,
 ) -> MetaPromptReport:
     cast = companion.get("cast")
-    if not isinstance(cast, dict) or character_id not in cast:
+    if not isinstance(cast, dict):
+        raise ValueError("companion missing cast mapping")
+    storage_key, entry = _resolve_cast_entry(cast, character_id)
+    if entry is None:
         raise ValueError(f"unknown character {character_id!r}")
-    entry = cast[character_id]
     meta = entry.get("meta_prompt")
     if not isinstance(meta, dict):
         meta = empty_meta_prompt()
@@ -85,7 +99,7 @@ def rebuild_meta_prompt_for_character(
     text, built_from = build_meta_prompt_text(entry)
     report = MetaPromptReport(
         dry_run=not apply,
-        character=character_id,
+        character=storage_key,
         previous_version=previous_version,
         new_version=previous_version + 1 if apply else previous_version,
         built_from=built_from,

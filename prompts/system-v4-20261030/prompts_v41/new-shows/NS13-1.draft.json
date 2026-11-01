@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: Early-1980s paranoid thriller, 35mm, cool Fuji-style stock, green CRT spill.] [Setting: a buried arctic radar room, green consoles, reel-to-reel tape deck.] [Cast: LT. INGRID HALVORSEN (grey wool sweater, blond braid); SGT. MARCUS DELL (olive parka, thick beard).] Single shot: slow push-in, 40mm, from behind the console, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, INGRID freezes as a blip crosses her scope and stops. At 4 s, INGRID yanks the reel off the tape deck and stuffs it inside her sweater. At 7 s, SGT. MARCUS DELL speaks [quiet, from the doorway: \"What did you just take?\"]. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS13-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "STATION NINE"
+}

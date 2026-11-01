@@ -1,0 +1,71 @@
+{
+ "file": "../data/live/starters/comment-starters-20261027.json",
+ "overall": "pass",
+ "counts": {
+  "pass": 10,
+  "warn": 0,
+  "fail": 0
+ },
+ "shots": [
+  {
+   "id": "LIVE-STARTER-01",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-02",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-03",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-04",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-05",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-06",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-07",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-08",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-09",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "LIVE-STARTER-10",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  }
+ ]
+}

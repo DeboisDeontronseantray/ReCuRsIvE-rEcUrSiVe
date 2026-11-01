@@ -1,0 +1,344 @@
+{
+ "results": [
+  {
+   "id": "AD-Atomic-Antacid",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Cipher-Typewriters",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Couch-Potato-Chips",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Getaway-Gum",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Hairsonic-Gel",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Hush-Mart-Insurance",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Jade-Tiger-Balm-ish-Tiger-Ru",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Ledgerline-Bank",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Mega-Video-Rental",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Polar-Thermos-Co",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Porter-s-Pride-Luggage",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-ProtoPads-Armor",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Roadeye-Dash-Cam",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Spatula-Tron-9000",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Steve-Cold-Blooded-promo",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "AD-Turbo-Muffler-Hut",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "AD-Vaultmaster-Safes",
+   "status": "PASS",
+   "fails": [],
+   "exempt": true
+  },
+  {
+   "id": "LS1",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "LS2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "LS3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "LS4",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP01",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP02",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP03",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP04",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP05",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP06",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP07",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP08",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP09",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP10",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "NP16",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "SU1",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "SU2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "SU3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "SU4",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "SU5",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "SU6",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P02-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P02-4",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P03-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P05-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P06-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P07-2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P07-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P08-2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P08-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P09-2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P09-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P12-2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P12-3",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P16-1",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  },
+  {
+   "id": "P16-2",
+   "status": "PASS",
+   "fails": [],
+   "exempt": false
+  }
+ ],
+ "held": [
+  {
+   "id": "P10-2",
+   "why": "P10-1's rendered JACE closely resembles a real, famous actor (no-real-likeness rule). Needs Trundle's call before chaining off that frame."
+  },
+  {
+   "id": "P10-3",
+   "why": "Chains off P10-2 (blocked: JACE likeness)."
+  },
+  {
+   "id": "P14-1",
+   "why": "Attached Ch14 sheet v2 does not show KILO (red tracksuit, bucket hat); no KILO image exists. Needs a KILO ref (look sheet = GenerateImage, needs Trundle's yes) or his OK to use a sheet character."
+  },
+  {
+   "id": "P14-2",
+   "why": "Chains off P14-1 (blocked: no KILO image)."
+  },
+  {
+   "id": "P14-3",
+   "why": "Chains off P14-1 (blocked: no KILO image)."
+  }
+ ]
+}

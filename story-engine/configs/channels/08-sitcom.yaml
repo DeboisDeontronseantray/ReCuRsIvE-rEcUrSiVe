@@ -1,0 +1,20 @@
+id: "8"
+number: "8"
+network: thunder trundle
+name: Sitcom
+genre: family/ensemble sitcom
+tone: warm laugh-track multi-cam
+tv_safe: true
+rules:
+  - Original casts and titles only; parody the format, not a specific show.
+  - TV-safe family-hour content; no explicit romance scenes.
+look:
+  palette: [warm beige, avocado, soft pastels]
+  era_feel: 1990s multi-camera sitcom
+
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
+hard_rules_20261027_1744:
+  no_trundle_name: "Never write his real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
+  no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
+  negative_tags: [no on-screen names, no personal names, no children, no kids]

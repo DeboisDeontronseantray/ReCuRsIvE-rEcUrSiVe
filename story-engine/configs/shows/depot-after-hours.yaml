@@ -1,0 +1,57 @@
+# Depot After Hours — late-night Channel 4 sketch
+# Original Story Bot invention. Written 2026-10-27 ~08:38 CT.
+id: depot-after-hours
+title: Depot After Hours
+channel: "4"
+format: late-night sketch
+episode_length_seconds: 180
+segments_per_episode: 3
+logline: >
+  When the Catalog Floor lights dim, Osmund and Tim — cooked, absurdly hopeless idiots —
+  try to "prep for inspection" and invent worse problems. Direction open. No slapstick.
+cast:
+  - name: Depot Clerk Osmund
+    role: night lead
+    look: olive coveralls, brass tag, flashlight glow on face, tired eyes
+    traits: [literal, anxious, cooked, absurdly hopeless; no slapstick]
+    goal: Pass an inspection that never comes
+    voice: earnest whisper that becomes a shout
+    catchphrase: "Is this the priority brief?"
+  - name: Tim
+    role: chaotic helper drone
+    look: graphite drone, rabbit-ear antennas, cyan optic, hovering too close
+    traits: [drops props, cooked, absurdly hopeless; no slapstick]
+    goal: Be helpful incorrectly
+    voice: chirps
+    catchphrase: "*chirp*"
+  - name: The Voice of Forward
+    role: unseen announcer
+    look: never seen; black frame with soft cyan bug only
+    traits: [warm, unhelpful]
+    goal: Keep the night block moving
+    voice: warm late-night continuity
+    catchphrase: "We'll be right back... eventually."
+places:
+  - name: Forward Depot Bay
+    look: night fog, amber safety lights, empty crates, sealed hatch
+  - name: Pedestal Row
+    look: dimmed museum lights, one pedestal still lit cyan
+world_facts:
+  - Night shift has no customers and full pressure.
+  - Inspection checklist is blank and somehow graded.
+  - Osmund and Tim are cooked, absurdly hopeless idiots (direction open; no slapstick).
+running_gags:
+  - Osmund polishes a blank tag until it squeaks.
+  - Tim re-stacks the same crate three ways.
+season_arc:
+  main: Osmund builds a fake inspector costume from packing foam; it almost works on Bill.
+  side_arcs:
+    - Tim collects lost stickers into a "chart."
+  episode_count: 4
+  episode_beats:
+    - "N1 Checklist with no boxes."
+    - "N2 Foam inspector helmet."
+    - "N3 Pedestal haunted by a chirp."
+    - "N4 Dawn; Bill salutes the foam."
+continuity: data/continuity/depot-after-hours.json
+continuity_key: depot-after-hours

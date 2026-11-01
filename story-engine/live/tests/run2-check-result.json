@@ -1,0 +1,221 @@
+{
+ "file": "data/pilots/ch04-forward-supply-run2-20261027/clip-prompts.json",
+ "overall": "pass",
+ "counts": {
+  "pass": 35,
+  "warn": 0,
+  "fail": 0
+ },
+ "shots": [
+  {
+   "id": "S1A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S1E",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2F",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2G",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S2E",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S3A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S3B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S3C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S3D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S3E",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S4A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S4B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S4C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S4D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S5E",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S6A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S6B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S6C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S6D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S6E",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S7A",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S7B",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S7C",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  },
+  {
+   "id": "S7D",
+   "status": "pass",
+   "fails": [],
+   "warns": []
+  }
+ ]
+}

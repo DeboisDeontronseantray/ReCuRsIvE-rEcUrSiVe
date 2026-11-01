@@ -1,0 +1,13 @@
+{
+ "args": {
+  "prompt": "[Look: 1970s public-TV cooking show, soft studio video, orange and avocado set.] [Setting: a 1970s TV kitchen, orange counters, avocado fridge, copper pans.] [Cast: CHEF ODILE (white chef coat, red scarf, silver bun).] Single shot: medium shot, 50mm, eye level, static camera, one continuous 10 s take. Everyone looks at each other and the props in front of them, never into the lens. At 1 s, ODILE cracks an egg; it pours out glowing green. At 4 s, CHEF ODILE speaks [calm, proud: \"Do not be alarmed. That is flavor.\"]. At 7 s, the pan flares and ODILE claps a lid on it. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NS19-1.mp4"
+ },
+ "fails": [
+  "R-REF required (t132u)"
+ ],
+ "warns": [],
+ "show": "KITCHEN AT MIDNIGHT WITH ODILE"
+}

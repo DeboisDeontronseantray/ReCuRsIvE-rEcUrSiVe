@@ -1,0 +1,991 @@
+{
+  "pilot": "ch04-forward-supply-pilot-20261027",
+  "channel": "4",
+  "channel_name": "Military Boutique",
+  "network": "thunder trundle",
+  "show": "Forward Supply",
+  "title": "Cold Clearance",
+  "total_runtime_s": 145,
+  "clip_count": 21,
+  "metadata": {
+    "parody": "parody / house fiction (metadata only; never on the live-stream player)",
+    "home_only": true,
+    "status": "DRAFT script; do not send to Commercial News Break without trundle OK",
+    "voice_clones": "none (deferred)",
+    "reference_images": "none (slots empty)"
+  },
+  "clips": [
+    {
+      "id": "FS-P01-C01",
+      "segment": "cold_open",
+      "duration_s": 8,
+      "camera": "museum-light push-in",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines, chrome and olive walls, blank HUD monitors soft cyan glow, museum lighting, empty of shoppers, single matte tactical helmet on a velvet pedestal center frame. Action: Lights rise slowly across the empty showroom onto one matte graphite helmet with a blank clearance sticker clamp. Camera: museum-light push-in, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "museum-light push-in",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "The Voice of Forward",
+          "line": "From the forward depot. Forward Supply."
+        }
+      ],
+      "first_frame": "Near-black showroom, only cyan edge lines visible.",
+      "last_frame": "Helmet on velvet pedestal, center frame, museum key light fully up.",
+      "continuity_notes": "Episode opens cold; no channel bug or number (change-flash only).",
+      "on_screen_text_post": [
+        "ost_military_boutique_l3 (post, lower third, 3 s)"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C02",
+      "segment": "cold_open",
+      "duration_s": 7,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Background: Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines, chrome and olive walls, blank HUD monitors soft cyan glow, museum lighting, empty of shoppers. Action: Bill steps to the helmet pedestal and gives it a crisp, sincere salute, holding it one beat. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Good evening. Tonight we ship one impossible order."
+        }
+      ],
+      "first_frame": "Helmet on pedestal center; Bill entering from frame right.",
+      "last_frame": "Bill mid-salute beside helmet, both center-weighted.",
+      "continuity_notes": "Running gag: Bill salutes a pedestal before the reveal. Played straight.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C03",
+      "segment": "cold_open",
+      "duration_s": 8,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Background: Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines, chrome and olive walls, blank HUD monitors soft cyan glow, museum lighting, empty of shoppers, chrome catalog podium. Action: Mira joins at the podium and presses a fresh blank color sticker onto her clipboard without looking. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Clearance tonight is Signal Mauve."
+        },
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Naturally. Signal Mauve."
+        }
+      ],
+      "first_frame": "Bill lowering salute at podium.",
+      "last_frame": "Bill and Mira side by side at podium, sticker placed.",
+      "continuity_notes": "Gag: Mira invents a clearance color; Bill pretends he knew it. 'Signal Mauve' is this episode's color (log as callback after air).",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C04",
+      "segment": "brief",
+      "duration_s": 8,
+      "camera": "museum-light push-in",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Background: Narrow glass booth, frosted floor light, single stool, blank amber HUD strip, cold white key, ankle fog. Action: Mira sits on the single stool in the glass booth, reading the blank amber HUD strip with total focus. Camera: museum-light push-in, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "museum-light push-in",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Priority brief. Outpost Quiet requests one helmet. Delivery before the fog lifts."
+        }
+      ],
+      "first_frame": "Empty glass booth, fog at ankles.",
+      "last_frame": "Mira seated, lit by amber strip, center.",
+      "continuity_notes": "Briefing Tube debut. HUD strip stays blank; any text added in post only.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C05",
+      "segment": "brief",
+      "duration_s": 6,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Background: Narrow glass booth, frosted floor light, single stool, blank amber HUD strip, cold white key, ankle fog. Action: Mira lowers the clipboard and looks one degree toward camera. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "The fog does not lift. That is the brief."
+        }
+      ],
+      "first_frame": "Mira seated reading.",
+      "last_frame": "Mira's dry half-smile, clipboard lowered.",
+      "continuity_notes": "Logic beat: impossible-but-consistent order.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C06",
+      "segment": "brief",
+      "duration_s": 7,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Small matte-graphite courier drone, rabbit-ear antennas, single cyan optic, soft LED pulse, no logos, hovering at shoulder height. Background: Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines, chrome and olive walls, blank HUD monitors soft cyan glow, museum lighting, empty of shoppers, chrome podium. Action: Tim hovers in and sets a blank sealed envelope on the podium. Bill slides it aside without opening it. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Tim",
+          "line": "*chirp* *servo click*"
+        },
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Not tonight, Tim."
+        }
+      ],
+      "first_frame": "Bill at podium alone.",
+      "last_frame": "Envelope pushed to podium edge, Tim hovering beside Bill.",
+      "continuity_notes": "Side arc seeded: mysterious blank envelope Bill will not open. Tim chirps only.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C07",
+      "segment": "demo",
+      "duration_s": 8,
+      "camera": "slow orbit",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Three velvet pedestals under cyan edge light, museum quiet, one product each; center pedestal holds the matte graphite helmet with a slim fog-visor. Action: Slow orbit around the helmet; a thin visor slides down smoothly and glows faint cyan. Camera: slow orbit, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "slow orbit",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "The Quietline Helmet. Fog-rated visor. Hears what the fog is thinking."
+        }
+      ],
+      "first_frame": "Helmet front-on, visor up.",
+      "last_frame": "Helmet three-quarter, visor down glowing faint cyan.",
+      "continuity_notes": "Original house-fiction gear: absurd claim, realistic object. No weapons.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C08",
+      "segment": "demo",
+      "duration_s": 7,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Background: Three velvet pedestals under cyan edge light, museum quiet, one product each. Action: Mira peels a mauve sticker and presses it on the helmet's clearance clamp with precision. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Rated to Signal Mauve. Per the sticker, Commander."
+        }
+      ],
+      "first_frame": "Mira beside helmet, sticker on fingertip.",
+      "last_frame": "Mauve sticker seated on helmet clamp.",
+      "continuity_notes": "Mira catchphrase (Forward Supply). Sticker is a color swatch only, no text.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C09",
+      "segment": "demo",
+      "duration_s": 6,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Small matte-graphite courier drone, rabbit-ear antennas, single cyan optic, soft LED pulse, no logos, hovering at shoulder height. Background: Three velvet pedestals under cyan edge light, museum quiet, one product each. Action: Tim drifts close, its cyan optic flickers, and it chirps mid-sentence; Bill pauses, unblinking, then continues. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Fully sealed against\u2014"
+        },
+        {
+          "speaker": "Tim",
+          "line": "*chirp chirp*"
+        },
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "\u2014signal drift."
+        }
+      ],
+      "first_frame": "Bill speaking to camera, Tim at shoulder.",
+      "last_frame": "Bill composed, Tim settled at shoulder.",
+      "continuity_notes": "Running gag: Tim chirps when signal drifts, mid-pitch. Dry, no physical gag.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C10",
+      "segment": "house_ad",
+      "duration_s": 5,
+      "camera": "museum-light push-in",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Three velvet pedestals under cyan edge light, museum quiet, one product each; a plain black universal remote, about 15.5 cm, lying on velvet, no brand marks, ordinary media keys, one tiny board LED. Action: Light rises on the plain black remote on a velvet pad; a tiny LED glows softly. Camera: museum-light push-in, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "museum-light push-in",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "The Voice of Forward",
+          "line": "From the house of thunder trundle. The Make A Clip Remote."
+        }
+      ],
+      "first_frame": "Dark pedestal, faint cyan edge.",
+      "last_frame": "Remote center on velvet, tiny LED glowing.",
+      "continuity_notes": "HOUSE AD (15 s total, C10-C12). Make A Clip Remote shown ready and working (dev stage disregarded). Plain shell, no brand/logo. Not a phone keypad; standard remote keys.",
+      "on_screen_text_post": [
+        "product super 'MAKE A CLIP REMOTE' (post, register as new ost id before use)"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C11",
+      "segment": "house_ad",
+      "duration_s": 5,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Dim tidy home media room at night, graphite sofa, plain dark TV glowing soft cyan, matte black side table, no logos; an adult hand (no face) holding the plain black remote. Action: A hand presses one media key; no click sound, only the tiny board LED brightens. The TV glows softer cyan as if listening. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "The Voice of Forward",
+          "line": "Press the Make a Clip key. Say your idea. Silent press."
+        }
+      ],
+      "first_frame": "Hand holding remote toward plain TV.",
+      "last_frame": "Thumb on key, LED bright, TV cyan glow.",
+      "continuity_notes": "Silent press; the ONLY light is the board LED (no other lights on remote). No rechargeable/LiPo claims.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C12",
+      "segment": "house_ad",
+      "duration_s": 5,
+      "camera": "museum-light push-in",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Dim tidy home media room at night, graphite sofa, plain dark TV glowing soft cyan, matte black side table, no logos. Action: The plain TV screen blooms into an abstract cyan clip of a sky over hills, forming from soft light particles. Camera: museum-light push-in, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "museum-light push-in",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "The Voice of Forward",
+          "line": "SparkNest catches it. Thunderear hears it. Clipforge builds it. Your idea, now a clip."
+        }
+      ],
+      "first_frame": "TV cyan glow, remote in hand foreground.",
+      "last_frame": "TV showing finished abstract sky clip; remote resting on side table.",
+      "continuity_notes": "Fictional software names only (SparkNest hub, Thunderear speech, Clipforge builder). No for-sale, always-online, phone or dial CTA.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C13",
+      "segment": "bay",
+      "duration_s": 8,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Young adult in olive coveralls, brass shift tag, slightly out of breath, modular field pack, earnest expression. Background: Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch. Action: Osmund jogs up through the fog carrying a bulky modular field pack and stops at attention, breathing hard. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Depot Clerk Osmund",
+          "line": "Is this the priority brief?"
+        }
+      ],
+      "first_frame": "Fog bay empty, amber lights.",
+      "last_frame": "Osmund at attention, center, pack on back.",
+      "continuity_notes": "Osmund too loud for the boutique; earnest, not clumsy.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C14",
+      "segment": "bay",
+      "duration_s": 7,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Young adult in olive coveralls, brass shift tag, slightly out of breath, modular field pack, earnest expression. Background: Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch. Action: Mira checks the pack against her clipboard; it is clearly a thermal ration pack, not a helmet case. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "That's a thermal ration pack, Osmund."
+        },
+        {
+          "speaker": "Depot Clerk Osmund",
+          "line": "It was on the priority shelf."
+        }
+      ],
+      "first_frame": "Osmund at attention, Mira entering.",
+      "last_frame": "Mira and Osmund facing each other over the pack.",
+      "continuity_notes": "Running gag: Osmund brings the wrong pack.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C15",
+      "segment": "bay",
+      "duration_s": 8,
+      "camera": "slow orbit",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Young adult in olive coveralls, brass shift tag, slightly out of breath, modular field pack, earnest expression. Background: Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch. Action: Bill studies the pack, opens a side panel revealing a padded helmet-shaped cavity beside sealed ration tins. Camera: slow orbit, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "slow orbit",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Outpost Quiet is cold. And hungry. The pack fits the brief."
+        }
+      ],
+      "first_frame": "Three cast around the pack.",
+      "last_frame": "Open panel showing padded cavity, helmet slot empty.",
+      "continuity_notes": "Wrong pack somehow fits the new brief (logical: cold outpost needs food and helmet).",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C16",
+      "segment": "launch",
+      "duration_s": 8,
+      "camera": "museum-light push-in",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Small matte-graphite courier drone, rabbit-ear antennas, single cyan optic, soft LED pulse, no logos, hovering at shoulder height. Background: Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch. Action: Bill seats the helmet into the pack and clips it closed; Tim lowers and locks onto the pack's harness with a firm servo clamp. Camera: museum-light push-in, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "museum-light push-in",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Tim",
+          "line": "*low steady chirp*"
+        }
+      ],
+      "first_frame": "Open pack, helmet in Bill's hands.",
+      "last_frame": "Pack sealed, Tim locked on harness, amber light across them.",
+      "continuity_notes": "Tone shift to serious and badass; respectful, no weapons.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C17",
+      "segment": "launch",
+      "duration_s": 8,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch. Action: The sealed hatch splits open with heavy hydraulic weight; fog pours in, amber lights strobe slow and steady. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Hatch open. Fog holding."
+        }
+      ],
+      "first_frame": "Sealed hatch, still.",
+      "last_frame": "Hatch fully open, wall of fog, amber pulses.",
+      "continuity_notes": "Badass beat. Amber safety lights only; not tied to any product.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C18",
+      "segment": "launch",
+      "duration_s": 8,
+      "camera": "slow orbit",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Small matte-graphite courier drone, rabbit-ear antennas, single cyan optic, soft LED pulse, no logos, hovering at shoulder height. Background: Sterile loading bay, rolling night fog, amber safety lights, empty crates with blank tags, sealed hatch. Action: Tim lifts the pack and rises into the fog, single cyan optic cutting a clean beam, until it is a small light in the night. Camera: slow orbit, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "slow orbit",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Courier away."
+        }
+      ],
+      "first_frame": "Tim hovering at hatch threshold with pack.",
+      "last_frame": "Small cyan point fading into fog.",
+      "continuity_notes": "Clear resolution of the episode's order.",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C19",
+      "segment": "ending",
+      "duration_s": 8,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks. Tall adult host, stiff posture, boxy charcoal duty jacket, blank brass shift tag, short dark hair sharp side part, thin mouth, amber HUD glasses with no readable text. Compact adult co-host, slate duty tunic, olive utility scarf, neat braid, dry half-smile, blank clipboard with color stickers, cyan rim on left cheek. Background: Dark luxury showroom, matte-black pedestals, velvet pads, glass vitrines, chrome and olive walls, blank HUD monitors soft cyan glow, museum lighting, empty of shoppers, chrome podium, the blank envelope still at the edge. Action: Bill and Mira back at the podium. Bill glances at the unopened envelope, then squares to camera. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Order shipped. Inspection status: unknown."
+        },
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "As it should be. Let's ship it forward."
+        }
+      ],
+      "first_frame": "Podium, envelope at edge, both hosts.",
+      "last_frame": "Bill's final nod; both still, center.",
+      "continuity_notes": "Clear ending; catchphrase lands. Envelope still unopened (side arc).",
+      "on_screen_text_post": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C20",
+      "segment": "ending",
+      "duration_s": 5,
+      "camera": "museum-light push-in",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Black velvet backdrop, soft cyan edge light. Action: A clean black card with soft cyan edge glow; space reserved center for the motto added in post. Camera: museum-light push-in, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "museum-light push-in",
+        "one move per shot"
+      ],
+      "dialogue": [],
+      "first_frame": "Hosts' podium dissolving to black.",
+      "last_frame": "Clean black card, cyan edge glow.",
+      "continuity_notes": "Motto card. No rolling credits.",
+      "on_screen_text_post": [
+        "ost_ship_it_forward: LET'S SHIP IT FORWARD (post, center)"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    },
+    {
+      "id": "FS-P01-C21",
+      "segment": "production_card",
+      "duration_s": 5,
+      "camera": "locked medium",
+      "visual_prompt": "Photoreal Military Boutique commercial look, luxury near-future showroom, matte black and graphite, museum lighting, cyan edge light, late-90s broadcast polish, near-future advertising channel, 4:3-safe center framing, center-weighted composition, no unintended text, no logos, no watermarks.  Background: Dark graphite surface, single cold white key. Action: A small brushed-graphite emblem of a stylized folded hatch turns once on a graphite surface and settles. Camera: locked medium, one move only. Mood: cool, clinical, slightly absurd, never slapstick.",
+      "era_camera_tags": [
+        "near-future advertising channel",
+        "late-90s broadcast polish",
+        "4:3-safe center framing",
+        "locked medium",
+        "one move per shot"
+      ],
+      "dialogue": [
+        {
+          "speaker": "The Voice of Forward",
+          "line": "A Quiet Hatch Pictures production."
+        }
+      ],
+      "first_frame": "Black.",
+      "last_frame": "Emblem settled, center, gentle fade to black.",
+      "continuity_notes": "Invented studio 'Quiet Hatch Pictures' (original). Register card text in on_screen_text before air.",
+      "on_screen_text_post": [
+        "production card: QUIET HATCH PICTURES (post; new ost id to register)"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "reference_images": []
+    }
+  ]
+}

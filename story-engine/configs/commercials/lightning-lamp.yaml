@@ -1,0 +1,51 @@
+# Lightning Lamp — trundle's own house product (thunder trundle home)
+# Source: /workspace/fakenews/channel-ready/thunder-trundle/house-ads/
+#   20261026_232450_housead_lightninglamp_thunder-trundle-home_parody.plan.json
+# Written 2026-10-27 ~08:40 CT by Story Bot. No phone/dial CTA. Home-only.
+id: lightning-lamp
+product: Lightning Lamp
+owner: Thunder Trundle Workshop
+brand_house: thunder trundle home
+what_it_does: Desk lamp with tiny contained lightning flash for flair (not a weather alert).
+price_line: "Built by Thunder Trundle Workshop. For the home."
+spokesperson:
+  name: The Voice of Forward
+  role: unseen announcer
+length_s: 18
+pitch_beats:
+  hook: "Catch a quiet storm."
+  problem: "Desk light is boring."
+  fix: "Tiny lightning in a bottle for your desk."
+  call_to_action: "Lightning Lamp. Built by Thunder Trundle Workshop. For the home."
+tone: playful, safe, slightly absurd
+vo_lines:
+  - "Catch a quiet storm."
+  - "Thunder trundle home. Tiny lightning in a bottle for your desk."
+  - "Flash for flair. Not a weather alert."
+  - "Lightning Lamp. Built by Thunder Trundle Workshop. For the home."
+shot_list:
+  - {shot: 1, dur_s: 4.0, visual: "Dark desk; contained flash inside a clear vessel; no logos.", super: "LIGHTNING LAMP"}
+  - {shot: 2, dur_s: 5.0, visual: "Slow push on the lamp; graphite base; soft room.", super: "DESK STORM"}
+  - {shot: 3, dur_s: 4.5, visual: "Single quiet flash; faces none; center frame.", super: "FLASH FOR FLAIR"}
+  - {shot: 4, dur_s: 4.5, visual: "Lamp on desk beside blank notebook; cyan rim.", super: "LIGHTNING LAMP"}
+on_screen_text: ["LIGHTNING LAMP", "DESK STORM", "FLASH FOR FLAIR"]
+tagline: "Built by Thunder Trundle Workshop. For the home."
+allowed_channels: ["4", "6", "12"]
+allowed_slots: ["ch04-prime-1900", "ch04-late-night", "ch04-midroll"]
+disclaimers:
+  - home-only
+  - parody in filename/metadata only
+  - no outside brands
+  - no phone numbers or dial CTAs
+repeat:
+  max_per_hour: 2
+  min_gap_minutes: 20
+source_clip: /workspace/fakenews/channel-ready/thunder-trundle/house-ads/20261026_232450_housead_lightninglamp_thunder-trundle-home_parody.mp4
+# audio_rule (trundle 2026-10-27 17:33 CT), added 17:35 by Story Bot
+audio_prompt_line: "Audio: quiet, unobtrusive ambient bed (soft room tone, faint servo ticks, light showroom air); no droning low hum, no sub-bass rumble, no engine drone; dialogue and VO sit clearly above the bed."
+audio_negative_tags: [no low hum, no droning bass, no sub-bass rumble, no engine drone]
+# FLAG (Story Bot 2026-10-27 18:05 CT, add-only): trundle hard rule 17:44/17:46 CT. Lines above that used his real first name
+# (owner, price_line, call_to_action, vo lines, tagline) must NOT be used in any new prompt, VO, super or overlay.
+# Existing renders that show his real first name ("<name>S OWN") get a solid black cover box (status needs_name_cover,
+# /workspace/streaming/NAME-COVER-20261027.json). The spoken VO in those renders says his real first name ("Built by <name>" / "From <name>'s bench") and needs a VO fix.
+trundle_name_flag_20261027: {status: needs_name_cover, rule: no_trundle_name_20261027_1744, cover_file: /workspace/streaming/NAME-COVER-20261027.json}

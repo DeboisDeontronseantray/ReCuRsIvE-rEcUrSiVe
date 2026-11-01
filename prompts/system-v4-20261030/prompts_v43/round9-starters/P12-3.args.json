@@ -1,0 +1,10 @@
+{
+ "prompt": "[Look: Mid-1990s American local TV camcorder look.] [DALE (<IMAGE_1>).] [Van: the news van (<IMAGE_0>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s derby cars circle the van like sharks. At 5 s the crowd in the grandstand cheers and DALE takes a bow on the roof, tie flapping. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "duration": 10,
+ "resolution": "480p",
+ "filename": "P12-3.mp4",
+ "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P12-2/P12-2_last.png",
+ "reference_image_paths": [
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/PENDING/DALE_P12-2.png"
+ ]
+}

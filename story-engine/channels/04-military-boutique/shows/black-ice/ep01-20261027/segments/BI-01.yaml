@@ -1,0 +1,77 @@
+shot_id: BI-01
+show: black-ice
+episode: ep01-20261027
+scene: SC1
+tc_in: 0.0
+tc_out: 10.1
+tc_basis: ffprobe of leveled files in cut/cut_order_v2.txt, summed in order incl. ad breaks (measured, not estimated)
+duration_planned_s: 10
+rendered_prompt_record: '[Camera & Style] Photorealistic early-1970s cold-war espionage film, fictional frozen border river, winter 1971. Shot on 35mm film with a vintage 25-85mm zoom lens set at 32mm. Naturalistic 24fps motion, subtle film grain, desaturated steel-blue palette with ink-black shadows. EXTREME WIDE, completely static locked-off camera. ONE CONTINUOUS SHOT. The first image is the exact starting frame and the last image is the exact ending frame. Preserve composition, lighting and character appearance.
+
+  [Action] HERON sits on a crate on the ferry deck slowly working the bolt of her suppressed rifle with a rag; she pauses, lifts her head toward frame right, then resumes.
+
+  [Environment] Dusk ferry landing, ice floes drift right to left across grey water, light snow, fog on the far bank, the hut at frame right.
+
+  [Physics] Ferry rocks gently as floes knock the hull, steel cable sags and drips, lantern flame flickers, breath vapor.
+
+  [Audio] No music. No dialogue. River current, grinding ice, low wind, slow breathing.
+
+  [SFX] Rifle bolt slide, rag on steel, ice knocking timber, cable creak, faint radio static from a bag.
+
+  [Constraints] One continuous shot, no cuts. Fictional adults only. Every lamp, bulb and lantern glows signal orange, never green. Strictly photorealistic live action. No text, no subtitles, no signage, no logos, no insignia, no brands, no readable dials. No eye contact with camera, eyeline off-lens; characters never look into the lens.'
+keyframes:
+  first_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC1_LANDING_AROLL/BI-S01_start_try1_parody.png
+  last_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC1_LANDING_AROLL/BI-S01_end_try2_parody.png
+  last_frame_clean_extract: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/lastframes/BI-01_g99_last_clean_v3_parody.jpg
+characters:
+- HERON
+location: ferry landing, west bank
+look: early-1970s 35mm, 32mm, EXTREME WIDE, completely static locked-off camera; desaturated steel blue, ink-black shadows, signal orange lamps only
+in_scene_text: []
+overlay_post: []
+overlay_fallback: false
+continuity_ref: ../../continuity.yaml#shots.BI-01
+no_eye_contact: true
+clean_master: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/masters/BI-01_try1_480p_clean_parody.mp4
+airing_file: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/leveled/BI-01_g99_cap_tag_lev_v3_parody.mp4
+qc_flags: []
+lineage:
+  tag: '4.13 g1 #99'
+  clip_no: 99
+  parent: null
+  gen: 1
+rendered_prompt_record_note: 'prompt is the current shots_ep1.py text (10:41 AM CT). The v1 render (~8:15 AM CT) used shots_ep1.py.bak-20261028-1042, which is identical except it lacks the final no-eye-contact sentence.'
+
+# --- Locks + chain (Director 12:26 PM CT / CNB 12:27 PM CT; Story Bot add-only 12:28) ---
+locks:
+  chr:
+  - CHR-HERON-v1
+  war:
+  - WAR-HERON-SNOWSMOCK-v1
+  loc:
+  - LOC-FERRY-LANDING-v1
+  look:
+  - LOOK-BLACK-ICE-v1
+  prp:
+  - PRP-HERON-RIFLE-v1
+  - PRP-RADIO-BAG-v1
+chain: false
+chain_basis: 'director_confirmed_20261028: cut (new angle/size or new scene)'
+blocks:
+  camera: EXTREME WIDE, completely static locked-off camera, 32mm lens
+  action: HERON sits on a crate on the ferry deck slowly working the bolt of her suppressed rifle with a rag; she pauses, lifts her head toward frame right, then resumes.
+  environment: Dusk ferry landing, ice floes drift right to left across grey water, light snow, fog on the far bank, the hut at frame right.
+  physics: Ferry rocks gently as floes knock the hull, steel cable sags and drips, lantern flame flickers, breath vapor.
+  audio: No music. No dialogue. River current, grinding ice, low wind, slow breathing.
+  sfx: Rifle bolt slide, rag on steel, ice knocking timber, cable creak, faint radio static from a bag.
+  extra_constraints: No other people in frame, no glowing monitors.
+blocks_source: CNB shots_ep1.py SH (current, 12:27 PM CT; BI-12/BI-15 = v2 spec)
+seed: null
+end_frame: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/stills/SC1_LANDING_AROLL/BI-S01_end_try2_parody.png
+
+# pure show-only master (no ads), Oct 28 2026
+master_pure: black-ice-20261027_ch4_ep1_showonly_v2_720p_parody.mp4
+tc_pure_in: 0
+tc_pure_out: 10.1
+tc_superseded: true  # old tc_in/tc_out measured with ads; use tc_pure_*
+prompt_source: 'Not stored here. assemble_prompt.py builds the live prompt from blocks + locks + wrappers each time (Story Bot, Oct 28 2026 3:00 PM CT). rendered_prompt_record is a frozen history of what was rendered and is never read for assembly.'

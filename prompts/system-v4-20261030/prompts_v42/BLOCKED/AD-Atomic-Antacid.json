@@ -1,0 +1,15 @@
+{
+ "id": "AD-Atomic-Antacid",
+ "why": {
+  "R-REF required (t132u)": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "[Look: 1950s black-and-white TV ad.] [A man in a fedora clutches his stomach beside a cardboard city; at 3 s he drinks a fizzing glass; at 6 s a rubber-suit lizard monster behind him also drinks one and calmly sits down.] [Eyes on the glass.] Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at the product and each other, never into the lens; faces in profile or three-quarter. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "AD-Atomic-Antacid.mp4"
+ },
+ "notes": []
+}

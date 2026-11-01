@@ -1,0 +1,14 @@
+meta:
+  channel: 2
+cast:
+  ch02.dora_vance:
+    locked_description: desk anchor
+    meta_prompt:
+      text: steady teleprompter cadence
+      built_from: []
+      version: 1
+    traits:
+      tangible: []
+      intangible: []
+    abilities: []
+    relationships: []

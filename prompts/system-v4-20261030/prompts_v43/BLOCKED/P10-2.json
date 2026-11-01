@@ -1,0 +1,16 @@
+{
+ "id": "P10-2",
+ "why": "P10-1's rendered JACE closely resembles a real, famous actor (no-real-likeness rule). Needs Trundle's call before chaining off that frame.",
+ "draft_args": {
+  "prompt": "[Look: 1990s syndicated action-hour look, 35mm, warm sunset grade.] [JACE: invented stuntman, brown leather jacket, mullet, aviator sunglasses.] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium shot, 35mm, eye level, static camera, one continuous 10 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s JACE weaves between stacked containers on the pier, the sedans close behind. At 6 s he guns it toward the pier's end where a barge is moving away. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "P10-2.mp4",
+  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P10-1/P10-1_last.png"
+ },
+ "notes": [
+  "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
+  "safety bracket regenerated from pool",
+  "v4.2: channel sheet SHEET_CH10_ACTION_CAST_v1.jpg removed from refs: it does not show the named cast, so it contradicted the start frame"
+ ]
+}

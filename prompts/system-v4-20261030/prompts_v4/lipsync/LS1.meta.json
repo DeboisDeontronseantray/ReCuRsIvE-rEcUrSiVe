@@ -1,0 +1,42 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4-20261030",
+ "lexicon_version": "LEXICON v1",
+ "builder": {
+  "name": "build_prompt_v4",
+  "version": "4.0.0",
+  "sha": "4fcf0d01b0a9"
+ },
+ "fixed_threads_version": "fixed-threads-v0-proposal",
+ "card_versions": {},
+ "clip_id": "LS1",
+ "parent_clip": "r9-D1",
+ "channel_show": "Ch2 News",
+ "episode": null,
+ "clip_type": "news",
+ "arc_stage": null,
+ "beats": [
+  {
+   "t": 1,
+   "requester": "story",
+   "kind": "dialogue"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "saga": null,
+ "depth": "D0",
+ "migration_bridge": null,
+ "state_stills": [],
+ "layers_on": [
+  {
+   "layer": "setting",
+   "kind": "clip"
+  }
+ ],
+ "prompt_sha256": "400cc711525559bda48e7d833189a5fac0450cba55adf6bda6392343c41936cc",
+ "prompt_words": 128,
+ "air_status": "design-not-rendered",
+ "deprecated_fields": {}
+}

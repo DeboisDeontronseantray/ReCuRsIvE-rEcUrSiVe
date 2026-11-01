@@ -1,0 +1,2302 @@
+{
+ "built": "2026-10-27 18:00 CT",
+ "rule": "trundle 5:58 PM CT: predetermined queues; new clips only at clean breaks matched to neighbor frames",
+ "channels": {
+  "4": {
+   "name": "Military Boutique",
+   "count": 16,
+   "runtime_s": 691.9,
+   "items": [
+    {
+     "order": 1,
+     "group": "4.1 Forward Supply show",
+     "file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/ch04_forward-supply_pocket-taupe_480p-run2_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 285.48,
+     "lineage_tag": "4.1 g1 #8",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_last.jpg",
+     "clean_master": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/ch04_forward-supply_pocket-taupe_480p-run2_parody.mp4",
+     "slot_id": "ch4-q01",
+     "slot_head": {
+      "lineage": "4.1",
+      "root": null,
+      "head": 8
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "4.1 show inserts (trundle gameplay, Mac-only)",
+     "file": "MAC-ONLY ~/smart-office/media_server/trundles-videos/ DEATH SKATING t-JbIINJL6M",
+     "status": "needs_leveling",
+     "duration_s": 88.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch4-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "4.1 show inserts (trundle gameplay, Mac-only)",
+     "file": "MAC-ONLY ~/smart-office/media_server/trundles-videos/ DEATH STRANDING_20210611164644 ljsfe8mgS8Q",
+     "status": "needs_leveling",
+     "duration_s": 31.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch4-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "4.1 show inserts (trundle gameplay, Mac-only)",
+     "file": "MAC-ONLY ~/smart-office/media_server/trundles-videos/ DSZombo#5 bPrvdwpskHk",
+     "status": "needs_leveling",
+     "duration_s": 187.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch4-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "4.3 comment clips",
+     "file": "/workspace/streaming/commenter-pipeline/outbox/mock-05_ch04_commenter_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 7.1,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/4/05_mock-05-ch04-commenter_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/05_mock-05-ch04-commenter_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/05_mock-05-ch04-commenter_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/05_mock-05-ch04-commenter_last.jpg",
+     "clean_master": "/workspace/streaming/commenter-pipeline/outbox/mock-05_ch04_commenter_parody.mp4",
+     "slot_id": "ch4-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "4.3 comment clips",
+     "file": "/workspace/streaming/commenter-pipeline/outbox/mock-08-manual_ch04_commenter_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 7.1,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/4/06_mock-08-manual-ch04-commenter_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/06_mock-08-manual-ch04-commenter_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/06_mock-08-manual-ch04-commenter_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/06_mock-08-manual-ch04-commenter_last.jpg",
+     "clean_master": "/workspace/streaming/commenter-pipeline/outbox/mock-08-manual_ch04_commenter_parody.mp4",
+     "slot_id": "ch4-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 7,
+     "group": "4.3 comment clips",
+     "file": "/workspace/streaming/commenter-pipeline/outbox/x-m1002_ch04_commenter_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 8.04,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/4/07_x-m1002-ch04-commenter_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/07_x-m1002-ch04-commenter_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/07_x-m1002-ch04-commenter_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/07_x-m1002-ch04-commenter_last.jpg",
+     "clean_master": "/workspace/streaming/commenter-pipeline/outbox/x-m1002_ch04_commenter_parody.mp4",
+     "slot_id": "ch4-q07",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 8,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261026_231528_4_1_Military-Boutique_armored-showroom-cruiser_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "4.4 g3 #45 / from #44",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_rover.mp4",
+     "slot_id": "ch4-q08",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 45
+     },
+     "head_history": []
+    },
+    {
+     "order": 9,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261026_231528_4_1_Military-Boutique_exo-gauntlet-vitrine_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "4.4 g3 #47 / from #46",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/09_xo-gauntlet-vitrine-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/09_xo-gauntlet-vitrine-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/09_xo-gauntlet-vitrine-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/09_xo-gauntlet-vitrine-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_gauntlet.mp4",
+     "slot_id": "ch4-q09",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 47
+     },
+     "head_history": []
+    },
+    {
+     "order": 10,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261026_231528_4_1_Military-Boutique_modular-field-pack_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "4.4 g3 #49 / from #48",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/10_modular-field-pack-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/10_modular-field-pack-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/10_modular-field-pack-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/10_modular-field-pack-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_pack.mp4",
+     "slot_id": "ch4-q10",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 49
+     },
+     "head_history": []
+    },
+    {
+     "order": 11,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261026_231528_4_1_Military-Boutique_scout-drone-jewelry_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "4.4 g3 #51 / from #50",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/11_scout-drone-jewelry-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/11_scout-drone-jewelry-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/11_scout-drone-jewelry-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/11_scout-drone-jewelry-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_drone.mp4",
+     "slot_id": "ch4-q11",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 51
+     },
+     "head_history": []
+    },
+    {
+     "order": 12,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261026_231528_4_1_Military-Boutique_tactical-helmet-pedestal_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "4.4 g3 #53 / from #52",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/12_cal-helmet-pedestal-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/12_cal-helmet-pedestal-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/12_cal-helmet-pedestal-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/12_cal-helmet-pedestal-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_helmet.mp4",
+     "slot_id": "ch4-q12",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 53
+     },
+     "head_history": []
+    },
+    {
+     "order": 13,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261027_080512_4_1_Military-Boutique_field-binoculars-velvet_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.1,
+     "lineage_tag": "4.4 g3 #55 / from #54",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/13_d-binoculars-velvet-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/13_d-binoculars-velvet-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/13_d-binoculars-velvet-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/13_d-binoculars-velvet-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_binoculars.mp4",
+     "slot_id": "ch4-q13",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 55
+     },
+     "head_history": []
+    },
+    {
+     "order": 14,
+     "group": "4.4 product-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/salesad-A-cover-20261027/20261027_080512_4_1_Military-Boutique_graphite-cloak-torso_parody_salesadB_cover_tagged_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.1,
+     "lineage_tag": "4.4 g3 #57 / from #56",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/4/14_raphite-cloak-torso-salesadb-cover-tagged-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/4/14_raphite-cloak-torso-salesadb-cover-tagged-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/4/14_raphite-cloak-torso-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/4/14_raphite-cloak-torso-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/mb_cloak.mp4",
+     "slot_id": "ch4-q14",
+     "slot_head": {
+      "lineage": "4.4",
+      "root": null,
+      "head": 57
+     },
+     "head_history": []
+    },
+    {
+     "order": 15,
+     "group": "4.4 house-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/house-ads/20261026_232450_housead_lightninglamp_thunder-trundle-home_parody.mp4",
+     "status": "needs_name_cover",
+     "duration_s": 18.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_name_cover",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch4-q15",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 16,
+     "group": "4.4 house-ad break",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/house-ads/20261026_232450_housead_skydiffuser_thunder-trundle-home_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 18.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch4-q16",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 0.6,
+     "luma_jump": -0.1,
+     "note": "soft match: color 0.6, brightness -0.1",
+     "clean_break": false
+    },
+    {
+     "after": 6,
+     "before": 7,
+     "color_diff": 10.4,
+     "luma_jump": -10.9,
+     "note": "soft match: color 10.4, brightness -10.9",
+     "clean_break": false
+    },
+    {
+     "after": 7,
+     "before": 8,
+     "color_diff": 43.7,
+     "luma_jump": 44.0,
+     "note": "hard cut: color 43.7, brightness +44.0",
+     "clean_break": true
+    },
+    {
+     "after": 8,
+     "before": 9,
+     "color_diff": 59.2,
+     "luma_jump": -59.5,
+     "note": "hard cut: color 59.2, brightness -59.5",
+     "clean_break": true
+    },
+    {
+     "after": 9,
+     "before": 10,
+     "color_diff": 34.6,
+     "luma_jump": 35.2,
+     "note": "soft match: color 34.6, brightness +35.2",
+     "clean_break": false
+    },
+    {
+     "after": 10,
+     "before": 11,
+     "color_diff": 43.5,
+     "luma_jump": -44.3,
+     "note": "hard cut: color 43.5, brightness -44.3",
+     "clean_break": true
+    },
+    {
+     "after": 11,
+     "before": 12,
+     "color_diff": 4.3,
+     "luma_jump": -4.4,
+     "note": "soft match: color 4.3, brightness -4.4",
+     "clean_break": false
+    },
+    {
+     "after": 12,
+     "before": 13,
+     "color_diff": 4.8,
+     "luma_jump": -5.2,
+     "note": "soft match: color 4.8, brightness -5.2",
+     "clean_break": false
+    },
+    {
+     "after": 13,
+     "before": 14,
+     "color_diff": 3.3,
+     "luma_jump": -3.2,
+     "note": "soft match: color 3.3, brightness -3.2",
+     "clean_break": false
+    },
+    {
+     "after": 14,
+     "before": 15,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 15,
+     "before": 16,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 1,
+     "before": 2,
+     "reason": "group boundary",
+     "in_anchor": "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_last.jpg",
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_last.jpg",
+      null
+     ],
+     "slot_id": "ch4-S1"
+    },
+    {
+     "slot": 2,
+     "after": 2,
+     "before": 3,
+     "reason": "hard cut",
+     "in_anchor": null,
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      null
+     ],
+     "slot_id": "ch4-S2"
+    },
+    {
+     "slot": 3,
+     "after": 3,
+     "before": 4,
+     "reason": "hard cut",
+     "in_anchor": null,
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      null
+     ],
+     "slot_id": "ch4-S3"
+    },
+    {
+     "slot": 4,
+     "after": 4,
+     "before": 5,
+     "reason": "group boundary",
+     "in_anchor": null,
+     "out_anchor": "/workspace/streaming/queues/frames/4/05_mock-05-ch04-commenter_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      "/workspace/streaming/queues/frames/4/05_mock-05-ch04-commenter_first.jpg"
+     ],
+     "slot_id": "ch4-S4"
+    },
+    {
+     "slot": 5,
+     "after": 7,
+     "before": 8,
+     "reason": "group boundary",
+     "in_anchor": "/workspace/streaming/queues/frames/4/07_x-m1002-ch04-commenter_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/4/07_x-m1002-ch04-commenter_last.jpg",
+      "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_master_first.jpg"
+     ],
+     "slot_id": "ch4-S5"
+    },
+    {
+     "slot": 6,
+     "after": 8,
+     "before": 9,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/4/09_xo-gauntlet-vitrine-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/4/08_ed-showroom-cruiser-salesadb-cover-tagged-audiofix_master_last.jpg",
+      "/workspace/streaming/queues/frames/4/09_xo-gauntlet-vitrine-salesadb-cover-tagged-audiofix_master_first.jpg"
+     ],
+     "slot_id": "ch4-S6"
+    },
+    {
+     "slot": 7,
+     "after": 10,
+     "before": 11,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/4/10_modular-field-pack-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/4/11_scout-drone-jewelry-salesadb-cover-tagged-audiofix_master_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/4/10_modular-field-pack-salesadb-cover-tagged-audiofix_master_last.jpg",
+      "/workspace/streaming/queues/frames/4/11_scout-drone-jewelry-salesadb-cover-tagged-audiofix_master_first.jpg"
+     ],
+     "slot_id": "ch4-S7"
+    },
+    {
+     "slot": 8,
+     "after": 14,
+     "before": 15,
+     "reason": "group boundary",
+     "in_anchor": "/workspace/streaming/queues/frames/4/14_raphite-cloak-torso-salesadb-cover-tagged-audiofix_master_last.jpg",
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      "/workspace/streaming/queues/frames/4/14_raphite-cloak-torso-salesadb-cover-tagged-audiofix_master_last.jpg",
+      null
+     ],
+     "slot_id": "ch4-S8"
+    },
+    {
+     "slot": 9,
+     "after": 15,
+     "before": 16,
+     "reason": "hard cut",
+     "in_anchor": null,
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      null
+     ],
+     "slot_id": "ch4-S9"
+    },
+    {
+     "slot": 10,
+     "after": 16,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": null,
+     "out_anchor": "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_first.jpg",
+     "anchors": [
+      null,
+      "/workspace/streaming/queues/frames/4/01_ch04-forward-supply-pocket-taupe-480p-run2_first.jpg"
+     ],
+     "slot_id": "ch4-S10"
+    }
+   ]
+  },
+  "6": {
+   "name": "Shopping",
+   "count": 6,
+   "runtime_s": 32.8,
+   "items": [
+    {
+     "order": 1,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_retro-checkout-bokeh_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.77,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/6/01_20261026-232851-4-2-shopping-retro-checkout-bokeh_first.jpg",
+     "last": "/workspace/streaming/queues/frames/6/01_20261026-232851-4-2-shopping-retro-checkout-bokeh_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/6/01_20261026-232851-4-2-shopping-retro-checkout-bokeh_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/6/01_20261026-232851-4-2-shopping-retro-checkout-bokeh_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_retro-checkout-bokeh_parody.mp4",
+     "slot_id": "ch6-q01",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261027_074825_4_2_Shopping_glass-escalator-atrium_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/6/02_0261027-074825-4-2-shopping-glass-escalator-atrium_first.jpg",
+     "last": "/workspace/streaming/queues/frames/6/02_0261027-074825-4-2-shopping-glass-escalator-atrium_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/6/02_0261027-074825-4-2-shopping-glass-escalator-atrium_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/6/02_0261027-074825-4-2-shopping-glass-escalator-atrium_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261027_074825_4_2_Shopping_glass-escalator-atrium_parody.mp4",
+     "slot_id": "ch6-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261027_080512_4_2_Shopping_glass-jewelry-case_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 6.02,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/6/03_20261027-080512-4-2-shopping-glass-jewelry-case_first.jpg",
+     "last": "/workspace/streaming/queues/frames/6/03_20261027-080512-4-2-shopping-glass-jewelry-case_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/6/03_20261027-080512-4-2-shopping-glass-jewelry-case_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/6/03_20261027-080512-4-2-shopping-glass-jewelry-case_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261027_080512_4_2_Shopping_glass-jewelry-case_parody.mp4",
+     "slot_id": "ch6-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_marble-bags-sweep_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/6/04_026-232851-4-2-shopping-marble-bags-sweep-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/6/04_026-232851-4-2-shopping-marble-bags-sweep-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/6/04_026-232851-4-2-shopping-marble-bags-sweep-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/6/04_026-232851-4-2-shopping-marble-bags-sweep-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_marble-bags-sweep_audiofix_parody.mp4",
+     "slot_id": "ch6-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_neon-boutique-aisle_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.0,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/6/05_6-232851-4-2-shopping-neon-boutique-aisle-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/6/05_6-232851-4-2-shopping-neon-boutique-aisle-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/6/05_6-232851-4-2-shopping-neon-boutique-aisle-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/6/05_6-232851-4-2-shopping-neon-boutique-aisle-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_neon-boutique-aisle_audiofix_parody.mp4",
+     "slot_id": "ch6-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_rain-storefront-glass_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 6.0,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/6/06_232851-4-2-shopping-rain-storefront-glass-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/6/06_232851-4-2-shopping-rain-storefront-glass-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/6/06_232851-4-2-shopping-rain-storefront-glass-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/6/06_232851-4-2-shopping-rain-storefront-glass-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_2_Shopping/20261026_232851_4_2_Shopping_rain-storefront-glass_audiofix_parody.mp4",
+     "slot_id": "ch6-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "color_diff": 31.5,
+     "luma_jump": 15.7,
+     "note": "soft match: color 31.5, brightness +15.7",
+     "clean_break": false
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "color_diff": 19.1,
+     "luma_jump": -7.4,
+     "note": "soft match: color 19.1, brightness -7.4",
+     "clean_break": false
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "color_diff": 27.0,
+     "luma_jump": 25.5,
+     "note": "soft match: color 27.0, brightness +25.5",
+     "clean_break": false
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "color_diff": 8.0,
+     "luma_jump": -7.4,
+     "note": "soft match: color 8.0, brightness -7.4",
+     "clean_break": false
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 24.2,
+     "luma_jump": -21.3,
+     "note": "soft match: color 24.2, brightness -21.3",
+     "clean_break": false
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 6,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": "/workspace/streaming/queues/frames/6/06_232851-4-2-shopping-rain-storefront-glass-audiofix_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/6/01_20261026-232851-4-2-shopping-retro-checkout-bokeh_first.jpg",
+     "anchors": [
+      "/workspace/streaming/queues/frames/6/06_232851-4-2-shopping-rain-storefront-glass-audiofix_last.jpg",
+      "/workspace/streaming/queues/frames/6/01_20261026-232851-4-2-shopping-retro-checkout-bokeh_first.jpg"
+     ],
+     "slot_id": "ch6-S1"
+    }
+   ]
+  },
+  "8": {
+   "name": "Sitcom",
+   "count": 6,
+   "runtime_s": 33.6,
+   "items": [
+    {
+     "order": 1,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_apartment-doorway_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.3,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_first.jpg",
+     "last": "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_apartment-doorway_parody.mp4",
+     "slot_id": "ch8-q01",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_corner-booth-diner_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/8/02_20261026-232851-4-3-sitcom-corner-booth-diner_first.jpg",
+     "last": "/workspace/streaming/queues/frames/8/02_20261026-232851-4-3-sitcom-corner-booth-diner_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/8/02_20261026-232851-4-3-sitcom-corner-booth-diner_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/8/02_20261026-232851-4-3-sitcom-corner-booth-diner_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_corner-booth-diner_parody.mp4",
+     "slot_id": "ch8-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_sitcom-kitchen-island_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/8/03_20261026-232851-4-3-sitcom-sitcom-kitchen-island_first.jpg",
+     "last": "/workspace/streaming/queues/frames/8/03_20261026-232851-4-3-sitcom-sitcom-kitchen-island_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/8/03_20261026-232851-4-3-sitcom-sitcom-kitchen-island_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/8/03_20261026-232851-4-3-sitcom-sitcom-kitchen-island_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_sitcom-kitchen-island_parody.mp4",
+     "slot_id": "ch8-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_warm-couch-cold-open_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.96,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/8/04_20261026-232851-4-3-sitcom-warm-couch-cold-open_first.jpg",
+     "last": "/workspace/streaming/queues/frames/8/04_20261026-232851-4-3-sitcom-warm-couch-cold-open_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/8/04_20261026-232851-4-3-sitcom-warm-couch-cold-open_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/8/04_20261026-232851-4-3-sitcom-warm-couch-cold-open_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261026_232851_4_3_Sitcom_warm-couch-cold-open_parody.mp4",
+     "slot_id": "ch8-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261027_080512_4_3_Sitcom_patio-string-lights_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 6.02,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/8/05_20261027-080512-4-3-sitcom-patio-string-lights_first.jpg",
+     "last": "/workspace/streaming/queues/frames/8/05_20261027-080512-4-3-sitcom-patio-string-lights_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/8/05_20261027-080512-4-3-sitcom-patio-string-lights_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/8/05_20261027-080512-4-3-sitcom-patio-string-lights_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261027_080512_4_3_Sitcom_patio-string-lights_parody.mp4",
+     "slot_id": "ch8-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261027_080735_4_3_Sitcom_laundry-room-folding_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.38,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_first.jpg",
+     "last": "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_3_Sitcom/20261027_080735_4_3_Sitcom_laundry-room-folding_parody.mp4",
+     "slot_id": "ch8-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "color_diff": 47.4,
+     "luma_jump": -49.0,
+     "note": "hard cut: color 47.4, brightness -49.0",
+     "clean_break": true
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "color_diff": 35.4,
+     "luma_jump": 35.2,
+     "note": "soft match: color 35.4, brightness +35.2",
+     "clean_break": false
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "color_diff": 62.1,
+     "luma_jump": -61.9,
+     "note": "hard cut: color 62.1, brightness -61.9",
+     "clean_break": true
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "color_diff": 19.1,
+     "luma_jump": -20.7,
+     "note": "soft match: color 19.1, brightness -20.7",
+     "clean_break": false
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 84.5,
+     "luma_jump": 87.7,
+     "note": "hard cut: color 84.5, brightness +87.7",
+     "clean_break": true
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 1,
+     "before": 2,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/8/02_20261026-232851-4-3-sitcom-corner-booth-diner_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_last.jpg",
+      "/workspace/streaming/queues/frames/8/02_20261026-232851-4-3-sitcom-corner-booth-diner_first.jpg"
+     ],
+     "slot_id": "ch8-S1"
+    },
+    {
+     "slot": 2,
+     "after": 3,
+     "before": 4,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/8/03_20261026-232851-4-3-sitcom-sitcom-kitchen-island_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/8/04_20261026-232851-4-3-sitcom-warm-couch-cold-open_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/8/03_20261026-232851-4-3-sitcom-sitcom-kitchen-island_last.jpg",
+      "/workspace/streaming/queues/frames/8/04_20261026-232851-4-3-sitcom-warm-couch-cold-open_first.jpg"
+     ],
+     "slot_id": "ch8-S2"
+    },
+    {
+     "slot": 3,
+     "after": 5,
+     "before": 6,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/8/05_20261027-080512-4-3-sitcom-patio-string-lights_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/8/05_20261027-080512-4-3-sitcom-patio-string-lights_last.jpg",
+      "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_first.jpg"
+     ],
+     "slot_id": "ch8-S3"
+    },
+    {
+     "slot": 4,
+     "after": 6,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_first.jpg",
+     "anchors": [
+      "/workspace/streaming/queues/frames/8/06_20261027-080735-4-3-sitcom-laundry-room-folding_last.jpg",
+      "/workspace/streaming/queues/frames/8/01_20261026-232851-4-3-sitcom-apartment-doorway_first.jpg"
+     ],
+     "slot_id": "ch8-S4"
+    }
+   ]
+  },
+  "10": {
+   "name": "Action",
+   "count": 9,
+   "runtime_s": 124.3,
+   "items": [
+    {
+     "order": 1,
+     "group": "trundle YouTube (Mac-only)",
+     "file": "MAC-ONLY ~/smart-office/media_server/trundles-videos/ Call of Duty_20240811134215 7XWrJ_Fim2s",
+     "status": "needs_leveling",
+     "duration_s": 15.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch10-q01",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "trundle YouTube (Mac-only)",
+     "file": "MAC-ONLY ~/smart-office/media_server/trundles-videos/ Pullup\\Backout yAmTog0bEYs",
+     "status": "needs_leveling",
+     "duration_s": 31.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch10-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "trundle YouTube (Mac-only)",
+     "file": "MAC-ONLY ~/smart-office/media_server/trundles-videos/ buckle up buckaroo jXpnsbsjde8",
+     "status": "needs_leveling",
+     "duration_s": 47.0,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling",
+      "mac-only: frames not on box"
+     ],
+     "slot_id": "ch10-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_concrete-garage-standoff_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/10/04_0261026-232851-4-4-action-concrete-garage-standoff_first.jpg",
+     "last": "/workspace/streaming/queues/frames/10/04_0261026-232851-4-4-action-concrete-garage-standoff_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/10/04_0261026-232851-4-4-action-concrete-garage-standoff_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/10/04_0261026-232851-4-4-action-concrete-garage-standoff_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_concrete-garage-standoff_parody.mp4",
+     "slot_id": "ch10-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_night-alley-chase-blur_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/10/05_20261026-232851-4-4-action-night-alley-chase-blur_first.jpg",
+     "last": "/workspace/streaming/queues/frames/10/05_20261026-232851-4-4-action-night-alley-chase-blur_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/10/05_20261026-232851-4-4-action-night-alley-chase-blur_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/10/05_20261026-232851-4-4-action-night-alley-chase-blur_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_night-alley-chase-blur_parody.mp4",
+     "slot_id": "ch10-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_rooftop-city-bokeh_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/10/06_20261026-232851-4-4-action-rooftop-city-bokeh_first.jpg",
+     "last": "/workspace/streaming/queues/frames/10/06_20261026-232851-4-4-action-rooftop-city-bokeh_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/10/06_20261026-232851-4-4-action-rooftop-city-bokeh_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/10/06_20261026-232851-4-4-action-rooftop-city-bokeh_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_rooftop-city-bokeh_parody.mp4",
+     "slot_id": "ch10-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 7,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_wet-bridge-headlights_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.3,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_first.jpg",
+     "last": "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261026_232851_4_4_Action_wet-bridge-headlights_parody.mp4",
+     "slot_id": "ch10-q07",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 8,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261027_080512_4_4_Action_stairwell-emergency-haze_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 6.02,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/10/08_0261027-080512-4-4-action-stairwell-emergency-haze_first.jpg",
+     "last": "/workspace/streaming/queues/frames/10/08_0261027-080512-4-4-action-stairwell-emergency-haze_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/10/08_0261027-080512-4-4-action-stairwell-emergency-haze_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/10/08_0261027-080512-4-4-action-stairwell-emergency-haze_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261027_080512_4_4_Action_stairwell-emergency-haze_parody.mp4",
+     "slot_id": "ch10-q08",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 9,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261027_080512_4_4_Action_subway-platform-blur_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.04,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/10/09_20261027-080512-4-4-action-subway-platform-blur_first.jpg",
+     "last": "/workspace/streaming/queues/frames/10/09_20261027-080512-4-4-action-subway-platform-blur_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/10/09_20261027-080512-4-4-action-subway-platform-blur_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/10/09_20261027-080512-4-4-action-subway-platform-blur_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_4_Action/20261027_080512_4_4_Action_subway-platform-blur_parody.mp4",
+     "slot_id": "ch10-q09",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "note": "unknown (Mac-only clip)",
+     "clean_break": true
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "color_diff": 8.1,
+     "luma_jump": 7.6,
+     "note": "soft match: color 8.1, brightness +7.6",
+     "clean_break": false
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 38.9,
+     "luma_jump": -35.5,
+     "note": "soft match: color 38.9, brightness -35.5",
+     "clean_break": false
+    },
+    {
+     "after": 6,
+     "before": 7,
+     "color_diff": 38.1,
+     "luma_jump": 40.7,
+     "note": "hard cut: color 38.1, brightness +40.7",
+     "clean_break": true
+    },
+    {
+     "after": 7,
+     "before": 8,
+     "color_diff": 47.0,
+     "luma_jump": -48.5,
+     "note": "hard cut: color 47.0, brightness -48.5",
+     "clean_break": true
+    },
+    {
+     "after": 8,
+     "before": 9,
+     "color_diff": 25.2,
+     "luma_jump": 7.9,
+     "note": "soft match: color 25.2, brightness +7.9",
+     "clean_break": false
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 1,
+     "before": 2,
+     "reason": "hard cut",
+     "in_anchor": null,
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      null
+     ],
+     "slot_id": "ch10-S1"
+    },
+    {
+     "slot": 2,
+     "after": 2,
+     "before": 3,
+     "reason": "hard cut",
+     "in_anchor": null,
+     "out_anchor": null,
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      null
+     ],
+     "slot_id": "ch10-S2"
+    },
+    {
+     "slot": 3,
+     "after": 3,
+     "before": 4,
+     "reason": "group boundary",
+     "in_anchor": null,
+     "out_anchor": "/workspace/streaming/queues/frames/10/04_0261026-232851-4-4-action-concrete-garage-standoff_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor; missing clean anchor on one side (overlay-only or Mac-only), use nearest clean master",
+     "anchors": [
+      null,
+      "/workspace/streaming/queues/frames/10/04_0261026-232851-4-4-action-concrete-garage-standoff_first.jpg"
+     ],
+     "slot_id": "ch10-S3"
+    },
+    {
+     "slot": 4,
+     "after": 6,
+     "before": 7,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/10/06_20261026-232851-4-4-action-rooftop-city-bokeh_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/10/06_20261026-232851-4-4-action-rooftop-city-bokeh_last.jpg",
+      "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_first.jpg"
+     ],
+     "slot_id": "ch10-S4"
+    },
+    {
+     "slot": 5,
+     "after": 7,
+     "before": 8,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/10/08_0261027-080512-4-4-action-stairwell-emergency-haze_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/10/07_20261026-232851-4-4-action-wet-bridge-headlights_last.jpg",
+      "/workspace/streaming/queues/frames/10/08_0261027-080512-4-4-action-stairwell-emergency-haze_first.jpg"
+     ],
+     "slot_id": "ch10-S5"
+    },
+    {
+     "slot": 6,
+     "after": 9,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": "/workspace/streaming/queues/frames/10/09_20261027-080512-4-4-action-subway-platform-blur_last.jpg",
+     "out_anchor": null,
+     "anchors": [
+      "/workspace/streaming/queues/frames/10/09_20261027-080512-4-4-action-subway-platform-blur_last.jpg",
+      null
+     ],
+     "slot_id": "ch10-S6"
+    }
+   ]
+  },
+  "12": {
+   "name": "90s",
+   "count": 11,
+   "runtime_s": 105.5,
+   "items": [
+    {
+     "order": 1,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_boombox-skate-curb_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/01_20261026-232851-4-5-90s-boombox-skate-curb_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/01_20261026-232851-4-5-90s-boombox-skate-curb_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/01_20261026-232851-4-5-90s-boombox-skate-curb_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/01_20261026-232851-4-5-90s-boombox-skate-curb_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_boombox-skate-curb_parody.mp4",
+     "slot_id": "ch12-q01",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_empty-arcade-neon_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/02_20261026-232851-4-5-90s-empty-arcade-neon_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/02_20261026-232851-4-5-90s-empty-arcade-neon_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/02_20261026-232851-4-5-90s-empty-arcade-neon_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/02_20261026-232851-4-5-90s-empty-arcade-neon_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_empty-arcade-neon_parody.mp4",
+     "slot_id": "ch12-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_food-court-daylight_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 4.3,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/03_20261026-232851-4-5-90s-food-court-daylight_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/03_20261026-232851-4-5-90s-food-court-daylight_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/03_20261026-232851-4-5-90s-food-court-daylight_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/03_20261026-232851-4-5-90s-food-court-daylight_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_food-court-daylight_parody.mp4",
+     "slot_id": "ch12-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_vhs-living-room-glow_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/04_20261026-232851-4-5-90s-vhs-living-room-glow_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/04_20261026-232851-4-5-90s-vhs-living-room-glow_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/04_20261026-232851-4-5-90s-vhs-living-room-glow_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/04_20261026-232851-4-5-90s-vhs-living-room-glow_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261026_232851_4_5_90s_vhs-living-room-glow_parody.mp4",
+     "slot_id": "ch12-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261027_080735_4_5_90s_roadside-diner-counter_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.38,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/05_20261027-080735-4-5-90s-roadside-diner-counter_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/05_20261027-080735-4-5-90s-roadside-diner-counter_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/05_20261027-080735-4-5-90s-roadside-diner-counter_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/05_20261027-080735-4-5-90s-roadside-diner-counter_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_5_90s/20261027_080735_4_5_90s_roadside-diner-counter_parody.mp4",
+     "slot_id": "ch12-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/20261026_153228_breaking_news_temple-water-tower-declares-independence_fix2_clean_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 7.34,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/06_emple-water-tower-declares-independence-fix2-clean_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/06_emple-water-tower-declares-independence-fix2-clean_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/06_emple-water-tower-declares-independence-fix2-clean_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/06_emple-water-tower-declares-independence-fix2-clean_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/20261026_153228_breaking_news_temple-water-tower-declares-independence_fix2_clean_parody.mp4",
+     "slot_id": "ch12-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 7,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/20261026_153414_pharma_trial_bellquist-a-once-daily-pill-fo_s2144003566_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 8.01,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/20261026_153414_pharma_trial_bellquist-a-once-daily-pill-fo_s2144003566_parody.mp4",
+     "slot_id": "ch12-q07",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 8,
+     "group": "fake news / ads",
+     "file": "/workspace/diag/dhmo_live_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 8.01,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/08_dhmo-live_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/08_dhmo-live_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/08_dhmo-live_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/08_dhmo-live_last.jpg",
+     "clean_master": "/workspace/diag/dhmo_live_parody.mp4",
+     "slot_id": "ch12-q08",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 9,
+     "group": "house-ad break",
+     "file": "/workspace/fakenews/channel-ready/house-ads/20261026_183646_housead_glosneaks_90s_lufs14_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 18.1,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/12/09_20261026-183646-housead-glosneaks-90s-lufs14_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/09_20261026-183646-housead-glosneaks-90s-lufs14_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/09_20261026-183646-housead-glosneaks-90s-lufs14_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/09_20261026-183646-housead-glosneaks-90s-lufs14_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/house-ads/20261026_183646_housead_glosneaks_90s_lufs14_parody.mp4",
+     "slot_id": "ch12-q09",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 10,
+     "group": "house-ad break",
+     "file": "/workspace/fakenews/channel-ready/house-ads/20261026_183033_housead_fizzbolt_90s_lufs14_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 18.19,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/12/10_261026-183033-housead-fizzbolt-90s-lufs14-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/10_261026-183033-housead-fizzbolt-90s-lufs14-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/10_261026-183033-housead-fizzbolt-90s-lufs14-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/10_261026-183033-housead-fizzbolt-90s-lufs14-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/house-ads/20261026_183033_housead_fizzbolt_90s_lufs14_audiofix_parody.mp4",
+     "slot_id": "ch12-q10",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 11,
+     "group": "house-ad break",
+     "file": "/workspace/fakenews/channel-ready/house-ads/20261026_183211_housead_dynapage_90s_lufs14_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 19.19,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/house-ads/20261026_183211_housead_dynapage_90s_lufs14_audiofix_parody.mp4",
+     "slot_id": "ch12-q11",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "color_diff": 9.7,
+     "luma_jump": -2.4,
+     "note": "soft match: color 9.7, brightness -2.4",
+     "clean_break": false
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "color_diff": 18.1,
+     "luma_jump": 19.8,
+     "note": "soft match: color 18.1, brightness +19.8",
+     "clean_break": false
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "color_diff": 28.2,
+     "luma_jump": -29.7,
+     "note": "soft match: color 28.2, brightness -29.7",
+     "clean_break": false
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "color_diff": 68.3,
+     "luma_jump": 71.5,
+     "note": "hard cut: color 68.3, brightness +71.5",
+     "clean_break": true
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 28.1,
+     "luma_jump": 1.9,
+     "note": "soft match: color 28.1, brightness +1.9",
+     "clean_break": false
+    },
+    {
+     "after": 6,
+     "before": 7,
+     "color_diff": 71.1,
+     "luma_jump": 85.3,
+     "note": "hard cut: color 71.1, brightness +85.3",
+     "clean_break": true
+    },
+    {
+     "after": 7,
+     "before": 8,
+     "color_diff": 101.1,
+     "luma_jump": -116.4,
+     "note": "hard cut: color 101.1, brightness -116.4",
+     "clean_break": true
+    },
+    {
+     "after": 8,
+     "before": 9,
+     "color_diff": 89.4,
+     "luma_jump": -81.8,
+     "note": "hard cut: color 89.4, brightness -81.8",
+     "clean_break": true
+    },
+    {
+     "after": 9,
+     "before": 10,
+     "color_diff": 33.4,
+     "luma_jump": 2.2,
+     "note": "soft match: color 33.4, brightness +2.2",
+     "clean_break": false
+    },
+    {
+     "after": 10,
+     "before": 11,
+     "color_diff": 63.6,
+     "luma_jump": -76.6,
+     "note": "hard cut: color 63.6, brightness -76.6",
+     "clean_break": true
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 4,
+     "before": 5,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/12/04_20261026-232851-4-5-90s-vhs-living-room-glow_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/12/05_20261027-080735-4-5-90s-roadside-diner-counter_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/12/04_20261026-232851-4-5-90s-vhs-living-room-glow_last.jpg",
+      "/workspace/streaming/queues/frames/12/05_20261027-080735-4-5-90s-roadside-diner-counter_first.jpg"
+     ],
+     "slot_id": "ch12-S1"
+    },
+    {
+     "slot": 2,
+     "after": 6,
+     "before": 7,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/12/06_emple-water-tower-declares-independence-fix2-clean_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/12/06_emple-water-tower-declares-independence-fix2-clean_last.jpg",
+      "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_first.jpg"
+     ],
+     "slot_id": "ch12-S2"
+    },
+    {
+     "slot": 3,
+     "after": 7,
+     "before": 8,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/12/08_dhmo-live_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/12/07_a-trial-bellquist-a-once-daily-pill-fo-s2144003566_last.jpg",
+      "/workspace/streaming/queues/frames/12/08_dhmo-live_first.jpg"
+     ],
+     "slot_id": "ch12-S3"
+    },
+    {
+     "slot": 4,
+     "after": 8,
+     "before": 9,
+     "reason": "group boundary",
+     "in_anchor": "/workspace/streaming/queues/frames/12/08_dhmo-live_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/12/09_20261026-183646-housead-glosneaks-90s-lufs14_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/12/08_dhmo-live_last.jpg",
+      "/workspace/streaming/queues/frames/12/09_20261026-183646-housead-glosneaks-90s-lufs14_first.jpg"
+     ],
+     "slot_id": "ch12-S4"
+    },
+    {
+     "slot": 5,
+     "after": 10,
+     "before": 11,
+     "reason": "hard cut",
+     "in_anchor": "/workspace/streaming/queues/frames/12/10_261026-183033-housead-fizzbolt-90s-lufs14-audiofix_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_first.jpg",
+     "note": "new clip should start like in_anchor and end like out_anchor",
+     "anchors": [
+      "/workspace/streaming/queues/frames/12/10_261026-183033-housead-fizzbolt-90s-lufs14-audiofix_last.jpg",
+      "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_first.jpg"
+     ],
+     "slot_id": "ch12-S5"
+    },
+    {
+     "slot": 6,
+     "after": 11,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/12/01_20261026-232851-4-5-90s-boombox-skate-curb_first.jpg",
+     "anchors": [
+      "/workspace/streaming/queues/frames/12/11_261026-183211-housead-dynapage-90s-lufs14-audiofix_last.jpg",
+      "/workspace/streaming/queues/frames/12/01_20261026-232851-4-5-90s-boombox-skate-curb_first.jpg"
+     ],
+     "slot_id": "ch12-S6"
+    }
+   ]
+  },
+  "14": {
+   "name": "Music",
+   "count": 6,
+   "runtime_s": 35.8,
+   "items": [
+    {
+     "order": 1,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_club-stage-haze_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.96,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/14/01_20261026-232851-4-6-music-club-stage-haze_first.jpg",
+     "last": "/workspace/streaming/queues/frames/14/01_20261026-232851-4-6-music-club-stage-haze_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/14/01_20261026-232851-4-6-music-club-stage-haze_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/14/01_20261026-232851-4-6-music-club-stage-haze_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_club-stage-haze_parody.mp4",
+     "slot_id": "ch14-q01",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_dj-deck-vinyl-spin_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.98,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/14/02_20261026-232851-4-6-music-dj-deck-vinyl-spin_first.jpg",
+     "last": "/workspace/streaming/queues/frames/14/02_20261026-232851-4-6-music-dj-deck-vinyl-spin_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/14/02_20261026-232851-4-6-music-dj-deck-vinyl-spin_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/14/02_20261026-232851-4-6-music-dj-deck-vinyl-spin_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_dj-deck-vinyl-spin_parody.mp4",
+     "slot_id": "ch14-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_loft-rehearsal-amp_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.96,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/14/03_20261026-232851-4-6-music-loft-rehearsal-amp_first.jpg",
+     "last": "/workspace/streaming/queues/frames/14/03_20261026-232851-4-6-music-loft-rehearsal-amp_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/14/03_20261026-232851-4-6-music-loft-rehearsal-amp_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/14/03_20261026-232851-4-6-music-loft-rehearsal-amp_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_loft-rehearsal-amp_parody.mp4",
+     "slot_id": "ch14-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_vocal-booth-meters_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.96,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/14/04_20261026-232851-4-6-music-vocal-booth-meters_first.jpg",
+     "last": "/workspace/streaming/queues/frames/14/04_20261026-232851-4-6-music-vocal-booth-meters_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/14/04_20261026-232851-4-6-music-vocal-booth-meters_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/14/04_20261026-232851-4-6-music-vocal-booth-meters_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261026_232851_4_6_Music_vocal-booth-meters_parody.mp4",
+     "slot_id": "ch14-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261027_074825_4_6_Music_upright-piano-loft_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.96,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/14/05_20261027-074825-4-6-music-upright-piano-loft_first.jpg",
+     "last": "/workspace/streaming/queues/frames/14/05_20261027-074825-4-6-music-upright-piano-loft_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/14/05_20261027-074825-4-6-music-upright-piano-loft_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/14/05_20261027-074825-4-6-music-upright-piano-loft_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261027_074825_4_6_Music_upright-piano-loft_parody.mp4",
+     "slot_id": "ch14-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261027_074825_4_6_Music_vinyl-crate-wall_parody.mp4",
+     "status": "needs_leveling",
+     "duration_s": 5.96,
+     "lineage_tag": "",
+     "audio_leveled": "false",
+     "flags": [
+      "needs_leveling"
+     ],
+     "first": "/workspace/streaming/queues/frames/14/06_20261027-074825-4-6-music-vinyl-crate-wall_first.jpg",
+     "last": "/workspace/streaming/queues/frames/14/06_20261027-074825-4-6-music-vinyl-crate-wall_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/14/06_20261027-074825-4-6-music-vinyl-crate-wall_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/14/06_20261027-074825-4-6-music-vinyl-crate-wall_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/thunder-trundle/4_6_Music/20261027_074825_4_6_Music_vinyl-crate-wall_parody.mp4",
+     "slot_id": "ch14-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "color_diff": 21.8,
+     "luma_jump": -23.8,
+     "note": "soft match: color 21.8, brightness -23.8",
+     "clean_break": false
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "color_diff": 3.5,
+     "luma_jump": -3.3,
+     "note": "soft match: color 3.5, brightness -3.3",
+     "clean_break": false
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "color_diff": 5.8,
+     "luma_jump": 1.5,
+     "note": "soft match: color 5.8, brightness +1.5",
+     "clean_break": false
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "color_diff": 21.2,
+     "luma_jump": 21.4,
+     "note": "soft match: color 21.2, brightness +21.4",
+     "clean_break": false
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 19.0,
+     "luma_jump": -18.9,
+     "note": "soft match: color 19.0, brightness -18.9",
+     "clean_break": false
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 6,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": "/workspace/streaming/queues/frames/14/06_20261027-074825-4-6-music-vinyl-crate-wall_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/14/01_20261026-232851-4-6-music-club-stage-haze_first.jpg",
+     "anchors": [
+      "/workspace/streaming/queues/frames/14/06_20261027-074825-4-6-music-vinyl-crate-wall_last.jpg",
+      "/workspace/streaming/queues/frames/14/01_20261026-232851-4-6-music-club-stage-haze_first.jpg"
+     ],
+     "slot_id": "ch14-S1"
+    }
+   ]
+  },
+  "all": {
+   "name": "Guide transitions",
+   "count": 7,
+   "runtime_s": 38.5,
+   "items": [
+    {
+     "order": 1,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085408_guide_transition_neutral_landing_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/01_7-085408-guide-transition-neutral-landing-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/01_7-085408-guide-transition-neutral-landing-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/01_7-085408-guide-transition-neutral-landing-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/01_7-085408-guide-transition-neutral-landing-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085408_guide_transition_neutral_landing_audiofix_parody.mp4",
+     "slot_id": "chall-q01",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 2,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085414_guide_transition_4_1_Military-Boutique_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/02_14-guide-transition-4-1-military-boutique-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/02_14-guide-transition-4-1-military-boutique-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/02_14-guide-transition-4-1-military-boutique-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/02_14-guide-transition-4-1-military-boutique-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085414_guide_transition_4_1_Military-Boutique_audiofix_parody.mp4",
+     "slot_id": "chall-q02",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 3,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085419_guide_transition_4_2_shopping_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/03_1027-085419-guide-transition-4-2-shopping-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/03_1027-085419-guide-transition-4-2-shopping-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/03_1027-085419-guide-transition-4-2-shopping-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/03_1027-085419-guide-transition-4-2-shopping-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085419_guide_transition_4_2_shopping_audiofix_parody.mp4",
+     "slot_id": "chall-q03",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 4,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085425_guide_transition_4_3_sitcom_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/04_261027-085425-guide-transition-4-3-sitcom-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/04_261027-085425-guide-transition-4-3-sitcom-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/04_261027-085425-guide-transition-4-3-sitcom-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/04_261027-085425-guide-transition-4-3-sitcom-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085425_guide_transition_4_3_sitcom_audiofix_parody.mp4",
+     "slot_id": "chall-q04",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 5,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085430_guide_transition_4_4_action_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/05_261027-085430-guide-transition-4-4-action-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/05_261027-085430-guide-transition-4-4-action-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/05_261027-085430-guide-transition-4-4-action-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/05_261027-085430-guide-transition-4-4-action-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085430_guide_transition_4_4_action_audiofix_parody.mp4",
+     "slot_id": "chall-q05",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 6,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085435_guide_transition_4_5_90s_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/06_20261027-085435-guide-transition-4-5-90s-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/06_20261027-085435-guide-transition-4-5-90s-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/06_20261027-085435-guide-transition-4-5-90s-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/06_20261027-085435-guide-transition-4-5-90s-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085435_guide_transition_4_5_90s_audiofix_parody.mp4",
+     "slot_id": "chall-q06",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    },
+    {
+     "order": 7,
+     "group": "fake news / ads",
+     "file": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085441_guide_transition_4_6_music_audiofix_parody.mp4",
+     "status": "final",
+     "duration_s": 5.5,
+     "lineage_tag": "",
+     "audio_leveled": "true",
+     "flags": [],
+     "first": "/workspace/streaming/queues/frames/all/07_0261027-085441-guide-transition-4-6-music-audiofix_first.jpg",
+     "last": "/workspace/streaming/queues/frames/all/07_0261027-085441-guide-transition-4-6-music-audiofix_last.jpg",
+     "clean_first": "/workspace/streaming/queues/frames/all/07_0261027-085441-guide-transition-4-6-music-audiofix_first.jpg",
+     "clean_last": "/workspace/streaming/queues/frames/all/07_0261027-085441-guide-transition-4-6-music-audiofix_last.jpg",
+     "clean_master": "/workspace/fakenews/channel-ready/guide-transitions/20261027_085441_guide_transition_4_6_music_audiofix_parody.mp4",
+     "slot_id": "chall-q07",
+     "slot_head": {
+      "lineage": null,
+      "root": null,
+      "head": null
+     },
+     "head_history": []
+    }
+   ],
+   "seams": [
+    {
+     "after": 1,
+     "before": 2,
+     "color_diff": 18.9,
+     "luma_jump": 16.1,
+     "note": "soft match: color 18.9, brightness +16.1",
+     "clean_break": false
+    },
+    {
+     "after": 2,
+     "before": 3,
+     "color_diff": 18.1,
+     "luma_jump": 15.0,
+     "note": "soft match: color 18.1, brightness +15.0",
+     "clean_break": false
+    },
+    {
+     "after": 3,
+     "before": 4,
+     "color_diff": 18.4,
+     "luma_jump": 15.4,
+     "note": "soft match: color 18.4, brightness +15.4",
+     "clean_break": false
+    },
+    {
+     "after": 4,
+     "before": 5,
+     "color_diff": 18.8,
+     "luma_jump": 15.8,
+     "note": "soft match: color 18.8, brightness +15.8",
+     "clean_break": false
+    },
+    {
+     "after": 5,
+     "before": 6,
+     "color_diff": 18.8,
+     "luma_jump": 15.8,
+     "note": "soft match: color 18.8, brightness +15.8",
+     "clean_break": false
+    },
+    {
+     "after": 6,
+     "before": 7,
+     "color_diff": 19.0,
+     "luma_jump": 16.0,
+     "note": "soft match: color 19.0, brightness +16.0",
+     "clean_break": false
+    }
+   ],
+   "clean_break_slots": [
+    {
+     "slot": 1,
+     "after": 7,
+     "before": "loop to 1",
+     "reason": "end of queue",
+     "in_anchor": "/workspace/streaming/queues/frames/all/07_0261027-085441-guide-transition-4-6-music-audiofix_last.jpg",
+     "out_anchor": "/workspace/streaming/queues/frames/all/01_7-085408-guide-transition-neutral-landing-audiofix_first.jpg",
+     "anchors": [
+      "/workspace/streaming/queues/frames/all/07_0261027-085441-guide-transition-4-6-music-audiofix_last.jpg",
+      "/workspace/streaming/queues/frames/all/01_7-085408-guide-transition-neutral-landing-audiofix_first.jpg"
+     ],
+     "slot_id": "chall-S1"
+    }
+   ]
+  }
+ },
+ "order_source": "QUEUE-LOAD-20261027.json item order within each group (Story Bot groups; items not in QUEUE-LOAD appended by filename)",
+ "plan_version": 2,
+ "previous_version": "QUEUE-PLAN-20261027.v1-pre-preempt.json",
+ "schema": {
+  "item.slot_head": "{lineage \"4.N\", root #, head #} - slot plays newest READY+APPROVED version at/below head (checker.slot_head)",
+  "item.versions": "add-only list of {global_no, gen, parent, supersedes, slot_id, prompt_ids, status: candidate|head|superseded, superseded_by, superseded_at}",
+  "item.head_history": "previous head pointers; rollback = pop (checker.rollback)",
+  "slot.anchors": "[in_anchor, out_anchor] clean-master frames every version in the slot must match",
+  "prompt_queue": "COMMENT-PROMPTS.jsonl add-only; state waiting|combined|aired|held via new rows; max_wait_loops default 3",
+  "duplicates": "exact sha/phash: air once, extra copies linked duplicate_of; near-dupes sibling: rotate|next_take|spinoff"
+ },
+ "max_wait_loops": 3
+}

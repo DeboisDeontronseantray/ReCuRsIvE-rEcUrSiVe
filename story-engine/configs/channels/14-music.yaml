@@ -1,0 +1,20 @@
+id: "14"
+number: "14"
+network: thunder trundle
+name: Music
+genre: music / raps / thoughts
+tone: late-night video-request hour
+tv_safe: true
+rules:
+  - Original lyrics and hosts; no real artist likeness without consent.
+  - TV-safe language for home channel; no explicit sexual content.
+look:
+  palette: [neon purple, black, chrome]
+  era_feel: 1990s call-in music video hour
+
+# Added 2026-10-27 17:50 CT by Story Bot (add-only). trundle hard rules 17:44/17:46 CT.
+hard_rules_20261027_1744:
+  no_trundle_name: "Never write his real first name in prompts, overlays, scripts or VO; existing clips showing it get a solid black cover box (needs_name_cover)."
+  no_kids: "Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled. Drawbridge Puffs commercial pulled."
+  no_military_boutique_clip_text: "Product videos still showing Military Boutique text are unusable; channel name in metadata is fine."
+  negative_tags: [no on-screen names, no personal names, no children, no kids]

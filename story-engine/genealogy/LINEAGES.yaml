@@ -1,0 +1,6 @@
+# One line per lineage. A new tag is one added line.
+"4.1":  {kind: show, slug: forward-supply}
+"4.2":  {kind: show, slug: dress-inspection, status: shelved}
+"4.12": {kind: show, slug: the-efficiency-review}
+"4.13": {kind: show, slug: black-ice, owner: commercial-news-break}
+# 4.3-4.11 are in use by ads and clips; see LINEAGE.jsonl for those entries

@@ -1,0 +1,33 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P02-4",
+ "parent_clip": "P02-3",
+ "channel_show": "Ch2 News",
+ "clip_type": "news",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "1fc23b7c73620aad92cf84c88757fa4adc33f4020dd42cb682322b337d03e20b",
+ "prompt_words": 140,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "MARLA DEAN": "D1_last.png",
+  "RON PIKE": "D1_last.png",
+  "TESS": "SHEET_CH2_NEWS_CAST_v1.jpg"
+ },
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

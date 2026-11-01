@@ -1,0 +1,45 @@
+{
+ "schema_version": "tt-clipmeta/v2",
+ "meta_version": "system-v4.2-20261030",
+ "builder": {
+  "name": "build_prompt_v42",
+  "version": "4.2.0",
+  "sha": "3b8bb445fc34"
+ },
+ "static_version": "static-v41-20261030",
+ "clip_id": "P08-2",
+ "parent_clip": "P08-1",
+ "channel_show": "Ch8 Sitcom",
+ "clip_type": "beat",
+ "arc_stage": null,
+ "static_intangible": null,
+ "beats": [
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  },
+  {
+   "t": null,
+   "requester": "story"
+  }
+ ],
+ "tier_consequences": [],
+ "hints_planted": [],
+ "hints_paid": [],
+ "threads_followed": [],
+ "saga": null,
+ "depth": "D0",
+ "prompt_sha256": "287ddd9fe513211f6fbfbe52183e16a01aeae1d6f06047e2a4e3925a893b85e7",
+ "prompt_words": 150,
+ "air_status": "design-not-rendered",
+ "ref_for": {
+  "DEV": "DEV_P08-1.png",
+  "OSCAR": "OSCAR_P08-1.png"
+ },
+ "contributors": [],
+ "contributors_rule": "data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)"
+}

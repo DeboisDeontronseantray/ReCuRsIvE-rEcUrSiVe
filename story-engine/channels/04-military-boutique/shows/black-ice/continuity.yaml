@@ -1,0 +1,193 @@
+show: black-ice
+episode: ep01-20261027
+no_eye_contact: true
+no_eye_contact_note: Characters never look into the lens (eyeline off-lens), per CNB prompt constraint 'No eye contact with camera, eyeline off-lens; characters never look into the lens.' Director asked for it 2026-10-28; brief does not say whether it also covers eye contact between characters (BI-13 two-shot confrontation implies they may look at each other) - confirm wording.
+sources:
+- director/pitches/espionage-show-20261027.md (character silhouettes)
+- /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/black-ice-20261027/shots_ep1.py
+shots:
+  BI-01:
+    wounds: []
+    props_held:
+      HERON:
+      - suppressed bolt rifle
+      - rag
+    time_of_day: dusk
+    weather: light snow, fog, wind
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-02:
+    wounds: []
+    props_held:
+      HERON:
+      - rifle bolt
+    time_of_day: dusk
+    weather: frost, river mist
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-03:
+    wounds: []
+    props_held: {}
+    time_of_day: dusk
+    weather: river mist, wind
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-04:
+    wounds: []
+    props_held:
+      LANTERN:
+      - cigarette
+      - headset mic
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      LANTERN: cardigan over uniform shirt, headset, reading glasses on cord
+    no_eye_contact: true
+  BI-05:
+    wounds: []
+    props_held: {}
+    time_of_day: dusk
+    weather: wind
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-06:
+    wounds: []
+    props_held:
+      HERON:
+      - rifle (hands frozen over it)
+    time_of_day: dusk
+    weather: wind
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-07:
+    wounds: []
+    props_held: {}
+    time_of_day: night
+    weather: fog, light snow
+    wardrobe: {}
+    no_eye_contact: true
+  BI-08:
+    wounds: []
+    props_held: {}
+    time_of_day: night
+    weather: moonlit, fog
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-09:
+    wounds: []
+    props_held: {}
+    time_of_day: night
+    weather: moonlit
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-10:
+    wounds: []
+    props_held: {}
+    time_of_day: night
+    weather: night, snow on ground
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-11:
+    wounds: []
+    props_held:
+      HERON:
+      - master tape reel
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-12:
+    wounds: []
+    props_held:
+      WOLFHOUND:
+      - match
+      - rifle across knees
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      WOLFHOUND: long greatcoat, layered webbing, fur-trimmed cap
+    no_eye_contact: true
+  BI-13:
+    wounds: []
+    props_held:
+      HERON:
+      - rifle, raised
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+      WOLFHOUND: long greatcoat, layered webbing, fur-trimmed cap
+    no_eye_contact: true
+  BI-14:
+    wounds: []
+    props_held:
+      HERON:
+      - rifle
+      - radio handset at collar
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-15:
+    wounds: []
+    props_held:
+      LANTERN:
+      - cigarette (stubbed out)
+      UNKNOWN:
+      - blank folder
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      LANTERN: cardigan over uniform shirt, headset, reading glasses on cord
+    no_eye_contact: true
+  BI-16:
+    wounds: []
+    props_held: {}
+    time_of_day: night
+    weather: interior; distant engines outside
+    wardrobe:
+      WOLFHOUND: long greatcoat, layered webbing, fur-trimmed cap
+    no_eye_contact: true
+  BI-17:
+    wounds: []
+    props_held:
+      HERON:
+      - suppressed rifle, firing
+    time_of_day: night
+    weather: interior
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+    no_eye_contact: true
+  BI-18:
+    wounds: []
+    props_held: {}
+    time_of_day: night
+    weather: heavy fog
+    wardrobe:
+      HERON: long hooded snow smock over tight chest rig, fingerless wool gloves, orange paracord loop left shoulder strap
+      WOLFHOUND: long greatcoat, layered webbing, fur-trimmed cap
+    no_eye_contact: true
+
+# Director decisions, Oct 28 2026 12:00 PM CT (add-only)
+director_rulings_20261028:
+  no_eye_contact_scope: camera_only   # characters looking at each other is fine and wanted
+  open_threads:
+    - {id: reel-whereabouts, shots: [BI-11, BI-12, BI-13], note: "Reel deliberately unseen; pays off in ep2"}
+  offscreen_changes:
+    - {prop: radio-handset, from: "canvas bag on deck (BI-02)", to: "at her collar (BI-14)", note: "moved off-screen; no reshoot"}
+  retry_specs:
+    BI-12-v2: {HERON: "snow smock", WOLFHOUND_rifle: "vertical on back"}
+  known_weak_v1: [BI-06 background drift, BI-10 loose staging, BI-18 walk not run, BI-01 eye line, BI-13 eye line]
+  script_changes:
+    - {shot: BI-06, line: "finishing him", replaces: "killing him", approved_by: Director}
+  unresolved: [BI-15 second man partly visible]

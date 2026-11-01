@@ -1,0 +1,23 @@
+{
+ "id": "NP01",
+ "why": {
+  "V4_start_frame_for_camera": [
+   "FAIL"
+  ]
+ },
+ "draft_args": {
+  "prompt": "Look: faded 1970s 35mm martial-arts film, live action photographed, wide anamorphic lens, film grain, red lacquer, gold and teal. Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>: red-carpeted twin staircase back centre, crystal chandeliers, marble floor, brass rails, front desk with a brass desk bell on the left, a dark gold roof-access door at the top of the stairs. MARLO QUILL (<IMAGE_2>; maroon porter's waistcoat with brass buttons, grey mustache). Story beat (ordinary world):. Lighting: dim warm chandelier light, 4:50 on the big lobby clock above the desk. Single shot: slow side-on dolly tracking, 35mm, waist height. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 0 s, MARLO pushes a brass luggage trolley piled high with guests' suitcases left to right across the marble, shoulders slumped, eyes on the trolley. At 4 s, a top suitcase slides; he catches it with one hand without stopping. At 7 s, he passes under the chandelier and glances up at it, tired. Motion carries on through the last half second, nothing freezes. [Adults only. Original invented characters, no real people or lookalikes; parody brands only. Nobody looks into the camera. No gore, no blood on skin; stains on clothing only. No on-screen text, no logos. Theatrical props only. One continuous 10 s take.]",
+  "duration": 10,
+  "resolution": "480p",
+  "filename": "NP01.mp4",
+  "reference_image_paths": [
+   "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+   "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+  ]
+ },
+ "notes": [
+  "ending replaced: 'Motion carries on through the last half second.'",
+  "safety bracket regenerated from pool",
+  "ref swapped to side/3-4 crop: MARLO_QUILL_threequarter_face.png"
+ ]
+}

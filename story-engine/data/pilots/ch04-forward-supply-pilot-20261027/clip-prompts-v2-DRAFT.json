@@ -1,0 +1,1110 @@
+{
+  "title": "Forward Supply pilot - Cold Clearance (outpost rework) v2 DRAFT",
+  "status": "DRAFT, not sent to CNB, not rendered",
+  "source": "storyboard-v1-DRAFT.md; Bible continuity/ch04-military-boutique/bible-v2.yaml",
+  "ad_breaks": [
+    "AD BREAK 1 after S3C (clean break between segments)",
+    "AD BREAK 2 (optional) after S6C"
+  ],
+  "shots": [
+    {
+      "id": "S1A",
+      "scene": "S1 Mess hall",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "wide locked",
+      "location": "Small steel mess hall, one long table, fogged window screen-left, warm overhead light",
+      "cast": [
+        "Lt. Mira S'mirin'",
+        "Tim"
+      ],
+      "continues_from": "Scene start: fade from black on the mess hall.",
+      "match": "action: Mira's sliding hand exits screen-right",
+      "last_frame": "Tin mid-slide, Tim's optic turning toward it.",
+      "product_use": "StrataClip Ration Tin (slid to Tim)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Small steel mess hall, one long table, fogged window screen-left, warm overhead light. Continuing from: Scene start: fade from black on the mess hall. Action: Mira slides a small sealed ration tin across the table screen-right toward Tim hovering at the far end. Camera: wide locked, one move. Cut match: action: Mira's sliding hand exits screen-right. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Breakfast. And a question."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.69
+    },
+    {
+      "id": "S1B",
+      "scene": "S1 Mess hall",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium on Tim",
+      "location": "Small steel mess hall, one long table, fogged window screen-left, warm overhead light",
+      "cast": [
+        "Tim"
+      ],
+      "continues_from": "S1A last frame: tin sliding screen-right toward Tim.",
+      "match": "action match on tin arriving; eyeline exits screen-left to window",
+      "last_frame": "Tim's optic aimed at window screen-left.",
+      "product_use": "StrataClip Ration Tin clips to Tim's ring (spec: clips to any strap)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Small steel mess hall, one long table, fogged window screen-left, warm overhead light. Continuing from: S1A last frame: tin sliding screen-right toward Tim. Action: The tin arrives and clips onto Tim's ring with a soft click; Tim chirps, then his optic turns to the fogged window screen-left. Camera: medium on Tim, one move. Cut match: action match on tin arriving; eyeline exits screen-left to window. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Tim",
+          "line": "(chirp)"
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.66
+    },
+    {
+      "id": "S1C",
+      "scene": "S1 Mess hall",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "over-the-shoulder of Tim toward window",
+      "location": "Small steel mess hall, one long table, fogged window screen-left, warm overhead light",
+      "cast": [
+        "Lt. Mira S'mirin'",
+        "Tim"
+      ],
+      "continues_from": "S1B last frame: Tim looks screen-left at window.",
+      "match": "eyeline: we see what Tim sees; Mira reflected",
+      "last_frame": "Fog window, Mira's reflection, hold.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Small steel mess hall, one long table, fogged window screen-left, warm overhead light. Continuing from: S1B last frame: Tim looks screen-left at window. Action: Grey fog fills the window; Mira's reflection in the glass watches Tim, understanding. Camera: over-the-shoulder of Tim toward window, one move. Cut match: eyeline: we see what Tim sees; Mira reflected. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "A sunrise. Got it."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.69
+    },
+    {
+      "id": "S2A",
+      "scene": "S2 Command hut",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "wide locked",
+      "location": "Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid",
+      "cast": [
+        "Commander Bill D'bears",
+        "Lt. Mira S'mirin'"
+      ],
+      "continues_from": "Cut from S1C: Mira turning away from the window (scene change on her exit).",
+      "match": "action: Mira's entrance continues her exit from S1C",
+      "last_frame": "Bill's hand reaching toward the envelope.",
+      "product_use": "Quietline Helmet on desk (urgent order)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: Cut from S1C: Mira turning away from the window (scene change on her exit). Action: Mira enters from screen-left; Bill at desk screen-right, a matte helmet beside the envelope. Camera: wide locked, one move. Cut match: action: Mira's entrance continues her exit from S1C. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Commander. I need the Sky Diffuser. For a project."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.7
+    },
+    {
+      "id": "S2B",
+      "scene": "S2 Command hut",
+      "duration_s": 7,
+      "model": "grok-imagine-video-1.5",
+      "camera": "close on desk",
+      "location": "Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid",
+      "cast": [
+        "Commander Bill D'bears"
+      ],
+      "continues_from": "S2A last frame: Bill's hand reaching toward the envelope.",
+      "match": "action match on the reach",
+      "last_frame": "Drumming fingers, envelope pushed to desk edge.",
+      "product_use": "Quietline Helmet hush liner seats with a chirp (per spec)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: S2A last frame: Bill's hand reaching toward the envelope. Action: Bill slides the envelope aside, lifts the helmet, presses the liner; soft chirp. His fingers drum; a small forehead vein. Camera: close on desk, one move. Cut match: action match on the reach. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "The helmet ships today. Everything else waits."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.59
+    },
+    {
+      "id": "S2C",
+      "scene": "S2 Command hut",
+      "duration_s": 7,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium on Mira",
+      "location": "Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid",
+      "cast": [
+        "Lt. Mira S'mirin'"
+      ],
+      "continues_from": "S2B last frame: envelope at desk edge.",
+      "match": "eyeline down to envelope",
+      "last_frame": "Mira holding Bill's gaze.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: S2B last frame: envelope at desk edge. Action: Mira's eyes drop to the envelope at the desk edge, then back to Bill. Camera: medium on Mira, one move. Cut match: eyeline down to envelope. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "You still haven't opened that."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.59
+    },
+    {
+      "id": "S3A",
+      "scene": "S3 Supply bay",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium push-in",
+      "location": "Outpost supply bay, steel shelving with packs and a frosted Sky Diffuser panel on the screen-right shelf, amber safety lights",
+      "cast": [
+        "Osmund",
+        "Lt. Mira S'mirin'"
+      ],
+      "continues_from": "Scene start: Osmund already mid-unzip as Mira arrives.",
+      "match": "action: zipper pull leads the cut",
+      "last_frame": "Open pack, cavity visible, Mira holding the helmet.",
+      "product_use": "Thermal Ration Pack (wrong pack, helmet cavity)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Setting: Outpost supply bay, steel shelving with packs and a frosted Sky Diffuser panel on the screen-right shelf, amber safety lights. Continuing from: Scene start: Osmund already mid-unzip as Mira arrives. Action: Osmund unzips a big insulated thermal ration pack; pull back reveals a molded cavity inside. Camera: medium push-in, one move. Cut match: action: zipper pull leads the cut. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Osmund",
+          "line": "Is this the priority brief?"
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.7
+    },
+    {
+      "id": "S3B",
+      "scene": "S3 Supply bay",
+      "duration_s": 7,
+      "model": "grok-imagine-video-1.5",
+      "camera": "close on pack",
+      "location": "Outpost supply bay, steel shelving with packs and a frosted Sky Diffuser panel on the screen-right shelf, amber safety lights",
+      "cast": [
+        "Lt. Mira S'mirin'",
+        "Osmund"
+      ],
+      "continues_from": "S3A last frame: Mira holding the helmet over the open pack.",
+      "match": "action match on downward motion",
+      "last_frame": "Helmet seated; Mira's hand lifting away.",
+      "product_use": "Thermal Ration Pack holds the Quietline Helmet exactly",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Setting: Outpost supply bay, steel shelving with packs and a frosted Sky Diffuser panel on the screen-right shelf, amber safety lights. Continuing from: S3A last frame: Mira holding the helmet over the open pack. Action: Mira lowers the helmet into the cavity; it seats perfectly. Camera: close on pack, one move. Cut match: action match on downward motion. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Osmund",
+          "line": "...It fits."
+        },
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "It fits."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.62
+    },
+    {
+      "id": "S3C",
+      "scene": "S3 Supply bay",
+      "duration_s": 7,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium on Mira",
+      "location": "Outpost supply bay, steel shelving with packs and a frosted Sky Diffuser panel on the screen-right shelf, amber safety lights",
+      "cast": [
+        "Lt. Mira S'mirin'"
+      ],
+      "continues_from": "S3B last frame: Mira's hand lifting from the pack.",
+      "match": "eyeline screen-right to the panel",
+      "last_frame": "Mira looking screen-right at the panel. END SEGMENT 1.",
+      "product_use": "Sky Diffuser on shelf (spec: paints slow sky color)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Setting: Outpost supply bay, steel shelving with packs and a frosted Sky Diffuser panel on the screen-right shelf, amber safety lights. Continuing from: S3B last frame: Mira's hand lifting from the pack. Action: Mira's eyes go to the frosted Sky Diffuser panel on the shelf screen-right; a second slot in the pack is exactly its size. Camera: medium on Mira, one move. Cut match: eyeline screen-right to the panel. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "Oh no."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.59
+    },
+    {
+      "id": "S4A",
+      "scene": "S4 Bunk room",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "wide locked",
+      "location": "Windowless bunk room, four bunks, keepsake shelf, plain ceiling",
+      "cast": [
+        "Tim",
+        "Osmund"
+      ],
+      "continues_from": "Scene start after ad break.",
+      "match": "action: Tim's drift exits screen-right",
+      "last_frame": "Tim near the box.",
+      "product_use": "Valuables Motion Guard (on Osmund's keepsake box)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: Scene start after ad break. Action: Tim drifts toward Osmund's keepsake shelf screen-right. Camera: wide locked, one move. Cut match: action: Tim's drift exits screen-right. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Osmund",
+          "line": "Careful, that's my... thing."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.69
+    },
+    {
+      "id": "S4B",
+      "scene": "S4 Bunk room",
+      "duration_s": 7,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium",
+      "location": "Windowless bunk room, four bunks, keepsake shelf, plain ceiling",
+      "cast": [
+        "Tim"
+      ],
+      "continues_from": "S4A last frame: Tim near the keepsake box.",
+      "match": "action match on Tim's drift being reversed",
+      "last_frame": "Tim two steps back, frogs settling.",
+      "product_use": "Valuables Motion Guard herds the unauthorized person back (per spec)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: S4A last frame: Tim near the keepsake box. Action: Small fish-frogs croak in formation around Tim; a calm guard-dog detail herds him back two steps. Nobody touched, nobody hurt. Camera: medium, one move. Cut match: action match on Tim's drift being reversed. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Tim",
+          "line": "(chirp chirp chirp - laughing rhythm)"
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.58
+    },
+    {
+      "id": "S4C",
+      "scene": "S4 Bunk room",
+      "duration_s": 7,
+      "model": "grok-imagine-video-1.5",
+      "camera": "two-shot",
+      "location": "Windowless bunk room, four bunks, keepsake shelf, plain ceiling",
+      "cast": [
+        "Osmund",
+        "Tim"
+      ],
+      "continues_from": "S4B last frame: frogs settling at Tim's base.",
+      "match": "shared eyeline down to frogs",
+      "last_frame": "Both looking down; warm.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: S4B last frame: frogs settling at Tim's base. Action: Osmund kneels, apologises; both look down at the croaking frogs. Camera: two-shot, one move. Cut match: shared eyeline down to frogs. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Osmund",
+          "line": "They like you. That's new."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.61
+    },
+    {
+      "id": "S5A",
+      "scene": "S5 Command hut",
+      "duration_s": 10,
+      "model": "grok-imagine-video-1.5",
+      "camera": "wide four-shot",
+      "location": "Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid",
+      "cast": [
+        "Commander Bill D'bears",
+        "Lt. Mira S'mirin'",
+        "Osmund",
+        "Tim"
+      ],
+      "continues_from": "Cut from S4C: Osmund rising (scene change on his rise).",
+      "match": "action: Mira's step forward",
+      "last_frame": "Mira forward, Bill seated.",
+      "product_use": "Sky Diffuser as fog beacon (story use)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: Cut from S4C: Osmund rising (scene change on his rise). Action: Mira steps forward from the group; the loaded pack sits on the desk, Sky Diffuser beside it. Camera: wide four-shot, one move. Cut match: action: Mira's step forward. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "The route needs that panel as a fog beacon. Load it."
+        },
+        {
+          "speaker": "Lt. Mira S'mirin'",
+          "line": "It's for Tim. It's his birthday tomorrow."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.91
+    },
+    {
+      "id": "S5B",
+      "scene": "S5 Command hut",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium on Bill",
+      "location": "Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid",
+      "cast": [
+        "Commander Bill D'bears"
+      ],
+      "continues_from": "S5A last frame: Mira steps forward, Bill seated.",
+      "match": "action: Bill rising continues from his seat",
+      "last_frame": "Bill standing, hand moving to envelope.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: S5A last frame: Mira steps forward, Bill seated. Action: Bill rises slowly, stretches his neck, forehead vein bulging, fingers flexing; he holds it in. Camera: medium on Bill, one move. Cut match: action: Bill rising continues from his seat. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.67
+    },
+    {
+      "id": "S5C",
+      "scene": "S5 Command hut",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "close then rack to group",
+      "location": "Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid",
+      "cast": [
+        "Commander Bill D'bears",
+        "Lt. Mira S'mirin'",
+        "Osmund",
+        "Tim"
+      ],
+      "continues_from": "S5B last frame: hand moving to envelope.",
+      "match": "action match on the grip; shared eyeline",
+      "last_frame": "Bill holding envelope.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: S5B last frame: hand moving to envelope. Action: Bill's hand closes on the envelope; everyone's eyes go to it. Camera: close then rack to group, one move. Cut match: action match on the grip; shared eyeline. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.75
+    },
+    {
+      "id": "S6A",
+      "scene": "S6 Hatch",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "medium at hatch",
+      "location": "Outer hatch opening onto thick grey fog that never lifts, wind",
+      "cast": [
+        "Commander Bill D'bears",
+        "Tim"
+      ],
+      "continues_from": "Cut from S5C: envelope in Bill's hand (match on the envelope).",
+      "match": "match on envelope",
+      "last_frame": "Card sliding out.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Outer hatch opening onto thick grey fog that never lifts, wind. Continuing from: Cut from S5C: envelope in Bill's hand (match on the envelope). Action: Bill opens the envelope at the open hatch, fog rolling in. Camera: medium at hatch, one move. Cut match: match on envelope. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.69
+    },
+    {
+      "id": "S6B",
+      "scene": "S6 Hatch",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5-lite",
+      "camera": "insert close",
+      "location": "Outer hatch opening onto thick grey fog that never lifts, wind",
+      "cast": [],
+      "continues_from": "S6A last frame: card sliding out.",
+      "match": "action match on card",
+      "last_frame": "Card held; text added in post via on_screen_text registry ('Tomorrow').",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks.  Setting: Outer hatch opening onto thick grey fog that never lifts, wind. Continuing from: S6A last frame: card sliding out. Action: A plain blank card in a large hand, fog behind; a single word to be added in post. Camera: insert close, one move. Cut match: action match on card. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [],
+      "reference_images": [],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.16
+    },
+    {
+      "id": "S6C",
+      "scene": "S6 Hatch",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "two-shot",
+      "location": "Outer hatch opening onto thick grey fog that never lifts, wind",
+      "cast": [
+        "Commander Bill D'bears",
+        "Tim"
+      ],
+      "continues_from": "S6B last frame: card lowering out of frame.",
+      "match": "action match on lowering hand; shared eyeline to fog",
+      "last_frame": "Both facing fog. END SEGMENT 2.",
+      "product_use": "Quietline Helmet lets them hear each other in the wind (hush liner)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Outer hatch opening onto thick grey fog that never lifts, wind. Continuing from: S6B last frame: card lowering out of frame. Action: Bill lowers the helmet gently over Tim's dome; both look out into the fog. Camera: two-shot, one move. Cut match: action match on lowering hand; shared eyeline to fog. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Tomorrow can wait."
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.69
+    },
+    {
+      "id": "S7A",
+      "scene": "S7 Bunk room sunrise",
+      "duration_s": 10,
+      "model": "grok-imagine-video-1.5",
+      "camera": "wide, dark room",
+      "location": "Windowless bunk room, four bunks, keepsake shelf, plain ceiling",
+      "cast": [
+        "Lt. Mira S'mirin'",
+        "Osmund",
+        "Commander Bill D'bears",
+        "Tim"
+      ],
+      "continues_from": "Scene start after optional break.",
+      "match": "action: switch press",
+      "last_frame": "First glow on ceiling.",
+      "product_use": "Sky Diffuser switched on",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: Scene start after optional break. Action: Dark bunk room; Mira switches on the frosted panel. Camera: wide, dark room, one move. Cut match: action: switch press. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.91
+    },
+    {
+      "id": "S7B",
+      "scene": "S7 Bunk room sunrise",
+      "duration_s": 8,
+      "model": "grok-imagine-video-1.5",
+      "camera": "slow tilt up",
+      "location": "Windowless bunk room, four bunks, keepsake shelf, plain ceiling",
+      "cast": [
+        "Lt. Mira S'mirin'",
+        "Osmund",
+        "Commander Bill D'bears",
+        "Tim"
+      ],
+      "continues_from": "S7A last frame: first glow on ceiling.",
+      "match": "eyeline up; light continuity",
+      "last_frame": "Ceiling full dawn.",
+      "product_use": "Sky Diffuser paints dawn; Lightning Lamp mood flicker (mood light only)",
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: S7A last frame: first glow on ceiling. Action: Warm dawn color climbs across the ceiling; all heads tilt up; a small lamp flickers softly like candles. Camera: slow tilt up, one move. Cut match: eyeline up; light continuity. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Osmund",
+          "line": "Is this the priority brief?"
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.75
+    },
+    {
+      "id": "S7C",
+      "scene": "S7 Bunk room sunrise",
+      "duration_s": 10,
+      "model": "grok-imagine-video-1.5",
+      "camera": "wide warm tableau",
+      "location": "Windowless bunk room, four bunks, keepsake shelf, plain ceiling",
+      "cast": [
+        "Commander Bill D'bears",
+        "Tim",
+        "Lt. Mira S'mirin'",
+        "Osmund"
+      ],
+      "continues_from": "S7B last frame: ceiling full dawn, heads up.",
+      "match": "eyeline down from ceiling to Bill and Tim",
+      "last_frame": "Hold; motto card then production card in post.",
+      "product_use": null,
+      "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: S7B last frame: ceiling full dawn, heads up. Action: Bill rests a hand on Tim's ring; Tim chirps; everyone in warm light. Camera: wide warm tableau, one move. Cut match: eyeline down from ceiling to Bill and Tim. Mood: grounded, warm, quietly funny, never slapstick.",
+      "dialogue": [
+        {
+          "speaker": "Commander Bill D'bears",
+          "line": "Let's ship it forward... tomorrow."
+        },
+        {
+          "speaker": "Tim",
+          "line": "(chirp)"
+        }
+      ],
+      "reference_images": [
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+      ],
+      "negative_prompt": [
+        "no unintended or garbled text",
+        "intended text only via tagged on_screen_text registry (post)",
+        "no slapstick physical comedy",
+        "no logos",
+        "no brand names",
+        "no real people",
+        "no celebrity likeness",
+        "no real defense insignia",
+        "no real game IP",
+        "no weapons pointed at camera",
+        "no phone",
+        "no phone-style keypad",
+        "no dial UI",
+        "no extra fingers",
+        "no deformed hands",
+        "no warped faces",
+        "no parody label on screen",
+        "no channel bug or channel number on screen"
+      ],
+      "status": "DRAFT-not-sent",
+      "est_usd": 0.91
+    }
+  ],
+  "totals": {
+    "shots": 21,
+    "runtime_s": 168,
+    "est_480p_usd": 14.15,
+    "rates": "1.5 $0.08/s + $0.01/ref; lite $0.02/s (render_clip_v2.py PRICE)"
+  }
+}
