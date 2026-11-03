@@ -311,10 +311,10 @@ def assemble_locked(sidecar_path, sc, mutations, kind, layers, paths, dense=Fals
     body["rules"] = "\n".join(layers[k] for k in ("global", "channel", "format", "show_or_ad"))
     glow = "" if "monitor" in (bl.get("extra_constraints") or "") else " No glowing monitors."
     if "green" not in (bl.get("extra_constraints") or "").lower(): glow += " Nothing glows green."  # Director 2026-10-28: no green glow everywhere
-    # 2026-10-28 Trundle 12:33 CT: no-eye-contact is per-show opt-in (show.yaml/sidecar no_eye_contact: true, or show wrapper mentions eye contact), never global
+    # 2026-10-28 trundle 12:33 CT: no-eye-contact is per-show opt-in (show.yaml/sidecar no_eye_contact: true, or show wrapper mentions eye contact), never global
     eye_opt = bool(sc.get("no_eye_contact")) or "eye contact" in (layers.get("show_or_ad") or "").lower()
     eye = "No eye contact with camera: eyeline off-lens, characters never look into the lens (looking at each other is fine). " if eye_opt else ""
-    # 2026-10-28 12:45 CT Director spec (Trundle 10:41 CT): no-eye-contact is GLOBAL, always on; eye_opt kept but redundant
+    # 2026-10-28 12:45 CT Director spec (trundle 10:41 CT): no-eye-contact is GLOBAL, always on; eye_opt kept but redundant
     eye = "No eye contact with camera: eyeline off-lens, characters never look into the lens (looking at each other is fine). "
     body["constraints"] = ("[Constraints] Fictional adults only. Strictly photorealistic live action. " + eye + (bl.get("extra_constraints") or "No other people in frame.") + glow
                            + " No logos, insignia or brands. No cuts.")
@@ -361,7 +361,7 @@ def assemble_locked(sidecar_path, sc, mutations, kind, layers, paths, dense=Fals
 
 
 
-# ---- 2026-10-28 ~10:30 PM CT, Director (Trundle t121): dense mode, see prompts/PROMPT-STYLE.md. Add-only; default output unchanged.
+# ---- 2026-10-28 ~10:30 PM CT, Director (trundle t121): dense mode, see prompts/PROMPT-STYLE.md. Add-only; default output unchanged.
 TAKE_POLICY = {"from_scratch": True, "max_gens_per_shot": 2, "extend": False, "on_fail": "revise prompt, then gen 1 again",
                "continuity": "stitch shots in the edit, never extend", "lineage_field": "gen"}
 DENSE_SKIP_LABELS = {"cast", "locations", "screens", "text"}  # covered by locks / handled in post
@@ -398,12 +398,12 @@ def _lock_label(lock_id):
 
 
 class MissingReferenceImageError(ValueError):
-    """2026-10-28 Director (Trundle t132): every dense prompt needs >=1 reference image."""
+    """2026-10-28 Director (trundle t132): every dense prompt needs >=1 reference image."""
 
 
 def densify(body, layers, refs, locks, sc):
     """One plain-English paragraph: refs, who/where, action, camera, audio, dialogue/text, style, limits."""
-    if not refs:  # 2026-10-28 Trundle t132: reference image REQUIRED, not optional
+    if not refs:  # 2026-10-28 trundle t132: reference image REQUIRED, not optional
         raise MissingReferenceImageError("dense prompt has 0 @Image refs: at least 1 reference image (character sheet first) is required for every render")
     images, groups = [], {}
     for i, r in enumerate(refs, 1):
@@ -436,7 +436,7 @@ def densify(body, layers, refs, locks, sc):
             "dense_errors": errs}
 
 
-# ---- 2026-10-28 11:55 PM CT, Director (Trundle pt150u): opt-in reusable looks, prompts/looks/<id>/look.json. Add-only; default output unchanged.
+# ---- 2026-10-28 11:55 PM CT, Director (trundle pt150u): opt-in reusable looks, prompts/looks/<id>/look.json. Add-only; default output unchanged.
 LOOKS_DIR = "/workspace/thunder-trundle/prompts/looks"
 
 
@@ -471,7 +471,7 @@ def main():
 if __name__ == "__main__": main()
 
 
-# --- 2026-10-29 Director (add-only; Trundle approved spec v2 11:35 AM CT) ---
+# --- 2026-10-29 Director (add-only; trundle approved spec v2 11:35 AM CT) ---
 # Full-density bundled comments: use bundle_assembler.assemble_bundle() instead of the
 # one-change layer6 path above (kept unchanged as the legacy path / backup).
 def assemble_full_density(clips, comments, canon_by_clip=None, channel=4):

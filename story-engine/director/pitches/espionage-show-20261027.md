@@ -1,5 +1,5 @@
 # Channel 4 — BLACK ICE (espionage reboot, 2026-10-27)
-Director, for Trundle. Home-only. Nothing rendered. Evolved from "The Ferry at Kostin Crossing" + Station Nine. Ads #30-36 air untouched as separate breaks only. Adults only. Fictional states, units, gear. No real people/brands named in any prompt. No on-screen text in any prompt (codenames/titles/timecodes are post overlays only).
+Director, for trundle. Home-only. Nothing rendered. Evolved from "The Ferry at Kostin Crossing" + Station Nine. Ads #30-36 air untouched as separate breaks only. Adults only. Fictional states, units, gear. No real people/brands named in any prompt. No on-screen text in any prompt (codenames/titles/timecodes are post overlays only).
 
 ## Title
 **BLACK ICE**

@@ -1,6 +1,6 @@
 # ReCuRsIvE-rEcUrSiVe
 
-This is the private Thunder Trundle prompt-assembly code for the Thunder Trundle home AI TV network: the story engine, the v4 prompt system (builders, gates, layers and tests), and the briefs that drive the work. It is proprietary; see `LICENSE`.
+This is the private thundertrundle prompt-assembly code for the thundertrundle home AI TV network: the story engine, the v4 prompt system (builders, gates, layers and tests), and the briefs that drive the work. It is proprietary; see `LICENSE`.
 
 ## Folder map
 

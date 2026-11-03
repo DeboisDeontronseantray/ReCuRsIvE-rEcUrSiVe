@@ -6,10 +6,10 @@ clips: '#99-#116'
 owner_renders: Commercial News Break
 owner_story: Story Bot
 owner_direction: Director
-look: photoreal 1971  # Trundle 7:13 PM CT Oct 30 card: Ch4 canon look is photoreal 1971 (CURRENT-RULES L535)
+look: photoreal 1971  # trundle 7:13 PM CT Oct 30 card: Ch4 canon look is photoreal 1971 (CURRENT-RULES L535)
 status: rendered
 air_approved: false
-air_note: not approved to air; no yes in Trundle's own words recorded
+air_note: not approved to air; no yes in trundle's own words recorded
 brief_ids: []
 brief_sources:
 - /workspace/streaming/story-engine/director/pitches/espionage-show-20261027.md (no
@@ -18,5 +18,5 @@ source_dir: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Bouti
 episodes:
 - ep01-20261027
 
-# 2026-10-28 12:40 CT Story Bot: per-show opt-in to no-eye-contact constraint (Trundle 12:33 CT)
+# 2026-10-28 12:40 CT Story Bot: per-show opt-in to no-eye-contact constraint (trundle 12:33 CT)
 no_eye_contact: true

@@ -20,7 +20,7 @@ Ads are used untouched (reused, $0). Ad pods are clean breaks.
 Dress Inspection (4.2 g1, #71–81) is **shelved and must not air**.
 
 ## Hard rules applied
-Bill explicitly sleeved + "exactly one Bill" in every Bill shot; "no second Bill / no sleeveless Bill" in negatives (fixes #73 duplicate and #76/#77 sleeveless flaws). Mira included wherever the brief has her (S02, S03, S05, S07, S09, S10, S12, S14). Every prompt ends "no readable text". No real brands, no kids, no personal names on screen, no money/donation/tip lines. Airing needs a separate yes from Trundle.
+Bill explicitly sleeved + "exactly one Bill" in every Bill shot; "no second Bill / no sleeveless Bill" in negatives (fixes #73 duplicate and #76/#77 sleeveless flaws). Mira included wherever the brief has her (S02, S03, S05, S07, S09, S10, S12, S14). Every prompt ends "no readable text". No real brands, no kids, no personal names on screen, no money/donation/tip lines. Airing needs a separate yes from trundle.
 
 ## Continuity clashes and fixes
 1. Tim: brief + configs/snippets/ch04/characters.yaml say "matte-graphite courier drone with antennas"; bible-v2 locks Tim as a floating cyber-brain under a glass dome with one cyan optic → prompts use the bible-locked look and tim-E5 refs; "drone" kept only as his job in the story.

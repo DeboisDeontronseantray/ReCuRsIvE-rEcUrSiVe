@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Full-density comment bundler/assembler (Director, Oct 29 2026, Trundle-approved spec v2 11:35 AM CT).
+"""Full-density comment bundler/assembler (Director, Oct 29 2026, trundle-approved spec v2 11:35 AM CT).
 Add-only companion to assemble_prompt.py (that file and its one-change path are untouched).
 - Bundles comments per channel per 30-min window (MUTATION-SPEC-v2 s4).
 - Every comment detail kept verbatim; conflicts are placed in a different beat or clip, or carried to
   the next window -- never dropped. Rule-breakers are bent (logged with both texts); only hard-limit
   hits that cannot be bent are held (never deleted).
-- Prompt = Trundle's JW skeleton verbatim (minus "Extend this video:"), full action block with comments
+- Prompt = trundle's JW skeleton verbatim (minus "Extend this video:"), full action block with comments
   woven into beats, canon carry-over layers with 100/50/25/0 fade + persistent after-effects (<=80 words),
   "Only weapon: X", one camera sentence, night/rain/wardrobe restated.
 """

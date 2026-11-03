@@ -1,6 +1,6 @@
 # Story Bot engine (private copy)
 
-Private adaptation of toastedsugar/AI_Slop_Novels for the Thunder Trundle network (Ch 4 Military Boutique).
+Private adaptation of toastedsugar/AI_Slop_Novels for the Thunder trundle network (Ch 4 Military Boutique).
 **No git remote. Do not push, open issues/PRs, or change Rohan's repo.**
 
 ## Key

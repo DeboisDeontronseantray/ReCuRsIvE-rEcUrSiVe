@@ -1,5 +1,5 @@
 # BRIEF: Dress Inspection (Ch 4, Clearance Brief rebuilt), Director, Oct 27 2026 7:36 PM CT
-Approved by Trundle to proceed ("Let's go", 7:36 PM). This replaces the Color of the Day pitch. Home-only. Paid renders still need Trundle's yes with the price.
+Approved by trundle to proceed ("Let's go", 7:36 PM). This replaces the Color of the Day pitch. Home-only. Paid renders still need trundle's yes with the price.
 
 ## Premise
 Bill runs a brutal drill-sergeant inspection of the price-ad products, which stand lined up like recruits on a parade deck. He insults each one to its face, then we hard-cut to that product's price ad, which plays as its sarcastic rebuttal. Mira logs every flaw on her clipboard without looking up. Osmund stands at attention and sweats, because he packed them. At the end Bill picks one survivor, drops it in Osmund's hands, and walks off without a word.

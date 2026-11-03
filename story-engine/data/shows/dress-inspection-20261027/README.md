@@ -1,6 +1,6 @@
 # Dress Inspection: Ch 4, Clearance Brief rebuild (Story Bot, 2026-10-27 CT)
-Brief: /workspace/director/brief-dress-inspection-20261027.md (Director; Trundle said "Let's go" at 7:36 PM CT).
-Status: PROMPTS ONLY. Nothing rendered, nothing spent. Paid render needs Trundle's yes on the price below.
+Brief: /workspace/director/brief-dress-inspection-20261027.md (Director; trundle said "Let's go" at 7:36 PM CT).
+Status: PROMPTS ONLY. Nothing rendered, nothing spent. Paid render needs trundle's yes on the price below.
 
 ## Files
 - prompts.json: 11 generation prompts, Bill's beats only. Refs are the locked cast stills, resolved through checker.resolve_clean. Every prompt ends with "no readable text, no signage lettering".
@@ -19,7 +19,7 @@ Audio: dry and quiet (boots, breath, voice), no music, no hum or sub-bass.
 ## Ads (used as-is): tagfade air copies, BA layout
 Cloak #36 (lineage 4.11), Drone #34 (4.8), Helmet #30 (4.9), Pack #31 (4.7), Gauntlet #33 (4.6), Cruiser #32 (4.5), Binoculars #35 (4.10).
 All 7 have audio_leveled=true, are listed in BEST-CLIPS, and appear in neither PULLED file. None come from the Lightning Lamp, Sky Diffuser or Drawbridge Puffs series.
-Flag: these 7 carry the small "MB | thunder trundle" line that Trundle allowed on these 7 at 6:27 PM. That conflicts with the brief's "no Military Boutique text" limit. Director and Trundle need to choose: keep (OK per 6:27) or hold.
+Flag: these 7 carry the small "MB | thunder trundle" line that trundle allowed on these 7 at 6:27 PM. That conflicts with the brief's "no Military Boutique text" limit. Director and trundle need to choose: keep (OK per 6:27) or hold.
 Flag: queue items ch4-q08..q14 already air the same 7 products (B_cover versions, #45-57). Running both repeats each ad twice per loop. Under the duplicate rule, both stay on file and rotate.
 
 ## Bookkeeping

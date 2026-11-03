@@ -4,11 +4,11 @@ meta:
   version: 2
   written: 2026-10-27 15:45 CT by Story Bot
   status: in_progress (working Bible; v1 bible.yaml kept unchanged as history/source)
-  rule: Add-only edits with dated backup + changelog + yaml.safe_load. Nothing unfinished is dropped (Trundle 15:38 CT); every item carries status locked / draft / in_progress.
+  rule: Add-only edits with dated backup + changelog + yaml.safe_load. Nothing unfinished is dropped (trundle 15:38 CT); every item carries status locked / draft / in_progress.
   v1_path: /workspace/thunder-trundle/archive/story-bot-backups/20261028-1500/continuity-ch04/bible-v1.yaml
   channel: '4'
   channel_name: Military Boutique
-  channel_purpose: 'TRUNDLE 12:56 CT: This channel is NOT a status report on Trundle''s real project progress. Use the existing technical library and details as raw material, and expand and imagine both existing
+  channel_purpose: 'trundle 12:56 CT: This channel is NOT a status report on trundle''s real project progress. Use the existing technical library and details as raw material, and expand and imagine both existing
     and unstarted projects to further design and develop them. Channels may each have different products; crossover products across channels are allowed.'
 channel:
   status: locked
@@ -19,18 +19,18 @@ channel:
     no_phone_cta: true
     american_hostage: excluded
     no_real_brands: No real brands, companies or software names; invent generic names (e.g. generic implant chips).
-    airing: Nothing airs, publishes or posts without Trundle's yes.
+    airing: Nothing airs, publishes or posts without trundle's yes.
   tv_safe_rules:
   - No real defense brands, logos, or company names.
   - No real game IPs, characters, or trademarks.
   - Parody the ERA and advertising-channel formats only; invent original show and product names.
   - 'TV-safe: no explicit sex, no graphic gore, no real weapons tutorials, no actionable military advice.'
   - No real people, faces, voices, or celebrity likeness.
-  - Channel number + name "Ch 4 Military Boutique" (TV-guide style; network brand thunder trundle, lowercase) shows ONLY on a channel change, never as an always-on bug (Trundle 2026-10-27 12:32 CT). KTVM was
+  - Channel number + name "Ch 4 Military Boutique" (TV-guide style; network brand thunder trundle, lowercase) shows ONLY on a channel change, never as an always-on bug (trundle 2026-10-27 12:32 CT). KTVM was
     old branding, retired Oct 26, 2026.
-  - Parody label stays OFF the live-stream player entirely (Trundle 12:49 CT); it lives only in file names and metadata.
+  - Parody label stays OFF the live-stream player entirely (trundle 12:49 CT); it lives only in file names and metadata.
   - Keep subjects center-weighted for 4:3-safe framing in later video.
-  - Trundle's own products only in house ads; no outside brands.
+  - trundle's own products only in house ads; no outside brands.
   - No slapstick anywhere on the channel.
   - Intended on-screen text only via the on_screen_text registry (tagged for consistent post application); no unintended/garbled text.
   banned:
@@ -198,7 +198,7 @@ channel:
       font_style_tag: station-bug
       placement: corner
       status: proposed
-      notes: 'Channel-change flash only: brief on each intermediate channel in the switch sequence, then brief on the target and a quick fade. Not always-on (Trundle 12:32 CT).'
+      notes: 'Channel-change flash only: brief on each intermediate channel in the switch sequence, then brief on the target and a quick fade. Not always-on (trundle 12:32 CT).'
     - id: ost_military_boutique_l3
       show: channel
       text: MILITARY BOUTIQUE
@@ -253,7 +253,7 @@ channel:
     description: 'Regular "you''re watching" / channel ID clips for Channel 4 (Voice of Forward or silent bug bump). Required at regular intervals on the channel.
 
       '
-    interval: about every 30 minutes, not every clip, seamless blend (Trundle 2026-10-27 12:23 CT)
+    interval: about every 30 minutes, not every clip, seamless blend (trundle 2026-10-27 12:23 CT)
     voice: The Voice of Forward
     id_voice:
       name: The Voice of Forward
@@ -283,16 +283,16 @@ channel:
       generation round.
     frame_control: 'First- and last-frame control per clip for better blending: planned, to experiment with.'
     flip_through_bumpers: Zero-context, absurd mid-action, varied clips. DEFERRED until the first full round of clips is made, stitched and done right.
-    voice_clones: 'DEFERRED (Trundle 12:49 CT): pilot and tests run without voice clones. Later, test whether an edited clone can be layered cleanly. Dial Bot stays out of the channel process; nothing retrieved.'
+    voice_clones: 'DEFERRED (trundle 12:49 CT): pilot and tests run without voice clones. Later, test whether an edited clone can be layered cleanly. Dial Bot stays out of the channel process; nothing retrieved.'
     three_d_refs: Twin Builder's 3D files may be used to render reference stills as needed. Reference slots stay optional.
-    spacex_reality_bleed: 'APPROVED (Trundle 12:49 CT): recent Starship launch footage, pulled ONLY from SpaceX''s own official video channel, credited correctly; a fourth-wall-break reality-bleed segment,
+    spacex_reality_bleed: 'APPROVED (trundle 12:49 CT): recent Starship launch footage, pulled ONLY from SpaceX''s own official video channel, credited correctly; a fourth-wall-break reality-bleed segment,
       never a house ad. This is the one allowed exception to the real-company ban. Not pulled yet.'
     observation_logging: Starts once videos exist. Nothing to review yet.
     on_screen_text: 'Earlier rules stand: allowed where needed, tagged in the registry, no heavy parody stamps.'
-    motto: '''Let''s ship it forward'' approved by Trundle.'
+    motto: '''Let''s ship it forward'' approved by trundle.'
     house_ads: Get design details for Make A Clip Remote, Valuables Motion Guard and the River-Cooled Peltier Ice Cooler from Smart Home Lead.
-    xai_credits: Trundle will add xAI credits. Cap - see state/CURRENT-RULES.md (v48 is inconsistent on the cap).
-    video_review_ask: Trundle asked Imagine, Commercial News Break and Video Studio to share every video made today that he has not reacted to yet.
+    xai_credits: trundle will add xAI credits. Cap - see state/CURRENT-RULES.md (v48 is inconsistent on the cap).
+    video_review_ask: trundle asked Imagine, Commercial News Break and Video Studio to share every video made today that he has not reacted to yet.
     status_v2: in_progress
   trundle_notes_20261027_1232:
     channel_switch_display:
@@ -302,7 +302,7 @@ channel:
     - Supersedes the earlier always-on bug wording. Matches the Oct 26 22:02 CT rule (guide screen only during channel transitions).
     youre_watching_clips:
     - 'Separate from the number/name flash: short ''You''re watching [channel name + upcoming show]'' clips, still about every 30 min, seamless.'
-    - Now name the upcoming show, so each one is per show/slot. Needs Trundle's review once samples exist (after the first full round).
+    - Now name the upcoming show, so each one is per show/slot. Needs trundle's review once samples exist (after the first full round).
     interactions:
     - The ~30 min ID clips and the channel-change flash are two different things; a change flash doesn't reset or replace the 30-min clip.
     - Intermediate channels in a switch show number/name only for now. Flip-through bumpers (absurd mid-action clips on those channels) stay DEFERRED until after the first full round; when built, they'd
@@ -330,11 +330,11 @@ channel:
     max_per_hour: 6
     min_gap_minutes: 8
     no_phone_or_dial_cta: true
-    open_product_list: 'TRUNDLE 12:59 CT: the six included products are just the ones Trundle has already detailed (examples, with real tech details kept). They are NOT an exclusive list, and not all of Trundle''s
-      products are in here yet. Any of Trundle''s other existing or unstarted projects may be used, and NEW INVENTED products are allowed too: invent and expand freely for channel design and development. Each
+    open_product_list: 'trundle 12:59 CT: the six included products are just the ones trundle has already detailed (examples, with real tech details kept). They are NOT an exclusive list, and not all of trundle''s
+      products are in here yet. Any of trundle''s other existing or unstarted projects may be used, and NEW INVENTED products are allowed too: invent and expand freely for channel design and development. Each
       channel may have different products; crossover products are allowed. Santa, discovery and 2310 stay separate. Ad-safety limits and the no-real-brand rule still apply.'
-    channel_products: Not a progress report (Trundle 12:56 CT). Products here are design playgrounds built from the real technical library; other channels may use different products, and crossovers are allowed.
-    dev_stage_rule: 'TRUNDLE 12:54 CT: for thunder trundle Channel 4 house ads, product development stage is DISREGARDED. Imagine every product as it can be used on the show, ready and working. Never put build
+    channel_products: Not a progress report (trundle 12:56 CT). Products here are design playgrounds built from the real technical library; other channels may use different products, and crossovers are allowed.
+    dev_stage_rule: 'trundle 12:54 CT: for thunder trundle Channel 4 house ads, product development stage is DISREGARDED. Imagine every product as it can be used on the show, ready and working. Never put build
       status (parked, offline, idea, desk prep, concept, MVP, complete or not) in descriptions or prompts. Hardware and behavior details and the ad-safety limits still apply.'
     included:
     - name: Sky Diffuser
@@ -351,7 +351,7 @@ channel:
     - name: StrataClip Ration Tin
       description: Forward Supply house-fiction absurd sealed tin that clips to any brief.
       hardware: House-fiction product; imagine freely within Forward Supply logic.
-      status: included (Trundle keep 2026-10-27 ~11:12 CT)
+      status: included (trundle keep 2026-10-27 ~11:12 CT)
       source: configs/commercials/strata-clip-ration-tin.yaml:5
     - name: Make A Clip Remote
       specs_status: RECEIVED
@@ -367,15 +367,15 @@ channel:
       description: Black universal remote, about 15.5 cm. Press the 'Make a Clip' key, say an idea, SparkNest and Thunderear catch it, Clipforge builds it, and it becomes a clip. Silent press; only a small
         board LED glows.
       ad_safety: Do NOT claim a rechargeable or LiPo battery, always-online, or that it's for sale. No real-world performance claims.
-      status: included (Trundle add 11:21 CT)
+      status: included (trundle add 11:21 CT)
     - name: Valuables Motion Guard
       specs_status: RECEIVED
       specs_source: /workspace/shared/streaming/house-ad-product-specs-20261027.md
-      scope: 'VIDEO/CHANNEL VERSION ONLY, not a change to the real smart-home project. Channel 4 / Forward Supply world version (Trundle 13:03 CT: for us, not smart home). The ad shows only the on-show behavior.
+      scope: 'VIDEO/CHANNEL VERSION ONLY, not a change to the real smart-home project. Channel 4 / Forward Supply world version (trundle 13:03 CT: for us, not smart home). The ad shows only the on-show behavior.
         The hardware block is internal reference and never goes in ads or prompts.'
       hardware:
         controller: ESP8266 (no Bluetooth).
-        unauthorized_lift: About 250 ms of rumble plus a warning voice played from the house computer. (Real device only; the rumble is NOT used on the show, Trundle 13:06 CT.)
+        unauthorized_lift: About 250 ms of rumble plus a warning voice played from the house computer. (Real device only; the rumble is NOT used on the show, trundle 13:06 CT.)
         authorized_person: Ignored (no alert).
         lights: No lights. Never show flashing lights.
       on_show_behavior:
@@ -397,14 +397,14 @@ channel:
         prints. Set it back and it says ''Inventory restored. Carry on.'' and the detail files home. The right person gets nothing.'
       look: 'Invented on-screen object; never shown as a real wooden product or SKU. Earlier radar/face-camera notes: do not feature.'
       ad_safety: Alert/game gadget only. Never claim flashing lights, locks, police or alarm dispatch, or replacing a security system. No sale claims.
-      status: included (Trundle add 11:21 CT)
+      status: included (trundle add 11:21 CT)
     - name: River-Cooled Peltier Ice Cooler
       description: Rugged camping cooler (look invented) with a hose or fins dipped into a stream. Peltier solid-state modules use flowing river water as the heat sink to refreeze meltwater into ice, helped
         by a brine bath. For river, forest or lake camping.
       specs_source: /workspace/shared/streaming/house-ad-product-specs-20261027.md
       ad_safety: No for-sale claims.
-      design_source_note: 'Smart Home Lead 12:24 CT, from research/voice-clone-ideas-oct16.md #51. Name is Peltier (Trundle wrote Peter).'
-      status: included (Trundle add 11:21 CT)
+      design_source_note: 'Smart Home Lead 12:24 CT, from research/voice-clone-ideas-oct16.md #51. Name is Peltier (trundle wrote Peter).'
+      status: included (trundle add 11:21 CT)
       design_source: Smart Home Lead (635bb26c)
     candidates_from_notes:
     - name: Lift lamp
@@ -449,16 +449,16 @@ channel:
       status: active venture (not consumer product)
       source: LIVE-NOW/empire.md:11; PROJECTS-BOARD.md / empire notes
     - name: 2310 personal line / ventures
-      description: Trundle's personal assistant line and related ventures.
+      description: trundle's personal assistant line and related ventures.
       status: personal/venture (not consumer product)
       source: LIVE-NOW/empire.md:11
     trundle_adds: []
-    products_expand_todo: 'The six detailed products are NOT the full list. Any of Trundle''s own made or unstarted projects in the technical library may be used and imagined (see channel_purpose). Brand-new
-      invented products are allowed (Trundle 12:59 CT). Exclude Kalshi (retired), dial, American Hostage.
+    products_expand_todo: 'The six detailed products are NOT the full list. Any of trundle''s own made or unstarted projects in the technical library may be used and imagined (see channel_purpose). Brand-new
+      invented products are allowed (trundle 12:59 CT). Exclude Kalshi (retired), dial, American Hostage.
 
       '
     status_v2: in_progress
-    placement: ONLY at clean breaks between story segments; never inside a scene (Trundle via CNB 15:26 CT)
+    placement: ONLY at clean breaks between story segments; never inside a scene (trundle via CNB 15:26 CT)
     product_specs_note: Product specs now canonical in product_registry; included list kept here for ad rules/history
 shows:
   forward-supply:
@@ -478,11 +478,11 @@ shows:
     - Clearance colors are not on any chart; Mira S'mirin' invents them live.
     status: draft
     kind: plot-driven ensemble, outpost life
-    logline: 'DRAFT-pending-Trundle: Four mismatched crew members live and work together at a remote forward outpost where the fog never lifts; between impossible orders from a command nobody has met, their
+    logline: 'DRAFT-pending-trundle: Four mismatched crew members live and work together at a remote forward outpost where the fog never lifts; between impossible orders from a command nobody has met, their
       friendships, rivalries and Bill''s slow-burning fuse drive each episode.'
     premise: Bill D'bears, Mira S'mirin', Osmund and Tim live and work together at a remote forward outpost. Plot and relationships drive episodes. The crew USE the channel's products organically in the
       story; no selling. Catalog role inside this show OPEN.
-    approach: 'Hybrid (Trundle 15:36 CT): team writes the soul by hand; repo is memory and checker.'
+    approach: 'Hybrid (trundle 15:36 CT): team writes the soul by hand; repo is memory and checker.'
     world_facts_status: 'draft: catalog-era world facts kept for reuse; reconcile with outpost premise'
     episode_list_ideas:
       status: draft
@@ -513,7 +513,7 @@ shows:
       old_catalog_draft: renders-480p-draft-20261027_1424 (21 clips, $9.25; catalog framing; kept, not canon)
   marketing-show:
     status: draft
-    title: TBD-pending-Trundle
+    title: TBD-pending-trundle
     kind: explicit marketing/catalog show
     premise: 'Sells the same products Forward Supply uses, with in-depth technical details: mostly far-fetched but practical and internally consistent, believable as a real pitch. Claims must match product_registry.'
     seed: clearance-brief (below); longer format TBD
@@ -533,7 +533,7 @@ shows:
     - Every brief ends in a product SKU that did not exist at the start.
     - Clearance colors are announced like weather.
     status: draft
-    note_v2: Kept as-is; natural seed for marketing-show (Trundle's call).
+    note_v2: Kept as-is; natural seed for marketing-show (trundle's call).
   depot-after-hours:
     source: configs/shows/depot-after-hours.yaml
     title: Depot After Hours
@@ -552,7 +552,7 @@ shows:
     - Inspection checklist is blank and somehow graded.
     - Osmund and Tim are cooked, absurdly hopeless idiots (direction open; no slapstick).
     status: draft
-    note_v2: Optional story-side spinoff (Trundle's call).
+    note_v2: Optional story-side spinoff (trundle's call).
 cast:
   bill_dbears:
     status: locked
@@ -570,8 +570,8 @@ cast:
     - cool skin tone
     approved_by: null
     approved_at: null
-    notes: Renamed from Vale Rook (Trundle 2026-10-27). Traits unchanged. No reference still.
-    demeanor: Calm by default; slow visible fuse (fidgeting, restless stretching, bulging forehead veins) before rare full intense eruptions in the Ch 4 voice style. Trundle 2026-10-27 14:35 CT.
+    notes: Renamed from Vale Rook (trundle 2026-10-27). Traits unchanged. No reference still.
+    demeanor: Calm by default; slow visible fuse (fidgeting, restless stretching, bulging forehead veins) before rare full intense eruptions in the Ch 4 voice style. trundle 2026-10-27 14:35 CT.
     fuse: Calm by default; visible fuse (fidgeting, stretching, forehead veins); rare full eruptions as payoffs.
     catchphrase:
       id: catchphrase_bill_dbears
@@ -585,7 +585,7 @@ cast:
       version: 0
       approved_by: null
       approved_at: null
-      notes: 'Trundle 2026-10-27: old ''send it'' meme energy. Was ''Ship it forward.'''
+      notes: 'trundle 2026-10-27: old ''send it'' meme energy. Was ''Ship it forward.'''
       status_v2: draft
   mira_smirin:
     status: locked
@@ -604,7 +604,7 @@ cast:
     - cyan rim on left cheek
     approved_by: null
     approved_at: null
-    notes: Renamed from Mira Quill (Trundle 2026-10-27). Traits/catchphrases unchanged. No reference still.
+    notes: Renamed from Mira Quill (trundle 2026-10-27). Traits/catchphrases unchanged. No reference still.
     catchphrases:
     - id: catchphrase_mira_smirin
       kind: catchphrase
@@ -677,7 +677,7 @@ cast:
     - no gore
     approved_by: null
     approved_at: null
-    notes: Renamed from Pigeon-7 (Trundle 2026-10-27). Speech = chirps/servo only. No reference still.
+    notes: Renamed from Pigeon-7 (trundle 2026-10-27). Speech = chirps/servo only. No reference still.
     speech: Chirps only
   other_reference_targets:
     status: draft
@@ -726,7 +726,7 @@ cast:
       - no logos
       image_path: ''
       status: none
-      notes: 'Empty. Trundle 11:14: no stills before pilot.'
+      notes: 'Empty. trundle 11:14: no stills before pilot.'
     - variable_id: product_lightning_lamp
       qualities_locked:
       - contained flash vessel
@@ -735,7 +735,7 @@ cast:
       - no logos
       image_path: ''
       status: none
-      notes: 'Empty. Trundle 11:14: no stills before pilot.'
+      notes: 'Empty. trundle 11:14: no stills before pilot.'
   voices:
     status: in_progress
     normal_dialogue: video model (grok-imagine-video-1.5 lip-sync)
@@ -786,7 +786,7 @@ cast:
       approved_at: null
       notes: ''
       status_v2: draft
-    bill_as_id_voice: OPEN (Trundle's call)
+    bill_as_id_voice: OPEN (trundle's call)
     voice_clones: DEFERRED
 locations:
   outpost:
@@ -1002,7 +1002,7 @@ gags_and_snippets:
     status_v2: draft
   snippet_files: configs/snippets/ch04/
 product_registry:
-  overlay_variants_ref: 'See overlay_variants_decision_20261027 (A = CNB MANIFEST, B = Story Bot sheet spec_v2_DRAFT). Both approved by Trundle 2026-10-27; specs not locked.'
+  overlay_variants_ref: 'See overlay_variants_decision_20261027 (A = CNB MANIFEST, B = Story Bot sheet spec_v2_DRAFT). Both approved by trundle 2026-10-27; specs not locked.'
   rule: Story use must match the spec; marketing claims must match the spec; changes go here first (add-only), then both shows. Ad-safety limits and no-real-brand rule apply.
   products:
   - id: quietline-helmet
@@ -1074,7 +1074,7 @@ product_registry:
       - Storm Mode switch and a Test Flash button
       - Clear vessel, graphite base, contained bolt light
       - Mood light only. NOT a weather alert or warning device
-      - Built by Trundle. For the home.
+      - Built by trundle. For the home.
       video: /workspace/shared/media-library/ch04-military-boutique/cnb-house-ads/20261026_232450_housead_lightninglamp_thunder-trundle-home.mp4
       run2_use: S7A flickers in sync with storm light in the fog
       source: /workspace/shared/streaming/ch04-sales-overlay-sheet-DRAFT.md (2026-10-27 16:02 CT)
@@ -1194,7 +1194,7 @@ product_registry:
     version: 0
     approved_by: null
     approved_at: null
-    notes: Trundle's product. Existing house-ad clip under fakenews (see references README).
+    notes: trundle's product. Existing house-ad clip under fakenews (see references README).
     status_v2: draft
   - id: product_lightning_lamp
     kind: product_look
@@ -1205,7 +1205,7 @@ product_registry:
     version: 0
     approved_by: null
     approved_at: null
-    notes: Trundle's product. Existing house-ad clip under fakenews.
+    notes: trundle's product. Existing house-ad clip under fakenews.
     status_v2: draft
   - id: product_strata_clip_ration_tin
     kind: product_look
@@ -1217,42 +1217,42 @@ product_registry:
     version: 0
     approved_by: null
     approved_at: null
-    notes: Included house-ad / Forward Supply product (Trundle keep 2026-10-27 ~11:12 CT).
+    notes: Included house-ad / Forward Supply product (trundle keep 2026-10-27 ~11:12 CT).
     status_v2: draft
 workflow:
   status: in_progress
-  overlay_variants_ref: 'Sales overlays run as two post-only variants; see overlay_variants_decision_20261027. Nothing airs without Trundle yes.'
+  overlay_variants_ref: 'Sales overlays run as two post-only variants; see overlay_variants_decision_20261027. Nothing airs without trundle yes.'
   order:
   - 1. Storyboard first (scenes, wants, conflicts, product uses, linked shots).
   - '2. Hybrid: team writes script by hand.'
   - 3. Log threads/relationships/product uses to engine continuity (data/continuity/forward-supply.json), marked not-aired.
   - 4. Engine outline audit against this Bible + aired_history before CNB export.
-  - 5. Trundle review; CNB renders; Trundle yes before anything airs.
+  - 5. trundle review; CNB renders; trundle yes before anything airs.
   house_ads: Only at clean breaks between story segments; never inside a scene.
-  run_plan: Run 1 accepted -> run 2 quick, as if live -> improvements -> commenter-prompt integration -> run 3 (live if needed, Trundle's yes). Votes disregarded for commenter prompts on runs 2 and 3.
+  run_plan: Run 1 accepted -> run 2 quick, as if live -> improvements -> commenter-prompt integration -> run 3 (live if needed, trundle's yes). Votes disregarded for commenter prompts on runs 2 and 3.
   commenter_vision:
     status: draft (rules still to be written)
-    note: 'TRUNDLE 2026-10-27 15:14 CT, CORE VISION (one of the most important parts of the livestream). (1) The first generation of content on the channels is the FOUNDATION that will be mutated and memed.
+    note: 'trundle 2026-10-27 15:14 CT, CORE VISION (one of the most important parts of the livestream). (1) The first generation of content on the channels is the FOUNDATION that will be mutated and memed.
       (2) Commenters steer the genealogy of shows and channels, character development (likely erratic), words spoken, settings and more, while coherence and continuity are kept throughout. (3) Memes rule,
       but there must be levers for real-time data and for characters'' self-reflection. Example: when a commenter prompt makes a character act out of character, the character can say something like ''idk
       why I''m doing this but [commenter handle] thinks it''s a good idea.'' (4) This is a self-improving, adaptive system steered by prompt snippets or headers inserted around the commenter''s prompt,
       never replacing what the commenter asked for. (5) Goal: monitor X comments and start videos using all existing rules plus the commenter-prompt rules still to be written. Applies after run 2 (see voice-post-and-run-plan-20261027-1443).
-      Still bound by: TV-safe, banned list, no real brands, home-only, and anything airing needs Trundle''s yes.'
+      Still bound by: TV-safe, banned list, no real brands, home-only, and anything airing needs trundle''s yes.'
   promotion_workflow:
     steps:
     - 1. Assemble clip prompt from locked_base + current approved/proposed variables (see docs/VIDEO-GEN-FLOW-CH04.md). Never paste inspiration_notes IP/studio names into prompts.
     - 2. After a render or still review, log one or more observations rows on that clip_id (variable_id + note + proposed_change).
-    - '3. Trundle decides per observation: approved / rejected / deferred.'
-    - '4. On approved: bump variable.version, set current to proposed_change, set status:approved, approved_by:Trundle, approved_at:date; set observation.promoted_to_version.'
-    - '5. Reference stills are OPTIONAL (Trundle 2026-10-27 11:14: none needed before pilot). When used: attach image_path, list qualities_locked, status moves none→candidate→locked only on Trundle OK. Still
+    - '3. trundle decides per observation: approved / rejected / deferred.'
+    - '4. On approved: bump variable.version, set current to proposed_change, set status:approved, approved_by:trundle, approved_at:date; set observation.promoted_to_version.'
+    - '5. Reference stills are OPTIONAL (trundle 2026-10-27 11:14: none needed before pilot). When used: attach image_path, list qualities_locked, status moves none→candidate→locked only on trundle OK. Still
       locks qualities, not pixels. Pilot/first gen may run with empty slots.'
     - '6. After air / accepted CNB render: append aired_history with real events. Callbacks = those real events only. Generation quirks go in generation_quirks (optional tricks, never auto-callbacks).'
     - '7. Intended on-screen text: register in on_screen_text; apply consistently in post.'
-    - 8. Never loosen locked_base tv_safe / banned / no_dial / no_slapstick / Trundle-products-only.
+    - 8. Never loosen locked_base tv_safe / banned / no_dial / no_slapstick / trundle-products-only.
     rules:
     - No auto-promotion. Story Bot does not silently edit approved variables.
     - Smoke/test text (data/smoke/...) is not aired_history.
-    - Story Bot writes stories from Director's handoffs only and does not send clip prompts to CNB. Nothing airs/publishes/posts without Trundle OK.
+    - Story Bot writes stories from Director's handoffs only and does not send clip prompts to CNB. Nothing airs/publishes/posts without trundle OK.
     - Callbacks are real prior-clip events. Generation quirks are optional and separate.
     status_v2: in_progress
   engine: Use engine season arcs, episode beats, outline audit, slots, continuity, CNB export where they fit (trundle-rules-20261027-1404).
@@ -1284,90 +1284,90 @@ pending_flags_carried:
   items:
   - id: channel-4-whole-numbers-20261027-1657
     status: open
-    note: 'Trundle 2026-10-27: channels are whole numbers only (2-22); Military Boutique = Channel 4, never 4.1. Old decimal bug still burned into catalog clips needs a fix by CNB or Device Engineer. Path alias /workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique (CNB); 4_1 paths stay valid as history.'
+    note: 'trundle 2026-10-27: channels are whole numbers only (2-22); Military Boutique = Channel 4, never 4.1. Old decimal bug still burned into catalog clips needs a fix by CNB or Device Engineer. Path alias /workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique (CNB); 4_1 paths stay valid as history.'
   - id: v2-finish-pass-20261027-1609
     status: in_progress
     note: 'Story Bot 16:09 CT: house_ad_rules verified, coverage 0 missing, overlay refs added. Run 2 render partial (13/35); review in data/pilots/ch04-forward-supply-run2-20261027/REVIEW-run2.md.'
   - id: two-show-structure-20261027-1531
-    note: 'TRUNDLE 2026-10-27 15:31 CT: Ch 4 has TWO LINKED SHOWS. (1) Forward Supply = plot-driven ensemble about the crew living at the outpost; the crew actually USE the channel''s products in the story,
+    note: 'trundle 2026-10-27 15:31 CT: Ch 4 has TWO LINKED SHOWS. (1) Forward Supply = plot-driven ensemble about the crew living at the outpost; the crew actually USE the channel''s products in the story,
       organically, no selling. (2) A separate EXPLICIT marketing/catalog show on Ch 4 sells the SAME products with in-depth technical details: mostly far-fetched but practical and internally consistent,
-      believable as a real pitch (old catalog framing was not explicit enough to be believable). Working title TBD (pending Trundle). Products link the shows via product_registry_draft (one canonical spec
+      believable as a real pitch (old catalog framing was not explicit enough to be believable). Working title TBD (pending trundle). Products link the shows via product_registry_draft (one canonical spec
       per product, used by both; story use and marketing claims never contradict). WORKFLOW PRIORITY: STORYBOARD FIRST (data/pilots/ch04-forward-supply-pilot-20261027/storyboard-v1-DRAFT.md), then scripts/clips.
-      Trundle: accelerate.'
-    marketing_show_title: TBD-pending-Trundle
+      trundle: accelerate.'
+    marketing_show_title: TBD-pending-trundle
     existing_show_fit: 'Observation only, nothing changed: clearance-brief (90 s briefs revealed as catalog pitches; ''every brief ends in a product SKU'') is the natural seed for the explicit marketing
       show, but it is a 90 s sketch with no in-depth specs, so it would need a longer format. depot-after-hours (late-night Osmund/Tim sketch) is not a fit for marketing; could be a story-side spinoff.
-      Trundle''s call.'
+      trundle''s call.'
     status: OPEN
   - id: premise-correction-20261027-1526
-    note: 'TRUNDLE 2026-10-27 15:26 CT PREMISE CORRECTION: Forward Supply is a show WITH A PLOT, an ensemble outpost-life show. The crew (Bill D''bears, Mira S''mirin'', Osmund, Tim) live and work together
-      at a remote forward outpost; plot and relationships drive episodes. Gear/catalog is backdrop or at most a small in-world segment (exact catalog role OPEN for Trundle). The catalog logline/format/season_arc_main
-      are SUPERSEDED (kept as history). House ads go ONLY at clean breaks between story segments, never inside a scene (Trundle via CNB 15:26 CT; also in CNB CH04-PLAN.md). Kept: all locked looks/stills, voice
+    note: 'trundle 2026-10-27 15:26 CT PREMISE CORRECTION: Forward Supply is a show WITH A PLOT, an ensemble outpost-life show. The crew (Bill D''bears, Mira S''mirin'', Osmund, Tim) live and work together
+      at a remote forward outpost; plot and relationships drive episodes. Gear/catalog is backdrop or at most a small in-world segment (exact catalog role OPEN for trundle). The catalog logline/format/season_arc_main
+      are SUPERSEDED (kept as history). House ads go ONLY at clean breaks between story segments, never inside a scene (trundle via CNB 15:26 CT; also in CNB CH04-PLAN.md). Kept: all locked looks/stills, voice
       rules (post work), Bill demeanor, TV-safe, no real brands, banned list, commenter-vision flag. Cold Clearance pilot (480p draft, 21 clips, $9.25) was hand-built via gen.py on the catalog framing and
-      needs rework; files kept. Next: run the engine plot pipeline (season arc, episode beats, character arcs, outline audit) on the corrected premise, text only, after Trundle OKs the draft logline.'
-    proposed_logline: 'DRAFT-pending-Trundle: Four mismatched crew members live and work together at a remote forward outpost where the fog never lifts; between impossible orders from a command nobody has
+      needs rework; files kept. Next: run the engine plot pipeline (season arc, episode beats, character arcs, outline audit) on the corrected premise, text only, after trundle OKs the draft logline.'
+    proposed_logline: 'DRAFT-pending-trundle: Four mismatched crew members live and work together at a remote forward outpost where the fog never lifts; between impossible orders from a command nobody has
       met, their friendships, rivalries and Bill''s slow-burning fuse drive each episode.'
     catalog_role: OPEN
     ad_placement: clean breaks between story segments only; never inside a scene
     pilot_status: Cold Clearance 480p draft needs rework (catalog framing); files kept
   - id: commenter-vision-20261027-1514
-    note: 'TRUNDLE 2026-10-27 15:14 CT, CORE VISION (one of the most important parts of the livestream). (1) The first generation of content on the channels is the FOUNDATION that will be mutated and memed.
+    note: 'trundle 2026-10-27 15:14 CT, CORE VISION (one of the most important parts of the livestream). (1) The first generation of content on the channels is the FOUNDATION that will be mutated and memed.
       (2) Commenters steer the genealogy of shows and channels, character development (likely erratic), words spoken, settings and more, while coherence and continuity are kept throughout. (3) Memes rule,
       but there must be levers for real-time data and for characters'' self-reflection. Example: when a commenter prompt makes a character act out of character, the character can say something like ''idk
       why I''m doing this but [commenter handle] thinks it''s a good idea.'' (4) This is a self-improving, adaptive system steered by prompt snippets or headers inserted around the commenter''s prompt,
       never replacing what the commenter asked for. (5) Goal: monitor X comments and start videos using all existing rules plus the commenter-prompt rules still to be written. Applies after run 2 (see voice-post-and-run-plan-20261027-1443).
-      Still bound by: TV-safe, banned list, no real brands, home-only, and anything airing needs Trundle''s yes.'
+      Still bound by: TV-safe, banned list, no real brands, home-only, and anything airing needs trundle''s yes.'
   - id: voice-post-and-run-plan-20261027-1443
-    note: 'Trundle 2026-10-27 14:43 CT. (1) VOICE = POST WORK: the intense Ch 4 voice (Voice of Forward / You''re watching ID, and Bill''s eruption lines) is done in post: TTS plus effects (screams, hellhound
+    note: 'trundle 2026-10-27 14:43 CT. (1) VOICE = POST WORK: the intense Ch 4 voice (Voice of Forward / You''re watching ID, and Bill''s eruption lines) is done in post: TTS plus effects (screams, hellhound
       growls/barks), no on-screen lip-sync dependence for the ID. Video clips are generated for picture; intense audio is added or replaced after. (2) RUN PLAN after the first full run is accepted: run
       2 = quick second full run, treated as if live; then improvements; then focus on integrating commenter prompts; then run 3, live if needed. Votes are disregarded for the commenter-prompts part on runs
-      2 and 3. Any actual live airing still needs Trundle''s explicit yes at that time.'
+      2 and 3. Any actual live airing still needs trundle''s explicit yes at that time.'
   - id: bill-demeanor-20261027-1435
-    note: 'Trundle 2026-10-27 14:35 CT: Bill D''bears is the natural fit for the intense Ch 4 voice (screaming, hellhound barks, barking orders, most dangerous human alive, USA anti-matter-round patriotism),
+    note: 'trundle 2026-10-27 14:35 CT: Bill D''bears is the natural fit for the intense Ch 4 voice (screaming, hellhound barks, barking orders, most dangerous human alive, USA anti-matter-round patriotism),
       but he is NOT always unhinged. Most of the time he is calm. It is clear when his fuse is burning down: visible build-ups shown by fidgeting/restlessness, stretching, and bulging forehead veins in
       a classic anime-rage style. Full eruptions are rare payoffs, not his default. TV-safe: no swearing, no real threats. OPEN: whether Bill also becomes the You''re watching ID voice (replacing the unseen
-      Voice of Forward) is Trundle''s call; not changed yet.'
+      Voice of Forward) is trundle''s call; not changed yet.'
   - id: ch04-id-voice-20261027-1408
-    note: 'Trundle 2026-10-27 14:08 CT: Ch 4 You''re watching ID voice is absolutely intense: screaming, sometimes barking like a hellhound, barking orders at viewers, sounds like the most dangerous human
+    note: 'trundle 2026-10-27 14:08 CT: Ch 4 You''re watching ID voice is absolutely intense: screaming, sometimes barking like a hellhound, barking orders at viewers, sounds like the most dangerous human
       on the planet, extremely patriotic. Comments only on Ch 4 aired canon. On air stays TV-safe: no swearing, no slurs, no real threats; intensity comes from volume, growls, drill-sergeant orders. UPDATED
       14:13 CT: no flag or flag pride; patriotism = USA anti-matter-round line (see station_id_clips.id_voice).'
   - id: spacex-content-expansion
-    note: 'Trundle 2026-10-27 11:53 CT: SpaceX content must be current (not stale news) and use real usable video that is legally cleared, with credit where required; not just post-effect ticker overlays.
+    note: 'trundle 2026-10-27 11:53 CT: SpaceX content must be current (not stale news) and use real usable video that is legally cleared, with credit where required; not just post-effect ticker overlays.
       Skill expansion beyond current layering/masking (sourcing, rights check, credits). Not built; no sourcing yet.'
   - id: no-reference-stills
-    note: 'All reference slots empty/unlocked by design (Trundle 11:14: no stills needed before pilot). Stills optional.'
+    note: 'All reference slots empty/unlocked by design (trundle 11:14: no stills needed before pilot). Stills optional.'
   - id: smoke-bible-unapproved
     path: data/smoke/forward-supply-ep1-20261027/bible.json
     note: Test show bible only; not this Continuity Bible.
   - id: house-ads-expand-todo
-    note: 'Trundle has parked MVP/proof-of-concept products plus handpicked favorites. Expand products_allowed beyond Sky Diffuser, Lightning Lamp, StrataClip Ration Tin once he provides the list. SUPERSEDED
-      Trundle 12:59 CT: see house_ad_rules.open_product_list.'
+    note: 'trundle has parked MVP/proof-of-concept products plus handpicked favorites. Expand products_allowed beyond Sky Diffuser, Lightning Lamp, StrataClip Ration Tin once he provides the list. SUPERSEDED
+      trundle 12:59 CT: see house_ad_rules.open_product_list.'
   - id: gaps-noted-20261027-1315
     note: Story Bot audit 13:15 CT (add-only; no locked rule changed). (1) The show approval comments saying 'Bible itself still DRAFT' are stale; the Bible is APPROVED. (2) The candidates_from_notes status
       fields (parked, desk-prep) are internal only and must never go into prompts (dev_stage_rule). (3) reference_style's 'corner Ch 4 bug' means the change-flash only, never always-on. (4) station_id id_line
       needs the upcoming show name per slot (12:32 rule). (5) Forward Supply pilot is 145 s vs the 360 s episode length; full-length episodes still to write.
   - id: pilot-freeze-20261027-1320
-    note: 'TRUNDLE 13:20 CT: image slots stay EMPTY for the first pilot run. No additional character voice or look notes. Clarity-gap discussion (incl. gaps-noted-20261027-1315) is FROZEN until the first pilot
+    note: 'trundle 13:20 CT: image slots stay EMPTY for the first pilot run. No additional character voice or look notes. Clarity-gap discussion (incl. gaps-noted-20261027-1315) is FROZEN until the first pilot
       generation is complete.'
   - id: cast-picks-20261027-1352
-    note: 'TRUNDLE 13:52 CT: Mira = mira-C LOCKED, Osmund = osmund-B LOCKED (tag on pack strap is fine as picked). Overrides the 13:20 empty-slot note for cast. Bill = bill-B face/wardrobe but JACKED, a human-hormone-experiment
+    note: 'trundle 13:52 CT: Mira = mira-C LOCKED, Osmund = osmund-B LOCKED (tag on pack strap is fine as picked). Overrides the 13:20 empty-slot note for cast. Bill = bill-B face/wardrobe but JACKED, a human-hormone-experiment
       physique (massive muscles, jacket straining at the seams); re-rendering, then lock. Tim REDESIGN: a floating tesseract and/or a cyberpunk floating brain that is mostly cybernetic hardware; any brain
-      matter reads only as a smooth color/texture under glass, never gore. Re-rendering options, then lock. Supersedes the rabbit-ear drone look once Trundle picks.'
+      matter reads only as a smooth color/texture under glass, never gore. Re-rendering options, then lock. Supersedes the rabbit-ear drone look once trundle picks.'
   - id: cast-picks-20261027-1358
-    note: 'TRUNDLE 13:58 CT: Bill = bill-B2 LOCKED (jacked, hormone-experiment physique, jacket straining). Tim = tim-E direction (cyber-brain under glass dome) PLUS several small brain-implant chips: coin-sized
+    note: 'trundle 13:58 CT: Bill = bill-B2 LOCKED (jacked, hormone-experiment physique, jacket straining). Tim = tim-E direction (cyber-brain under glass dome) PLUS several small brain-implant chips: coin-sized
       discs with fine thread wires running into the brain texture. Generic implants only; never name or imply a real implant company in prompts. Lock after the re-render.'
   - id: trundle-rules-20261027-1404
-    note: 'TRUNDLE 14:04 CT. (1) ENGINE USE: the customized story-engine guides future work. Use its season arcs, episode outlines, ad mode, slot configs, per-show continuity, outline audit and CNB export
+    note: 'trundle 14:04 CT. (1) ENGINE USE: the customized story-engine guides future work. Use its season arcs, episode outlines, ad mode, slot configs, per-show continuity, outline audit and CNB export
       wherever they fit; watch for chances to use more of it. (2) PER-CHANNEL ID VOICE: each channel''s ''You''re watching'' ID has its own distinct voice character with distinct traits. That voice can
       comment on the show''s always-updating canon, meaning ONLY what actually aired (aired_history + callbacks), never unaired drafts or generation_quirks. Ch 4 voice = The Voice of Forward (unseen, warm
       late-night continuity VO, dry; catchphrase ''We''ll be right back... eventually.''). Pattern for every other channel: define id_voice {name, traits, catchphrase, canon_source} in that channel''s Bible
       before its first ID. Voice clones stay DEFERRED; until then it''s a TTS or stock voice. (3) CONTINUITY ORDERING: when several prompts touch the same thing, run real continuity checks. Proposed flow
-      (needs build + Trundle OK): one writer per show (Story Bot) writes scripts one at a time in air order; each new script is checked against this Bible + aired_history with the engine''s outline audit before
+      (needs build + trundle OK): one writer per show (Story Bot) writes scripts one at a time in air order; each new script is checked against this Bible + aired_history with the engine''s outline audit before
       export; aired_history/callbacks update only after air or an accepted render; CNB renders in the order exported. Not built yet: no queue or lock for overlapping requests.'
   - id: station-id-interval-todo
-    note: 'Interval set by Trundle 12:23 CT: about every 30 min. Samples to be generated after the first full round.'
+    note: 'Interval set by trundle 12:23 CT: about every 30 min. Samples to be generated after the first full round.'
 open_questions_for_trundle:
-- "OPEN ITEM (Trundle 2026-10-27 15:45 CT approved): Trundle's own YouTube/gameplay footage is used as in-world screen inserts in post (outpost screens, e.g. 'training footage') and as Ch 4 filler or bumpers. Generation prompts show only a blank softly glowing screen flagged POST_INSERT: trundles-videos; game titles never in prompts or on screen. Open: which clips, file handoff from Trundle's Mac (Story Bot never searches it), filler/bumper rules."
+- "OPEN ITEM (trundle 2026-10-27 15:45 CT approved): trundle's own YouTube/gameplay footage is used as in-world screen inserts in post (outpost screens, e.g. 'training footage') and as Ch 4 filler or bumpers. Generation prompts show only a blank softly glowing screen flagged POST_INSERT: trundles-videos; game titles never in prompts or on screen. Open: which clips, file handoff from trundle's Mac (Story Bot never searches it), filler/bumper rules."
 - Approve or edit the DRAFT Forward Supply logline?
 - Marketing show title, and is clearance-brief its seed? Episode length?
 - Catalog role inside Forward Supply (none / small in-world segment)?
@@ -1378,46 +1378,46 @@ open_questions_for_trundle:
 - 'Redo of old C16/C17/C18/C20: still wanted or moot now?'
 - Commenter handles on screen?
 changelog:
-- "2026-10-28 12:45 CT: add observational_rule.scope_correction_20261028 (no-eye-contact global per Trundle 10:41 CT; window-into-lives Forward Supply-only); add-only, Story Bot"
-- "2026-10-28 12:40 CT: add observational_rule.scope_20261028 (Forward Supply only, not global/channel-wide; Trundle 12:33 CT); add-only, Story Bot"
-- "2026-10-27 18:30 CT: add overlay_text_rule (Trundle 18:29 CT); add-only"
+- "2026-10-28 12:45 CT: add observational_rule.scope_correction_20261028 (no-eye-contact global per trundle 10:41 CT; window-into-lives Forward Supply-only); add-only, Story Bot"
+- "2026-10-28 12:40 CT: add observational_rule.scope_20261028 (Forward Supply only, not global/channel-wide; trundle 12:33 CT); add-only, Story Bot"
+- "2026-10-27 18:30 CT: add overlay_text_rule (trundle 18:29 CT); add-only"
 - date: 2026-10-27 18:20 CT
   by: Story Bot
   change: "Add-only: negative tag 'no text reading [real first name]' replaced by 'no personal names' in channel configs 04/06/08/10/12/14 and intake.py (Story Bot 18:20 CT), so the name is never sent to a model. Older lines here keep the old wording as history; see negative_tag_note_20261027_1820."
 - "2026-10-27 18:10 CT: add prompt_states_rule (unified states per shared CLIP-PROMOTION-PROCESS 18:09); add-only"
 - date: 2026-10-27 18:08 CT
   by: Story Bot
-  change: "Add-only: preemption_rule (Trundle 18:01 CT: slots point to lineage heads, supersede never deletes, rollback = move head, cp- prompt ids inherited, same anchors per slot) and prompt_queue_rule + duplicate_rule (Trundle 18:05 CT). Proposed addendum /workspace/streaming/queues/PREEMPTION-ADDENDUM.md; checker tests added."
+  change: "Add-only: preemption_rule (trundle 18:01 CT: slots point to lineage heads, supersede never deletes, rollback = move head, cp- prompt ids inherited, same anchors per slot) and prompt_queue_rule + duplicate_rule (trundle 18:05 CT). Proposed addendum /workspace/streaming/queues/PREEMPTION-ADDENDUM.md; checker tests added."
 - date: 2026-10-27 18:01 CT
   by: Story Bot
-  change: "Add-only: continuity_queue_rule (Trundle 17:58 CT: predetermined queues, known first/last frames, new clips only at clean breaks matched to neighbor frames) and promotion_process (pointer to shared/streaming/CLIP-PROMOTION-PROCESS-20261027.md)."
+  change: "Add-only: continuity_queue_rule (trundle 17:58 CT: predetermined queues, known first/last frames, new clips only at clean breaks matched to neighbor frames) and promotion_process (pointer to shared/streaming/CLIP-PROMOTION-PROCESS-20261027.md)."
 - date: 2026-10-27 17:50 CT
   by: Story Bot
-  change: "Add-only: hard_rules.no_trundle_name_20261027_1744 (never write his real first name; existing clips get a solid black cover box, status needs_name_cover, Trundle 17:46 CT), no_kids_20261027_1744 (Drawbridge Puffs pulled), no_military_boutique_clip_text_20261027_1744 (channel-name metadata allowed). Negatives gain no on-screen names, no text reading Trundle, no children, no kids."
+  change: "Add-only: hard_rules.no_trundle_name_20261027_1744 (never write his real first name; existing clips get a solid black cover box, status needs_name_cover, trundle 17:46 CT), no_kids_20261027_1744 (Drawbridge Puffs pulled), no_military_boutique_clip_text_20261027_1744 (channel-name metadata allowed). Negatives gain no on-screen names, no text reading trundle, no children, no kids."
 - date: 2026-10-27 18:00 CT
   by: Story Bot
-  change: "Add-only: hard_rules.no_creator_name_on_screen (Trundle 17:43 CT); negatives gain no names, no signatures, no watermarks; older product videos with visible MILITARY BOUTIQUE text pulled as unusable."
+  change: "Add-only: hard_rules.no_creator_name_on_screen (trundle 17:43 CT); negatives gain no names, no signatures, no watermarks; older product videos with visible MILITARY BOUTIQUE text pulled as unusable."
 - date: 2026-10-27 17:35 CT
   by: Story Bot
-  change: "Add-only: audio_rule for product and ad content (Trundle 17:33 CT: newest product clips have a loud, annoying low hum)."
+  change: "Add-only: audio_rule for product and ad content (trundle 17:33 CT: newest product clips have a loud, annoying low hum)."
 - date: 2026-10-27 17:30 CT
   by: Story Bot
-  change: "Add-only: observational_rule.remake_rule (Trundle 17:27 CT): remakes must have no eye contact with the camera."
+  change: "Add-only: observational_rule.remake_rule (trundle 17:27 CT): remakes must have no eye contact with the camera."
 - date: 2026-10-27 16:57 CT
   by: Story Bot
-  change: "Channel number sweep (Trundle): Military Boutique is Channel 4, whole numbers 2-22 only. Replaced the descriptive 'old 4.1 badge' wording in open items; old-numbering mapping history kept. 4_1 folder paths unchanged (history); alias 4_Military-Boutique noted."
+  change: "Channel number sweep (trundle): Military Boutique is Channel 4, whole numbers 2-22 only. Replaced the descriptive 'old 4.1 badge' wording in open items; old-numbering mapping history kept. 4_1 folder paths unchanged (history); alias 4_Military-Boutique noted."
 - date: 2026-10-27 16:09 CT
   by: Story Bot
   change: "Finish pass: house_ad_rules confirmed present (not null); v1->v2 coverage re-run, 99 keys, 0 missing; overlay_variants_ref added to product_registry and workflow."
 - date: 2026-10-27 16:02 CT
   by: Story Bot
-  change: "Sales overlay sheet (Trundle 15:58 CT): spec_v2_DRAFT added to product_registry (prices, specs, videos); new DRAFT entries for cruiser, exo-gauntlet, scout drone, field glass, graphite cloak, modular field pack."
+  change: "Sales overlay sheet (trundle 15:58 CT): spec_v2_DRAFT added to product_registry (prices, specs, videos); new DRAFT entries for cruiser, exo-gauntlet, scout drone, field glass, graphite cloak, modular field pack."
 - date: 2026-10-27 15:48 CT
   by: Story Bot
-  change: "Open item added: Trundle's footage as post screen inserts and Ch 4 filler/bumpers (Trundle 15:45 CT). Run 2 S2F/S2G use it."
+  change: "Open item added: trundle's footage as post screen inserts and Ch 4 filler/bumpers (trundle 15:45 CT). Run 2 S2F/S2G use it."
 - date: 2026-10-27 15:45 CT
   by: Story Bot
-  change: v2 created from v1 (Trundle 15:36 yes + 15:38 nothing-dropped rule).
+  change: v2 created from v1 (trundle 15:36 yes + 15:38 nothing-dropped rule).
 reference_image_targets:
   status: locked (4 cast) / draft (others)
   items:
@@ -1430,7 +1430,7 @@ reference_image_targets:
     - cool skin tone
     image_path: /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png
     status: locked
-    notes: 'LOCKED. Turnarounds approved as-is by Trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
+    notes: 'LOCKED. Turnarounds approved as-is by trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
     turnaround_paths:
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png
@@ -1446,7 +1446,7 @@ reference_image_targets:
     - cyan rim on left cheek
     image_path: /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png
     status: locked
-    notes: 'LOCKED. Turnarounds approved as-is by Trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
+    notes: 'LOCKED. Turnarounds approved as-is by trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
     turnaround_paths:
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png
@@ -1462,7 +1462,7 @@ reference_image_targets:
     - no gore
     image_path: /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png
     status: locked
-    notes: 'LOCKED. Turnarounds approved as-is by Trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
+    notes: 'LOCKED. Turnarounds approved as-is by trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
     turnaround_paths:
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png
     locked_description: 'Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small
@@ -1476,7 +1476,7 @@ reference_image_targets:
     - field-pack prop
     image_path: /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png
     status: locked
-    notes: 'LOCKED. Turnarounds approved as-is by Trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
+    notes: 'LOCKED. Turnarounds approved as-is by trundle 2026-10-27 14:21 CT (Mira: dress shoes, side hides dots; Tim: straight rear view). Pilot prompts use locked_description.'
     turnaround_paths:
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png
     - /workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png
@@ -1526,7 +1526,7 @@ reference_image_targets:
     - no logos
     image_path: ''
     status: none
-    notes: 'Empty. Trundle 11:14: no stills before pilot.'
+    notes: 'Empty. trundle 11:14: no stills before pilot.'
   - variable_id: product_lightning_lamp
     qualities_locked:
     - contained flash vessel
@@ -1535,7 +1535,7 @@ reference_image_targets:
     - no logos
     image_path: ''
     status: none
-    notes: 'Empty. Trundle 11:14: no stills before pilot.'
+    notes: 'Empty. trundle 11:14: no stills before pilot.'
 related_files:
   status: live sources (not edited by v2; v2 reorganizes only the Ch 4 Bible)
   files:
@@ -1566,7 +1566,7 @@ related_files:
   - /workspace/shared/streaming/STATUS.md
   - /workspace/shared/streaming/house-ad-product-specs-20261027.md
   - /workspace/streaming/story-engine/data/continuity/forward-supply.json
-  - /workspace/shared/streaming/MEDIA-LIBRARY.md  # 2026-10-27: single master video index (Trundle 15:48 CT); filler + in-show TV-screen inserts
+  - /workspace/shared/streaming/MEDIA-LIBRARY.md  # 2026-10-27: single master video index (trundle 15:48 CT); filler + in-show TV-screen inserts
 source_map:
   meta: v1 meta (lines 12-23)
   channel: v1 meta flags 12-22; locked_base.channel 135-365 (tv_safe_rules, banned ~178, house_ad_rules 206, station_id_clips 328); channel_lineup 70; trundle_notes_* ~95-134; on_screen_text 763
@@ -1696,54 +1696,54 @@ coverage_check:
     variables.product_lightning_lamp: carried (see cast/locations/gags_and_snippets/product_registry)
     variables.product_strata_clip_ration_tin: carried (see cast/locations/gags_and_snippets/product_registry)
 
-# 2026-10-27 16:06 CT add-only: Trundle t95u "do both yours and theirs"
+# 2026-10-27 16:06 CT add-only: trundle t95u "do both yours and theirs"
 overlay_variants_decision_20261027:
   status: approved_by_trundle
   quote: "Honestly I like their concept images so we can just do both yours and theirs"
   variant_A: {owner: Commercial News Break, source: "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/sales-overlay-20261027/MANIFEST.json", note: "kept as-is; CNB prices/specs valid for A"}
   variant_B: {owner: Story Bot spec sheet, source: "/workspace/shared/streaming/ch04-sales-overlay-sheet-DRAFT.md", note: "spec_v2_DRAFT prices/specs; CNB to render as post-only overlay"}
-  open: [house-ad pricing for Sky Diffuser and Lightning Lamp still needs Trundle OK, old decimal channel badge on clips (must read Channel 4)]
+  open: [house-ad pricing for Sky Diffuser and Lightning Lamp still needs trundle OK, old decimal channel badge on clips (must read Channel 4)]
 
-# 2026-10-27 16:51 CT Trundle: observational rule (add-only)
+# 2026-10-27 16:51 CT trundle: observational rule (add-only)
 observational_rule:
-  source: "Trundle 2026-10-27 16:51 CT: a window into the life of these three people and a floating brain"
+  source: "trundle 2026-10-27 16:51 CT: a window into the life of these three people and a floating brain"
   rule: Characters never look into or address the camera. Fly-on-the-wall, observational framing; eyelines stay on each other, their work, or off-frame. Cast = Bill, Mira, Osmund (people) + Tim (floating cybernetic brain).
   prompt_tail: "Observational fly-on-the-wall framing; no one looks at or addresses the camera; eyelines on each other or their task."
-  scope_20261028: {applies_to: "Forward Supply only (the retired Ch 4 three-hosts-and-a-floating-brain show: Bill, Mira, Osmund, Tim)", global: false, channel_wide: false, not_for: [BLACK ICE, other shows, other channels], note: "Black Ice keeps its own separate opt-in no-eye-contact line in its _wrapper.md", source: "Trundle 2026-10-28 12:33 CT; Director wording"}
-  scope_correction_20261028: {note: "Only the 'window into lives' observational framing is Forward Supply-only. No eye contact with the camera is GLOBAL: every character, every show, every channel.", supersedes: scope_20261028 (eye-contact part only), source_quote: '"Hey man just a heads up, for future reference. Characters should never look into the camera. Maybe on a 4th wall break, but most 4th wall breaks will be nuanced/subtle, not just looking into the camera" (Trundle, Oct 28 2026 10:41 AM CT, Director chat t33u)', recorded_by: "Story Bot 2026-10-28 12:45 CT, Director spec"}
-  remake_rule: "Trundle 2026-10-27 17:27 CT ('Rerun with them NOT looking into the cameras, yes.'): remakes must have no eye contact with the camera; every remake prompt carries side/three-quarter framing, explicit eyelines, and no-eye-contact negatives."
+  scope_20261028: {applies_to: "Forward Supply only (the retired Ch 4 three-hosts-and-a-floating-brain show: Bill, Mira, Osmund, Tim)", global: false, channel_wide: false, not_for: [BLACK ICE, other shows, other channels], note: "Black Ice keeps its own separate opt-in no-eye-contact line in its _wrapper.md", source: "trundle 2026-10-28 12:33 CT; Director wording"}
+  scope_correction_20261028: {note: "Only the 'window into lives' observational framing is Forward Supply-only. No eye contact with the camera is GLOBAL: every character, every show, every channel.", supersedes: scope_20261028 (eye-contact part only), source_quote: '"Hey man just a heads up, for future reference. Characters should never look into the camera. Maybe on a 4th wall break, but most 4th wall breaks will be nuanced/subtle, not just looking into the camera" (trundle, Oct 28 2026 10:41 AM CT, Director chat t33u)', recorded_by: "Story Bot 2026-10-28 12:45 CT, Director spec"}
+  remake_rule: "trundle 2026-10-27 17:27 CT ('Rerun with them NOT looking into the cameras, yes.'): remakes must have no eye contact with the camera; every remake prompt carries side/three-quarter framing, explicit eyelines, and no-eye-contact negatives."
 audio_rule:
-  source: "Trundle 2026-10-27 17:33 CT: the newest product clips have a loud, annoying low hum"
+  source: "trundle 2026-10-27 17:33 CT: the newest product clips have a loud, annoying low hum"
   applies_to: [product clips, product stills, house ads, catalog b-roll]
   rule: Quiet, unobtrusive ambient bed. No droning low hum, no sub-bass rumble, no engine drone. Dialogue and VO stay clearly audible above the bed (VO-friendly level).
   prompt_line: "Audio: quiet, unobtrusive ambient bed (soft room tone, faint servo ticks, light showroom air); no droning low hum, no sub-bass rumble, no engine drone; dialogue and VO sit clearly above the bed."
   negative_tags: [no low hum, no droning bass, no sub-bass rumble, no engine drone]
 hard_rules:
   no_creator_name_on_screen:
-    source: "Trundle 2026-10-27 17:43 CT (hard rule)"
+    source: "trundle 2026-10-27 17:43 CT (hard rule)"
     rule: His real first name must never appear on screen in any video (prompts, overlays, captions, supers, snippets, end cards). Checker and intake fail any on-screen text containing his real first name (whole word, any case).
     negative_tags: [no names, no signatures, no watermarks]
     enforcement: live/checker.py creator_name_hits; live/intake.py moderate + load_snippets; OCR scan list /workspace/streaming/UNUSABLE-20261027.jsonl
   no_military_boutique_burned_text:
-    source: "Trundle 2026-10-27 17:43 CT"
+    source: "trundle 2026-10-27 17:43 CT"
     rule: Product and house-ad videos with MILITARY BOUTIQUE visible on screen are older versions and are pulled as unusable (see UNUSABLE-20261027.jsonl).
   no_trundle_name_20261027_1744:
-    source: "Trundle 2026-10-27 17:44 CT, revised 17:46 CT (hard rule)"
+    source: "trundle 2026-10-27 17:44 CT, revised 17:46 CT (hard rule)"
     rule: "Never write his real first name in any prompt, overlay, caption, super, script, VO or dialogue; the name must never appear on screen or be spoken in any new video. Existing clips that show his real first name are NOT pulled: cover the word with a solid black box (status needs_name_cover; boxes and time ranges in /workspace/streaming/NAME-COVER-20261027.json). Spoken use of his real first name in existing audio is flagged for a VO fix."
     negative_tags: [no on-screen names, no text reading his real first name]
     enforcement: live/checker.py creator_name_hits (whole word, any case); live/intake.py negative_prompt; /workspace/streaming/PULLED-20261027.jsonl
   no_kids_20261027_1744:
-    source: "Trundle 2026-10-27 17:44 CT (hard rule)"
+    source: "trundle 2026-10-27 17:44 CT (hard rule)"
     rule: Any clip that mentions or shows kids, children, a child, toddlers or babies is pulled as unusable. The Drawbridge Puffs commercial is pulled for this (every copy).
     negative_tags: [no children, no kids]
     enforcement: live/checker.py kid_hits (kid/kids/child/children/toddler/baby/babies, whole word, negated phrases ignored); /workspace/streaming/PULLED-20261027.jsonl rule kids
   no_military_boutique_clip_text_20261027_1744:
-    source: "Trundle 2026-10-27 17:44 CT"
+    source: "trundle 2026-10-27 17:44 CT"
     rule: Product videos still showing the text Military Boutique are older versions and unusable (rule mb_text). The channel name in metadata (channel, channel_name, header, visual_prompt context) is allowed; only visible clip text is blocked.
     enforcement: live/checker.py mb_text_hits (on_screen_text, overlay, overlay_text, caption, super, subtitle, drawtext, burned_text, tagline)
 continuity_queue_rule:
   status: locked
-  source: "Trundle 2026-10-27 17:58 CT"
+  source: "trundle 2026-10-27 17:58 CT"
   rule: Every channel queue is set in advance with a fixed play order; every clip's first and last frames are known. Newly generated clips go in only at planned clean breaks, matched to the last frame of the clip before and the first frame of the clip after. Anchor frames come from clean untagged masters only.
   plan: /workspace/streaming/queues/QUEUE-PLAN-20261027.json
   order_source: /workspace/shared/streaming/QUEUE-LOAD-<date>.json when it exists
@@ -1753,25 +1753,25 @@ promotion_process:
   note: The shared doc is the only process doc (do not copy it here). Story Bot parts summarized in /workspace/streaming/queues/PROMOTION-PROCESS.md.
 preemption_rule:
   status: locked
-  source: "Trundle 2026-10-27 18:01 CT"
+  source: "trundle 2026-10-27 18:01 CT"
   rule: Queue slots point to a lineage (slot_head = lineage 4.N, root #, head #) and play the newest READY and APPROVED version. New versions carry the same lineage, gen+1, parent #, supersedes #old and slot_id; approval moves the head. Older versions become superseded (superseded_by, time), never deleted; rollback moves the head back. Comment prompts have permanent cp- ids in add-only COMMENT-PROMPTS.jsonl; clip prompt_ids inherit the parent's list and append their own; superseding never removes or edits a prompt row. Every version in a slot matches the same anchor frames.
   addendum: /workspace/streaming/queues/PREEMPTION-ADDENDUM.md
   enforcement: live/checker.py slot_head, approve, rollback, preemption_fails; tests/test_preemption.py
 prompt_queue_rule:
   status: locked
-  source: "Trundle 2026-10-27 18:05 CT"
+  source: "trundle 2026-10-27 18:05 CT"
   rule: Comment prompts are never deleted. State is waiting, combined, aired or held, and changes only through new add-only rows. Prompts that fit together (same show, premise or character) merge into one clip whose prompt_ids list every included prompt; all count as used. Wait time raises priority; max_wait_loops defaults to 3 (configurable); at max wait a prompt takes the next clean break ahead of new prompts. A prompt failing a filter is held with its reason and rewritten safely if possible.
   enforcement: live/checker.py next_for_break, combine, hold_prompt; tests/test_prompt_queue.py
 duplicate_rule:
   status: locked
-  source: "Trundle 2026-10-27 18:05 CT"
+  source: "trundle 2026-10-27 18:05 CT"
   rule: Premise fingerprint (show + premise keywords or embedding). A near-duplicate becomes a sibling in the existing lineage, then (a) same idea rotates in the slot, (b) a new take becomes the next episode or a callback, (c) a far drift spins off a new lineage with a link back. Exact copies (same sha or phash) air once; the extra copies are kept as linked duplicates, never dropped.
   enforcement: live/checker.py fingerprint, classify_duplicate, register_clip
 prompt_states_rule:
   source: /workspace/shared/streaming/CLIP-PROMOTION-PROCESS-20261027.md#18:09
   open: [WAITING, PARKED]
   terminal: [AIRED, MERGED, WITHDRAWN]
-  withdrawn_by: Trundle only
+  withdrawn_by: trundle only
   read_aliases: {waiting: WAITING, combined: MERGED, held: PARKED, aired: AIRED}
   skipped_breaks_cap: 3
   cap_guarantees_next_break: true
@@ -1782,16 +1782,16 @@ negative_tag_note_20261027_1820:
   by: Story Bot 18:20 CT
   note: "Supersedes the old wording in hard_rules and changelog. Matching still done by checker.creator_name_hits; the name is never put in a prompt."
 overlay_text_rule:
-  set_by: Trundle 2026-10-27 18:29 CT
+  set_by: trundle 2026-10-27 18:29 CT
   extract: [prices, labels, captions, signs, quoted says/reads/with-the-words text]
   never_baked_into_generation: true
   gen_prompt_constraint: "no readable text, no signage lettering"
   overlay_spec_fields: [text, kind, position, start_s, end_s, style, prompt_id, blocked, airable]
   burn_in: post-process on separate copy (same as genealogy tag)
   clean_master_is_parent_for: [mutations, anchor_frames]
-  filters: [no Trundle, no kids, no real brands, no money/donation/tip lines, no Military Boutique text]
+  filters: [no trundle, no kids, no real brands, no money/donation/tip lines, no Military Boutique text]
   editable_without_rerender: true
   code: checker.split_overlay_text, checker.gen_prompt_requests_text, checker.overlay_specs_for
 
-# 20261028-1157 add-only: TEXT RULE (Trundle 11:55 AM CT) — in-scene text is generated in video; overlays only for corner tag, clean lower-thirds, or failed text.
+# 20261028-1157 add-only: TEXT RULE (trundle 11:55 AM CT) — in-scene text is generated in video; overlays only for corner tag, clean lower-thirds, or failed text.
 text_rule_20261028: {in_scene_text: generate, overlay_only_for: [corner_tag, clean_lower_thirds, failed_generation]}

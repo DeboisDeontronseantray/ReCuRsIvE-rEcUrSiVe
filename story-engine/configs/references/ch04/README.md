@@ -22,7 +22,7 @@ QA stills (parody sheets): `/workspace/fakenews/out/qa/*4_1_Military-Boutique*_p
 - Overlay: `.../overlays/overlay_4_1_Military-Boutique.png`
 - Work frames: `.../work/frame_4_1_*.png`
 
-## House ads (Trundle's own)
+## House ads (trundle's own)
 - Sky Diffuser: `/workspace/fakenews/channel-ready/thunder-trundle/house-ads/20261026_232450_housead_skydiffuser_thunder-trundle-home_parody.mp4`
 - Lightning Lamp: `/workspace/fakenews/channel-ready/thunder-trundle/house-ads/20261026_232450_housead_lightninglamp_thunder-trundle-home_parody.mp4`
 
@@ -35,11 +35,11 @@ QA stills (parody sheets): `/workspace/fakenews/out/qa/*4_1_Military-Boutique*_p
 ## Seed video (NOT story IP)
 Death Stranding public clips mapped in CHANNEL-MAPPING-DRAFT.md are seed VIDEO only. Do not put game/publisher names on screen. Stories use Forward Supply original fiction.
 
-## Gaps (need Trundle / CNB / stills)
-1. **Host reference stills** for Bill D'bears, Mira S'mirin', Osmund, Tim — all empty/unlocked (Trundle 11:14: none needed before pilot; optional later).
+## Gaps (need trundle / CNB / stills)
+1. **Host reference stills** for Bill D'bears, Mira S'mirin', Osmund, Tim — all empty/unlocked (trundle 11:14: none needed before pilot; optional later).
 2. **Location stills** for Catalog Floor / Briefing Tube / Depot Bay — only product pedestals exist.
 3. **Character LOOKs as image refs** — configs have text look prompts only.
 4. Unlisted Gaming titles on Mac not sorted (CHANNEL-MAPPING hold) — not blocking Story Bot fiction.
-5. No finished Channel 4 news clip yet (segments are config-only until CNB renders after Trundle OK).
+5. No finished Channel 4 news clip yet (segments are config-only until CNB renders after trundle OK).
 
 - Path alias (2026-10-27, verified with ls): /workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique -> 4_1_Military-Boutique (symlink). Old 4_1 paths and filenames stay valid as history. Channel number is Channel 4.

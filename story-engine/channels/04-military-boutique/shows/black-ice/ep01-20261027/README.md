@@ -13,4 +13,4 @@ Pure show-only master: /workspace/fakenews/channel-ready/thunder-trundle/4_1_Mil
 Use tc_pure_in/tc_pure_out. The old tc_in/tc_out were measured with ads and are SUPERSEDED.
 
 ## Approval
-APPROVED by Trundle, Oct 28 2026 3:16 PM CT: black-ice-20261027_ch4_ep1_showonly_v2_720p_parody.mp4 (pure master, sha256 80073099...5669).
+APPROVED by trundle, Oct 28 2026 3:16 PM CT: black-ice-20261027_ch4_ep1_showonly_v2_720p_parody.mp4 (pure master, sha256 80073099...5669).

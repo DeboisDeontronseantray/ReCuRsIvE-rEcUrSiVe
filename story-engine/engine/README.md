@@ -9,4 +9,4 @@
 - checker.py       currently /workspace/streaming/story-engine/live/checker.py (95/95 tests)
 - resolve_embed.py  WRITTEN: ref (#58 / 4.1:2) -> clean master; prints origin:embed LINEAGE row for CNB to append
 
-2026-10-28 12:45 CT: no-eye-contact always-on (global, Trundle 10:41 CT); channel lookup via CHANNEL_DIRS for 02/04/06/08/10/12/14, unknown/missing channel raises UnknownChannelError (no Ch 4 fallback). Story Bot per Director spec.
+2026-10-28 12:45 CT: no-eye-contact always-on (global, trundle 10:41 CT); channel lookup via CHANNEL_DIRS for 02/04/06/08/10/12/14, unknown/missing channel raises UnknownChannelError (no Ch 4 fallback). Story Bot per Director spec.

@@ -55,7 +55,7 @@ def test_layer_count_unchanged():
     assert ap.LAYER_NAMES == ["global", "channel", "format", "show_or_ad", "shot", "commenter"]
 
 
-# 2026-10-28 Director (Trundle t132): reference image required.
+# 2026-10-28 Director (trundle t132): reference image required.
 def test_dense_missing_refs_raises():
     import pytest
     with pytest.raises(ap.MissingReferenceImageError, match="at least 1 reference image"):

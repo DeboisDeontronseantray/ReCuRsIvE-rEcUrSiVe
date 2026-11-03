@@ -11,7 +11,7 @@ in_scene_text: []        # exact quoted words, generated in video
 overlay_fallback: false  # true only if generated text failed
 continuity_ref: ../continuity.yaml#<shot_id>
 lineage: {tag: null, clip_no: null, parent: null}
-# Optional: older lineage clips played on a screen in this shot (Trundle via Director, Oct 28 2026).
+# Optional: older lineage clips played on a screen in this shot (trundle via Director, Oct 28 2026).
 # Generate the screen blank or green; CNB pins the CLEAN master in with ffmpeg afterward.
 screen_inserts: []
 #  - ref: "#58"            # global_no, or {lineage: "4.1", gen: 2}
@@ -22,7 +22,7 @@ screen_inserts: []
 #    treatment: crt        # crt | scanlines | none
 #    audio: muted          # muted | low
 
-# --- Prompt layers (Trundle, Oct 28 2026, 12:07 PM CT) ---
+# --- Prompt layers (trundle, Oct 28 2026, 12:07 PM CT) ---
 # System wrappers are ours, always applied in this order, never editable by commenters:
 system_wrappers:
   global: rules/hard-limits.yaml          # TV-safe, no kids, no real brands, never the owner's real first name

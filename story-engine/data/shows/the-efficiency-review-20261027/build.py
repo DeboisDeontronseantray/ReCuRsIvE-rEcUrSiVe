@@ -50,7 +50,7 @@ def shot(sid, dur, cast, camera, action, dialogue, captions, chain, loc='showroo
         "dialogue": [{"speaker": NAMES[s], "line": l} for s, l in dialogue], "visual_prompt": gen,
         "reference_images": refs(*[KEYS[c] for c in cast]), "negative_prompt": NEG,
         "on_screen_text_post": [c[0] for c in captions], "post_audio": POST_AUDIO,
-        "status": "PROMPT ONLY - not rendered; Trundle approved render 8:16 PM CT cap $9.30 (per Director relay); airing needs a separate yes"})
+        "status": "PROMPT ONLY - not rendered; trundle approved render 8:16 PM CT cap $9.30 (per Director relay); airing needs a separate yes"})
 # ACT 1
 shot("ER-01", 10, ['Osmund'], "slow push-in, one move.",
      "Wide view of the dark, closed showroom. Osmund hurries in, out of breath, holding a sealed plain folder against his chest, and stops at center floor.",

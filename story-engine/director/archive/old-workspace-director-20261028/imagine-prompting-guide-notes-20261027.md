@@ -2,13 +2,13 @@
 Director, 2026-10-27, ~8:40 PM CT. Home-only reference. No other bots were contacted, and no existing files were edited.
 
 ## Source status (read first)
-- Trundle's post: https://x.com/imagine/status/2115214583983935517 is an X Article titled "Inside Episode 1: The Oath". t.co resolves to x.com/i/article/2114831189475483648.
+- trundle's post: https://x.com/imagine/status/2115214583983935517 is an X Article titled "Inside Episode 1: The Oath". t.co resolves to x.com/i/article/2114831189475483648.
 - **The full article body could NOT be retrieved.** X requires a login. The X API returned only the title, and the fxtwitter and xitter mirrors were blocked or returned 404.
 - Instead, these notes come from related material by the same team, read this turn:
   - [A] @imagine "Odyssey Challenge Cinematic Guide" (earlier article, mirror): https://xitter.cf/imagine/article/2092675531057885288
   - [B] Odyssey Pilot tips thread (Wonder Studios / Dev Walker): https://helpolos.com/channel/@grok/3gNg7NdoPIk
   - [C] Community Grok Imagine 1.5 prompt guide: https://github.com/seaimagineai/awesome-grok-imagine-prompts/blob/main/docs/guides/en-US.md
-- To get the real text, open the article logged in (box browser) or ask Trundle to paste it.
+- To get the real text, open the article logged in (box browser) or ask trundle to paste it.
 
 ## 1. Key techniques
 1. **Aim before you create [A].** First decide "what should the scene do for the viewer?" Then choose the shots for that experience.
@@ -31,7 +31,7 @@ Prompts: /workspace/streaming/story-engine/data/shows/the-efficiency-review-2026
 - **Add a stable last-frame instruction** to every chained shot: "end on a stable held composition."
 - **Add a texture line:** "natural skin, pores, fine lines; slight off-level framing" on the character shots. Keep it subtle so it doesn't fight the late-90s broadcast polish. Leave the ad pods clean.
 - Leave everything else alone. The checker passes and the cap is $14.50. These are wording changes that don't add cost.
-- If CNB has already started rendering, don't interrupt (Trundle: "Don't bug any working bots rn"). Apply these to retries only, changing one variable per retry.
+- If CNB has already started rendering, don't interrupt (trundle: "Don't bug any working bots rn"). Apply these to retries only, changing one variable per retry.
 
 ### For future episodes
 - Open every brief with a "what this scene does for the viewer" line per act.

@@ -1,4 +1,4 @@
-home_only: true             # nothing airs, posts or loads into ErsatzTV without Trundle's own yes
+home_only: true             # nothing airs, posts or loads into ErsatzTV without trundle's own yes
 air_approval: trundle_own_words_only   # an agent's relay is not approval; check the transcript
 tv_safe: true
 no_kids: true

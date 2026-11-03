@@ -1,4 +1,4 @@
-# 2026-10-28 11:55 PM CT Director (Trundle pt150u): opt-in --look. Add-only.
+# 2026-10-28 11:55 PM CT Director (trundle pt150u): opt-in --look. Add-only.
 import sys, subprocess, json
 sys.path.insert(0, "/workspace/streaming/story-engine/engine")
 import assemble_prompt as ap

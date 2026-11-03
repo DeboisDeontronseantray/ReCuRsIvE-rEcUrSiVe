@@ -10,7 +10,7 @@ comment_prompts:
   max_wait_breaks: null        # TO SET: guaranteed a slot in the next break after this
   duplicates: sibling_version_in_lineage
 audio: {lufs: -16, true_peak_max_dbtp: -1.5}
-prompt_layers:   # Trundle Oct 28 12:07 PM CT
+prompt_layers:   # trundle Oct 28 12:07 PM CT
   system_wrappers: [global, channel, show_or_commercial]   # inserted by us, always, not comment prompts
   commenter_may_set: [screen_inserts, look, in_scene_text, action, location, props]
   commenter_may_not_override: system_wrappers
@@ -24,7 +24,7 @@ prompt_layers_locks:
   seed: null                               # Grok Imagine video has no seed (CNB 12:27 PM CT); use consistency_key
   refs: {per_character_max: 2, total_max: 14, mode: ref_mode_unverified}
   max_clip_s: 15
-# Trundle 12:55 PM CT Oct 28 via Director, assigned by Smart Home Lead (workitem-20261028-1257-queue-policy-slots). Add-only; this block wins over comment_prompts.max_wait_breaks: null above.
+# trundle 12:55 PM CT Oct 28 via Director, assigned by Smart Home Lead (workitem-20261028-1257-queue-policy-slots). Add-only; this block wins over comment_prompts.max_wait_breaks: null above.
 comment_prompt_slots:
   render_lead_time:
     target: first_future_slot_starting_at_least(now + render_eta + margin)

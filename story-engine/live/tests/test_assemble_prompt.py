@@ -118,7 +118,7 @@ def test_chain_basis_director_confirmed():
     assert ch == ["BI-06"]
 
 
-# 2026-10-28 12:40 CT: no-eye-contact is per-show opt-in (Trundle 12:33 CT)
+# 2026-10-28 12:40 CT: no-eye-contact is per-show opt-in (trundle 12:33 CT)
 def test_eye_contact_only_when_show_opts_in(monkeypatch):
     assert "No eye contact with camera" in ap.assemble(BI12)["final_prompt"]  # Black Ice opts in
     real = ap.read
@@ -133,7 +133,7 @@ def test_eye_contact_only_when_show_opts_in(monkeypatch):
         return d
     monkeypatch.setattr(ap.yaml, "safe_load", load)
     out = ap.assemble(BI12)
-    # 2026-10-28 12:45 CT: global again (Trundle 10:41 CT) -> non-opt-in show still gets the line
+    # 2026-10-28 12:45 CT: global again (trundle 10:41 CT) -> non-opt-in show still gets the line
     assert "No eye contact with camera" in out["final_prompt"]
 
 

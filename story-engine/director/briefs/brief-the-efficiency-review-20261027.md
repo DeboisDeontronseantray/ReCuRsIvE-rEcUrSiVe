@@ -1,5 +1,5 @@
 # Episode brief: "The Efficiency Review"
-Channel 4 (Military Boutique). Director, 2026-10-27, about 8:15 PM CT. Home-only draft. Nothing rendered, queued or sent. Needs Trundle's yes before any paid render and a separate yes before airing.
+Channel 4 (Military Boutique). Director, 2026-10-27, about 8:15 PM CT. Home-only draft. Nothing rendered, queued or sent. Needs trundle's yes before any paid render and a separate yes before airing.
 
 ## Logline
 When a midnight efficiency review threatens to retire one host, Bill and Mira each quietly sell the other out to save themselves, only to learn the review was filed by Tim, the courier drone who has been taking notes on both of them the whole time.
@@ -65,7 +65,7 @@ Overlays in post only: the folder title, the "B" sticker, the verdict text and t
 Earlier rate: $5.83 for 11 shots, which is about $0.53 per shot.
 - 14 shots × $0.53 ≈ **$7.42**
 - Plus a ~25% contingency for 3-4 re-tries ≈ **$9.30 cap**
-- The ads are reused at $0. Recommended ask to Trundle: **"$7.42, cap $9.30."**
+- The ads are reused at $0. Recommended ask to trundle: **"$7.42, cap $9.30."**
 
-## Pitch for Trundle (3 sentences)
+## Pitch for trundle (3 sentences)
 A midnight efficiency review says one host is getting shipped to the loading dock, so Bill and Mira smile at each other and quietly knife each other in the back through poor Osmund. Then the review turns out to be written by Tim, the drone they've been ignoring for 400 hours, and he takes both of them down. The products stay in their own commercial breaks, and the show is all betrayal, about $7.42 to render.

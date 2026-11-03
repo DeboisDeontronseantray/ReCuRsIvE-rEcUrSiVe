@@ -18,7 +18,7 @@ story-engine/
 │                             slots/04-military-boutique.json, README.md
 │                             + links: COMMENT-PROMPTS.jsonl(+schema), PROMOTION-PROCESS.md,
 │                               PREEMPTION-ADDENDUM.md, QUEUE-PLAN-20261027.json
-├── approvals/                AIR-APPROVALS.jsonl (Trundle's own yes only), README.md
+├── approvals/                AIR-APPROVALS.jsonl (trundle's own yes only), README.md
 ├── engine/                   README.md (planned scripts; checker.py still in live/)
 ├── stream/                   README.md, 04-military-boutique/ (empty until something is approved)
 └── existing, untouched:      configs/, continuity/, data/ (shows, pilots, refs, exports, spend), live/, server/, client/, docs/

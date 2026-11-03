@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """tt-slot/v1 sidecar adapter (Director, Oct 29 2026). Writes <clip>.slot.json NEXT TO a clip; never touches
 queue files (those are Playout Engineer's). Fields follow coordination/QUEUE-SLOT-FORMAT-PROPOSAL-v1.md
-(itself a proposal awaiting Trundle). slot_id/start_ct/daypart stay null: Playout's scheduler assigns them.
+(itself a proposal awaiting trundle). slot_id/start_ct/daypart stay null: Playout's scheduler assigns them.
 Usage: slot_sidecar.py <clip.mp4> --lineage-tag "4.13 g1 #119" [--parent-tag ..] [--branch-id ..] [--window-id ..]
        [--prompt-ids a,b] [--kind commenter-branch|show] [--first f.png --last l.png] [--channel 4]"""
 import argparse, hashlib, json, os, subprocess

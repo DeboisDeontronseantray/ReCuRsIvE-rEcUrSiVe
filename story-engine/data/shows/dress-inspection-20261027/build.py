@@ -62,7 +62,7 @@ def shot(sid, dur, cast, camera, action, dialogue, captions, keys, continues, pr
             "lighting_fog": "hard top light, deep shadows, cold haze", "props_products": list(props),
             "continues_from": continues, "action": action, "dialogue": dialogue, "visual_prompt": gen,
             "reference_images": refs(*keys), "negative_prompt": NEG, "on_screen_text_post": [s['text'] for s in specs],
-            "post_audio": POST_AUDIO, "status": "PROMPT ONLY - not rendered; needs Trundle's yes with price"}, specs
+            "post_audio": POST_AUDIO, "status": "PROMPT ONLY - not rendered; needs trundle's yes with price"}, specs
 shots, overlays = [], []
 s, o = shot("DI-01", 6, ["Bill"], "locked symmetrical wide, no camera move.",
     "Seven products stand on matte pedestals in a straight line across the wet deck like recruits. Bill enters from frame left, boots loud, and halts at the first pedestal.",

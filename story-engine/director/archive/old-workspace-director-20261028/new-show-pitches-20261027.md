@@ -1,5 +1,5 @@
 # Channel 4 — New Show Pitches (2026-10-27)
-Director, for Trundle. Home-only. Nothing rendered. Old cast (Bill/Mira/Osmund/Tim) and showroom/depot/bay setting retired. Ads #30-36 air untouched as separate breaks only, never in story.
+Director, for trundle. Home-only. Nothing rendered. Old cast (Bill/Mira/Osmund/Tim) and showroom/depot/bay setting retired. Ads #30-36 air untouched as separate breaks only, never in story.
 Workflow per the Grok Imagine "The Oath" guide: script -> shot list -> character sheets (3-panel, grey) -> locations -> keyframes -> 7-block video prompts -> edit (music/grade/overlays in post). No on-screen text in any prompt. All characters adults. Fictional nations, units and gear only.
 
 ---
