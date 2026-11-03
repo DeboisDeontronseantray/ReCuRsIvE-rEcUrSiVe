@@ -12,6 +12,7 @@ from app.spend import SpendLimitError, check_can_spend, estimate_cost, log_call
 
 ROUTING_PATH = Path(__file__).resolve().parent.parent / "model_routing.yaml"
 XAI_BASE_URL = "https://api.x.ai/v1"
+DEFAULT_XAI_KEY_FILE = "/workspace/private/keys/xai-render.key"
 
 with open(ROUTING_PATH) as f:
     _ROUTING = yaml.safe_load(f)
@@ -35,12 +36,24 @@ def _resolve_params(config: dict) -> dict:
 
 
 def _require_xai_key() -> str:
-    key = os.environ.get("XAI_API_KEY") or os.environ.get("GROK_API_KEY")
+    key_file = os.environ.get("XAI_KEY_FILE")
+    if key_file is not None or Path(DEFAULT_XAI_KEY_FILE).exists():
+        path = key_file if key_file is not None else DEFAULT_XAI_KEY_FILE
+        source = f"XAI_KEY_FILE ({path})" if key_file is not None else path
+        try:
+            key = Path(path).read_text().strip()
+        except (OSError, UnicodeError):
+            raise RuntimeError(f"xAI key file unreadable: {source}") from None
+        if not key:
+            raise RuntimeError(f"xAI key file empty: {source}")
+        return key
+
+    key = os.environ.get("XAI_API_KEY")
     if not key:
         raise RuntimeError(
-            "XAI_API_KEY missing. Use box env var XAI_API_KEY "
-            "(documented in /workspace/shared/INVENTORY/accounts-subs-apis.md). "
-            "Do not invent a new key."
+            "xAI key missing: set XAI_KEY_FILE to a key file, or put the render key at "
+            "/workspace/private/keys/xai-render.key (XAI_API_KEY env is a legacy "
+            "fallback). Do not invent a new key."
         )
     return key
 
