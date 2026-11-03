@@ -20,7 +20,7 @@ from charmeta.config import proposal_threshold
 from charmeta.channels import local_cast_id
 from charmeta.store import load_companion, save_companion
 from lineage.aired import load_lineage_jsonl
-from lineage.eligibility import build_trait_promotion_aired_index
+from lineage.eligibility import ad_or_break_clip_ids, build_trait_promotion_aired_index
 
 
 @dataclass
@@ -142,6 +142,7 @@ def promote(
     companion_path: Path | str,
     observations_path: Path | str,
     lineage_path: Path | str,
+    slots_path: Path | str | None = None,
     apply: bool = False,
     allow_live_paths: bool | None = None,
 ) -> PromoteReport:
@@ -154,6 +155,10 @@ def promote(
     observations = load_observations(observations_path)
     lineage_rows = load_lineage_jsonl(lineage_path)
     aired_index = build_trait_promotion_aired_index(lineage_rows)
+    if slots_path is not None:
+        refuse_charmeta_path(slots_path, allow_live_paths=live_ok)
+        for clip_id in ad_or_break_clip_ids(lineage_rows, load_lineage_jsonl(slots_path)):
+            aired_index[clip_id] = False
     cast = companion.get("cast")
     if not isinstance(cast, dict):
         raise ValueError("companion missing cast mapping")
@@ -223,6 +228,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--companion", required=True, type=Path)
     parser.add_argument("--observations", required=True, type=Path)
     parser.add_argument("--lineage", required=True, type=Path)
+    parser.add_argument("--slots", type=Path, help="Playout slot sheet; ad and break slots never count")
     parser.add_argument(
         "--apply",
         action="store_true",
@@ -233,6 +239,7 @@ def main(argv: list[str] | None = None) -> int:
         companion_path=args.companion,
         observations_path=args.observations,
         lineage_path=args.lineage,
+        slots_path=args.slots,
         apply=args.apply,
     )
     print(yaml.safe_dump(report.__dict__, sort_keys=False))

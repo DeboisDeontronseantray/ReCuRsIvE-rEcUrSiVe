@@ -207,6 +207,8 @@ pyproject.toml             # name e.g. recursive-charmeta; requires-python >=3.1
 | Unaired | Observations tied to unaired clips do not count |
 | Quirks | Paths writing `generation_quirks` do not populate traits |
 | Locked conflict | Conflicting observation flagged; companion unchanged |
+| Ads and breaks | Ad and break items (LINEAGE kind, clip id, or playout slot `kind`) are skipped by the batch writer and never count toward promotion |
+| One live instance | Same character overlapping itself is flagged; many different characters together are fine |
 | meta_prompt | Output excludes `proposed` entries |
 | Bible safety | `bible-v2.fixture.yaml` sha unchanged after store/promote dry-run against **copy** paths only |
 
@@ -272,14 +274,19 @@ Live `bible-v2.yaml` is still not modified by character-meta tooling.
 ## Locked decisions (Nov 1, 2026)
 
 - **Director pipeline:** Keep approved/tested Director behavior that still works; layer the Nov 1 improvements on top. The new version wins only where this chat explicitly advanced it.
-- **Ads and breaks vs trait evidence:** Ads and commercial breaks **may** contain characters (on screen or in copy). They **never** count as trait evidence for promotion. Enforced via show-master eligibility: `lineage/eligibility.py`, `is_show_master_row()`, `build_trait_promotion_aired_index()` (implementation PRs #8 / #15 / #16).
-- **One live instance:** Means one **copy** of the same character at a time (duplicate-instance rule), **not** a limit of one person on screen.
 - **Promotion threshold:** Environment variable `CHARMETA_PROPOSAL_THRESHOLD_N`, default **3** (schema `rules.N` in `CHARACTER-META-SCHEMA-v1.yaml`).
 - **Forward Supply:** Never feeds character-meta observations or BLACK ICE / photoreal 1971 prompt look; approved home filler only (canon PR #17).
 - **Unresolved doc conflicts (default pending trundle):**
   1. **Eye contact global vs per-show** — *Sources:* `prompts/LAYERS.md` (2026-10-28 12:45 CT: global) vs `prompts/LAYERS-BODY-ORDER.md` (2026-10-28 12:40 CT: per-show opt-in). **Default used:** treat no eye contact as global per LAYERS.md correction. **Status:** default pending trundle.
   2. **`meta_prompt` injection owner** — *Sources:* plan §9.4 (open: story engine vs prompt-assembly v4) vs PROMPT-ASSEMBLY-NOTE-v1 (OPEN owners). **Default used:** `charmeta/prompt_injection.py` on the charmeta side until assembler merge. **Status:** default pending trundle.
   3. **Character meta storage shape** — *Sources:* plan §9.2 (JSONL vs YAML open) vs `CHARACTER-META-SCHEMA-v1.yaml` (YAML companion + `trait_observations.jsonl`). **Default used:** YAML companion + observation log per schema. **Status:** default pending trundle.
+
+| Decision | Implementation |
+|---|---|
+| **(a) Ads and breaks are never trait evidence.** Ads and breaks may contain show characters, but nothing seen in them counts toward a character's traits. | `lineage/eligibility.py`: `is_break_row()` (kinds `break`, `station_break`, `commercial_break`, `bumper`, `id`, `ident`, `interstitial`; clip ids starting `chN-break-`/`bumper-`/`ident-`/`station-id-`) and `is_ad_or_break_row()`; `is_show_master_row()` excludes both. `ad_or_break_clip_ids()` also joins playout slots (`occupant_global_no == global_no`) whose `kind` is a break or ad. `charmeta/observations.py`: `append_observations()` skips ad and break items instead of failing the batch; the single-row writer still refuses them. `ingest_stills_meta_to_log()` writes nothing for an ad or break still. `promote(slots_path=...)` / `--slots` keeps rows already in the add-only log from counting. Fixed: underscored ad kinds (`house_ad`, `sales_ad`, `commercial_break`) never matched after slugging. |
+| **(b) "One live instance" means one copy of the same character at a time,** not one person on screen. | `charmeta/live_instance.py`: `copies_in_shot()` lists characters named twice in one shot; `live_instance_conflicts()` flags overlapping windows of the same character across clips or channels (for example a Ch 2 crossover while that character is live on Ch 12). Different characters together never conflict; back-to-back windows are not an overlap. |
+
+Tests: `tests/test_ad_break_live_instance.py`.
 
 ---
 

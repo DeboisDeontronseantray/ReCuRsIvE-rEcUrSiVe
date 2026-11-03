@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from charmeta.observations import append_observation
+from charmeta.observations import append_observations, partition_observations
 from lineage.aired import load_lineage_jsonl
 from lineage.eligibility import (
     is_forward_supply_row,
@@ -96,8 +96,9 @@ def ingest_stills_meta_to_log(
     image_path: str | Path | None = None,
     apply: bool = True,
     lineage_path: Path | str | None = None,
+    slots_path: Path | str | None = None,
 ) -> list[dict[str, Any]]:
-    """Append stills-derived observations to trait_observations.jsonl only."""
+    """Append stills-derived observations to trait_observations.jsonl only. Ad and break stills write nothing."""
     if lineage_path is not None:
         rows = load_lineage_jsonl(lineage_path)
         clip_row = row_index_by_clip_id(rows).get(clip_id)
@@ -110,8 +111,11 @@ def ingest_stills_meta_to_log(
     if image_path is not None:
         extract(image_path, clip_id, character, stills_meta_json=stills_meta_path)
     if not apply:
-        return rows
-    written: list[dict[str, Any]] = []
-    for row in rows:
-        written.append(append_observation(observations_path, row))
+        kept, _skipped = partition_observations(
+            rows, lineage_path=lineage_path, slots_path=slots_path
+        )
+        return kept
+    written, _skipped = append_observations(
+        observations_path, rows, lineage_path=lineage_path, slots_path=slots_path
+    )
     return written

@@ -9,6 +9,8 @@ from typing import Any
 
 from charmeta.schema import OBSERVATION_FIELDS, OBSERVATION_METHODS
 from lineage.eligibility import (
+    ad_or_break_clip_ids,
+    clip_id_looks_break,
     clip_id_looks_commercial,
     clip_id_looks_forward_supply,
     is_show_master_row,
@@ -55,9 +57,13 @@ def validate_observation_row(row: dict[str, Any]) -> dict[str, Any]:
     extracted = _require_str(row, "extracted_text")
     character = _require_str(row, "character")
     clip_id = _require_str(row, "clip_id")
-    if clip_id_looks_commercial(clip_id) or clip_id_looks_forward_supply(clip_id):
+    if (
+        clip_id_looks_commercial(clip_id)
+        or clip_id_looks_break(clip_id)
+        or clip_id_looks_forward_supply(clip_id)
+    ):
         raise ObservationValidationError(
-            "commercial/ad and Forward Supply clips must not produce trait observations"
+            "commercial/ad, break, and Forward Supply clips must not produce trait observations"
         )
 
     seen_count = row.get("seen_count", 1)
@@ -107,6 +113,50 @@ def append_observation(
     with target.open("a", encoding="utf-8") as handle:
         handle.write(json.dumps(normalized, ensure_ascii=False) + "\n")
     return normalized
+
+
+def partition_observations(
+    rows: list[dict[str, Any]],
+    *,
+    lineage_path: Path | str | None = None,
+    slots_path: Path | str | None = None,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Split rows into trait-evidence candidates vs ad/break items that are never trait evidence."""
+    lineage_rows = load_lineage_jsonl(lineage_path) if lineage_path is not None else []
+    slot_rows = load_lineage_jsonl(slots_path) if slots_path is not None else []
+    not_evidence = ad_or_break_clip_ids(lineage_rows, slot_rows)
+    kept: list[dict[str, Any]] = []
+    skipped: list[dict[str, Any]] = []
+    for row in rows:
+        clip_id = row.get("clip_id") if isinstance(row, dict) else None
+        if isinstance(clip_id, str) and (
+            clip_id.strip() in not_evidence
+            or clip_id_looks_commercial(clip_id)
+            or clip_id_looks_break(clip_id)
+        ):
+            skipped.append(row)
+            continue
+        kept.append(row)
+    return kept, skipped
+
+
+def append_observations(
+    path: Path | str,
+    rows: list[dict[str, Any]],
+    *,
+    lineage_path: Path | str | None = None,
+    slots_path: Path | str | None = None,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Append a batch, skipping ad and break items instead of failing the batch.
+
+    Ads and breaks may show cast, but they are never trait evidence. Returns (written, skipped)."""
+    kept, skipped = partition_observations(
+        rows, lineage_path=lineage_path, slots_path=slots_path
+    )
+    written = [
+        append_observation(path, row, lineage_path=lineage_path) for row in kept
+    ]
+    return written, skipped
 
 
 def load_observations(path: Path | str) -> list[dict[str, Any]]:
