@@ -3,8 +3,8 @@ H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); sys.path.insert(0
 import build_prompt_v4 as B, apply_check_v4 as G, meta_check as M, layers_v4 as L, palette_lut, stride_cut, lipcorr, ref_policy_v4 as RP
 def base(**k):
     s={"clip_id":"X1","channel":"Ch11 Fist Theater","duration":8,"clip_type":"breather","setting":"Setting: the lobby.","camera":"Single shot: medium, static camera.",
-       "start_frame":"/tmp/s.png","cast":[{"name":"MARLO","keys":["maroon waistcoat","grey mustache"],"ref":"/tmp/marlo_side.png","eyeline":"the brass bell"}],
-       "beats":[{"t":1,"text":"MARLO polishes the brass bell"}]}
+       "start_frame":"/tmp/s.png","cast":[{"name":"GIDEON","keys":["faded burgundy porter uniform","loosened collar"],"ref":"/tmp/gideon_side.png","eyeline":"the brass bell"}],
+       "beats":[{"t":1,"text":"GIDEON polishes the brass bell"}]}
     s.update(k); return s
 def fails(s):
     r=B.build(s,strict=False)["report"]; return {k for k,v in r.items() if v[0]=="FAIL"}
@@ -19,8 +19,8 @@ class Fluid(unittest.TestCase):
     def test_fixed_threads_pending(self):
         ft=L.fixed_threads(); self.assertIn("PENDING",ft["_status"]); self.assertTrue(all(t["status"]=="PENDING" for t in ft["threads"]))
     def test_resolver_triggered_only(self):
-        self.assertNotIn("drags",B.build(base(resolver_push="MARLO drags the trolley to the lift"))["args"]["prompt"])
-        self.assertIn("drags",B.build(base(resolver_push="MARLO drags the trolley to the lift",detectors={"arc_goal_missing_clips":2}))["args"]["prompt"])
+        self.assertNotIn("drags",B.build(base(resolver_push="GIDEON drags the trolley to the lift"))["args"]["prompt"])
+        self.assertIn("drags",B.build(base(resolver_push="GIDEON drags the trolley to the lift",detectors={"arc_goal_missing_clips":2}))["args"]["prompt"])
     def test_tier_decay(self):
         c={"text":"a torn left sleeve with grey tape","short":"torn taped sleeve","tier":"SCAR","episode":1,"still":True,"still_since_index":0}
         self.assertEqual(L.carry_text(c,1),"torn taped sleeve"); self.assertIsNone(L.carry_text(c,3))
@@ -29,8 +29,8 @@ class Fluid(unittest.TestCase):
     def test_created_here_not_carried(self):
         p=B.build(base(consequences=[{"text":"cap on desk","tier":"SCAR","created_here":True}]))["args"]["prompt"]; self.assertNotIn("cap on desk",p)
     def test_state_still_replaces_identity(self):
-        a=B.build(base(state_stills=[{"char":"MARLO","path":"/tmp/MARLO_SU1.png","trait":"tape"}]))["args"]
-        self.assertIn("/tmp/MARLO_SU1.png",a["reference_image_paths"]); self.assertNotIn("/tmp/marlo_side.png",a["reference_image_paths"]); self.assertIn("as they are now",a["prompt"])
+        a=B.build(base(state_stills=[{"char":"GIDEON","path":"/tmp/GIDEON_QUILL_SU1.png","trait":"tape"}]))["args"]
+        self.assertIn("/tmp/GIDEON_QUILL_SU1.png",a["reference_image_paths"]); self.assertNotIn("/tmp/gideon_side.png",a["reference_image_paths"]); self.assertIn("as they are now",a["prompt"])
 class Gate(unittest.TestCase):
     def test_clean_passes(self): self.assertEqual(fails(base()),set())
     def test_held_still_fails(self):
@@ -41,16 +41,16 @@ class Gate(unittest.TestCase):
     def test_ch4_photoreal_passes(self): self.assertEqual(fails(base(channel="Ch4 Military Boutique / BLACK ICE")),set())
     def test_ch4_ink_ref_fails(self):
         self.assertIn("V2b_ch4_refs",fails(base(channel="Ch4 Military Boutique / BLACK ICE",cast=[{"name":"HERON","keys":["white parka"],"ref":"/x/SHEET_HERON_shinkawa.jpg","eyeline":"the door"}])))
-    def test_front_ref_fails(self): self.assertIn("V3_no_front_refs",fails(base(cast=[{"name":"MARLO","keys":[],"ref":"/x/MARLO_QUILL_front.png","eyeline":"x"}])))
+    def test_front_ref_fails(self): self.assertIn("V3_no_front_refs",fails(base(cast=[{"name":"GIDEON","keys":[],"ref":"/x/GIDEON_QUILL_front.png","eyeline":"x"}])))
     def test_tracking_needs_start(self): self.assertIn("V4_start_frame_for_camera",fails(base(start_frame=None,camera="Single shot: side-on dolly tracking at walking pace.")))
     def test_special_pov_needs_start(self): self.assertIn("V4_start_frame_for_camera",fails(base(start_frame=None,setting="Dashcam view through a windshield.")))
     def test_eyeline_required(self): self.assertIn("V6_eyeline_target",fails(base(cast=[])))
     def test_dialogue_cue(self):
-        self.assertNotIn("V7_dialogue_cues",fails(base(beats=[{"t":2,"who":"MARLO","line":"Going up."}])))
-        self.assertIn("V7_dialogue_cues",fails(base(beats=[{"t":2,"text":'MARLO says, "Going up."'}])))
+        self.assertNotIn("V7_dialogue_cues",fails(base(beats=[{"t":2,"who":"GIDEON","line":"Going up."}])))
+        self.assertIn("V7_dialogue_cues",fails(base(beats=[{"t":2,"text":'GIDEON says, "Going up."'}])))
     def test_multistage_camera_fails(self): self.assertIn("V5_one_move",fails(base(camera="Single shot: whip pan to the stairs, then hold medium-wide.")))
     def test_fight_grammar(self):
-        s=base(clip_type="fight",beats=[{"t":1,"who":"MARLO","move":"palm shove","landing":"the thug's shoulder","result":"the thug spins half around"}])
+        s=base(clip_type="fight",beats=[{"t":1,"who":"GIDEON","move":"palm shove","landing":"the thug's shoulder","result":"the thug spins half around"}])
         p=B.build(s)["args"]["prompt"]; self.assertIn("travels toward the lens and lands",p); self.assertIn("visible jolt",p)
     def test_news_comedy(self):
         p=B.build(base(channel="Ch2 News",clip_type="news",cast=[{"name":"MARLA","keys":[],"eyeline":"the monitor"}]))["args"]["prompt"]; self.assertIn("clearly visible in frame",p)
@@ -59,7 +59,7 @@ class Gate(unittest.TestCase):
     def test_gatefail_raises(self):
         with self.assertRaises(B.GateFail): B.build(base(start_frame=None,camera="Single shot: dolly tracking."))
     def test_commenter_ref_label(self):
-        # NOT YET (Trundle 10:48 PM CT Oct 30): commenter images switched off, never attached, gate FAILs
+        # NOT YET (trundle 10:48 PM CT Oct 30): commenter images switched off, never attached, gate FAILs
         a=B.build(base(commenter_refs=[{"path":"/tmp/duck.png","purpose":"prop","filtered":True,"what":"rubber duck"}]),strict=False)["args"]
         self.assertNotIn("is only a prop reference",a["prompt"]); self.assertNotIn("/tmp/duck.png",a.get("reference_image_paths",[]))
         self.assertIn("V17_commenter_images_not_yet",fails(base(commenter_refs=[{"path":"/tmp/duck.png","purpose":"prop","filtered":True}])))
@@ -88,11 +88,11 @@ class Tools(unittest.TestCase):
         cp=stride_cut.main(f"{self.T}/sc.mp4",[f"{self.T}/a.mp4",f"{self.T}/b.mp4"]); self.assertTrue(os.path.getsize(f"{self.T}/sc.mp4")>0); self.assertEqual(len(cp),2)
     def test_lipcorr(self): r=lipcorr.score(f"{self.T}/a.mp4",(300,200,100,60)); self.assertIn("r",r)
     def test_state_stills_and_distill(self):
-        s=RP.state_stills(f"{self.T}/a.mp4",f"{self.T}/st","A",{"MARLO":(10,10,100,200)},{"tape":(0,0,50,50)}); self.assertEqual(len(s),2); self.assertTrue(os.path.exists(s[0]["path"]))
+        s=RP.state_stills(f"{self.T}/a.mp4",f"{self.T}/st","A",{"GIDEON":(10,10,100,200)},{"tape":(0,0,50,50)}); self.assertEqual(len(s),2); self.assertTrue(os.path.exists(s[0]["path"]))
         self.assertEqual(len(RP.distill(f"{self.T}/ref.png",3)["palette"]),3)
         self.assertFalse(RP.commenter_filter(f"{self.T}/ref.png")["filtered"])   # fail-closed
         d=RP.commenter_filter(f"{self.T}/st/A_last.png",{"no_face":1,"no_text":1}); self.assertFalse(d["filtered"]); self.assertTrue(d["disabled"])   # NOT YET switch wins over manual clear
-        self.assertTrue(RP.commenter_filter(f"{self.T}/st/A_last.png",{"no_face":1,"no_text":1},enabled=True)["filtered"])   # mechanism kept for when Trundle turns it on
+        self.assertTrue(RP.commenter_filter(f"{self.T}/st/A_last.png",{"no_face":1,"no_text":1},enabled=True)["filtered"])   # mechanism kept for when trundle turns it on
     def test_static_flip_v3(self):
         # D9b: skip when the live-box v2 module or its CC-BY-SA REF media is absent.
         # The test is unchanged on the live box, where both exist. Do not import the clip.

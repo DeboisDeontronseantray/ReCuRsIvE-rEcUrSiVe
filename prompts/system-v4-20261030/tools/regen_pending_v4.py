@@ -4,14 +4,16 @@ Writes ../prompts_v4/<group>/<id>.args.json + .meta.json, blocked ones to ../pro
 import json,os,re,sys,glob,difflib
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import build_prompt_v4 as B
+import canon as C
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); E="/workspace/thunder-trundle/prompts/experiments"
 OD=f"{E}/odyssey-design-20261030/ODYSSEY"; R9=f"{E}/round9-20261030"
 SIDE=f"{H}/refs_side"
-REF_SWAP={f"{OD}/refs/MARLO_QUILL_face.png":f"{SIDE}/MARLO_QUILL_threequarter_face.png",f"{OD}/refs/MARLO_QUILL_front.png":f"{SIDE}/MARLO_QUILL_side_full.png",
+# Keys are canon-mapped source paths (tools/canon.py runs first); refs_side files renamed GIDEON_QUILL_* on Nov 2 2026.
+REF_SWAP={f"{OD}/refs/GIDEON_QUILL_face.png":f"{SIDE}/GIDEON_QUILL_threequarter_face.png",f"{OD}/refs/GIDEON_QUILL_front.png":f"{SIDE}/GIDEON_QUILL_side_full.png",
           f"{OD}/refs/CONCIERGE_face.png":f"{SIDE}/CONCIERGE_threequarter_face.png",f"{OD}/refs/CONCIERGE_front.png":f"{SIDE}/CONCIERGE_side_full.png",
           "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_WREN_v1.jpg":f"{SIDE}/WREN_side_full.png",
           "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_GRAVES_ARCHIVIST_GUARD_v1.jpg":f"{SIDE}/GRAVES_guard_side_full.png",
-          "TBD:ODYSSEY/refs/MARLO_QUILL_face.png (look sheet needs Trundle yes)":f"{SIDE}/MARLO_QUILL_threequarter_face.png","TBD:ODYSSEY/refs/CONCIERGE_face.png":f"{SIDE}/CONCIERGE_threequarter_face.png"}
+          "TBD:ODYSSEY/refs/GIDEON_QUILL_face.png (look sheet needs trundle yes)":f"{SIDE}/GIDEON_QUILL_threequarter_face.png","TBD:ODYSSEY/refs/CONCIERGE_face.png":f"{SIDE}/CONCIERGE_threequarter_face.png"}
 SENT=re.compile(r'(?<=[.!?\]"])\s+(?=[A-Z\[<(])')
 INK=re.compile(r"(hand-?inked|ink outlines|crosshatch|comic|flat 2D|Never 3D|never 3D|Effects are drawn)",re.I)
 CUE={"Ch2 News":"crisp anchor cadence, measured pace","Ch11 Fist Theater":"dry, deadpan","Ch8 Sitcom":"sitcom timing, slight laugh","default":"natural, conversational"}
@@ -78,6 +80,7 @@ def run_one(group,cid,old,spec,notes,log):
 def odyssey(log):
     for f in sorted(glob.glob(f"{OD}/prompts/*.args.json")):
         cid=os.path.basename(f)[:-10]; a=json.load(open(f)); m=json.load(open(f[:-10]+".meta.json"))
+        a=C.deep(a,"Ch11 Fist Theater"); m=C.deep(m,"Ch11 Fist Theater")  # canon: ch11.gideon_quill
         start=a.get("image_path"); extra=[]; plate=False
         if start and not os.path.exists(start) and not start.startswith("/"): start=f"{OD}/{start}"
         if start and not os.path.exists(start): extra.append(f"start frame pending render: {os.path.basename(start)}")
@@ -95,7 +98,7 @@ def odyssey(log):
         eye="the far end of the corridor" if cid.startswith("SU") else None
         spec,notes=convert(cid,a["prompt"],"Ch11 Fist Theater",start,a.get("reference_image_paths",[]),None,ct,meta,eye,extra)
         spec["start_is_plate"]=plate
-        if cid=="SU1": notes.append("SU1: no side-on corridor start frame exists -> BLOCKED until still-prep (NP40 frame or side-on corridor plate); SU1 is at its 2-gen max, retry needs Trundle's yes as new shot version")
+        if cid=="SU1": notes.append("SU1: no side-on corridor start frame exists -> BLOCKED until still-prep (NP40 frame or side-on corridor plate); SU1 is at its 2-gen max, retry needs trundle's yes as new shot version")
         run_one("odyssey",cid,a["prompt"],spec,notes,log)
 def round9(log):
     sys.path.insert(0,R9); import shots
@@ -108,6 +111,7 @@ def round9(log):
         p=s["prompt"]
         if not st: p=re.sub(r"<IMAGE_(\d+)>",lambda m:f"<IMAGE_{int(m.group(1))-1}>",p)
         ch=s["channel_show"].split(" (")[0]; ch={"Ch11 Jade Hotel":"Ch11 Fist Theater"}.get(ch,ch)
+        p=C.text(p,ch)  # canon layer (e.g. Ch14 cast = Vee/Onyx/Pixel)
         ct="news" if ch=="Ch2 News" and "desk" in p else "beat"
         extra=[]
         if st and not os.path.exists(st): extra.append(f"start frame pending parent render: {os.path.basename(st)}")

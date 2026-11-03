@@ -1,0 +1,21 @@
+{"version":"canon-aliases-20261102",
+ "_note":"LEGACY ALIAS TABLE (changelog, not canon). Left column = superseded pre-bible names/looks found in the archived design sources (prompts/experiments/...); right column = show-bible canon. tools/canon.py applies these, in order, to every source prompt/meta/ref path before the builder runs. Canon fix flagged by Story Bot 11-02, Nov 2 2026 12:55 PM CT; applied by Director New.",
+ "sources":{"Ch11 Fist Theater":"story/network-bibles-20261101/11-fist-theater/bible-v1.yaml (ch11.gideon_quill)","Ch14 Music":"story/network-bibles-20261101/14-music/bible-v1.yaml (ch14.vee, ch14.onyx, ch14.pixel)"},
+ "channels":{
+  "Ch11 Fist Theater":[
+   ["maroon brass-buttoned porter's cap","faded burgundy brass-buttoned porter's cap"],
+   ["An invented porter in a maroon waistcoat","An invented porter in a faded burgundy porter uniform with brass buttons"],
+   ["maroon porter's waistcoat with brass buttons, white shirt, grey mustache","faded burgundy porter uniform with brass buttons, loosened collar"],
+   ["maroon porter's waistcoat with brass buttons, grey mustache","faded burgundy porter uniform with brass buttons, loosened collar"],
+   ["around his waistcoat","around his uniform jacket"],
+   ["'s waistcoat pocket","'s uniform pocket"],
+   ["MARLO_full_","GIDEON_QUILL_full_"],
+   ["MARLO_QUILL","GIDEON_QUILL"],
+   ["\\bMARLO\\b","GIDEON"],
+   ["\\bMarlo\\b","Gideon"]],
+  "Ch14 Music":[
+   ["KILO: invented adult dancer, red tracksuit, bucket hat.","PIXEL: dancer in neon purple tracksuit, bleached crop."],
+   ["At 5 s he pops","At 5 s PIXEL pops"],
+   ["At 6 s he lands","At 6 s PIXEL lands"],
+   ["close behind him","close behind PIXEL"],
+   ["\\bKILO\\b","PIXEL"]]}}

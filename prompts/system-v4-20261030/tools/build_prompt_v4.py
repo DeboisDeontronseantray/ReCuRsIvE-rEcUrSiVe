@@ -48,7 +48,7 @@ def ref_list(spec):
     for c in spec.get("cast",[]):
         p=stills[c["name"]]["path"] if c["name"] in stills else c.get("ref")
         if p: refs.append(p); labels[c["name"]]=len(refs)-1
-    for cr in (spec.get("commenter_refs",[]) if _cimg_on() else []):   # NOT YET (Trundle 10:48 PM)
+    for cr in (spec.get("commenter_refs",[]) if _cimg_on() else []):   # NOT YET (trundle 10:48 PM)
         if cr.get("filtered") and cr.get("purpose") in ("prop","pattern","color","wardrobe","screen-insert","weather-hint","animal"):
             refs.append(cr["path"]); labels["__c_"+cr["path"]]=len(refs)-1
     off=1 if spec.get("start_frame") else 0

@@ -13,7 +13,7 @@ for f in sorted(glob.glob("/workspace/thunder-trundle/channels/*/refs/sheets/SHE
 SHOW={"Ch11 Fist Theater":"THE NIGHT PORTER"}
 def run_one(group,cid,old,spec,notes,log):
     notes=list(notes)
-    if spec.get("start_is_plate"): spec["start_frame"]=None; spec["img_shift"]=1; notes.append("v4.1: set plate removed as start frame (Trundle t121u: refs are reference only, not the output/start)")
+    if spec.get("start_is_plate"): spec["start_frame"]=None; spec["img_shift"]=1; notes.append("v4.1: set plate removed as start frame (trundle t121u: refs are reference only, not the output/start)")
     if cid=="AD-Dynapage": spec["remake_of"]="Dynapage (completed ad)"
     spec.setdefault("show",SHOW.get(spec["channel"]))
     for b in spec.get("beats",[]):

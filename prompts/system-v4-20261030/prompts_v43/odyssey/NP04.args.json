@@ -1,12 +1,12 @@
 {
- "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [MARLO QUILL (<IMAGE_2>); MADAM HU (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, eye level, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MADAM HU walks past with a tray of steamed dumplings and, without stopping, tucks one into MARLO's waistcoat pocket. At 4 s, he takes it out and eats it in one bite, a small smile. At 6 s, she walks on, eyes ahead. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
+ "prompt": "[Look: Faded 1970s 35mm martial-arts film, live action, film grain, red lacquer, gold and teal.] [Setting: the grand Jade Hotel lobby at night as in <IMAGE_1>.] [GIDEON QUILL (<IMAGE_2>); MADAM HU (<IMAGE_3>).] Continue from <IMAGE_0>, same positions and light, already moving. Single shot: medium two-shot, eye level, static camera, one continuous 9 s take. Eyelines: everyone looks at each other and the props in front of them, never into the lens; faces in profile or three-quarter. At 1 s, MADAM HU walks past with a tray of steamed dumplings and, without stopping, tucks one into GIDEON's uniform pocket. At 4 s, he takes it out and eats it in one bite, a small smile. At 6 s, she walks on, eyes ahead. Motion carries on through the last half second. [Adults only, no kids. Invented characters; a named real person becomes only their moves and attitude, never their likeness. No gore; bloodstains on clothing are fine, no blood draining out. Nobody looks into the camera. Parody brands only; no real brands or personal names on screen.]",
  "duration": 9,
  "resolution": "480p",
  "filename": "NP04.mp4",
  "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP03_last.png",
  "reference_image_paths": [
   "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png",
+  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/GIDEON_QUILL_threequarter_face.png",
   "/workspace/thunder-trundle/prompts/experiments/round4-20261030/refs/MADAM_HU.png"
  ]
 }

@@ -5,8 +5,8 @@ H=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REF="/workspace/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
 KH="R-NOHANDLES no contributor handles in prompt (10:48 PM)"; KC="R-NOCOMMENTERIMG commenter images NOT YET (10:48 PM)"; KB="R-BRANDS parody brands, no names on screen (CR L34)"
 def sp(**k):
-    d={"clip_id":"T48","channel":"Ch11 Fist Theater","show":"THE NIGHT PORTER","duration":10,"refs_raw":[REF],"cast":[{"name":"MARLO QUILL","ref":REF}],
-       "beats":[{"t":1,"who":"MARLO QUILL","line":"Not tonight.","cue":"tired"}]};d.update(k);return d
+    d={"clip_id":"T48","channel":"Ch11 Fist Theater","show":"THE NIGHT PORTER","duration":10,"refs_raw":[REF],"cast":[{"name":"GIDEON QUILL","ref":REF}],
+       "beats":[{"t":1,"who":"GIDEON QUILL","line":"Not tonight.","cue":"tired"}]};d.update(k);return d
 def test_contributors_in_sidecar_not_prompt():
     r=B.build(sp(contributors=["@neonwolf77","quietfan"]))
     assert r["sidecar"]["contributors"]==["@neonwolf77","quietfan"]

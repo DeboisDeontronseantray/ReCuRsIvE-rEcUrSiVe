@@ -330,15 +330,15 @@
   },
   {
    "id": "P14-1",
-   "why": "Attached Ch14 sheet v2 does not show KILO (red tracksuit, bucket hat); no KILO image exists. Needs a KILO ref (look sheet = GenerateImage, needs Trundle's yes) or his OK to use a sheet character."
+   "why": "Ch14 cast is Vee, Onyx and Pixel only (bible); the non-bible dancer was cut Nov 2 2026 and the beat is now played by PIXEL (ch14.pixel). Pixel is on SHEET_CH14_MUSIC_CAST_v2, but Ch14 is in SHEET_MISMATCH and no Pixel crop/ref is cut yet. Needs a Pixel ref (crop from the sheet or a look still; a new image needs trundle's yes) before unblock."
   },
   {
    "id": "P14-2",
-   "why": "Chains off P14-1 (blocked: no KILO image)."
+   "why": "Chains off P14-1 (blocked: no PIXEL ref yet)."
   },
   {
    "id": "P14-3",
-   "why": "Chains off P14-1 (blocked: no KILO image)."
+   "why": "Chains off P14-1 (blocked: no PIXEL ref yet)."
   }
  ]
 }

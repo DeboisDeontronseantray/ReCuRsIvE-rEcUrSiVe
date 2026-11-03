@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Layer model v4 (Trundle t368u correction): META IS FLUID BY DEFAULT.
+"""Layer model v4 (trundle t368u correction): META IS FLUID BY DEFAULT.
 Every layer has a persistence kind:
   durable    - hardlines, eyeline rule, fixed threads (config/fixed_threads.json), card fixed parts, look lock (episode-boundary swap only)
   tier       - consequences/gifts/world rules carried while their tier lives (FLASH 1 clip, SCAR episode, MARK season, LEGEND permanent),

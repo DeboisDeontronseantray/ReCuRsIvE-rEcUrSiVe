@@ -5,7 +5,7 @@
 {"old":"nest_zoom.py","new":"round9-design tools/nest_zoom_v2.py","since":"2026-10-30","kind":"tool"}
 {"old":"Jade Hotel","new":"Ch11 Fist Theater","since":"rule","kind":"display"}
 {"old":"BLACK ICE","new":"Ch4 Military Boutique / BLACK ICE","since":"rule","kind":"display"}
-{"old":"Ch4 flat 2D ink look","new":"Ch4 photoreal 1971","since":"2026-10-30 7:13 PM CT","kind":"look","swap_timing":"episode_boundary","note":"Trundle pick; ink clips = pre-canon"}
+{"old":"Ch4 flat 2D ink look","new":"Ch4 photoreal 1971","since":"2026-10-30 7:13 PM CT","kind":"look","swap_timing":"episode_boundary","note":"trundle pick; ink clips = pre-canon"}
 {"old":"settles into a held still","new":"motion carries on through the last half second","since":"2026-10-30","kind":"wording"}
 {"old":"Piper dub","new":"native in-prompt dialogue (Kokoro fallback)","since":"2026-10-30","kind":"tool"}
 {"old":"burned seam labels","new":"sidecar + mp4 tags","since":"2026-10-30","kind":"tool"}

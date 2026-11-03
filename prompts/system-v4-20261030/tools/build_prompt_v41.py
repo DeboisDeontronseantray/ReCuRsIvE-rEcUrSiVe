@@ -2,10 +2,10 @@
 """build_prompt_v41 — replaces v4's fluid shuffle (rule conflicts: see RULE-CONFLICTS-FIXED.md).
 FIXED SLOT ORDER, never shuffled:
   [Look] [Setting] [Cast] -> Continue -> Shot -> Eyelines -> timed beats -> ending line -> [Rules]
-Non-direction text sits inside [brackets]; direction (action, camera, timing) sits outside (Trundle t155u).
+Non-direction text sits inside [brackets]; direction (action, camera, timing) sits outside (trundle t155u).
 Dialogue: speaker named, what they say inside brackets with a brief delivery note (t134u, t139u).
 Static (tangible + intangible) comes from config/static_v41.json word for word (t370u). Fluid: only the
-thread-expression beat and commenter content. Rules bracket uses Trundle's own wording (no gore; bloodstains
+thread-expression beat and commenter content. Rules bracket uses trundle's own wording (no gore; bloodstains
 on clothing fine; JW level on Ch4)."""
 import json,os,re,hashlib,random,sys
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))

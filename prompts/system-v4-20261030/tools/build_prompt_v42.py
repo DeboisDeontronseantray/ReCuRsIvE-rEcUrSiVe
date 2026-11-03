@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""build_prompt_v42 = build_prompt_v41 (fixed slot order, [Look], beats, dialogue format, rules bracket all UNCHANGED) + Trundle t371u:
-an item with an attached image is named and pointed at its tag only, e.g. 'MARLO QUILL (<IMAGE_2>)'. Text descriptions stay only for items with no image.
-Supersedes round9 REF-POLICY.md (b) 'ref present -> name + 2-3 visual keys' (Director's invention, never Trundle's).
+"""build_prompt_v42 = build_prompt_v41 (fixed slot order, [Look], beats, dialogue format, rules bracket all UNCHANGED) + trundle t371u:
+an item with an attached image is named and pointed at its tag only, e.g. 'GIDEON QUILL (<IMAGE_2>)'. Text descriptions stay only for items with no image.
+Supersedes round9 REF-POLICY.md (b) 'ref present -> name + 2-3 visual keys' (Director's invention, never trundle's).
 spec['ref_for'] = {NAME: image_path}: attach that image and point NAME at it (placeholder <REF:NAME> in extra text is resolved to its tag)."""
 import re,hashlib,os,sys,copy
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
@@ -36,7 +36,7 @@ def build(spec,strict=True):
     r["args"]["prompt"]=p
     s=r["sidecar"]; s.update(meta_version=META,builder=BUILDER|{"sha":hashlib.sha256(open(__file__,"rb").read()).hexdigest()[:12]},
         prompt_sha256=hashlib.sha256(p.encode()).hexdigest(),prompt_words=len(p.split()),ref_for={k:os.path.basename(v) for k,v in rf.items()},
-        contributors=list(spec.get("contributors") or []), contributors_rule="data follows the image/clip; never in prompt (Trundle 10:48 PM CT Oct 30)")
+        contributors=list(spec.get("contributors") or []), contributors_rule="data follows the image/clip; never in prompt (trundle 10:48 PM CT Oct 30)")
     rep=gate.check(p,r["args"],spec,s); r["report"]=rep
     fails={k:v for k,v in rep.items() if v[0]=="FAIL"}
     if fails and strict: raise GateFail(f"{spec['clip_id']}: {fails}")

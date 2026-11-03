@@ -9,7 +9,7 @@ import numpy as np, cv2
 SEEN=set()
 CFG=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"config","commenter_images.json")
 def commenter_images_enabled():
-    """NOT YET (Trundle 10:48 PM CT Oct 30): commenter-image option is switched off. config/commenter_images.json enabled=false."""
+    """NOT YET (trundle 10:48 PM CT Oct 30): commenter-image option is switched off. config/commenter_images.json enabled=false."""
     try: return bool(json.load(open(CFG)).get("enabled"))
     except Exception: return False
 def last_frame(mp4,out):
@@ -28,7 +28,7 @@ def fingerprint(path):
 def commenter_filter(path,manual_clear=None,enabled=None):
     r=[]; fp=fingerprint(path)
     if not (commenter_images_enabled() if enabled is None else enabled):
-        return {"filtered":False,"reasons":["commenter images disabled: NOT YET (Trundle 10:48 PM CT Oct 30)"],"fingerprint":fp,"disabled":True}
+        return {"filtered":False,"reasons":["commenter images disabled: NOT YET (trundle 10:48 PM CT Oct 30)"],"fingerprint":fp,"disabled":True}
     if fp in SEEN: r.append("duplicate")
     SEEN.add(fp)
     im=cv2.imread(path)

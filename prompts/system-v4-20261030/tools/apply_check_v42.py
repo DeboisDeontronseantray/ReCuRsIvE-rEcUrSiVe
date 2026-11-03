@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gate v4.2 = gate v4.1 + R-REFDESC (Trundle t371u, Oct 30 8:01 PM CT):
+"""Gate v4.2 = gate v4.1 + R-REFDESC (trundle t371u, Oct 30 8:01 PM CT):
 "Why are you still describing characteristics of the image when the image is already in new prompts."
 FAIL when an item that has an attached image (<IMAGE_n>) also gets restated visual characteristics.
 Allowed next to a tag: a short label of WHAT the image is ("full body", "face", "as he is now", "is the teal tape measure now around his neck").
@@ -37,7 +37,7 @@ def check(p,args=None,spec=None,side=None):
     for name in (spec.get("ref_for") or {}):
         m=re.search(re.escape(name)+r"\s*(?::|\((?!<IMAGE_))\s*([^\])]+)",p)
         if m and re.search(VIS,m.group(1),re.I): h.append(f"{name}: {m.group(1)}")
-    # contributor accounts: data that follows the image/clip, never in prompt (Trundle 10:48 PM CT Oct 30)
+    # contributor accounts: data that follows the image/clip, never in prompt (trundle 10:48 PM CT Oct 30)
     hs=[c for c in (spec.get("contributors") or []) if c and re.search(r"(?<![\w@])@?"+re.escape(str(c).lstrip("@"))+r"\b",p,re.I)]
     hs+=re.findall(r"(?<![\w.])@[A-Za-z0-9_]{2,15}\b",p)
     r["R-NOHANDLES no contributor handles in prompt (10:48 PM)"]=("FAIL" if hs else "PASS",sorted(set(hs)))

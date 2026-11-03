@@ -1,4 +1,4 @@
-# R-REF exemption for exactly 16 ads (Trundle 11:09 PM "Ref image: yes, hard rule." / 11:10 PM "These specific ads can run without an image").
+# R-REF exemption for exactly 16 ads (trundle 11:09 PM "Ref image: yes, hard rule." / 11:10 PM "These specific ads can run without an image").
 import sys,os,json,glob,shutil,pytest;sys.path.insert(0,os.path.join(os.path.dirname(__file__),"..","tools"))
 import apply_check_v44 as G
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); KREF=G.KREF

@@ -1,5 +1,5 @@
 {"version":"static-v41-20261030",
- "_rule":"Trundle t370u (Oct 30 7:31 PM CT): 'we need to keep some things static tangible and intangible.' STATIC = same words every clip of a show. FLUID = only how a running thread is expressed in this clip's action, plus commenter content. Director owns the story spine (Trundle role memo Oct 28), so these are Director-set, not pending.",
+ "_rule":"trundle t370u (Oct 30 7:31 PM CT): 'we need to keep some things static tangible and intangible.' STATIC = same words every clip of a show. FLUID = only how a running thread is expressed in this clip's action, plus commenter content. Director owns the story spine (trundle role memo Oct 28), so these are Director-set, not pending.",
  "channels":{
   "Ch2 News":{"look":"Modern parody local TV news, broadcast video look."},
   "Ch3 Clean Job":{"look":"1970s heist TV, 35mm film grain, amber and brown tones."},
@@ -15,11 +15,11 @@
   "Ch14 Music":{"look":"1990s late-night music-video look, VHS colour."},
   "Ch16 DOSSIER":{"look":"1962 spy-thriller, live action, muted period colour, film grain."}},
  "shows":{
-  "THE NIGHT PORTER":{"channel":"Ch11 Fist Theater",
+  "THE NIGHT PORTER":{"channel":"Ch11 Fist Theater","canon":"story/network-bibles-20261101/11-fist-theater/bible-v1.yaml (ch11.gideon_quill, Nov 2 2026)",
     "tangible":{"setting":"the Jade Hotel: red-carpeted twin staircase, crystal chandeliers, brass desk bell, gold roof-access door",
-      "cast":{"MARLO QUILL":["maroon porter's waistcoat with brass buttons","grey mustache"],"THE CONCIERGE":["white gloves","too-smooth smile"]},
+      "cast":{"GIDEON QUILL":["faded burgundy porter uniform with brass buttons","loosened collar"],"THE CONCIERGE":["black tailcoat","white gloves","slicked hair","too-smooth smile"]},
       "props":["glowing jade key","brass luggage trolley","lobby clock"]},
-    "intangible":{"core_want":{"MARLO QUILL":"get the jade key to the roof before dawn"},"relationships":["MARLO distrusts THE CONCIERGE, who wants the key back for the house"],
+    "intangible":{"core_want":{"GIDEON QUILL":"get the jade key to the roof before dawn"},"relationships":["GIDEON distrusts THE CONCIERGE, who wants the key back for the house"],
       "arc_thread":"the night porter's hero's journey from tired porter to the man who opens the roof door","world_rules":["the hotel adds a floor each time the clock ticks wrong"],
       "running_threads":["H4 the static TV behind the desk","the lobby clock jumping"]}},
   "BLACK ICE":{"channel":"Ch4 Military Boutique / BLACK ICE",

@@ -4,7 +4,7 @@
  "builder": {
   "name": "build_prompt_v42",
   "version": "4.2.0",
-  "sha": "3b8bb445fc34"
+  "sha": "b02bb8a45cb1"
  },
  "static_version": "static-v41-20261030",
  "clip_id": "P07-2",
@@ -33,8 +33,8 @@
  "threads_followed": [],
  "saga": null,
  "depth": "D0",
- "prompt_sha256": "2144a5292faf58b32f7611f2ff6cc7a6aab873df7afb2d648826e4e898d01137",
- "prompt_words": 153,
+ "prompt_sha256": "a0306af86ad07e59649ddc7d39ca49539498c5d5b4192616e2afe3ef86867467",
+ "prompt_words": 151,
  "air_status": "design-not-rendered",
  "ref_for": {
   "RITA": "RITA_P07-1.png",

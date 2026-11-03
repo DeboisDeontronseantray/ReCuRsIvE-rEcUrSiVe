@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gate v4.1. FAIL only on Trundle's own rules (RULES-OF-RECORD.md ids). Our inventions are WARN (never block).
+"""Gate v4.1. FAIL only on trundle's own rules (RULES-OF-RECORD.md ids). Our inventions are WARN (never block).
 Dropped from v4: V14 transform still (Steve misread, t370u), A1 word cap / A13 beat cap as FAILs (t212u 'pack more'; weird dense = plus),
 V16 cut words / 'no on-screen text' (t38u prefers in-video text; t143u 'Quick cuts'), V4/V5 as FAILs (our finding, not his rule)."""
 import re
@@ -7,7 +7,7 @@ CAM=r"\b(dolly|tracking|pan|tilt|crane|zoom|push-in|pull-back|whip|orbit|handhel
 ORDER=["[Look","[Setting|[Cast|[","Continue|Single shot|Camera|Tracking|Shot","At ","Motion carries on|The last 0.4 s","[Adults"]
 def check(p,args=None,spec=None,side=None):
     args=args or {}; spec=spec or {}; r={}; ch=spec.get("channel","")
-    # --- Trundle rules (FAIL) ---
+    # --- trundle rules (FAIL) ---
     r["R-REF required (t132u)"]=("PASS" if args.get("reference_image_paths") else "FAIL",)
     r["R-NOREFSTART ref never start frame (t121u)"]=("FAIL" if args.get("image_path") and args.get("image_path") in (args.get("reference_image_paths") or []) else "PASS",)
     r["R-EYES nobody into camera (Oct 29 rule)"]=("PASS" if re.search(r"Nobody looks into the camera",p) else "FAIL",)

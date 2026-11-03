@@ -4,7 +4,7 @@
  "builder": {
   "name": "build_prompt_v42",
   "version": "4.2.0",
-  "sha": "3b8bb445fc34"
+  "sha": "b02bb8a45cb1"
  },
  "static_version": "static-v41-20261030",
  "clip_id": "P09-2",

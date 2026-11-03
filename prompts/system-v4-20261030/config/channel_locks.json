@@ -1,5 +1,5 @@
 {"version":"channel-locks-v4-20261030",
- "Ch4 Military Boutique / BLACK ICE":{"canon":"photoreal 1971","decided_by":"Trundle 2026-10-30 7:13 PM CT (t367 card: 'Ch4 canon look is photoreal 1971')",
+ "Ch4 Military Boutique / BLACK ICE":{"canon":"photoreal 1971","decided_by":"trundle 2026-10-30 7:13 PM CT (t367 card: 'Ch4 canon look is photoreal 1971')",
    "look_pool":["Look: photoreal 1971 Cold War spy thriller, live action, 35mm film grain, muted winter colour.","Look: live-action 1971 spy film, photographed on 35mm, grain, cold muted palette.","Look: 1971 winter espionage drama, real photography, film grain, desaturated steel and ivory tones."],
    "forbidden_regex":"(hand-?inked|ink outlines|crosshatch|comic[- ]book|flat 2D|2D ink|ink comic)",
    "forbidden_ref_regex":"(shinkawa|_ink|SHEET_HERON|SHEET_WOLFHOUND|JW5-C4-v7)",

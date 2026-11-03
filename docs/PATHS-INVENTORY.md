@@ -149,8 +149,8 @@ Each row gives the path, its occurrence count, and the number of tracked files t
 | `/workspace/thunder-trundle/prompts/system-v4-20261030/prompts_v44` | 1 | 1 |
 | `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/CONCIERGE_threequarter_face.png` | 20 | 17 |
 | `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/GRAVES_guard_side_full.png` | 7 | 6 |
-| `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_side_full.png` | 7 | 6 |
-| `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png` | 81 | 68 |
+| `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/GIDEON_QUILL_side_full.png` | 7 | 6 |
+| `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/GIDEON_QUILL_threequarter_face.png` | 81 | 68 |
 | `/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/WREN_side_full.png` | 13 | 11 |
 | `/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/BEAR_P07-1.png` | 5 | 4 |
 | `/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/DALE_P12-1.png` | 5 | 4 |
@@ -191,8 +191,8 @@ Each row gives the path, its occurrence count, and the number of tracked files t
 | `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU3_last.png` | 7 | 6 |
 | `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU4_last.png` | 7 | 6 |
 | `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU5_last.png` | 7 | 6 |
-| `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/MARLO_full_` | 29 | 21 |
-| `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/MARLO_full_SU1.png` | 8 | 6 |
+| `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/GIDEON_QUILL_full_` | 29 | 21 |
+| `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/GIDEON_QUILL_full_SU1.png` | 8 | 6 |
 | `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/cap_detail.png` | 8 | 6 |
 | `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/final` | 8 | 6 |
 | `/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/gloves_detail.png` | 8 | 6 |

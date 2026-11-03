@@ -4,7 +4,7 @@
  "builder": {
   "name": "build_prompt_v42",
   "version": "4.2.0",
-  "sha": "3b8bb445fc34"
+  "sha": "b02bb8a45cb1"
  },
  "static_version": "static-v41-20261030",
  "clip_id": "SU6",
@@ -14,10 +14,10 @@
  "arc_stage": "approach: suit-up",
  "static_intangible": {
   "core_want": {
-   "MARLO QUILL": "get the jade key to the roof before dawn"
+   "GIDEON QUILL": "get the jade key to the roof before dawn"
   },
   "relationships": [
-   "MARLO distrusts THE CONCIERGE, who wants the key back for the house"
+   "GIDEON distrusts THE CONCIERGE, who wants the key back for the house"
   ],
   "arc_thread": "the night porter's hero's journey from tired porter to the man who opens the roof door",
   "world_rules": [
@@ -49,7 +49,7 @@
  "threads_followed": [],
  "saga": null,
  "depth": "D0",
- "prompt_sha256": "c882830fe452b0cefc11359d91b7d3d705a68a6d8a849fe8d012f4d9507ce6e4",
+ "prompt_sha256": "6f6d7f50f19db98e47935ebd583e2dea4c119b3df0f523c837443fa35420363e",
  "prompt_words": 221,
  "air_status": "design-not-rendered",
  "ref_for": {},

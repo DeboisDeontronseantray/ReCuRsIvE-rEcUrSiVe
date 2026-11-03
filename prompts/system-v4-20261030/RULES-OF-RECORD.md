@@ -53,7 +53,7 @@ Sources: state/PROMPT-LESSONS.md v4 (the verbatim sections, by t-number), state/
 ## v4.2 append (2026-10-30 8:20 PM CT)
 | id | rule (his words) | date / source |
 |---|---|---|
-| T40 | "Why are you still describing characteristics of the image when the image is already in new prompts." -> an item with an attached image is named + pointed at its tag only (e.g. `MARLO QUILL (<IMAGE_2>)`); text describes only items with no image, or a change the image does not show | Oct 30 8:01 PM CT, t371u |
+| T40 | "Why are you still describing characteristics of the image when the image is already in new prompts." -> an item with an attached image is named + pointed at its tag only (e.g. `GIDEON QUILL (<IMAGE_2>)`); text describes only items with no image, or a change the image does not show | Oct 30 8:01 PM CT, t371u |
 | T41 | **WITHDRAWN 10:23 PM (kept for record, do not apply)** "Comment prompts can't pass without an image or just on our end." -> the image requirement (T3) is on OUR built prompts only; viewer comments never need an image (the builder attaches channel refs) | Oct 30 8:01 PM CT, t371u |
 
 **Superseded (Part B, Director's invention):** round9-design-20261030/REF-POLICY.md (b) "ref present -> name + 2-3 visual keys only (the same keys as CHARACTERS.jsonl visual_keys) + ref slot". Written by Director (file header "REF-POLICY (Director, Oct 30 2026)"), marked "Rule (proposed)", never asked for by Trundle, built in from general prompt-writing guidance plus the r5-r7 Ch11 run. Superseded by T40. The keys stay in config/static_v41.json and cards/ for text-only use (no image) and for review, but builder v4.2 never prints them next to an image tag. Gate: R-REFDESC (FAIL).

@@ -10,7 +10,7 @@ res=[]
 for cid in sorted(EX):
     b=json.load(open(f"{SRC}/BLOCKED/{cid}.json")); a=b["draft_args"]
     json.dump(a,open(f"{OUT}/commercials/{cid}.args.json","w"),indent=1)
-    json.dump({"clip_id":cid,"clip_type":"ad","ref_exemption":"Trundle 11:10 PM CT Oct 30 (relayed): \"These specific ads can run without an image\"","source":f"prompts_v43/BLOCKED/{cid}.json draft_args, copied unchanged","notes":b.get("notes",[])},open(f"{OUT}/commercials/{cid}.meta.json","w"),indent=1)
+    json.dump({"clip_id":cid,"clip_type":"ad","ref_exemption":"trundle 11:10 PM CT Oct 30 (relayed): \"These specific ads can run without an image\"","source":f"prompts_v43/BLOCKED/{cid}.json draft_args, copied unchanged","notes":b.get("notes",[])},open(f"{OUT}/commercials/{cid}.meta.json","w"),indent=1)
 for f in sorted(glob.glob(f"{OUT}/*/*.args.json")):
     if "/BLOCKED/" in f: continue
     cid=os.path.basename(f)[:-10]; a=json.load(open(f)); r=G.check(a["prompt"],a,clip_id=cid)

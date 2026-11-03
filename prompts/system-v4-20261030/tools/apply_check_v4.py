@@ -60,7 +60,7 @@ def check_v4(p,args=None,spec=None,side=None):
     # V13 commenter refs filtered, labeled non-likeness
     for cr in spec.get("commenter_refs",[]):
         if not cr.get("filtered") or cr.get("purpose") in ("identity","face","person"): r["V13_commenter_ref"]=("FAIL",cr.get("path"))
-    # V17 commenter images NOT YET (Trundle 10:48 PM CT Oct 30, config/commenter_images.json)
+    # V17 commenter images NOT YET (trundle 10:48 PM CT Oct 30, config/commenter_images.json)
     if spec.get("commenter_refs") and not _cimg_on(): r["V17_commenter_images_not_yet"]=("FAIL",len(spec["commenter_refs"]))
     # V14 transforms carry costume via state still (r9 E1 lizard lost his shirt)
     if spec.get("clip_type")=="transform_after":

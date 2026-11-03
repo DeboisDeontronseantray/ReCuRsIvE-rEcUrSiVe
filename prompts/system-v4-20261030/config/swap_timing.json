@@ -1,3 +1,3 @@
 {"next_clip":["schema field","router regex","scoring","camera grammar","prompt wording","voice EQ","phrasing pools","eyeline targets"],
- "episode_boundary":["show look/style lock","character fixed part","world rule","fixed thread (also needs Trundle)"],
+ "episode_boundary":["show look/style lock","character fixed part","world rule","fixed thread (also needs trundle)"],
  "in_world_bridge":{"allowed_bridges":["static_flip","depth_shift_pivot","technical_difficulties_card","in_story_cause"],"use_when":"an episode_boundary kind must change mid-episode; log migration_bridge in sidecar"}}

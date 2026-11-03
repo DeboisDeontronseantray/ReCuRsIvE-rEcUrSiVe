@@ -1,4 +1,4 @@
 {"enabled": false,
  "status": "NOT YET",
- "_rule": "Trundle OWN 10:48 PM CT Oct 30 (typed to Coordinator, relayed verbatim; CURRENT-RULES v48): 'Remove the option for commenter images to be used. They will but not yet.' Defers the 5:54 PM 'allowing commenter img refs' and 10:23 PM 'Yes early comment keep'. Only Trundle can flip this to true.",
+ "_rule": "trundle OWN 10:48 PM CT Oct 30 (typed to Coordinator, relayed verbatim; CURRENT-RULES v48): 'Remove the option for commenter images to be used. They will but not yet.' Defers the 5:54 PM 'allowing commenter img refs' and 10:23 PM 'Yes early comment keep'. Only trundle can flip this to true.",
  "contributors_rule": "'Accounts that contributed to specific a video should be kept as data that follows the img, but doesn't go in prompt.' -> sidecar field contributors[]; gate R-NOHANDLES fails any prompt containing a contributor handle."}
