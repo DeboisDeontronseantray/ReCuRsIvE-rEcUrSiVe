@@ -21,6 +21,7 @@ def no_network(monkeypatch, tmp_path):
     monkeypatch.setenv("XAI_API_KEY", KEY)
     monkeypatch.setenv("XAI_KEY_FILE", str(tmp_path / "missing-key"))
     monkeypatch.setenv("TT_CLIP_LEDGER", str(tmp_path / "ledger.jsonl"))
+    (tmp_path / "ledger.jsonl").write_text("")  # the Veo trial cap fails closed on a missing ledger
     monkeypatch.setattr(spend, "month_total_for_gate", lambda: (0, "test"))
     yield
     urlopen.assert_not_called()
@@ -68,7 +69,10 @@ def test_mocked_veo_success(tmp_path):
     assert fake.call_count == 3
     assert ":fetchPredictOperation" in fake.call_args_list[1].args[1]
     assert fake.call_args_list[1].args[2] == {"operationName": "projects/1055647348526/operations/op1"}
-    row, = ledger(tmp_path)
+    # 2026-11-02 reservation: a 'reserved' row before submit, then the final row with the same id.
+    reserved, row = ledger(tmp_path)
+    assert reserved["status"] == "reserved" and reserved["cost_usd"] == 8 * 0.08
+    assert row["status"] == "success" and row["reservation_id"] == reserved["reservation_id"]
     assert row["est_usd"] == row["cost_usd"] == 8 * 0.08
     assert row["operation"] == "op1" and row["provider"] == "vertex_veo"
     assert row["refs"] == 3 and row["clip_id"] == "clip1"
@@ -96,8 +100,9 @@ def test_cli_failure_loud_logged_and_redacted(tmp_path, monkeypatch, capsys, res
     output = capsys.readouterr()
     assert expected in output.err and "clip_render FAILED http=" in output.err
     assert KEY not in output.out + output.err + (tmp_path / "ledger.jsonl").read_text()
-    row, = ledger(tmp_path)
-    assert row["cost_usd"] == 0 and row["status"] == "failed"
+    # 2026-11-02: a failure after submit keeps the reserved amount as a possible charge.
+    reserved, row = ledger(tmp_path)
+    assert row["cost_usd"] == 0.64 and row["status"] == "possible_charge"
     assert not (tmp_path / "clip.mp4").exists()
 
 
@@ -119,7 +124,7 @@ def test_dry_run(tmp_path, monkeypatch, capsys, options, estimate):
     assert p["quote"]["est_usd"] == estimate
     assert p["needs"] == "trundle's priced yes" and p["key_set"]
     assert KEY not in output.out and "bytesBase64Encoded" not in output.out
-    assert not (tmp_path / "ledger.jsonl").exists()
+    assert (tmp_path / "ledger.jsonl").read_text() == ""  # no ledger row
 
 
 @pytest.mark.parametrize("approval", [None, "", "trundle yes", "$", "$invalid"])
@@ -159,7 +164,7 @@ def test_validation_cli(tmp_path, capsys, case):
     assert run_cli(tmp_path, req, "--dry-run") == 2
     output = capsys.readouterr()
     if case in ("fal", "kie"): assert "blocked by CURRENT-RULES L60 (paid resellers held)" in output.err
-    assert not (tmp_path / "ledger.jsonl").exists()
+    assert (tmp_path / "ledger.jsonl").read_text() == ""  # no ledger row
 
 
 @pytest.mark.parametrize("response,expected", [
@@ -172,14 +177,14 @@ def test_output_failures(tmp_path, response, expected):
     with pytest.raises(clips.ClipRenderError) as error:
         clips.render(request(tmp_path), approval="trundle $0.64 yes", transport=fake, sleep=lambda _: None)
     assert expected in str(error.value).lower()
-    assert ledger(tmp_path)[0]["cost_usd"] == 0
+    assert ledger(tmp_path)[-1]["cost_usd"] == 0.64 and ledger(tmp_path)[-1]["status"] == "possible_charge"
 
 
 def test_timeout(tmp_path):
     fake = Mock(side_effect=lambda method, url, body: (200, json.dumps({"name": "operations/op"} if ":predictLongRunning" in url else {"done": False})))
     with pytest.raises(clips.ClipRenderError, match="timeout"):
         clips.render(request(tmp_path), approval="trundle $0.64 yes", transport=fake, sleep=lambda _: None, poll_seconds=1, timeout_seconds=1)
-    assert ledger(tmp_path)[0]["cost_usd"] == 0
+    assert ledger(tmp_path)[-1]["cost_usd"] == 0.64 and ledger(tmp_path)[-1]["status"] == "possible_charge"
 
 
 def test_exception_redacts_key_and_limits_body(tmp_path):
@@ -230,7 +235,8 @@ def test_missing_key(tmp_path, monkeypatch, capsys):
     monkeypatch.delenv("GCP_VERTEX_API_KEY")
     assert run_cli(tmp_path, request(tmp_path), "--approved", "trundle yes $0.64") == 2
     assert "missing GCP_VERTEX_API_KEY" in capsys.readouterr().err
-    assert ledger(tmp_path)[0]["cost_usd"] == 0
+    # Nothing was submitted: the reservation is released as failed, $0.
+    assert ledger(tmp_path)[-1]["cost_usd"] == 0 and ledger(tmp_path)[-1]["status"] == "failed"
 
 
 @pytest.mark.parametrize("field,value", [("provider", []), ("tier", {}), ("resolution", []), ("out_path", 7), ("audio", "false"), ("reference_images", "ref.png")])
@@ -258,8 +264,10 @@ def test_poll_http_error_and_transport_exception(tmp_path):
         with pytest.raises(clips.ClipRenderError) as error:
             clips.render(request(tmp_path), approval="trundle yes $0.64", transport=fake, sleep=lambda _: None)
         assert KEY not in str(error.value)
-    assert len(ledger(tmp_path)) == 2
-    assert all(row["cost_usd"] == 0 for row in ledger(tmp_path))
+    rows = ledger(tmp_path)
+    assert len(rows) == 4  # reserved + final, twice
+    assert [r["status"] for r in rows] == ["reserved", "possible_charge"] * 2
+    assert all(row["cost_usd"] == 0.64 for row in rows)
 
 
 def test_dry_run_does_not_read_key_values(tmp_path, monkeypatch, capsys):

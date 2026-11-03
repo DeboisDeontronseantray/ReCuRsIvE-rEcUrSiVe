@@ -1,5 +1,18 @@
 """Priced, approval-gated clip rendering. No automatic provider failover.
 
+Exit codes: 0 ok, 1 FAILED, 2 validation, 3 needs priced yes, 4 Veo trial hard stop (cap or trial ended).
+Veo dry signals are reported to pool-check (--mark-dry veo) when TT_POOL_CHECK is set.
+
+Caps and the Veo trial end date come from ONE box-local settings file (no secrets): env TT_CAPS_FILE,
+else /workspace/shared/spend/caps.json. CAPS_FALLBACK below is only the fail-closed fallback for a
+missing or invalid file (today's values, 2026-11-02); cap numbers otherwise stay out of this code.
+
+Veo cost reservation (2026-11-02, trundle 9:11 PM CT go): under a file lock on <ledger>.lock, a
+'reserved' row with the estimate is appended before submit; the render then appends a final row with
+the same reservation_id: 'success' (estimate), 'possible_charge' (failed or timed out after submit:
+the reserved amount is kept) or 'failed' ($0, nothing was submitted). The trial total takes the last
+row per reservation_id, so reserved and possible_charge amounts count toward the cap.
+
 Vertex prices read 2026-11-02: the pricing page's '/ 1 count' is treated
 as USD per second of generated video. Trial credits are logged separately.
 """
@@ -7,16 +20,20 @@ from __future__ import annotations
 
 import argparse
 import base64
+import contextlib
 from dataclasses import asdict, dataclass, fields
-from datetime import datetime
+from datetime import date, datetime
 import hashlib
 import json
+import math
 import os
 from pathlib import Path
 import re
+import subprocess
 import sys
 import tempfile
 import time
+import uuid
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -180,9 +197,9 @@ def price(req):
     return Quote("xai", "grok-imagine-video-1.5" + ("-lite" if req.tier == "lite" else ""), req.duration_s, rate, round(req.duration_s * rate + extra, 4), "estimate: xAI rate")
 
 
-def plan(req):
+def plan(req, ledger_path=None):
     quote = price(req)
-    return {"provider": req.provider, "tier": req.tier, "quote": asdict(quote),
+    result = {"provider": req.provider, "tier": req.tier, "quote": asdict(quote),
             "duration_s": req.duration_s, "resolution": req.resolution, "audio": req.audio,
             "aspect_ratio": req.aspect_ratio, "reference_images": [str(p) for p in req.reference_images],
             "refs": len(req.reference_images), "start_image": str(req.start_image) if req.start_image else None,
@@ -191,6 +208,15 @@ def plan(req):
             "key_set": ("GCP_VERTEX_API_KEY" in os.environ if req.provider == "veo" else
                         "XAI_API_KEY" in os.environ or Path(os.environ.get("XAI_KEY_FILE", "/workspace/private/keys/xai-render.key")).is_file()),
             "needs": "trundle's priced yes"}
+    if req.provider == "veo":
+        try:
+            result["veo_trial_cap"] = veo_trial_status(quote.est_usd, _ledger_path(ledger_path))
+        except VeoTrialCapError as exc:
+            caps = load_caps()
+            result["veo_trial_cap"] = {"cap_usd": caps["veo_trial_cap_usd"], "warn_usd": caps["veo_trial_warn_usd"],
+                                       "status": "ledger_unreadable", "error": str(exc), "basis": VEO_TRIAL_BASIS,
+                                       "caps_source": caps["source"]}
+    return result
 
 
 def _transport(method, url, body, *, headers=None, binary=False):
@@ -213,8 +239,43 @@ def _ledger_path(override):
     return Path(override or os.environ.get("TT_CLIP_LEDGER") or ENGINE_ROOT / "data/spend/clip-ledger.jsonl")
 
 
+CAPS_DEFAULT_PATH = "/workspace/shared/spend/caps.json"
+# Fail-closed fallback only, used when the caps file is missing or invalid (values as of 2026-11-02:
+# xAI $50/month, warn $40, trundle 5:04 PM CT; Veo trial $150, warn $120, trundle 8:44 PM CT; trial ends 2027-01-04).
+CAPS_FALLBACK = {"xai_month_cap_usd": 50.0, "xai_month_warn_usd": 40.0,
+                 "veo_trial_cap_usd": 150.0, "veo_trial_warn_usd": 120.0, "veo_trial_end": "2027-01-04"}
+
+
+def load_caps(path=None):
+    """Caps from the settings file; any missing/invalid file or field gives the full fallback."""
+    path = Path(path or os.environ.get("TT_CAPS_FILE") or CAPS_DEFAULT_PATH)
+    try:
+        data = json.loads(path.read_text())
+    except FileNotFoundError:
+        return dict(CAPS_FALLBACK, source="fallback (caps file missing)")
+    except (OSError, ValueError):
+        return dict(CAPS_FALLBACK, source="fallback (caps file unreadable)")
+    caps = {}
+    try:
+        if not isinstance(data, dict) or data.get("version") != 1:
+            raise ValueError
+        for name in ("xai_month_cap_usd", "xai_month_warn_usd", "veo_trial_cap_usd", "veo_trial_warn_usd"):
+            value = data[name]
+            if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value) or value < 0:
+                raise ValueError
+            caps[name] = float(value)
+        date.fromisoformat(data["veo_trial_end"])
+        caps["veo_trial_end"] = data["veo_trial_end"]
+        if caps["xai_month_warn_usd"] > caps["xai_month_cap_usd"] or caps["veo_trial_warn_usd"] > caps["veo_trial_cap_usd"]:
+            raise ValueError
+    except (KeyError, TypeError, ValueError):
+        return dict(CAPS_FALLBACK, source="fallback (caps file invalid)")
+    return dict(caps, source=str(path))
+
+
 def _xai_cap(estimate, ledger):
-    # spend's legacy cap can be higher; this lane always enforces $50/month.
+    # spend's legacy cap can be higher; this lane always enforces the caps-file xAI monthly cap.
+    cap = load_caps()["xai_month_cap_usd"]
     total, _ = spend.month_total_for_gate()
     month = datetime.now(ZoneInfo("America/Chicago")).strftime("%Y-%m")
     if ledger.exists():
@@ -222,21 +283,215 @@ def _xai_cap(estimate, ledger):
             row = json.loads(line)
             if row.get("provider") == "xai_imagine" and row.get("ts_ct", "").startswith(month):
                 total += float(row.get("cost_usd", 0))
-    if total + estimate > 50:
-        raise spend.SpendLimitError("xAI clip hard stop: monthly $50 cap")
+    if total + estimate > cap:
+        raise spend.SpendLimitError(f"xAI clip hard stop: monthly ${cap:g} cap")
 
 
-def render(req, *, approval, transport=None, sleep=time.sleep, poll_seconds=10, timeout_seconds=900, ledger_path=None):
+# Veo trial spend cap. trundle, 2026-11-02 8:44 PM CT: "Let's make veo cap $150 for now".
+# Separate from the xAI $50 gate: it counts only vertex_veo rows of the clip ledger render() writes,
+# over the whole trial (the ledger is one append-only file, not per month; the trial ends 2027-01-04).
+# Fallback aliases only; the live numbers come from load_caps().
+VEO_TRIAL_CAP_USD = CAPS_FALLBACK["veo_trial_cap_usd"]
+VEO_TRIAL_WARN_USD = CAPS_FALLBACK["veo_trial_warn_usd"]
+VEO_TRIAL_BASIS = ("sum of cost_usd over all vertex_veo rows in the clip ledger, last row per reservation_id "
+                   "(reserved and possible_charge count; whole trial, not per month)")
+
+
+class VeoTrialCapError(RuntimeError):
+    """Hard stop before a Veo render: the trial cap would be crossed, or the ledger can't be read."""
+
+
+def veo_trial_spent(ledger):
+    """USD spent or held on the Veo trial so far. A missing, unreadable or corrupt ledger fails closed."""
+    return veo_trial_totals(ledger)["total"]
+
+
+def veo_trial_totals(ledger):
+    """Totals by final status; the last row per reservation_id wins (rows without one count alone)."""
+    try:
+        text = Path(ledger).read_text()
+    except FileNotFoundError:
+        raise VeoTrialCapError("Veo trial ledger missing; fail closed (create it empty with --init-ledger)") from None
+    except (OSError, UnicodeDecodeError):
+        raise VeoTrialCapError("Veo trial ledger unreadable; fail closed") from None
+    held = {}
+    for number, line in enumerate(text.splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
+            row = json.loads(line)
+        except ValueError:
+            row = None
+        if not isinstance(row, dict):
+            raise VeoTrialCapError(f"Veo trial ledger corrupt at line {number}; fail closed")
+        if row.get("provider") != "vertex_veo":
+            continue
+        cost = row.get("cost_usd")
+        if isinstance(cost, bool) or not isinstance(cost, (int, float)) or not math.isfinite(cost) or cost < 0:
+            raise VeoTrialCapError(f"Veo trial ledger corrupt at line {number} (cost_usd); fail closed")
+        rid = row.get("reservation_id")
+        held[rid if isinstance(rid, str) and rid else f"line-{number}"] = (cost, row.get("status"))
+    totals = {"total": round(sum(c for c, _ in held.values()), 4),
+              "reserved": round(sum(c for c, st in held.values() if st == "reserved"), 4),
+              "possible_charge": round(sum(c for c, st in held.values() if st == "possible_charge"), 4)}
+    return totals
+
+
+def veo_trial_status(estimate, ledger, caps=None):
+    caps = caps or load_caps()
+    cap_usd, warn_usd = caps["veo_trial_cap_usd"], caps["veo_trial_warn_usd"]
+    totals = veo_trial_totals(ledger)
+    spent = totals["total"]
+    after = round(spent + estimate, 4)
+    return {"cap_usd": cap_usd, "warn_usd": warn_usd, "spent_usd": spent,
+            "reserved_usd": totals["reserved"], "possible_charge_usd": totals["possible_charge"],
+            "this_est_usd": estimate, "after_usd": after,
+            "left_usd": round(max(cap_usd - spent, 0), 4),
+            "left_after_usd": round(cap_usd - after, 4),
+            "status": "blocked" if after > cap_usd else "warn" if after >= warn_usd else "ok",
+            "basis": VEO_TRIAL_BASIS, "caps_source": caps["source"]}
+
+
+def _veo_trial_gate(estimate, ledger, caps=None):
+    cap = veo_trial_status(estimate, ledger, caps)
+    if cap["status"] == "blocked":
+        raise VeoTrialCapError(f"Veo trial cap ${cap['cap_usd']:.2f}: spent ${cap['spent_usd']:.2f} + this render "
+                               f"${estimate:.2f} = ${cap['after_usd']:.2f} would cross it (${cap['left_usd']:.2f} left)")
+    if cap["status"] == "warn":
+        print(f"clip_render WARNING: Veo trial spend ${cap['after_usd']:.2f} after this render is at or over the "
+              f"${cap['warn_usd']:.0f} warn line; ${cap['left_after_usd']:.2f} of the ${cap['cap_usd']:.0f} cap left", file=sys.stderr)
+    return cap
+
+
+@contextlib.contextmanager
+def _ledger_lock(ledger):
+    """Exclusive flock on <ledger>.lock, so the cap check and the reservation are one step."""
+    import fcntl
+    try:
+        fd = os.open(str(ledger) + ".lock", os.O_RDWR | os.O_CREAT, 0o600)
+    except FileNotFoundError:
+        raise VeoTrialCapError("Veo trial ledger missing; fail closed (create it empty with --init-ledger)") from None
+    try:
+        fcntl.flock(fd, fcntl.LOCK_EX)
+        yield
+    finally:
+        os.close(fd)
+
+
+def _append_row(ledger, row):
+    with open(ledger, "a") as stream:
+        stream.write(json.dumps(row) + "\n")
+        stream.flush()
+        os.fsync(stream.fileno())
+
+
+def _veo_reserve(estimate, ledger, row, caps=None):
+    """Cap check plus a 'reserved' row, under the ledger lock. Returns the reservation_id."""
+    with _ledger_lock(ledger):
+        _veo_trial_gate(estimate, ledger, caps)
+        rid = uuid.uuid4().hex
+        _append_row(ledger, dict(row, reservation_id=rid, reserved_usd=estimate, cost_usd=estimate, status="reserved"))
+        return rid
+
+
+# Veo dry signals (trundle 2026-11-02 8:56 PM CT "Ok what do we do"; MODEL-MAP "Detect dry").
+VEO_TRIAL_END = date.fromisoformat(CAPS_FALLBACK["veo_trial_end"])  # fallback; live date from load_caps()
+VEO_DRY_404 = "veo-404-model-not-found"
+VEO_DRY_403 = "veo-403-permission-or-quota"
+VEO_DRY_429 = "veo-429-resource-exhausted"
+VEO_DRY_TRIAL_END = "veo-trial-ended"
+VEO_DRY_CAP = "veo-cap-150-hit"
+
+
+def veo_dry_signal(exc):
+    """Return the pool-check dry reason for a Veo failure, or None (not a dry signal)."""
+    if isinstance(exc, VeoTrialCapError):
+        text = str(exc)
+        if text.startswith("Veo trial ended"):
+            return VEO_DRY_TRIAL_END
+        if text.startswith("Veo trial cap"):
+            return VEO_DRY_CAP
+        return None  # a missing or corrupt ledger is a local fault, not a dry pool
+    if not isinstance(exc, ClipRenderError):
+        return None
+    body = str(getattr(exc, "body", ""))
+    status = getattr(exc, "status", None)
+    if status == 429 or re.search(r"RESOURCE_EXHAUSTED", body):
+        return VEO_DRY_429
+    if status == 404:
+        return VEO_DRY_404
+    if status == 403 and re.search(r"PERMISSION_DENIED|permission|quota|billing|credit", body, re.I):
+        return VEO_DRY_403
+    return None
+
+
+def report_veo_dry(reason, env=None):
+    """Fail-soft: tell pool-check (path in TT_POOL_CHECK) that Veo is dry. Never sends bodies or keys."""
+    env = os.environ if env is None else env
+    tool = env.get("TT_POOL_CHECK", "")
+    if not tool:
+        return False
+    try:
+        result = subprocess.run([tool, "--mark-dry", "veo", "--reason", reason, "--bot", "clip_render"],
+                                stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=60)
+        return result.returncode == 0
+    except Exception:  # never let the report change the render's own error
+        return False
+
+
+def _veo_trial_open(today=None, caps=None):
+    today = today or datetime.now(ZoneInfo("America/Chicago")).date()
+    end = date.fromisoformat((caps or load_caps())["veo_trial_end"])
+    if today > end:
+        raise VeoTrialCapError(f"Veo trial ended {end.isoformat()}; no Veo renders")
+
+
+def render(req, **kwargs):
+    try:
+        return _render(req, **kwargs)
+    except (VeoTrialCapError, ClipRenderError) as exc:
+        reason = veo_dry_signal(exc) if getattr(req, "provider", None) == "veo" else None
+        if reason:
+            report_veo_dry(reason)
+        raise
+
+
+def _render(req, *, approval, transport=None, sleep=time.sleep, poll_seconds=10, timeout_seconds=900, ledger_path=None):
     # This gate precedes validation, credential lookup, spend checks and transport.
     if not isinstance(approval, str) or not re.search(r"\$\s*\d+(?:\.\d+)?", approval):
         raise ApprovalRequired("needs trundle's priced yes")
     _validate(req, rendering=True)
     quote = price(req)
     ledger = _ledger_path(ledger_path)
+
+    def ledger_row(**final):
+        row = {"ts_ct": datetime.now(ZoneInfo("America/Chicago")).isoformat(timespec="seconds"),
+               "provider": "vertex_veo" if req.provider == "veo" else "xai_imagine", "model": quote.model,
+               "seconds": req.duration_s, "resolution": req.resolution, "audio": req.audio,
+               "refs": len(req.reference_images), "start_image": bool(req.start_image), "est_usd": quote.est_usd,
+               "cost_usd": 0, "cost_source": quote.basis, "status": "failed", "http_status": None,
+               "operation": None, "clip_id": req.clip_id, "channel": req.channel, "show_id": req.show_id,
+               "step": "clip-render", "bot": "story-bot",
+               "key_ref": "env:GCP_VERTEX_API_KEY" if req.provider == "veo" else "file/env:XAI",
+               "approved_by": " ".join(approval.split())[:200],
+               "prompt_sha256": hashlib.sha256(req.prompt.encode()).hexdigest()}
+        row.update(final)
+        # Sanitize all caller/remote supplied metadata as well as the approval. The reserved row is
+        # written before the key is loaded, so redact the Veo env key too.
+        secret = key or (os.environ.get("GCP_VERTEX_API_KEY", "") if req.provider == "veo" else "")
+        return {name: _redact(value, secret) if isinstance(value, str) else value for name, value in row.items()}
+
     key = ""
+    reservation = None
+    if req.provider == "veo":
+        # Before the try: a refused render writes no ledger row and never creates a missing ledger.
+        caps = load_caps()
+        _veo_trial_open(caps=caps)
+        reservation = _veo_reserve(quote.est_usd, ledger, ledger_row(), caps)
     operation = None
     http_status = None
     success = False
+    submitted = False
     started = time.monotonic()
     deadline = started + timeout_seconds
     elapsed = 0.0
@@ -283,6 +538,7 @@ def render(req, *, approval, transport=None, sleep=time.sleep, poll_seconds=10, 
                       "resolution": req.resolution, "aspectRatio": req.aspect_ratio}
             if req.negative_prompt:
                 params["negativePrompt"] = req.negative_prompt
+            submitted = True  # from here a failure may still have been charged
             data = invoke("POST", root + ":predictLongRunning" + query, {"instances": [instance], "parameters": params})
             operation = data.get("name")
         else:
@@ -296,6 +552,7 @@ def render(req, *, approval, transport=None, sleep=time.sleep, poll_seconds=10, 
                 body["image"] = ximage(req.start_image)
             else:
                 body["aspect_ratio"] = req.aspect_ratio
+            submitted = True
             data = invoke("POST", XAI_ROOT + "/generations", body)
             operation = data.get("request_id")
         if not isinstance(operation, str) or not operation:
@@ -349,34 +606,41 @@ def render(req, *, approval, transport=None, sleep=time.sleep, poll_seconds=10, 
     except Exception as exc:
         raise ClipRenderError(getattr(exc, "status", http_status), str(exc), key=key) from None
     finally:
-        row = {"ts_ct": datetime.now(ZoneInfo("America/Chicago")).isoformat(timespec="seconds"),
-               "provider": "vertex_veo" if req.provider == "veo" else "xai_imagine", "model": quote.model,
-               "seconds": req.duration_s, "resolution": req.resolution, "audio": req.audio,
-               "refs": len(req.reference_images), "start_image": bool(req.start_image), "est_usd": quote.est_usd,
-               "cost_usd": quote.est_usd if success else 0, "cost_source": quote.basis,
-               "status": "success" if success else "failed", "http_status": http_status,
-               "operation": operation.rsplit("/", 1)[-1] if isinstance(operation, str) else None,
-               "clip_id": req.clip_id, "channel": req.channel, "show_id": req.show_id,
-               "step": "clip-render", "bot": "story-bot",
-               "key_ref": "env:GCP_VERTEX_API_KEY" if req.provider == "veo" else "file/env:XAI",
-               "approved_by": " ".join(_redact(approval, key).split())[:200],
-               "prompt_sha256": hashlib.sha256(req.prompt.encode()).hexdigest()}
-        # Sanitize all caller/remote supplied metadata as well as the approval.
-        row = {name: _redact(value, key) if isinstance(value, str) else value for name, value in row.items()}
-        ledger.parent.mkdir(parents=True, exist_ok=True)
-        with ledger.open("a") as stream:
-            stream.write(json.dumps(row) + "\n")
+        final = {"http_status": http_status,
+                 "operation": operation.rsplit("/", 1)[-1] if isinstance(operation, str) else None}
+        if reservation:
+            # Veo: finalize the reservation. A failure after submit keeps the reserved amount.
+            status = "success" if success else "possible_charge" if submitted else "failed"
+            final.update(reservation_id=reservation, reserved_usd=quote.est_usd, status=status,
+                         cost_usd=0 if status == "failed" else quote.est_usd)
+            with _ledger_lock(ledger):
+                _append_row(ledger, ledger_row(**final))
+        else:
+            final.update(cost_usd=quote.est_usd if success else 0, status="success" if success else "failed")
+            ledger.parent.mkdir(parents=True, exist_ok=True)
+            with ledger.open("a") as stream:
+                stream.write(json.dumps(ledger_row(**final)) + "\n")
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument("--spec", required=True)
+    parser.add_argument("--spec")
     parser.add_argument("--provider")
     parser.add_argument("--tier")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--approved")
     parser.add_argument("--out")
+    parser.add_argument("--init-ledger", action="store_true", help="create the clip ledger empty if absent (Veo trial cap reads it)")
     args = parser.parse_args(argv)
+    if args.init_ledger:
+        ledger = _ledger_path(None)
+        ledger.parent.mkdir(parents=True, exist_ok=True)
+        with ledger.open("a"):
+            pass
+        print(f"clip ledger ready: {ledger}")
+        return 0
+    if not args.spec:
+        parser.error("--spec is required")
     provider = args.provider or DEFAULT_CLIP_PROVIDER
     try:
         spec = json.loads(Path(args.spec).read_text())
@@ -399,6 +663,9 @@ def main(argv=None):
     except ApprovalRequired:
         print("needs trundle's priced yes", file=sys.stderr)
         return 3
+    except VeoTrialCapError as exc:
+        print(f"clip_render HARD STOP: {exc}", file=sys.stderr)
+        return 4
     except (ClipRequestError, OSError, ValueError) as exc:
         # Validation messages never include spec values or file contents.
         message = str(exc) if isinstance(exc, ClipRequestError) else "invalid spec or file I/O failure"
