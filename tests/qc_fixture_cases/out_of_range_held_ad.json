@@ -1,0 +1,21 @@
+{
+  "spec": {
+    "metadata": {
+      "canon_ref": "thundertrundle-bible-v1",
+      "audio": {
+        "integrated_lufs": -16,
+        "true_peak_dbtp": -1.5
+      }
+    }
+  },
+  "prompt": "trundle walks past the workshop.",
+  "meta": {
+    "kind": "ad",
+    "held_ad": true,
+    "held_ad_number": 17
+  },
+  "expected": [
+    "reference_required"
+  ],
+  "id": "out_of_range_held_ad"
+}

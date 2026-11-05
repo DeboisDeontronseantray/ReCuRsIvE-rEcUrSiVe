@@ -1,0 +1,25 @@
+{
+  "spec": {
+    "metadata": {
+      "canon_ref": "thundertrundle-bible-v1",
+      "audio": {
+        "integrated_lufs": -16,
+        "true_peak_dbtp": -1.5
+      }
+    }
+  },
+  "prompt": "thundertrundle walks past the workshop.",
+  "meta": {
+    "kind": "segment",
+    "reference_images": [
+      "/offline/reference.png"
+    ],
+    "contributor_handles": [
+      "thundertrundle"
+    ]
+  },
+  "expected": [
+    "no_handles"
+  ],
+  "id": "bare_handle"
+}

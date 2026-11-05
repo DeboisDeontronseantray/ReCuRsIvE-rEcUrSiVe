@@ -1,0 +1,20 @@
+{
+  "spec": {
+    "metadata": {
+      "canon_ref": "thundertrundle-bible-v1",
+      "audio": {
+        "integrated_lufs": -16,
+        "true_peak_dbtp": -1.5
+      }
+    }
+  },
+  "prompt": "trundle looks into the camera. Buy now.",
+  "meta": {
+    "kind": "ad",
+    "reference_images": [
+      "/offline/reference.png"
+    ]
+  },
+  "expected": [],
+  "id": "ad_camera_exempt"
+}
