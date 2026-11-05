@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trusted offline playback receipt",
+  "description": "Offline playback event. Aired is reached only when this receipt verifies. No live playout client.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["item_id", "channel", "start", "end", "playout_id", "nonce", "signature"],
+  "properties": {
+    "item_id": {"type": "string", "minLength": 1},
+    "channel": {"type": "string", "minLength": 1},
+    "start": {"type": "string", "minLength": 1},
+    "end": {"type": "string", "minLength": 1},
+    "playout_id": {"type": "string", "minLength": 1},
+    "nonce": {"type": "string", "minLength": 1},
+    "signature": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

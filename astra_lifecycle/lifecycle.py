@@ -13,6 +13,7 @@ from uuid import uuid4
 from . import characters, continuity, registry
 from .contracts import (EDGES, EXITS, GuardError, MockPlayback, canonical, digest, file_hash,
                         human, integer, now, output_path, require, sha, timestamp, validate_receipt)
+from .trusted_receipt import TrustedNoop, adapt_trusted_receipt
 
 
 def empty_state():
@@ -490,12 +491,16 @@ class Lifecycle:
     def transition(self, clip_id, target, *, evidence=None, crash_hook=None):
         def op(s):
             c = s['clips'][clip_id]
+            proof = evidence
             if target == 'aired':
-                validate_receipt(evidence)
-                require(evidence['authority_id'] == s['authority_id'], 'receipt authority mismatch')
+                proof = adapt_trusted_receipt(self, s, c, evidence)
+                if isinstance(proof, TrustedNoop):
+                    return c
+                validate_receipt(proof)
+                require(proof['authority_id'] == s['authority_id'], 'receipt authority mismatch')
             if target == 'aired' and c['state'] == 'aired':
-                receipt = self.verifier.verify(evidence)
-                require(s['receipts'].get(receipt['id']) == evidence and receipt['clip_id'] == clip_id, 'conflicting replay receipt')
+                receipt = self.verifier.verify(proof)
+                require(s['receipts'].get(receipt['id']) == proof and receipt['clip_id'] == clip_id, 'conflicting replay receipt')
                 return c
             require(target in EDGES.get(c['state'], ()), f'illegal transition {c["state"]} -> {target}')
             old = c['state']
@@ -521,7 +526,7 @@ class Lifecycle:
             elif target == 'aired':
                 self._gate(s, c, settled=True)
                 self._assets(s, [c['media_hash']])
-                receipt = self.verifier.verify(evidence)
+                receipt = self.verifier.verify(proof)
                 require(receipt.get('id') and receipt['id'] not in s['receipts'], 'receipt already used')
                 require(all(receipt.get(k) == c[v] for k, v in (('clip_id', 'id'), ('slot', 'slot'), ('lineage', 'lineage'), ('media_hash', 'media_hash'))), 'receipt slot/timestamp/lineage join mismatch')
                 require(s['slots'].get(c['slot']) == clip_id and c['air_permission'], 'receipt occupant lacks air permission')
@@ -548,7 +553,7 @@ class Lifecycle:
                         if attempt['clip_id'] == clip_id:
                             attempt['status'] = 'aired' if landed else 'missed'
                     self._ledger_row(s, c, pid, aired=True, receipt_id=receipt['id'], aired_at=receipt['timestamp'])
-                s['receipts'][receipt['id']] = deepcopy(evidence)
+                s['receipts'][receipt['id']] = deepcopy(proof)
             elif target in EXITS:
                 require(isinstance(evidence, dict) and evidence.get('reason'), 'terminal exit requires reason')
                 self._exit(s, c, target)
