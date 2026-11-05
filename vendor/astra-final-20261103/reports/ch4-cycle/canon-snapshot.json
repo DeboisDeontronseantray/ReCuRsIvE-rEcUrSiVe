@@ -1,0 +1,178 @@
+{
+  "commits": [
+    {
+      "channel": "Ch4",
+      "clip_id": "ch4-proof-1",
+      "id": 1,
+      "index": 1,
+      "receipt_id": "ch4-mock-playback-1"
+    }
+  ],
+  "clocks": {
+    "Ch4": {
+      "away": 0,
+      "episode": 1,
+      "index": 1,
+      "season": 1
+    }
+  },
+  "cards": {
+    "HERON": {
+      "abilities": [
+        "Systema turn"
+      ],
+      "field_versions": {
+        "abilities": 1,
+        "id": 1,
+        "locked": 1,
+        "locked.color": 1,
+        "locked.signature_prop": 1,
+        "locked.silhouette": 1,
+        "memory_log": 2,
+        "name": 1,
+        "plastic": 1,
+        "plastic.carried_consequences": 2,
+        "plastic.gear": 1,
+        "plastic.health": 1,
+        "plastic.mood": 2,
+        "plastic.relationships": 1,
+        "refs": 2,
+        "summon_count": 2,
+        "version": 1,
+        "voice": 1,
+        "writein_level": 2
+      },
+      "id": "HERON",
+      "locked": {
+        "color": "dark coat",
+        "signature_prop": "KOLOKOL-7 resonance baton",
+        "silhouette": "dark fur greatcoat"
+      },
+      "memory_log": [
+        {
+          "clip_id": "ch4-proof-1",
+          "index": 1,
+          "patch": {
+            "mood": "resolute"
+          }
+        }
+      ],
+      "name": "HERON",
+      "plastic": {
+        "carried_consequences": [
+          "handoff-tension"
+        ],
+        "gear": [
+          "baton"
+        ],
+        "health": "steady",
+        "mood": "resolute",
+        "relationships": {}
+      },
+      "refs": [
+        {
+          "evidence": "synthetic fixture state-still annotation; not a real visual QC claim",
+          "hash": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+          "state_digest": "b0fe47682d482bf2667444b6db9dea724288f70d264cb7eea2328a9910b98da9"
+        }
+      ],
+      "summon_count": 1,
+      "version": 2,
+      "voice": "unassigned",
+      "writein_level": 1
+    }
+  },
+  "stills": {
+    "HERON:8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108": {
+      "character_id": "HERON",
+      "evidence": "fixture review only; no visual QC claim",
+      "hash": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "state": "primary",
+      "state_digest": "08adc88180c42f1fd545ff4df67fdcc347c3e6e3192d07a55b93a451c4b930ab",
+      "version": 3
+    },
+    "HERON:9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5": {
+      "character_id": "HERON",
+      "evidence": "fixture current-state baseline",
+      "hash": "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+      "state": "retired",
+      "state_digest": "42c7f32433d46e5a29da365f259c29cfa427f471a500a95f7dfc5b45a9f9d664",
+      "version": 2
+    }
+  },
+  "consequences": {
+    "handoff-tension": {
+      "active": true,
+      "channel": "Ch4",
+      "character_id": "HERON",
+      "content_hash": "68bd906edf3f33a98ae2cbed1cf483bf4a7b096bfccef1888e83dd63f1d5d132",
+      "episode": 1,
+      "evidence": "synthetic fixture annotation",
+      "id": "handoff-tension",
+      "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "season": 1,
+      "since_index": 1,
+      "source": "ch4-proof-1",
+      "text": "the handoff sharpens HERON\u2019s resolve",
+      "tier": "FLASH",
+      "version": 1
+    },
+    "old-rain": {
+      "active": false,
+      "channel": "Ch4",
+      "character_id": "HERON",
+      "content_hash": "96051f98d5b8676da0596b98e6254abb545b14a0e5bda053ea35de283a172ab5",
+      "episode": 1,
+      "id": "old-rain",
+      "season": 1,
+      "since_index": 0,
+      "source": "baseline",
+      "text": "rain-slick coat",
+      "tier": "FLASH",
+      "version": 1
+    }
+  },
+  "ledger": [
+    {
+      "aired": true,
+      "aired_at": "2026-11-04T00:13:38.991312+00:00",
+      "appeared_text": "HERON follows him across the bridge",
+      "channel": "Ch4",
+      "clip_id": "ch4-proof-1",
+      "contributor_id": "fixture-contributor-1",
+      "delivery_status": "appeared",
+      "landed": true,
+      "observation_evidence": "mock appearance observation; existing seed media does not establish this action",
+      "prompt_id": "ch4-comment-1",
+      "receipt_id": "ch4-mock-playback-1",
+      "requested_hash": "e7fd4020912008c1d5e989f628947020b66f4acc7374e1d78c22708730b646ed",
+      "requested_text": "heron should follow him across the bridge",
+      "score": 1,
+      "subject_matter": [],
+      "version": 2,
+      "votes": 0
+    },
+    {
+      "aired": false,
+      "aired_at": null,
+      "appeared_text": "",
+      "channel": "Ch4",
+      "clip_id": "ch4-pulled",
+      "contributor_id": "fixture-contributor-2",
+      "delivery_status": "pending",
+      "landed": false,
+      "observation_evidence": null,
+      "prompt_id": "ch4-comment-unseen",
+      "receipt_id": null,
+      "requested_hash": "6a5e2ceca02fbf2593735a3e81a6454eb4d2b4e7467a13e0c838e9d75b882b28",
+      "requested_text": "keep the microfilm canister moving",
+      "score": 0,
+      "subject_matter": [],
+      "version": 1,
+      "votes": 0
+    }
+  ],
+  "aliases": {
+    "ch4-recipe-v1": "ch4-recipe-v2"
+  }
+}

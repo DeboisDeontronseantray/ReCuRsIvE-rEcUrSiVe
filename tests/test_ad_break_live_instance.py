@@ -1,9 +1,12 @@
 """Locked Nov 1, 2026: (a) ads and breaks are never trait evidence; (b) one live instance = one copy of a character."""
 
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
+
+import pytest
 
 from charmeta.live_instance import LiveInstanceError, copies_in_shot, live_instance_conflicts
 from charmeta.observations import (
@@ -23,6 +26,7 @@ from lineage.eligibility import (
     is_commercial_or_ad_row,
     is_show_master_row,
 )
+from tests.lifecycle_support import authority
 from tests.test_support import BIBLE_FIXTURE, CAST_IDS, FIXTURES
 
 SHOW = [{"clip_id": f"test-aired-{n}", "global_no": 300 + n, "aired": True} for n in (1, 2, 3)]
@@ -53,6 +57,7 @@ def _jsonl(path, rows):
     return path
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestAdsAndBreaksAreNotTraitEvidence(unittest.TestCase):
     def test_break_kinds_are_not_show_masters(self) -> None:
         for row in BREAKS + [{"clip_id": "bi-x", "slot_kind": "ident"}, {"clip_id": "ch4-bumper-01"}]:
@@ -127,20 +132,32 @@ class TestAdsAndBreaksAreNotTraitEvidence(unittest.TestCase):
             self.assertEqual(load_observations(path), [])
 
     def test_break_observations_already_logged_never_promote(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            companion_path = root / "companion.yaml"
-            save_companion(companion_path, build_companion_from_bible(BIBLE_FIXTURE, CAST_IDS))
-            lineage = _jsonl(root / "lineage.jsonl", SHOW[:1] + SLOT_BREAKS)
-            slots = _jsonl(root / "slots.jsonl", SLOTS)
-            obs = _jsonl(root / "obs.jsonl", [_obs(r["clip_id"], "silver cuff") for r in SLOT_BREAKS])
-            before = companion_path.read_text(encoding="utf-8")
-            unaware = promote(companion_path=companion_path, observations_path=obs, lineage_path=lineage)
-            self.assertEqual(len(unaware.proposals), 1)
-            report = promote(companion_path=companion_path, observations_path=obs, lineage_path=lineage,
-                             slots_path=slots, apply=True)
-            self.assertEqual(report.proposals, [])
-            self.assertEqual(companion_path.read_text(encoding="utf-8"), before)
+        # Slot clips count only after a signed receipt. The slot sheet still
+        # removes ad and break items, and apply does not edit the companion.
+        with authority(*(row["clip_id"] for row in SLOT_BREAKS)) as (life, _, _):
+            previous = os.environ.get("TT_LIFECYCLE_DB")
+            os.environ["TT_LIFECYCLE_DB"] = str(life.path)
+            try:
+                with tempfile.TemporaryDirectory() as tmp:
+                    root = Path(tmp)
+                    companion_path = root / "companion.yaml"
+                    save_companion(companion_path, build_companion_from_bible(BIBLE_FIXTURE, CAST_IDS))
+                    lineage = _jsonl(root / "lineage.jsonl", SHOW[:1] + SLOT_BREAKS)
+                    slots = _jsonl(root / "slots.jsonl", SLOTS)
+                    obs = _jsonl(root / "obs.jsonl", [_obs(r["clip_id"], "silver cuff") for r in SLOT_BREAKS])
+                    before = companion_path.read_text(encoding="utf-8")
+                    unaware = promote(companion_path=companion_path, observations_path=obs, lineage_path=lineage,
+                                      lifecycle=life)
+                    self.assertEqual(len(unaware.proposals), 1)
+                    report = promote(companion_path=companion_path, observations_path=obs, lineage_path=lineage,
+                                     slots_path=slots, apply=True, lifecycle=life)
+                    self.assertEqual(report.proposals, [])
+                    self.assertEqual(companion_path.read_text(encoding="utf-8"), before)
+            finally:
+                if previous is None:
+                    os.environ.pop("TT_LIFECYCLE_DB", None)
+                else:
+                    os.environ["TT_LIFECYCLE_DB"] = previous
 
 
 class TestOneLiveInstance(unittest.TestCase):

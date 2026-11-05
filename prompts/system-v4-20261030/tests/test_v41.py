@@ -1,6 +1,6 @@
 import sys,os,re;sys.path.insert(0,os.path.join(os.path.dirname(__file__),"..","tools"))
 import build_prompt_v41 as B, apply_check_v41 as G
-REF="/workspace/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
+REF="fixtures/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
 def sp(**k):
     d={"clip_id":"T1","channel":"Ch11 Fist Theater","duration":10,"refs_raw":[REF],"cast":[{"name":"GIDEON QUILL","ref":REF}],
        "beats":[{"t":1,"who":"GIDEON QUILL","line":"Not tonight.","cue":"tired"},{"t":4,"text":"GIDEON rings the desk bell"}]};d.update(k);return d

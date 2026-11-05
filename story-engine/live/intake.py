@@ -28,7 +28,7 @@ def enqueue(handle, text, source="x-live-chat"):
     rec = {"id": uuid.uuid4().hex[:10], "received_at": now(), "handle": handle, "text": text, "source": source}
     _append(QUEUE, rec); return rec
 
-XINBOX = Path("/workspace/shared/streaming/x-intake/queue/storybot-inbox")
+XINBOX = Path("out-of-scope/shared/streaming/x-intake/queue/storybot-inbox")
 
 LIVE_CONFIG = Path(__file__).parent / "live-config.yaml"
 def auto_approve_enabled(path=None):
@@ -77,7 +77,7 @@ def write_back(path, fields):
 
 STORYBOT_KEYS = {"storybot_fields", "storybot_clip", "status", "wrapped_prompt", "story_slot", "end_frame", "end_frame_source", "out_of_character", "injections", "storybot_check", "storybot_ts"}
 
-EXPORT_CNB = Path("/workspace/shared/streaming/x-intake/export_cnb.py")
+EXPORT_CNB = Path("out-of-scope/shared/streaming/x-intake/export_cnb.py")
 CNB_INBOX = None      # None = export_cnb's default; tests set a temp dir
 EXPORT_DRY_RUN = False
 

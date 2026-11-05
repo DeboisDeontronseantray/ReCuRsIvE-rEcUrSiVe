@@ -134,14 +134,12 @@ def test_next_start_frame_comes_from_prev_clip(v5):
 
 
 # ---- character memory (step 6) ----
-def test_writein_rises_by_at_most_one_per_summon(v5):
-    mem = v5("memory")
-    m = MEMORY
-    for _ in range(5):
-        n = mem.summon(m)
-        assert n["writein_level"] - m["writein_level"] in (0, 1) and n["writein_level"] <= 3
-        assert n["summon_count"] == m["summon_count"] + 1
-        m = n
+def test_direct_summon_counter_update_is_rejected(v5):
+    from astra_lifecycle import GuardError
+    before = dict(MEMORY)
+    with pytest.raises(GuardError, match="direct summon"):
+        v5("memory").summon(MEMORY)
+    assert MEMORY == before
 
 
 def test_memory_beats_capped_by_writein_level(v5):
@@ -165,5 +163,7 @@ def test_memory_never_writes_looks(v5):
 
 def test_memory_fixture_is_not_written_back(v5):
     before = MEMORY_FILE.read_bytes()
-    v5("memory").summon(yaml.safe_load(before)["cast"]["MARLO_QUILL"])
+    from astra_lifecycle import GuardError
+    with pytest.raises(GuardError):
+        v5("memory").summon(yaml.safe_load(before)["cast"]["MARLO_QUILL"])
     assert MEMORY_FILE.read_bytes() == before

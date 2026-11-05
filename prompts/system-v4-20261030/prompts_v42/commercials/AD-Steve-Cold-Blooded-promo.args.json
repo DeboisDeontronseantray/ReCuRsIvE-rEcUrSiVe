@@ -4,6 +4,6 @@
  "resolution": "480p",
  "filename": "AD-Steve-Cold-Blooded-promo.mp4",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/prompts/experiments/round9-20261030/refs/STATE_STEVE_E1_lizard.png"
+  "fixtures/thunder-trundle/prompts/experiments/round9-20261030/refs/STATE_STEVE_E1_lizard.png"
  ]
 }

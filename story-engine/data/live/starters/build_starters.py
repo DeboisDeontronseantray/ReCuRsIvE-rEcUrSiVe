@@ -1,5 +1,5 @@
 import json, sys
-sys.path.insert(0, "/workspace/streaming/story-engine/live"); import intake, checker
+sys.path.insert(0, "story-engine/live"); import intake, checker
 T = ["Osmund recounts every ration tin in the supply bay while Tim floats beside him keeping score with chirps",
  "Mira re-stickers the whole depot shelf by fog color while Bill watches with his arms crossed",
  "Bill tries to fold the Graphite Cloak into a perfect square the way Osmund does and gets close",
@@ -19,4 +19,4 @@ for i, t in enumerate(T, 1):
     shot["status"] = "STARTER PROMPT - auto-approve on; render only via CNB with filters; not live"
     clips.append(shot)
 json.dump({"title": "Ch 4 lineage 4.3 commenter-style starters", "written": "2026-10-27 CT Story Bot", "shots": clips},
-          open("/workspace/streaming/story-engine/data/live/starters/comment-starters-20261027.json", "x"), indent=1, ensure_ascii=False)
+          open("story-engine/data/live/starters/comment-starters-20261027.json", "x"), indent=1, ensure_ascii=False)

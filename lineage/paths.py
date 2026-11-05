@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-LIVE_LINEAGE_FILE = Path("/workspace/thunder-trundle/lineage/LINEAGE.jsonl")
+LIVE_LINEAGE_FILE = Path(__file__).resolve().parents[1] / "live" / "LINEAGE.jsonl"
 GENEALOGY_PATH_MARKER = "streaming/story-engine/genealogy"
 
 

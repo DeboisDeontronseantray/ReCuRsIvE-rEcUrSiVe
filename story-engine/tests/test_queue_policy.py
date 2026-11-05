@@ -1,6 +1,7 @@
 # Offline sim of comment_prompt_slots rules. No ErsatzTV, no network.
 import yaml
-P=yaml.safe_load(open('/workspace/streaming/story-engine/rules/queue-policy.yaml'))['comment_prompt_slots']
+from pathlib import Path
+P=yaml.safe_load(open(Path(__file__).resolve().parents[1] / 'rules/queue-policy.yaml'))['comment_prompt_slots']
 M=P['render_lead_time']['margin_min']; D=P['render_lead_time']['render_eta_default_min']; W=P['max_wait_breaks']
 HARD=set(P['hard_limit_violation']['applies_to'])
 def eta(hist): 

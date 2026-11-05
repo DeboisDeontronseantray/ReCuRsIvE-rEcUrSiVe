@@ -3,10 +3,10 @@
  "duration": 9,
  "resolution": "480p",
  "filename": "NP08.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP07_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/NP07_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png",
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/CONCIERGE_threequarter_face.png"
+  "fixtures/thunder-trundle/prompts/experiments/round5-20261030/frames/CH11-lobby.png",
+  "prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png",
+  "prompts/system-v4-20261030/refs_side/CONCIERGE_threequarter_face.png"
  ]
 }

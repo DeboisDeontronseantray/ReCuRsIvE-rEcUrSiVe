@@ -3,9 +3,9 @@
  "duration": 3,
  "resolution": "480p",
  "filename": "SU3.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU2_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/clips/SU2_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/GIDEON_QUILL_full_<prev>.png",
-  "/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/gloves_detail.png"
+  "fixtures/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/GIDEON_QUILL_full_<prev>.png",
+  "fixtures/thunder-trundle/prompts/experiments/odyssey-design-20261030/ODYSSEY/state_stills/gloves_detail.png"
  ]
 }

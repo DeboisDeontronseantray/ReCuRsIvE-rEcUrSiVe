@@ -3,9 +3,9 @@
  "duration": 10,
  "resolution": "480p",
  "filename": "P07-2.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P07-1/P07-1_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P07-1/P07-1_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/RITA_P07-1.png",
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/state_stills_v42/BEAR_P07-1.png"
+  "prompts/system-v4-20261030/state_stills_v42/RITA_P07-1.png",
+  "prompts/system-v4-20261030/state_stills_v42/BEAR_P07-1.png"
  ]
 }

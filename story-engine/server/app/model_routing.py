@@ -12,7 +12,7 @@ from app.spend import SpendLimitError, check_can_spend, estimate_cost, log_call
 
 ROUTING_PATH = Path(__file__).resolve().parent.parent / "model_routing.yaml"
 XAI_BASE_URL = "https://api.x.ai/v1"
-DEFAULT_XAI_KEY_FILE = "/workspace/private/keys/xai-render.key"
+DEFAULT_XAI_KEY_FILE = "out-of-scope/private/keys/xai-render.key"
 
 with open(ROUTING_PATH) as f:
     _ROUTING = yaml.safe_load(f)
@@ -52,7 +52,7 @@ def _require_xai_key() -> str:
     if not key:
         raise RuntimeError(
             "xAI key missing: set XAI_KEY_FILE to a key file, or put the render key at "
-            "/workspace/private/keys/xai-render.key (XAI_API_KEY env is a legacy "
+            "out-of-scope/private/keys/xai-render.key (XAI_API_KEY env is a legacy "
             "fallback). Do not invent a new key."
         )
     return key

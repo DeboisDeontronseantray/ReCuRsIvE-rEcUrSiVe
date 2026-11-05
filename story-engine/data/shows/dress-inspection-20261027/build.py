@@ -1,12 +1,12 @@
 """Dress Inspection (Ch 4, Clearance Brief rebuild) prompt builder. Story Bot, 2026-10-27. No API calls."""
 import json, sys, subprocess, hashlib
 from pathlib import Path
-sys.path.insert(0, '/workspace/streaming/story-engine/live'); import checker as C
+sys.path.insert(0, 'story-engine/live'); import checker as C
 import yaml
 OUT = Path(__file__).parent
-SE = Path('/workspace/streaming/story-engine')
-MB = Path('/workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique')
-TF = Path('/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/lineage-tagfade-20261027')
+SE = Path('out-of-scope/streaming/story-engine')
+MB = Path('out-of-scope/fakenews/channel-ready/thunder-trundle/4_Military-Boutique')
+TF = Path('out-of-scope/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/lineage-tagfade-20261027')
 ref = yaml.safe_load(open(SE/'live/ref-index.yaml'))['cast']
 def refs(*keys):
     out = []
@@ -94,7 +94,7 @@ for s in shots:
     for o in overlays:
         if o['shot_id'] in (s['id'],): assert o['text'] not in s['visual_prompt']
 json.dump({"title": "Dress Inspection", "show": "clearance-brief (rebuild)", "channel": "4", "home_only": True,
-           "brief": "/workspace/director/brief-dress-inspection-20261027.md", "written": "2026-10-27 CT by Story Bot",
+           "brief": "out-of-scope/director/brief-dress-inspection-20261027.md", "written": "2026-10-27 CT by Story Bot",
            "shots": shots}, open(OUT/'prompts.json', 'w'), indent=1, ensure_ascii=False)
 json.dump({"rule": "post-process overlay on a separate copy; never in generation; clean master is the anchor/mutation parent",
            "overlays": overlays}, open(OUT/'overlay_specs.json', 'w'), indent=1, ensure_ascii=False)
@@ -103,7 +103,7 @@ lin = [json.loads(l) for l in open(MB/'LINEAGE.jsonl')]
 ads = {}
 for r in lin:
     if r.get('row_type') == 'tagfade_air_copy' and r.get('global_no') in range(30, 37): ads[r['global_no']] = r
-pulled_l = open('/workspace/streaming/PULLED-20261027.jsonl').read(); pulled_j = open('/workspace/shared/streaming/PULLED-20261027.json').read()
+pulled_l = open('out-of-scope/streaming/PULLED-20261027.jsonl').read(); pulled_j = open('out-of-scope/shared/streaming/PULLED-20261027.json').read()
 ad_rows, rows = [], []
 for slug, name, gno, cap, line in PRODUCTS:
     r = ads[gno]; f = r['file']; sha = hashlib.sha256(open(f,'rb').read()).hexdigest()

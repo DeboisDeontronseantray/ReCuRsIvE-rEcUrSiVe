@@ -258,6 +258,7 @@ __pycache__/
 # Media and large binaries (*.mp4.* catches partial/temp renders like *.mp4.tmp.mp4.try1)
 *.mp4
 *.mp4.*
+!fixtures/ch4-seeds-20261029/media/*.mp4
 *.mov
 *.mkv
 *.webm
@@ -265,6 +266,7 @@ __pycache__/
 *.mp3
 *.m4a
 *.png
+!fixtures/ch4-seeds-20261029/media/*.png
 *.jpg
 *.jpeg
 *.webp

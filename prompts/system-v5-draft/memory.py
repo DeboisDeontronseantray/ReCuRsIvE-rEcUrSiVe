@@ -1,8 +1,8 @@
 """Character memory (D5): one companion YAML per channel at character-meta/<NN-channel>.yaml, keyed by cast id,
 plus an add-only trait_observations.jsonl. Write-in levels cap how many memory beats enter a single prompt.
 
-Everything here is pure except append_trait_observation, which only ever appends."""
-import copy
+Proposals go through D15; only verified receipt reduction commits counters.
+Trait observations remain append-only evidence."""
 import json
 import pathlib
 import re
@@ -29,19 +29,35 @@ def load_channel_meta(character_meta_dir, channel):
     return doc
 
 
-def summon(cast_meta):
-    n = copy.deepcopy(cast_meta)
-    n["summon_count"] = cast_meta["summon_count"] + 1
-    n["writein_level"] = min(cast_meta["writein_level"] + 1, WRITEIN_MAX)
-    return n
+def summon(cast_meta, *, lifecycle=None, clip_id=None, proposals=None):
+    """Propose reviewed character changes; receipt reduction owns counters."""
+    from astra_lifecycle.contracts import require
+    from astra_lifecycle.repo import propose_changes
+    require(clip_id is not None and proposals is not None,
+            "direct summon counters disabled; clip_id and canonical proposals required")
+    return propose_changes("D15", clip_id, lifecycle=lifecycle, proposals=proposals)
 
 
-def memory_beats(cast_meta, *, episode, season, clip_index):
-    alive = [m for m in cast_meta["memories"]
-             if layers_v4.tier_alive(m, episode, season, clip_index) and not LOOK.search(m["text"])]
+def memory_beats(cast_meta, *, episode, season, clip_index, lifecycle=None, character_id=None):
+    from astra_lifecycle.repo import lifecycle_store
+    life = lifecycle_store(lifecycle, required=False)
+    if life is not None:
+        state = life.snapshot()
+        card = state["cards"].get(character_id)
+        if card is None:
+            return []
+        memories = [state["consequences"][cid] for cid in card["plastic"]["carried_consequences"]]
+        cap = WRITEIN_CAP[card["writein_level"]]
+        name = card["name"]
+    else:
+        # Pure wording preview; never writes counters or consequence clocks.
+        memories = cast_meta["memories"]
+        cap = WRITEIN_CAP[cast_meta["writein_level"]]
+        name = cast_meta["name"]
+    alive = [m for m in memories
+             if layers_v4.tier_alive(m, episode, season, clip_index, lifecycle=life) and not LOOK.search(m["text"])]
     alive.sort(key=lambda m: -m["since_index"])
-    cap = WRITEIN_CAP[cast_meta["writein_level"]]
-    return [f"{cast_meta['name']} remembers: {m['text'].strip().rstrip('.')}" for m in alive[:cap]]
+    return [f"{name} remembers: {m['text'].strip().rstrip('.')}" for m in alive[:cap]]
 
 
 def present_cast(channel_meta, spec):
@@ -50,9 +66,12 @@ def present_cast(channel_meta, spec):
     return [cid for cid, cm in channel_meta["cast"].items() if re.search(r"\b" + re.escape(cm["name"]) + r"\b", text)]
 
 
-def proposed_update(channel_meta, summoned):
-    return {"file": f"{contracts.channel_slug(channel_meta['channel'])}.yaml", "channel": channel_meta["channel"],
-            "cast": {cid: {k: summon(channel_meta["cast"][cid])[k] for k in ("summon_count", "writein_level")} for cid in summoned}}
+def proposed_update(channel_meta, summoned, *, lifecycle=None, clip_id=None, proposals=None):
+    """Persist canonical proposals only; never predict or commit summon counters."""
+    from astra_lifecycle.contracts import require
+    require(clip_id is not None and proposals is not None,
+            "canonical proposals and planned clip required; legacy counter updates disabled")
+    return summon(channel_meta, lifecycle=lifecycle, clip_id=clip_id, proposals=proposals)
 
 
 def read_trait_observations(path, *, skip_clips=frozenset()):

@@ -21,7 +21,7 @@ def aired(v5):
 
 
 @pytest.fixture
-def an(v5):
+def an(v5, assembly_harness):
     return v5("assemble_next").assemble_next
 
 
@@ -39,12 +39,11 @@ def _lin(g, cid):
 
 def test_fixture_ledger_covers_aired_unaired_and_missing(aired):
     idx = aired.load(SLOTS, LINEAGE)
-    assert sorted(idx) == ["BI01", "NP01", "NP09", "NP15", "NP16"]
+    assert idx == {}  # slot booleans never establish canonical air
     by_clip = {r["clip_id"]: r["global_no"] for r in _rows(LINEAGE)}
     status = {r["occupant_global_no"]: r.get("status") for r in _rows(SLOTS)}
     assert status[by_clip["NP14"]] == "READY"
     assert status[by_clip["NP13"]] is None
-    assert idx["NP16"] == {"slot_id": "ch11-q06", "global_no": 1116, "aired_at": "2026-10-31T21:00:00-05:00"}
 
 
 @pytest.mark.parametrize("slot", [
@@ -72,7 +71,7 @@ def test_aired_slot_without_lineage_join_is_unaired(aired):
 
 def test_aired_never_reverts_in_an_add_only_slot_log(aired):
     log = [_slot(1), _slot(2, slot_id="s1", status="RESERVED", aired_at=None)]
-    assert list(aired.build_index(log, [_lin(1, "NP16"), _lin(2, "NP17")])) == ["NP16"]
+    assert list(aired.build_index(log, [_lin(1, "NP16"), _lin(2, "NP17")])) == []
 
 
 def test_lineage_global_no_naming_two_clips_is_refused(aired):
@@ -85,8 +84,9 @@ def test_canon_memories_drop_unaired_and_sourceless(aired):
                        {"text": "b", "tier": "MARK", "since_index": 14, "clip_id": "NP14"},
                        {"text": "c", "tier": "MARK", "since_index": 15}]}
     canon, dropped = aired.canon_memories(cm, aired.load(SLOTS, LINEAGE))
-    assert [m["text"] for m in canon["memories"]] == ["a"]
-    assert dropped == [{"clip_id": "NP14", "since_index": 14, "reason": "not aired"},
+    assert canon["memories"] == []
+    assert dropped == [{"clip_id": "NP09", "since_index": 9, "reason": "not aired"},
+                       {"clip_id": "NP14", "since_index": 14, "reason": "not aired"},
                        {"clip_id": None, "since_index": 15, "reason": "no source clip"}]
     assert len(cm["memories"]) == 3
 
@@ -99,18 +99,19 @@ def test_memory_clip_id_must_be_a_clip_id():
 def test_aired_previous_clip_is_recorded(an, tmp_path):
     r = an(inputs_dir=NP17, base_spec=BASE, out_dir=tmp_path, **fixture_inputs(NP17))
     a = r["assembly"]["aired"]
-    assert a["prev"] == {"clip_id": "NP16", "slot_id": "ch11-q06", "global_no": 1116, "aired_at": "2026-10-31T21:00:00-05:00"}
+    assert a["prev"]["clip_id"] == "NP16" and a["prev"]["global_no"] == 1116
+    assert a["prev"]["aired_at"]
     assert a["slots"]["file"] == "slots.jsonl" and a["lineage"]["file"] == "lineage.jsonl"
     assert {(u["clip_id"], u["reason"]) for u in r["assembly"]["memory"]["unaired"]} == {("NP14", "not aired"), ("NP13", "not aired")}
     assert json.loads((tmp_path / "NP17.assembly.json").read_text())["aired"] == a
 
 
 @pytest.mark.parametrize("slots", ["slots.NP16-unaired.jsonl", "slots.NP16-missing.jsonl"])
-def test_unaired_or_missing_previous_clip_is_refused(an, aired, tmp_path, slots):
+def test_legacy_slot_snapshot_cannot_revoke_verified_air(an, aired, tmp_path, slots):
     out = tmp_path / "out"
-    with pytest.raises(aired.PreviousClipNotAired, match="NP16"):
-        an(inputs_dir=NP17, base_spec=BASE, out_dir=out, **fixture_inputs(NP17) | {"slots_path": LEDGER / slots})
-    assert not out.exists()
+    result = an(inputs_dir=NP17, base_spec=BASE, out_dir=out,
+                **fixture_inputs(NP17) | {"slots_path": LEDGER / slots})
+    assert result["assembly"]["aired"]["prev"]["clip_id"] == "NP16"
 
 
 def test_ledger_paths_are_never_guessed(an, tmp_path, monkeypatch):
@@ -142,7 +143,7 @@ def test_only_aired_memories_reach_the_prompt(an, tmp_path):
     (cdir / "11-fist-theater.yaml").write_text(yaml.safe_dump(doc, sort_keys=False))
     r = an(inputs_dir=NP17, base_spec=BASE, out_dir=tmp_path / "out", **fixture_inputs(NP17) | {"character_meta_dir": cdir})
     p = r["args"]["prompt"]
-    assert "MARLO QUILL remembers: owes THE CONCIERGE a favour" in p
+    assert "MARLO QUILL remembers: owes THE CONCIERGE a favour" not in p  # unregistered consequence
     for text in ("night ledger", "bellhop a day off", "jade key"):
         assert text not in p
     assert [(u["clip_id"], u["reason"]) for u in r["assembly"]["memory"]["unaired"]] == [

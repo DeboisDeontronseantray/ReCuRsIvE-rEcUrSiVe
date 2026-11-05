@@ -2,7 +2,7 @@
 import sys,os,json;sys.path.insert(0,os.path.join(os.path.dirname(__file__),"..","tools"))
 import build_prompt_v42 as B, apply_check_v42 as G, ref_policy_v4 as RP
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REF="/workspace/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
+REF="fixtures/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
 KH="R-NOHANDLES no contributor handles in prompt (10:48 PM)"; KC="R-NOCOMMENTERIMG commenter images NOT YET (10:48 PM)"; KB="R-BRANDS parody brands, no names on screen (CR L34)"
 def sp(**k):
     d={"clip_id":"T48","channel":"Ch11 Fist Theater","show":"THE NIGHT PORTER","duration":10,"refs_raw":[REF],"cast":[{"name":"GIDEON QUILL","ref":REF}],

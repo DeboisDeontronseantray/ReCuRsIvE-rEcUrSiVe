@@ -10,7 +10,7 @@
   "duration": 8,
   "resolution": "480p",
   "filename": "LS4.mp4",
-  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png"
+  "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png"
  },
  "notes": [
   "comedy layer OFF (serious=True) so the test isolates voice; LS1 uses a neutral cue because v4 requires a cue on every line - NEEDS TRUNDLE if he wants a true cue-free control"

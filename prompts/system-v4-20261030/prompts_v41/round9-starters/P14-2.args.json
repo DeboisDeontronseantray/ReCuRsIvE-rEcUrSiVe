@@ -3,8 +3,8 @@
  "duration": 10,
  "resolution": "480p",
  "filename": "P14-2.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P14-1/P14-1_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P14-1/P14-1_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/channels/14-music/refs/sheets/SHEET_CH14_MUSIC_CAST_v2.jpg"
+  "fixtures/thunder-trundle/channels/14-music/refs/sheets/SHEET_CH14_MUSIC_CAST_v2.jpg"
  ]
 }

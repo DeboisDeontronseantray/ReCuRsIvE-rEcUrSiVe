@@ -96,7 +96,7 @@ class Tools(unittest.TestCase):
     def test_static_flip_v3(self):
         # D9b: skip when the live-box v2 module or its CC-BY-SA REF media is absent.
         # The test is unchanged on the live box, where both exist. Do not import the clip.
-        sf2="/workspace/thunder-trundle/prompts/experiments/round9-design-20261030/tools/static_flip_v2.py"
+        sf2="fixtures/thunder-trundle/prompts/experiments/round9-design-20261030/tools/static_flip_v2.py"
         if not os.path.exists(sf2):
             self.skipTest("static_flip_v2.py is not in this repo; the CC-BY-SA static clip is not imported (D9b)")
         import static_flip_v3 as S

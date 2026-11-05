@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "canon_commits": 1,
+  "receipts": 1,
+  "unseen_prompt": "eligible",
+  "old_consequence_active": false,
+  "primary_still_states": [
+    "primary",
+    "retired"
+  ],
+  "blocked_external_attempts": [],
+  "mode": "offline-fixture"
+}

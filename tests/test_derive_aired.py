@@ -1,3 +1,4 @@
+import pytest
 import json
 import tempfile
 import unittest
@@ -11,6 +12,7 @@ from lineage.paths import LivePathRefusalError, refuse_live_path
 from tests.test_support import LINEAGE_STATUS
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestDeriveAiredEnrich(unittest.TestCase):
     def test_dry_run_lists_aired_status_clips(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -38,10 +40,11 @@ class TestDeriveAiredEnrich(unittest.TestCase):
             )
             rows = [json.loads(line) for line in out.read_text(encoding="utf-8").splitlines()]
             aired_true = [r for r in rows if r.get("aired") is True]
-            self.assertEqual(len(aired_true), 4)  # three status + legacy air_yes row
+            self.assertEqual(len(aired_true), 3)  # only the three canonical receipt-backed clips
         self.assertEqual(LINEAGE_STATUS.read_bytes(), before)
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestDeriveAiredAppendIdempotent(unittest.TestCase):
     def test_second_run_skips_existing(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

@@ -10,7 +10,7 @@ import yaml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-PROMPTS = os.environ.get("TT_PROMPTS", "/workspace/thunder-trundle/prompts")
+PROMPTS = os.environ.get("TT_PROMPTS", "fixtures/thunder-trundle/prompts")
 POLICY = os.path.join(ROOT, "rules", "queue-policy.yaml")
 CHANNEL_DIRS = {4: "04-military-boutique", "4": "04-military-boutique"}
 # 2026-10-28 12:45 CT Director spec: channel lookup; folders written by Director (prompts/<NN-slug>/_channel.md)
@@ -437,7 +437,7 @@ def densify(body, layers, refs, locks, sc):
 
 
 # ---- 2026-10-28 11:55 PM CT, Director (trundle pt150u): opt-in reusable looks, prompts/looks/<id>/look.json. Add-only; default output unchanged.
-LOOKS_DIR = "/workspace/thunder-trundle/prompts/looks"
+LOOKS_DIR = "fixtures/thunder-trundle/prompts/looks"
 
 
 def load_look(look_id):

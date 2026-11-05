@@ -4,7 +4,7 @@
  "resolution": "480p",
  "filename": "SU1.mp4",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_side_full.png",
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
+  "prompts/system-v4-20261030/refs_side/MARLO_QUILL_side_full.png",
+  "prompts/system-v4-20261030/refs_side/MARLO_QUILL_threequarter_face.png"
  ]
 }

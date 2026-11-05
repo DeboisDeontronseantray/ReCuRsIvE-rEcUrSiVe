@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests_run": 91,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "adapter_audit": "PASS",
+  "source_integrity": "PASS",
+  "blocked_external_attempts": [],
+  "mode": "offline-fixture",
+  "network_calls": 0,
+  "paid_renders": 0,
+  "live_air": false,
+  "spend_cents": 0
+}

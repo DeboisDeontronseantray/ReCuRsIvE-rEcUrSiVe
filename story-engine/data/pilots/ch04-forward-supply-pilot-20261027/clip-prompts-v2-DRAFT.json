@@ -30,11 +30,11 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -81,8 +81,8 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -130,11 +130,11 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -182,12 +182,12 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -234,9 +234,9 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -283,9 +283,9 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -333,12 +333,12 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -390,12 +390,12 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -442,9 +442,9 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -492,11 +492,11 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -543,8 +543,8 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -592,11 +592,11 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -650,17 +650,17 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -702,9 +702,9 @@
       "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: S5A last frame: Mira steps forward, Bill seated. Action: Bill rises slowly, stretches his neck, forehead vein bulging, fingers flexing; he holds it in. Camera: medium on Bill, one move. Cut match: action: Bill rising continues from his seat. Mood: grounded, warm, quietly funny, never slapstick.",
       "dialogue": [],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -749,17 +749,17 @@
       "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Cramped command hut, metal desk with a sealed blank envelope, map board with blank grid. Continuing from: S5B last frame: hand moving to envelope. Action: Bill's hand closes on the envelope; everyone's eyes go to it. Camera: close then rack to group, one move. Cut match: action match on the grip; shared eyeline. Mood: grounded, warm, quietly funny, never slapstick.",
       "dialogue": [],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -802,11 +802,11 @@
       "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Outer hatch opening onto thick grey fog that never lifts, wind. Continuing from: Cut from S5C: envelope in Bill's hand (match on the envelope). Action: Bill opens the envelope at the open hatch, fog rolling in. Camera: medium at hatch, one move. Cut match: match on envelope. Mood: grounded, warm, quietly funny, never slapstick.",
       "dialogue": [],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -892,11 +892,11 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -941,17 +941,17 @@
       "visual_prompt": "Photoreal grounded near-future remote forward outpost, lived-in steel and canvas interiors, warm practical lights against cold grey fog outside, late-90s broadcast polish, 4:3-safe center framing, no unintended text, no logos, no watermarks. Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression. Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text. Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height. Setting: Windowless bunk room, four bunks, keepsake shelf, plain ceiling. Continuing from: Scene start after optional break. Action: Dark bunk room; Mira switches on the frosted panel. Camera: wide, dark room, one move. Cut match: action: switch press. Mood: grounded, warm, quietly funny, never slapstick.",
       "dialogue": [],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -1001,17 +1001,17 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",
@@ -1065,17 +1065,17 @@
         }
       ],
       "reference_images": [
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-        "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+        "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
       ],
       "negative_prompt": [
         "no unintended or garbled text",

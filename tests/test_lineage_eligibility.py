@@ -1,3 +1,4 @@
+import pytest
 import json
 import tempfile
 import unittest
@@ -16,6 +17,7 @@ from lineage.eligibility import (
 from tests.test_support import BIBLE_FIXTURE, CAST_IDS, LINEAGE_AIRED, LINEAGE_LEGACY
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestLineageEligibility(unittest.TestCase):
     def test_ads_are_not_show_masters(self) -> None:
         rows = load_lineage_jsonl(LINEAGE_LEGACY)

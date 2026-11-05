@@ -4,7 +4,7 @@
  "channel": "4",
  "lineage": "4.12",
  "home_only": true,
- "brief": "/workspace/director/brief-the-efficiency-review-20261027.md",
+ "brief": "out-of-scope/director/brief-the-efficiency-review-20261027.md",
  "written": "2026-10-27 CT by Story Bot",
  "shots": [
   {
@@ -30,9 +30,9 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: slow push-in, one move. ACTION: Wide view of the dark, closed showroom. Osmund hurries in, out of breath, holding a sealed plain folder against his chest, and stops at center floor. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -96,15 +96,15 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: locked medium, no move. ACTION: Bill and Mira turn from the counter toward Osmund with matching polite smiles and give a short, easy laugh together; their eyes stay calculating. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -159,15 +159,15 @@
    "dialogue": [],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: slow orbit around the three, one move. ACTION: Osmund sets the sealed plain folder down on the counter. Bill and Mira trade one brief, smiling glance over it. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -232,12 +232,12 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: locked medium, no move. ACTION: Near a display wall, Bill leans quietly toward Osmund, voice low, sleeves on, one hand resting on the wall. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -290,9 +290,9 @@
    "dialogue": [],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. CAMERA: museum-light push-in, one move. ACTION: Mira alone at the counter, dry half-smile, peels a small red sticker and presses it onto her black clipboard beside a small blank square. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -353,12 +353,12 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: locked medium, no move. ACTION: Bill stands beside a seated Osmund, one sleeved hand on Osmund's shoulder, and dictates calmly while Osmund writes on a blank page. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -417,12 +417,12 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: locked medium, mirror framing of ER-06, no move. ACTION: Mira stands beside the seated Osmund, one hand on his shoulder in the mirror pose, and dictates sweetly while Osmund writes on a blank page. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -475,9 +475,9 @@
    "dialogue": [],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: slow push-in, one move. ACTION: Osmund, sweating, staples two blank pages together and slides them into the same plain folder. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -532,14 +532,14 @@
    "dialogue": [],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Tim: floating cybernetic brain the size of a beach ball, gray textured brain under a tall clear glass dome, dark armored ring with one glowing cyan optic, small cyan hover thrusters underneath, black cables trailing below, small rectangular implant chips with tiny cyan lights on its right side, hovering at shoulder height; silent. CAMERA: slow push-in, one move. ACTION: Bill and Mira stand side by side, both smiling, eyes forward, nothing; Bill fully sleeved. Behind them, softly out of focus, Tim hovers with his cyan optic glowing. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -594,14 +594,14 @@
    "dialogue": [],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Tim: floating cybernetic brain the size of a beach ball, gray textured brain under a tall clear glass dome, dark armored ring with one glowing cyan optic, small cyan hover thrusters underneath, black cables trailing below, small rectangular implant chips with tiny cyan lights on its right side, hovering at shoulder height; silent. CAMERA: locked medium, no move. ACTION: Tim hovers at shoulder height in sharp focus, his cyan optic pulsing slowly; Bill and Mira are soft out-of-focus shapes behind, Bill sleeved. Nobody looks at Tim. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -659,9 +659,9 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: slow push-in, one move. ACTION: Osmund finally the top page of the folder; his face falls slowly. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -723,14 +723,14 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Tim: floating cybernetic brain the size of a beach ball, gray textured brain under a tall clear glass dome, dark armored ring with one glowing cyan optic, small cyan hover thrusters underneath, black cables trailing below, small rectangular implant chips with tiny cyan lights on its right side, hovering at shoulder height; silent. CAMERA: slow orbit, one move. ACTION: Bill and Mira slowly turn together toward Tim, Bill fully sleeved. Tim's cyan optic blinks once and he gives one short chirp. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -788,9 +788,9 @@
    ],
    "visual_prompt": "Photoreal near-future luxury showroom after closing: matte-black pedestals, glass vitrines, chrome and olive walls, blank monitors with soft cyan glow, museum lighting, empty of shoppers, merchandise only as soft out-of-focus background shapes, never featured; dry, quiet office-politics tone, nobody yells, never slapstick; candid observational framing, eyelines on each other, characters never acknowledge the lens. CAST (only these, one of each): Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, slightly out of breath, earnest worried expression; no backpack in this episode. CAMERA: locked medium, no move. ACTION: Osmund stands alone at center floor in the host position, stiff and terrified, hands at his sides. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -847,14 +847,14 @@
    "dialogue": [],
    "visual_prompt": "Photoreal near-future sterile loading bay at night: steady rain past the open dock edge, rolling night fog, amber safety lights mixed with cool blue light, empty crates with blank tags, a warm-lit showroom doorway in the background; dry, quiet tone, never slapstick; candid observational framing, characters never acknowledge the lens. CAST (only these, one of each): Bill (exactly one Bill in frame, never duplicated): tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, boxy charcoal duty jacket with full-length sleeves over a black utility duty shirt, both sleeves on and down to the wrists, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses; always sleeved, always wears the glasses. Mira: compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face. Tim: floating cybernetic brain the size of a beach ball, gray textured brain under a tall clear glass dome, dark armored ring with one glowing cyan optic, small cyan hover thrusters underneath, black cables trailing below, small rectangular implant chips with tiny cyan lights on its right side, hovering at shoulder height; silent. CAMERA: slow pull-back, one move. ACTION: In the rain-lit loading bay, Bill and Mira stand side by side under the dock roof holding plain parcels, not speaking; Bill sleeved, jacket dark with rain at the shoulders. Tim drifts past them into the warm showroom doorway. Audio: museum-quiet room tone, footsteps, paper, breathing and low calm voices; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
    ],
    "negative_prompt": [
     "no real brands",

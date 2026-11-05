@@ -1,0 +1,26 @@
+test_actual_process_death_rolls_back_and_restarts (test_final_hardening.Task01.test_actual_process_death_rolls_back_and_restarts) ... ok
+test_closed_receipt_even_with_permissive_verifier (test_final_hardening.Task01.test_closed_receipt_even_with_permissive_verifier) ... ok
+test_receipt_cannot_cross_independent_databases (test_final_hardening.Task01.test_receipt_cannot_cross_independent_databases) ... ok
+test_relative_aliased_and_reflected_legacy_bypasses (test_final_hardening.Task02.test_relative_aliased_and_reflected_legacy_bypasses) ... ok
+test_human_release_does_not_reuse_old_filter (test_final_hardening.Task03.test_human_release_does_not_reuse_old_filter) ... ok
+test_revised_review_requires_new_assembly (test_final_hardening.Task03.test_revised_review_requires_new_assembly) ... ok
+test_truthy_filter_is_not_policy_review (test_final_hardening.Task03.test_truthy_filter_is_not_policy_review) ... ok
+test_candidate_review_primary_retirement_only_on_air (test_final_hardening.Task04.test_candidate_review_primary_retirement_only_on_air) ... ok
+test_consequence_is_content_hashed_and_incomplete_defaults_short (test_final_hardening.Task04.test_consequence_is_content_hashed_and_incomplete_defaults_short) ... ok
+test_malformed_cast_fails_as_guard_not_crash (test_final_hardening.Task05.test_malformed_cast_fails_as_guard_not_crash) ... ok
+test_portal_and_pivot_cannot_use_still_fix (test_final_hardening.Task05.test_portal_and_pivot_cannot_use_still_fix) ... ok
+test_prompt_portal_is_candidate_option_not_mandatory (test_final_hardening.Task05.test_prompt_portal_is_candidate_option_not_mandatory) ... ok
+test_blocked_batch_still_estimates_without_mutation (test_final_hardening.Task06.test_blocked_batch_still_estimates_without_mutation) ... ok
+test_channel_record_retains_revisions_and_execution (test_final_hardening.Task06.test_channel_record_retains_revisions_and_execution) ... ok
+test_route_change_invalidates_reservation_manifest (test_final_hardening.Task06.test_route_change_invalidates_reservation_manifest) ... ok
+test_truthy_price_ceiling_and_unlabelled_approval_rejected (test_final_hardening.Task06.test_truthy_price_ceiling_and_unlabelled_approval_rejected) ... ok
+test_fix_resolution_needs_evidence_and_is_durable (test_final_hardening.Task07.test_fix_resolution_needs_evidence_and_is_durable) ... ok
+test_portal_fix_selector_never_reintroduces_still_seams (test_final_hardening.Task07.test_portal_fix_selector_never_reintroduces_still_seams) ... ok
+test_boundary_cannot_become_general_metadata_mechanism (test_final_hardening.Task08.test_boundary_cannot_become_general_metadata_mechanism) ... ok
+test_crossover_bridge_requires_air (test_final_hardening.Task08.test_crossover_bridge_requires_air) ... ok
+test_scaffolding_alias_does_not_require_episode_or_air (test_final_hardening.Task08.test_scaffolding_alias_does_not_require_episode_or_air) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.504s
+
+OK

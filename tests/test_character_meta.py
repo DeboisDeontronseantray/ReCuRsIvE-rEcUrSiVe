@@ -1,3 +1,4 @@
+import pytest
 import hashlib
 import tempfile
 import unittest
@@ -57,6 +58,7 @@ class TestQuirksNotTraits(unittest.TestCase):
                 )
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestPromoteThreshold(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = tempfile.TemporaryDirectory()
@@ -92,22 +94,17 @@ class TestPromoteThreshold(unittest.TestCase):
         self.assertEqual(report.proposals, [])
         self.assertEqual(report.applied, [])
 
-    def test_three_aired_clips_propose_with_apply(self) -> None:
-        self._append("test-aired-1")
-        self._append("test-aired-2")
-        self._append("test-aired-3")
-        report = promote(
-            companion_path=self.companion_path,
-            observations_path=self.observations_path,
-            lineage_path=LINEAGE_AIRED,
-            apply=True,
-        )
+    def test_three_verified_clips_propose_without_companion_mutation(self) -> None:
+        for cid in ("test-aired-1", "test-aired-2", "test-aired-3"):
+            self._append(cid)
+        before = self.companion_path.read_bytes()
+        report = promote(companion_path=self.companion_path,
+                         observations_path=self.observations_path,
+                         lineage_path=LINEAGE_AIRED, apply=False)
         self.assertEqual(len(report.proposals), 1)
         self.assertEqual(report.proposals[0]["status"], "proposed")
-        self.assertEqual(len(report.applied), 1)
-        companion = self.companion_path.read_text(encoding="utf-8")
-        self.assertIn("proposed", companion)
-        self.assertIn(self.trait_text, companion)
+        self.assertEqual(report.applied, [])
+        self.assertEqual(before, self.companion_path.read_bytes())
 
 
 class TestUnairedIgnored(unittest.TestCase):
@@ -141,6 +138,7 @@ class TestUnairedIgnored(unittest.TestCase):
             self.assertEqual(report.proposals, [])
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestLockedConflictFlagged(unittest.TestCase):
     def test_conflict_blocks_apply(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

@@ -50,7 +50,7 @@ def camera_hits(text):
     return [m.group(0) for m in CAM.finditer(strip_negated(text))]
 
 # ---- clean-source guard (trundle 2026-10-27): mutations never inherit on-screen text ----
-MB_DIR = Path("/workspace/fakenews/channel-ready/thunder-trundle/4_Military-Boutique")
+MB_DIR = Path("out-of-scope/fakenews/channel-ready/thunder-trundle/4_Military-Boutique")
 LINEAGE = MB_DIR / "LINEAGE.jsonl"
 TAINT = re.compile(r"lineage-tagged|ch4badge|salesad|sales-overlay|_tagged", re.I)
 RAW_SHORT = {"armored-showroom-cruiser": "rover", "exo-gauntlet-vitrine": "gauntlet", "modular-field-pack": "pack",
@@ -74,7 +74,7 @@ def load_lineage(path=None):
 
 # ---- shared watchlist (trundle 2026-10-27 17:13: rare slips OK if caught and filtered next time) ----
 # CNB is the ONLY writer of WATCHLIST. Story Bot only reads it, re-reading on every check. Missing -> built-in TAINT only.
-WATCHLIST = Path("/workspace/shared/streaming/tag-slip-watchlist.jsonl")
+WATCHLIST = Path("out-of-scope/shared/streaming/tag-slip-watchlist.jsonl")
 PHASH_MAX_DIST = 6
 _sha_cache, _phash_cache = {}, {}
 
@@ -349,7 +349,7 @@ if __name__ == "__main__":
 
 
 # --- Preemption (trundle 2026-10-27 18:01 CT): slots point to a lineage head; never delete ---
-COMMENT_PROMPTS = Path('/workspace/streaming/queues/COMMENT-PROMPTS.jsonl')
+COMMENT_PROMPTS = Path('out-of-scope/streaming/queues/COMMENT-PROMPTS.jsonl')
 
 def add_comment_prompt(text, handle=None, path=None):
     """Append-only; returns permanent cp- id."""
@@ -588,7 +588,7 @@ def overlay_specs_for(pid, path=None):
 try:
     import overlay_split as _OS
 except ImportError:
-    sys.path.insert(0, '/workspace/streaming/shared_lib')
+    sys.path.insert(0, 'out-of-scope/streaming/shared_lib')
     import overlay_split as _OS  # type: ignore[no-redef]
 NO_TEXT_CONSTRAINT = _OS.NO_TEXT
 _TEXT_REQUEST = _OS.TEXT_REQUEST
@@ -614,7 +614,7 @@ def gen_prompt_requests_text(gen_prompt):
     return _OS.requests_text(gen_prompt)
 
 
-# --- 18:45 CT add-only: node rules matching Device Engineer /workspace/de-parity/pickup.py node_rows() ---
+# --- 18:45 CT add-only: node rules matching Device Engineer out-of-scope/de-parity/pickup.py node_rows() ---
 # (1) LINEAGE rows with global_no null/missing are superseded placeholders, never nodes.
 # (2) a newer row whose supersedes (supersedes.global_no | supersedes_no | supersedes_global_no) equals an older
 #     row's global_no wins; the older row is dropped as a node (kept in the file) and no duplicate is flagged.

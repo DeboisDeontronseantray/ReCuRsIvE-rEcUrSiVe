@@ -1,6 +1,6 @@
 import json, sys
-sys.path.insert(0, "/workspace/streaming/story-engine/live"); import checker
-RAW = "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/"
+sys.path.insert(0, "story-engine/live"); import checker
+RAW = "out-of-scope/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/raw/"
 STYLE = ("Photoreal Military Boutique catalog still, luxury near-future military-cyberpunk showroom, matte black and graphite steel, chrome fittings, "
          "olive accents, cyan edge light, museum spot lighting, soft grey fog haze in the background, late-90s broadcast polish, center-weighted 16:9 hero composition with clear headroom and empty lower third for post overlays.")
 AUD = "Audio: quiet, unobtrusive ambient bed (soft room tone, faint servo ticks, light showroom air); no droning low hum, no sub-bass rumble, no engine drone; dialogue and VO sit clearly above the bed."
@@ -49,5 +49,5 @@ for o in out:
     assert not checker.brand_hits(checker.strip_negated(o["prompt"])), o["id"]
     assert not checker.unsafe_hits(checker.strip_negated(o["prompt"])), o["id"]
 json.dump({"title": "Ch 4 product-still prompts (8 products without stills)", "written": "2026-10-27 CT Story Bot", "stills": out},
-          open("/workspace/streaming/story-engine/data/stills-20261027/product-stills-prompts-20261027.json", "x"), indent=1, ensure_ascii=False)
+          open("story-engine/data/stills-20261027/product-stills-prompts-20261027.json", "x"), indent=1, ensure_ascii=False)
 print("ok", len(out))

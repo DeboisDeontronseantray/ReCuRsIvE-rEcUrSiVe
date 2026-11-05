@@ -1,6 +1,6 @@
 import json, re, sys, hashlib
 from pathlib import Path
-sys.path.insert(0, "/workspace/streaming/story-engine/live")
+sys.path.insert(0, "story-engine/live")
 import checker
 P = Path(__file__).resolve().parents[1]
 src = json.load(open(P/"clip-prompts.json"))
@@ -51,6 +51,6 @@ for sid in ORDER:
     shots.append(s)
 out = {"title": "Forward Supply Run 2 camera-rule remakes", "written": "2026-10-27 CT by Story Bot", "source": str(P/"clip-prompts.json"),
        "channel": "Ch 4 Military Boutique", "show": "Forward Supply", "home_only": True, "ref_drops": ref_log, "shots": shots}
-dst = Path("/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2-remakes-20261027.json")
+dst = Path("story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2-remakes-20261027.json")
 assert not dst.exists(), "exists; back up first"
 dst.write_text(json.dumps(out, indent=1, ensure_ascii=False)); print(dst, len(shots), ref_log)

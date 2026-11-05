@@ -7,20 +7,10 @@ from pathlib import Path
 from typing import Any
 
 
-def clip_id_aired(row: dict[str, Any]) -> bool:
-    """Return True only when the row is explicitly aired.
-
-    Media Librarian New (or the lineage validator) sets derived boolean ``aired``
-    when a clip reaches AIRED status. Missing or falsey values mean not aired.
-    Legacy ``air_yes: true`` is accepted until rows are normalized.
-    """
-    aired = row.get("aired")
-    if aired is True:
-        return True
-    legacy = row.get("air_yes")
-    if legacy is True:
-        return True
-    return False
+def clip_id_aired(row: dict[str, Any], *, lifecycle=None) -> bool:
+    """Read canonical receipt-backed state; row booleans confer no authority."""
+    from astra_lifecycle.repo import aired_projection
+    return aired_projection([row], lifecycle).get(row.get("clip_id"), False)
 
 
 def load_lineage_jsonl(path: Path | str) -> list[dict[str, Any]]:
@@ -41,18 +31,7 @@ def load_lineage_jsonl(path: Path | str) -> list[dict[str, Any]]:
     return rows
 
 
-def build_aired_index(rows: list[dict[str, Any]]) -> dict[str, bool]:
-    """Map clip_id → aired (missing clip_id rows are skipped).
-
-    When several rows share a clip_id, any explicit aired/air_yes/patch wins True.
-    """
-    index: dict[str, bool] = {}
-    for row in rows:
-        clip_id = row.get("clip_id")
-        if not isinstance(clip_id, str) or not clip_id:
-            continue
-        if clip_id_aired(row):
-            index[clip_id] = True
-        elif clip_id not in index:
-            index[clip_id] = False
-    return index
+def build_aired_index(rows: list[dict[str, Any]], *, lifecycle=None) -> dict[str, bool]:
+    """Project canonical state for the requested clip IDs, including unknown IDs as false."""
+    from astra_lifecycle.repo import aired_projection
+    return aired_projection(rows, lifecycle)

@@ -74,9 +74,9 @@ def test_one_live_instance_means_one_copy_not_one_person(v5):
     assert mem.present_cast({"cast": cast}, spec) == ["MARLO_QUILL", "HERON", "WOLFHOUND"]
 
 
-def test_proposed_update_raises_level_by_one(v5):
+def test_legacy_proposed_counter_update_is_rejected(v5):
+    from astra_lifecycle import GuardError
     mem = v5("memory")
     doc = mem.load_channel_meta(CHARMETA, "Ch11 Fist Theater")
-    up = mem.proposed_update(doc, ["MARLO_QUILL"])
-    assert up == {"file": "11-fist-theater.yaml", "channel": "Ch11 Fist Theater",
-                  "cast": {"MARLO_QUILL": {"summon_count": 3, "writein_level": 2}}}
+    with pytest.raises(GuardError, match="canonical proposals"):
+        mem.proposed_update(doc, ["MARLO_QUILL"])

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "sqlite_integrity": "ok",
+  "persisted_snapshot_schema": "PASS",
+  "persisted_snapshot_matches_report": true,
+  "canon_commits": 1,
+  "receipt_count": 1,
+  "unseen_survives": true,
+  "consequence_expires": true,
+  "dependency_invalidated": true,
+  "bytecode_files": 0,
+  "source_files_unchanged": 102,
+  "tests_run": 91
+}

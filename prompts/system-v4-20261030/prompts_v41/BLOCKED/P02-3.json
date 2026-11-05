@@ -14,7 +14,7 @@
   "duration": 10,
   "resolution": "480p",
   "filename": "P02-3.mp4",
-  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P02-2/P02-2_last.png"
+  "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P02-2/P02-2_last.png"
  },
  "notes": [
   "bare 'never at camera' replaced by named eyeline target",

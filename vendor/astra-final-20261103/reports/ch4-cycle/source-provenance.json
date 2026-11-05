@@ -1,0 +1,42 @@
+[
+  {
+    "path": "prompts/system-v5-draft/fixtures/black-ice/BI02/comments.jsonl",
+    "sha256": "c45270c288258b3adb167da822a74143f6a006f273f355362c7f434b5fa0681a",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "prompts/system-v5-draft/fixtures/black-ice/BI01/base_spec.json",
+    "sha256": "5e8972589d05bbd89c24352d8df1d1a2e7ccdf2e7a8803bd432c32d5eb1eca5e",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "prompts/system-v5-draft/fixtures/character-meta/04-military-boutique.yaml",
+    "sha256": "e37b15d34d75d5a66ee16ebe92fb393ae7a535713bbbef263e9eda336c50331d",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/SEED-S1_last.png",
+    "sha256": "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/SEED-S1_gen1_480p_parody.mp4",
+    "sha256": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/SEED-S2_last.png",
+    "sha256": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/lineage.jsonl",
+    "sha256": "f2651f60b324a292d3a8d33cad58a1cfb12f017d4752cde2d3f499258268d254",
+    "use": "read-only source; fixture only"
+  },
+  {
+    "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/prompts/SEED-S1.txt",
+    "sha256": "d0977f9f7db3ec8ccd97840a418a07b99a796506ac7d5e940553777d84b2f5c1",
+    "use": "read-only source; fixture only"
+  }
+]

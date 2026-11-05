@@ -4,7 +4,7 @@ Exit codes: 0 ok, 1 FAILED, 2 validation, 3 needs priced yes, 4 Veo trial hard s
 Veo dry signals are reported to pool-check (--mark-dry veo) when TT_POOL_CHECK is set.
 
 Caps and the Veo trial end date come from ONE box-local settings file (no secrets): env TT_CAPS_FILE,
-else /workspace/shared/spend/caps.json. CAPS_FALLBACK below is only the fail-closed fallback for a
+else out-of-scope/shared/spend/caps.json. CAPS_FALLBACK below is only the fail-closed fallback for a
 missing or invalid file (today's values, 2026-11-02); cap numbers otherwise stay out of this code.
 
 Veo cost reservation (2026-11-02, trundle 9:11 PM CT go): under a file lock on <ledger>.lock, a
@@ -206,7 +206,7 @@ def plan(req, ledger_path=None):
             "out_path": str(req.out_path) if req.out_path else None,
             "prompt_sha256": hashlib.sha256(req.prompt.encode()).hexdigest(),
             "key_set": ("GCP_VERTEX_API_KEY" in os.environ if req.provider == "veo" else
-                        "XAI_API_KEY" in os.environ or Path(os.environ.get("XAI_KEY_FILE", "/workspace/private/keys/xai-render.key")).is_file()),
+                        "XAI_API_KEY" in os.environ or Path(os.environ.get("XAI_KEY_FILE", "out-of-scope/private/keys/xai-render.key")).is_file()),
             "needs": "trundle's priced yes"}
     if req.provider == "veo":
         try:
@@ -239,7 +239,7 @@ def _ledger_path(override):
     return Path(override or os.environ.get("TT_CLIP_LEDGER") or ENGINE_ROOT / "data/spend/clip-ledger.jsonl")
 
 
-CAPS_DEFAULT_PATH = "/workspace/shared/spend/caps.json"
+CAPS_DEFAULT_PATH = "out-of-scope/shared/spend/caps.json"
 # Fail-closed fallback only, used when the caps file is missing or invalid (values as of 2026-11-02:
 # xAI $50/month, warn $40, trundle 5:04 PM CT; Veo trial $150, warn $120, trundle 8:44 PM CT; trial ends 2027-01-04).
 CAPS_FALLBACK = {"xai_month_cap_usd": 50.0, "xai_month_warn_usd": 40.0,
@@ -503,7 +503,7 @@ def _render(req, *, approval, transport=None, sleep=time.sleep, poll_seconds=10,
                 raise ClipRequestError("xAI route needs the story-engine app.spend gate; not available here")
             spend.check_can_spend(quote.est_usd)
             _xai_cap(quote.est_usd, ledger)
-            keyfile = Path(os.environ.get("XAI_KEY_FILE", "/workspace/private/keys/xai-render.key"))
+            keyfile = Path(os.environ.get("XAI_KEY_FILE", "out-of-scope/private/keys/xai-render.key"))
             key = (keyfile.read_text().strip() if keyfile.is_file() else "") or os.environ.get("XAI_API_KEY", "")
         if not key:
             raise ClipRequestError("missing GCP_VERTEX_API_KEY" if req.provider == "veo" else "missing xAI key (XAI_KEY_FILE or XAI_API_KEY)")

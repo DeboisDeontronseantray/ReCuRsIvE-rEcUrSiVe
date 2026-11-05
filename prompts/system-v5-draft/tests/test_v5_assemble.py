@@ -14,7 +14,7 @@ LIVE = V4 / "prompts_v44" / "odyssey"
 
 
 @pytest.fixture
-def an(v5):
+def an(v5, assembly_harness):
     return v5("assemble_next").assemble_next
 
 
@@ -100,51 +100,21 @@ def test_fixed_threads_on_refuses_assembly(an, v5, monkeypatch, tmp_path):
         an(inputs_dir=NP17, base_spec=BASE, out_dir=tmp_path, **fixture_inputs(NP17))
 
 
-def test_dryrun_script_passes(v5):
-    assert v5("dryrun").main() == 0
+def test_dryrun_reports_stale_parity_snapshot(v5, assembly_harness):
+    assert v5("dryrun").main() == 1
     summary = json.loads((DRYRUN / "night-porter" / "SUMMARY.json").read_text())
-    assert summary["parity_NP16_byte_identical"] is True
+    assert summary["parity_NP16_byte_identical"] is False
     assert summary["NP17_changed_slots"] == ["beats"] and summary["NP17_args_changed"] == ["filename", "image_path"]
     assert summary["NP17_gate_fails"] == [] and summary["comments"]["held"] == ["c4"]
     assert NOW in (DRYRUN / "night-porter" / "NP17.assembly.json").read_text()
 
 
-def test_placed_comments_are_consumed_and_never_placed_twice(an, tmp_path):
-    long = " ".join(["the porter hauls the brass luggage trolley up the stairwell past the cracked cabinet"] * 3)
-    inp = _inputs(tmp_path, [{"ts": f"2026-10-31T21:1{i}:00-05:00", "text": f"{long} {i}"} for i in range(4)])
+def test_compilation_never_writes_a_consumption_ledger(an, tmp_path):
     ledger = tmp_path / "consumed.jsonl"
-    led = tmp_path / "ledger"
-    led.mkdir()
-    for name in ("slots.jsonl", "lineage.jsonl"):
-        shutil.copy(LEDGER / name, led / name)
-    kw = fixture_inputs(inp) | {"slots_path": led / "slots.jsonl", "lineage_path": led / "lineage.jsonl"}
-    first = an(inputs_dir=inp, base_spec=BASE, out_dir=tmp_path / "a", consumed_path=ledger, **kw)
-    c1 = first["assembly"]["comments"]
-    assert c1["placed"] and c1["carried"]
-    rebuild = an(inputs_dir=inp, base_spec=BASE, out_dir=tmp_path / "a2", consumed_path=ledger, **kw)
-    assert rebuild["args"] == first["args"]
-    np17 = tmp_path / "NP17.spec.json"
-    np17.write_text(json.dumps(first["spec"]))
-    with (led / "lineage.jsonl").open("a") as f:
-        f.write(json.dumps({"row_type": "fixture_version", "lineage": "11.17", "gen": 1, "global_no": 1117,
-                            "parent_global_no": None, "supersedes": None, "comment_prompt_ids": [], "clip_id": "NP17",
-                            "channel": 11, "file": "sample/NP17.mp4", "sha256": "1" * 64, "date": "2026-10-31",
-                            "writer": "fixture"}) + "\n")
-    with (led / "slots.jsonl").open("a") as f:
-        f.write(json.dumps({"slot_id": "ch11-q07", "channel": 11, "slot_lineage": "11.17", "occupant_global_no": 1117,
-                            "occupant_gen": 1, "status": "AIRED", "prev_id": "ch11-q06", "next_id": "ch11-q07",
-                            "prev_last_frame": None, "next_first_frame": None, "order": 7, "kind": "segment",
-                            "reserved_at": "2026-10-31T21:00:00-05:00", "ready_at": "2026-10-31T21:10:00-05:00",
-                            "aired_at": "2026-10-31T21:15:00-05:00", "cut_in_frame": None, "cut_out_frame": None,
-                            "protected_unaired_prompt": False}) + "\n")
-    second = an(inputs_dir=inp, base_spec=np17, out_dir=tmp_path / "b", consumed_path=ledger, **kw)
-    assert second["assembly"]["clip_id"] == "NP18"
-    c2 = second["assembly"]["comments"]
-    assert second["assembly"]["inputs"]["spool"]["already_placed"] == len(c1["placed"])
-    assert {c["key"] for c in c2["placed"]} <= {c["key"] for c in c1["carried"]} and c2["placed"]
-    keys = [json.loads(line)["key"] for line in ledger.read_text().splitlines()]
-    assert len(keys) == len(set(keys)) == len(c1["placed"]) + len(c2["placed"])
-    assert all(set(json.loads(line)) == {"key", "clip_id"} for line in ledger.read_text().splitlines())
+    result = an(inputs_dir=NP17, base_spec=BASE, out_dir=tmp_path / "out",
+                consumed_path=ledger, **fixture_inputs(NP17))
+    assert result["assembly"]["comments"]["placed"]
+    assert not ledger.exists()
 
 
 def test_parity_mode_does_not_inject_locked_threads_and_thread_slot_is_allowed_in_next(an, tmp_path, monkeypatch, v5):

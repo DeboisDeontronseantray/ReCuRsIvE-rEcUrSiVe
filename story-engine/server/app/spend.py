@@ -1,9 +1,9 @@
 """xAI spend ledger + monthly hard stop.
 
-Key: box env var XAI_API_KEY (see /workspace/shared/INVENTORY/accounts-subs-apis.md).
+Key: box env var XAI_API_KEY (see out-of-scope/shared/INVENTORY/accounts-subs-apis.md).
 Never print the key. Never write the key into shared files or the repo.
 
-Shared month tracker (payments): /workspace/shared/spend/xai-month.md
+Shared month tracker (payments): out-of-scope/shared/spend/xai-month.md
 Local ledger (per-call usage): data/spend/ledger.jsonl under the story-engine root.
 Warn at $40, hard stop at $50 of the monthly xAI total (trundle, Nov 2, 2026: "Monthly limit will now be $50").
 """
@@ -20,7 +20,7 @@ from zoneinfo import ZoneInfo
 CT = ZoneInfo("America/Chicago")
 ENGINE_ROOT = Path(__file__).resolve().parents[2]
 LEDGER_PATH = ENGINE_ROOT / "data" / "spend" / "ledger.jsonl"
-SHARED_MONTH = Path("/workspace/shared/spend/xai-month.md")
+SHARED_MONTH = Path("out-of-scope/shared/spend/xai-month.md")
 WARN_USD = 40.0
 HARD_STOP_USD = 50.0
 

@@ -1,0 +1,410 @@
+[
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/ASTRA-BUILD-OUT-20261103.md",
+    "sha256": "6e8e75485382f8483e91fe43192951962346d26dce4dc106b879696da93beaa7"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/__init__.py",
+    "sha256": "48758d8f18b707510bd07fa945adcaf27e35ca989b60ff2f0f8b979177815023"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/adapters.py",
+    "sha256": "f6700d5cc661566b11ea0535ce497a23064f560ca5785f504fda59f924de7d28"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/characters.py",
+    "sha256": "8df369d6a29f86c58e39b4164640cca8e34c7a35b807ad6f7a339c4a59778011"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/continuity.py",
+    "sha256": "75d4138b6d79c65f8cf3185af38204e247c4fc53d7a850368092a1e5edfb36fd"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/cycle.py",
+    "sha256": "cd4450b3d094a0529ebc617b64ca29f87f72f854fc808fa1830be612677e7f64"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/legacy.py",
+    "sha256": "ebc405924f5260f15b146e6f07307579edc836140d9398355010ca3e17449424"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/lifecycle.py",
+    "sha256": "a15389defb95a2a2bee13e5ad53740795341594788beae46c74399cedfe64590"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/planner.py",
+    "sha256": "88e673009d0ae6140afffb70cc23be856c84c1ce7147cd7653419961c2033413"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/registry.py",
+    "sha256": "80ddb59535270b9c9b83fe879174776933cb01a2c9f58c3f248c16257bf66be6"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/schema.py",
+    "sha256": "9bee2a56f0d54ee04c7ebbb8bd8ea9b0c9d80ca41cb5ba15ac02a31f66780bc0"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/schemas/contracts.schema.json",
+    "sha256": "ea3203a477797d31e8231ff39d157bbbb22eff3e6076847eb43ab1568e4b619d"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/schemas/lifecycle.schema.json",
+    "sha256": "f10ed434fa257079b115757f23659cd6f6ad2f408de5f2d6375eadac7ff8a20a"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/lifecycle_build/schemas/transitions.json",
+    "sha256": "660f27083c271330551dd36afe422209e6cce2ee863ffcc19b4d3923542f0094"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/OPERATING-NOTES.md",
+    "sha256": "fbbac83c7326dd019a67cd063227e7616309b98c18a5fd27ab6c072f73b3a91e"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-1.md",
+    "sha256": "d7c28437f94e01ec51fc444c965e76625683d66de7113202985cfb758bb3d8fa"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-2.md",
+    "sha256": "638879d57675d6e13fd8925955b2a9e3826e2fea1bdaa7087646fd328ca2b9d0"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-3.md",
+    "sha256": "85d8728fcd8a2d919bea12f71c75e93edf54012a288b2e51ecb406aa57d0fd04"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-4.md",
+    "sha256": "d2f143b4c86aa3cfcdfebaa431b4177819dc21276185d93422e9725f569ec14d"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-5.md",
+    "sha256": "f12fdf17be2eddab39b7169198ec7469f3b75a34762a902b8a4e92241e9cc31d"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-6.md",
+    "sha256": "8b2dc300460f7ffdcdc0217db8473e0dc8973a87d728c833e23d8b62efd09082"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-7.md",
+    "sha256": "b46314480edc2aa386a6cdc996b68590a7907522f0814b63e5b28e76566b4fc9"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/TASK-8.md",
+    "sha256": "fb64677ba6bdc93724c00f02546796752c52c0d91884f90d8066bd86264b54ce"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/ch4-cycle.json",
+    "sha256": "6ce39f1df6baab84202dbddd86335ffc65c7d124105a7b5f6597851c6d053b49"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/ch4-cycle.sqlite",
+    "sha256": "5771677f7c2c7cfaf7bfcbee2ac006e5d4a05b057a6bb163dce2919ff664dc3b"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/pytest-final.txt",
+    "sha256": "f78c2b7911bb41e631f4652b84136d1120df72a1dde906d254cb1559907c8648"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/notes/source-provenance.json",
+    "sha256": "0da920538d81611a16104941aae7c64556b672657d820681a4c87a8ad537825b"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/run.sh",
+    "sha256": "2954ce1bdce00672e3ec878eb7510f4d7a233d43dc341897b72fe0998a8b5501"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/conftest.py",
+    "sha256": "a576cbcdaf2ecf1a8580726ead6cdbe2f86c9c52e5a907f58613322d162542c0"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_recovery_and_boundaries.py",
+    "sha256": "1042c6f07cbba29be6a7e7cce2df4250892c10cf9d9865131ef67e536f89b43d"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_schemas.py",
+    "sha256": "4aafcb1f12bf0e55385d26dc3367d3c03a15a6b268926d8af9d4cd74373f3005"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task1_lifecycle.py",
+    "sha256": "27a1c77a92a2302e2e7908af6f00c8dc1169fed1de50ba5557eee57ef7ebb313"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task2_adapters.py",
+    "sha256": "3ff5b57bee2c490cfdbd3d5ed49f21f5b39f4add512f52940ce352f6b59f87ec"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task3_plastic.py",
+    "sha256": "1804b9fafb1eff3ead822bff446e02e8ccd6f19ec7581d018f9b456b43c39e21"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task4_characters.py",
+    "sha256": "b232dcf0390df9a9328d11527d79ff9e0857f50dc94ac8ed5afd5c015b78c4bb"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task5_cycle.py",
+    "sha256": "8d8eeba51382b3dc8628f7c30866e443ae294797a882b4b9a6358d4d92a3d87d"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task6_planner.py",
+    "sha256": "90e39a59b711d21d0f4df37303e6c218e69a23bf2ba6d8241062ffb7b8f208c9"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task7_continuity.py",
+    "sha256": "6eeee4ff31baab301de42c5d8aa58a44a6177a30faa412f6dbf010e7af23eb4d"
+  },
+  {
+    "path": "out-of-scope/codex-tt-astra-buildout-20261103/tests/test_task8_registry.py",
+    "sha256": "c4df38be3d6c2ecda6d888815d699890ec58626ad01d7005b20006780cd75e11"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-final-package-20261103/00-SYNTHESIS-FINAL.md",
+    "sha256": "e4f18d96d7da1b37c2217223f7b5bb67e862cdfbf44206d140d5e704415fd4c7"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-final-package-20261103/01-MASTER-JOB-ORDER.md",
+    "sha256": "e17506b0d782fafe54d8cc93e76525b047ec966190bca271bb0ea24b5746b01b"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-final-package-20261103/README.md",
+    "sha256": "bc38adbaefcf45a8d55e1df3ec3e28f7b1c45deeef48258b0e8d61759fc9fd59"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/.run.sh",
+    "sha256": "43d7378bdd73e57cca30e7a178d6bf67ca5c32d5d22b6ccd6db4210361f1cc66"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/ASTRA-BUILD-OUT-20261103.md",
+    "sha256": "1039bab223349f470f2a979068593661a57dfccbaa2720559437e8cd06853429"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/DESIGN.md",
+    "sha256": "b6bb9295436597c6942314190e7d944e20bdf47eccbcb165e4ec14c82330686a"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/INTEGRATION.md",
+    "sha256": "4731a854ab6a273c41ae2a9cddfb539a86293769b2a493efaa157f3fd0a3ee38"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/README.md",
+    "sha256": "9cc2c604cde321dad951165b7da5a944998f331c2bc5ff43a321d33772a17458"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/__init__.py",
+    "sha256": "d1710d02f2fc778c9be09e32c59ad2851cd2aabf686e38c46c7616ba27e404fa"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/adapters.py",
+    "sha256": "eda8a41fbecbf95dfd6ca366bfad379135712ca801b49c19b71a32a8f100066e"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/characters.py",
+    "sha256": "eb6079eda43de141eafe3ef492e097040aedc0c081352f86b8072ba0c0205048"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/continuity.py",
+    "sha256": "4b22eca3e73992e55961c2777cf150cd109d7861e0c71d186110d3d2bd9ee754"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/contracts.py",
+    "sha256": "6eb377228e85bf023ebed607f1942467bd5e13ca07f3ceabdfbef23a2d6c7a78"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/demo.py",
+    "sha256": "ee4a0f4fd558b139fd86e94c6a016d5c4f9da8952da426d821a4d0e81563dad4"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/fixture.py",
+    "sha256": "912835ae251faf428c0721cf6c5f208fb70e79e9ac1751a1d375acfab9e7a37b"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/integration.py",
+    "sha256": "d14767c5de0c6e903f6c1f27bc2555830f4bd4e633a2b4af86b743e9bc34062c"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/legacy.py",
+    "sha256": "62338d55d9f92a1daaeb74680ce4085551472e9edbb61b49292db897d4b6a125"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/lifecycle.py",
+    "sha256": "6803e84bed7df6110923721808d46606a4dd10f04bd95f56d75c95bb1b44227a"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/recipe.py",
+    "sha256": "c1150c269770f0ceacdebdb1d1408512b29298125d1d476eeaea6ad0151f22b7"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/registry.py",
+    "sha256": "f86614c664cfd27c4e47a41d82bae57eaf82df70e17b19875c9fe981fcd885c8"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/astra_lifecycle/schemas.py",
+    "sha256": "5d938abbbcee819e72fc2a5d4451eacd62a11c625025300541e225b719f0e3c9"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/fixtures/ch4-input.json",
+    "sha256": "b941ee48ca60b6567dde08c78923b2f02955432bfd7b9e61e77dc884b0e1ee16"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/COVERAGE-GRID.md",
+    "sha256": "f8afc36f54257b391882727d888f6094dfb35634578dbbd16d99704bd799c2a8"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/adapter-audit.json",
+    "sha256": "1761068751f5f5805f75f5a3ab4f357b63930df5619d621e347e1f6b4563a669"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/CH4-OFFLINE-CYCLE.md",
+    "sha256": "e794eea22502da4c9229c78d65cbc02c2db48445024c423d65c0df517e413bbc"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/canon-snapshot.json",
+    "sha256": "73695bce32a23eda3293cc1f5a8d5d195b43cb14f8678ecd8d66b13892596e3c"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/ch4.sqlite",
+    "sha256": "75f2a44e9f547a5033f0766708b5241eda42d3388ddda23046d890d602ee3d58"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/media.ffmetadata",
+    "sha256": "2ce5014076c70f3cfc221c0e7124998a22168ead669ebd394adcfd8cd109816b"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/media.sidecar.json",
+    "sha256": "2d10a330368d0d8326b3bd6c3a4dd78f774ab8955cdef47ab9b16281c6fd0a93"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/prompt.txt",
+    "sha256": "68cc9b28d7f3262aa11a99df6fe14508a221a354c444fdb741076813c33d72f8"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/source-provenance.json",
+    "sha256": "135b235025c40dea554a85b7cd33445607c3822b06038af1bcb8145dee8aba70"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/state.json",
+    "sha256": "85edcfff2c274507d1afeef39c2d984cd4c346d69c293cb3e8c9c404a6fd37da"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/ch4-cycle/transition-log.jsonl",
+    "sha256": "cf79efe33f8308bf91955c7d7019788a4a61116cd70519ecfe22046eab1b11a9"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/coverage-grid.json",
+    "sha256": "54bb9256fca14135877a8c28ae0e074e0289c4ff1787363774905dbb788e6606"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/output-manifest.json",
+    "sha256": "7c75397a5495f37a0bb05e4bacaa57bc71c8b6096bfa492cac6edb934031e1d2"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/privacy-check.json",
+    "sha256": "df6810734ec514fceaff0a32453e30c651c6176d6ca74abd8667a7cc2e8f08dd"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/source-integrity.json",
+    "sha256": "3005f5df0b320d69c7aa0fa047e83ead541b8908f60ebb1633f3721a853bd50e"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/test-results.txt",
+    "sha256": "b98dd1cc9049ac4381d3b79fbd2cf72e15dd96ec9b776c7418a0e9a609e95235"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/reports/verification.json",
+    "sha256": "9dd914b753369d11ae6edcc78cdd5895f869ebacdc471b80dcc0af0bb945ec93"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/schemas/lifecycle.schema.json",
+    "sha256": "84590860fd28cd8ee926c802bddf6dafa22cc27476c4a2e81f0f4eb63731fdde"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/schemas/playback-receipt.schema.json",
+    "sha256": "f9455f5bf46497ce33f5994ed45301ffde5994c6df3e4dffdc7031581bb4d6b5"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/schemas/records.schema.json",
+    "sha256": "8ae67c1fb9b0cc601357c12cfcd0bb2de80a66e0149d9d1765e5f41590363fb8"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/01-completion.md",
+    "sha256": "1ea48d3a7735a2af18502049230a2d034bf4ff7f742ff915ac8f2a840e076401"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/02-completion.md",
+    "sha256": "ac36599a0228ed95c59c80753f94097541836fd7dfc39cb7bd445aeb79bb05e1"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/03-completion.md",
+    "sha256": "4c7afaba9decc0a1ea26d9aae51450a6da3c9839ab0d116fc17dd920397b8741"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/04-completion.md",
+    "sha256": "932bcb3f69492abf0704350a70d72ce5816e6d44b2c03da9b388ee388606ed5d"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/05-completion.md",
+    "sha256": "cae0c1ed66456dcf5e00780fb95c7607413936a96d0f85b24d6b3fdde3969c3f"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/06-completion.md",
+    "sha256": "b7ceb30c652249dcee828d306a099e7797ee49f092b816efcb6f3313213feb8c"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/07-completion.md",
+    "sha256": "07e834ef0cccc92fd4d56cbf718ef073ef999377e1b26bb3eef88a6175a5749d"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/08-completion.md",
+    "sha256": "3c4c31bb10f12086047ed8979fb8f2292e52e04c5464eeb816e97966ba91a4e3"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/09-completion.md",
+    "sha256": "c444f4d75f220116de60a2059aa82915f8544a68bf93d98363598f2bdcbc0f07"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/10-completion.md",
+    "sha256": "f845736cb09b992cf67133665b19d2dac86d08e6deca845449acfdaf59dae101"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/task-notes/11-completion.md",
+    "sha256": "3092f7da780b87594402cc9037f4d7efebc3054fee440bd5842a7dc08da10ddf"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/tests/test_adversarial.py",
+    "sha256": "ee5f42fd1159852f3028ee2e427c567ae3a15ea00c23afdca20ed096d65a13aa"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/tests/test_contracts.py",
+    "sha256": "9da61c5074bc23f1022f94bc6094dabfb7eac4aebb2c3c26892a5f315c215794"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/tests/test_lifecycle.py",
+    "sha256": "724fda1f1c602d242fe0ec6416775a23839d455d5141adcd77e982deeea7906b"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-lifecycle-20261103/verify.py",
+    "sha256": "e7c35dfdf85e2e8a772a5f68deaee2f82ce2542487d621e425e2245abae5a4a5"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-package-20261103/00-MASTER-JOB-ORDER.md",
+    "sha256": "e17506b0d782fafe54d8cc93e76525b047ec966190bca271bb0ea24b5746b01b"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-package-20261103/01-KEY-FINDINGS-FROM-TRANSCRIPTS.md",
+    "sha256": "8d5ec2ad6bbdb807e0c12231f6c24d5f78657a4a6bd6fb5f1cf3b0e56130bb2d"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-package-20261103/02-STATE-MACHINE-FAILURES.md",
+    "sha256": "493ec9d94024d99e845871273b5deb6c729791a97ad66c2c99c2ca4379e7692d"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-package-20261103/03-DESIGN-PRIORITIES.md",
+    "sha256": "36aab6b34ab65a27ecefe2c8c9daa472b031e7fac45fa2358048b31e6b4c587d"
+  },
+  {
+    "path": "fixtures/thunder-trundle/coordination/astra-package-20261103/README-FOR-DIRECTOR.md",
+    "sha256": "0165a4a3b99face1f8ef7fb7e123359f564d8bf4d80f3e1cc84da8bb894c60a5"
+  },
+  {
+    "path": "fixtures/thunder-trundle/state/CURRENT-RULES.md",
+    "sha256": "f240461a2f2e4f09fed1bf4527fef783f44f8b76b6a9d4a65f25b7a6b86ac861"
+  }
+]

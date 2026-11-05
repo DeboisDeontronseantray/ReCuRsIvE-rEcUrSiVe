@@ -183,11 +183,11 @@ def clip_eligible_for_trait_promotion(
     return is_show_master_row(row)
 
 
-def build_trait_promotion_aired_index(rows: list[dict[str, Any]]) -> dict[str, bool]:
+def build_trait_promotion_aired_index(rows: list[dict[str, Any]], *, lifecycle=None) -> dict[str, bool]:
     """Map clip_id → counts toward the N aired-clip promotion threshold."""
     from lineage.aired import build_aired_index
 
-    aired = build_aired_index(rows)
+    aired = build_aired_index(rows, lifecycle=lifecycle)
     by_id = row_index_by_clip_id(rows)
     return {
         clip_id: bool(aired.get(clip_id)) and is_show_master_row(by_id[clip_id])

@@ -27,18 +27,26 @@ def _ledger(path):
     return [json.loads(line) for line in p.read_text().splitlines() if line.strip()] if p.is_file() else []
 
 
-def load_consumed(path, *, clip_id):
-    """Keys placed in other clips. Rebuilding the same clip id may place its own comments again."""
-    return {r["key"] for r in _ledger(path) if r["clip_id"] != clip_id}
+def load_consumed(path, *, clip_id, lifecycle=None):
+    """The old ledger is ignored; only receipt-reduced prompts are consumed."""
+    from astra_lifecycle.repo import lifecycle_store
+    life = lifecycle_store(lifecycle, required=False)
+    if life is None:
+        return set()
+    state = life.snapshot()
+    return {p["id"] for p in state["prompts"].values() if p["status"] == "consumed"
+            and any(a["clip_id"] != clip_id and a["status"] == "aired" for a in p["attempts"])}
 
 
-def mark_consumed(path, keys, *, clip_id):
-    """Append-only: each placed comment is recorded once, with the clip it went into."""
-    seen = {r["key"] for r in _ledger(path)}
-    new = [k for k in dict.fromkeys(keys) if k not in seen]
-    if new:
-        with pathlib.Path(path).open("a") as f:
-            f.writelines(json.dumps({"key": k, "clip_id": clip_id}) + "\n" for k in new)
+def mark_consumed(path, keys, *, clip_id, lifecycle=None):
+    """Removed setter: placement is not consumption."""
+    from astra_lifecycle.contracts import GuardError
+    raise GuardError("direct consumption forbidden; use D13/place and verified D09/aired")
+
+
+def place_comments(keys, *, clip_id, lifecycle=None):
+    from astra_lifecycle.repo import gateway
+    return gateway(lifecycle).call("D13", "place", clip_id=clip_id, prompt_ids=list(keys))
 
 
 def collect(spool_path, *, now, cfg=None, consumed=frozenset()):

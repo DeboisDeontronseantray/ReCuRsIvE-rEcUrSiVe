@@ -11,12 +11,12 @@
   "duration": 10,
   "resolution": "480p",
   "filename": "P16-2.mp4",
-  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P16-1/P16-1_last.png",
+  "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P16-1/P16-1_last.png",
   "reference_image_paths": [
-   "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_WREN_v1.jpg",
-   "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_GRAVES_ARCHIVIST_GUARD_v1.jpg"
+   "fixtures/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_WREN_v1.jpg",
+   "fixtures/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_GRAVES_ARCHIVIST_GUARD_v1.jpg"
   ],
-  "last_frame_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/refs/C16-20pm-c3_FIRSTFRAME.png"
+  "last_frame_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/refs/C16-20pm-c3_FIRSTFRAME.png"
  },
  "notes": [
   "ending replaced: 'The clip ends exactly on the planned end image: the archive '",

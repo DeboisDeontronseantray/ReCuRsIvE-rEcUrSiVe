@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "clip_id": "ch4-proof-1",
+  "mode": "offline-fixture",
+  "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+  "prompt_hash": "badfc3c772bdd9fa0644651b3887cf0b885f90d0d7f923ed1096cd8584724f6e",
+  "reference_hashes": [
+    "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+    "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+  ],
+  "character_versions": {
+    "HERON": 2
+  },
+  "receipt_id": "ch4-mock-playback-1",
+  "lineage": "Ch4-fixture/ch4-proof-1",
+  "corner_tag": "Ch4 / D0",
+  "field_versions": {
+    "version": 1,
+    "clip_id": 1,
+    "mode": 1,
+    "media_hash": 1,
+    "prompt_hash": 1,
+    "reference_hashes": 1,
+    "character_versions": 1,
+    "receipt_id": 1,
+    "lineage": 1,
+    "corner_tag": 1
+  }
+}

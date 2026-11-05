@@ -20,7 +20,7 @@ ALLOWED_CHANGED_SLOTS = {"continue", "beats"}
 
 
 @pytest.fixture
-def run(v5):
+def run(v5, assembly_harness):
     return v5("assemble_next").assemble_next(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=OUT, clip_id="NP17", **fixture_inputs(NP17))
 
 
@@ -84,7 +84,8 @@ def test_overflow_is_carried_not_dropped(run):
 def test_memory_and_still_meta_reach_beats_without_looks(run, slots):
     beats = slots(run["args"]["prompt"])["beats"]
     assert "maroon" not in beats and "mustache" not in beats
-    assert "favour" in beats or "button" in beats
+    assert "cracked glass" in beats
+    assert "favour" not in beats and "button" not in beats
 
 
 def test_cast_entry_stays_name_and_tag(run):
@@ -95,13 +96,11 @@ def test_proposed_memory_update_is_output_only(run):
     yml = CHARMETA / "11-fist-theater.yaml"
     before = yml.read_bytes()
     proposed = json.loads((OUT / "NP17.memory.proposed.json").read_text())
-    original = yaml.safe_load(before)["cast"]["MARLO_QUILL"]
-    assert proposed["file"] == yml.name
-    assert proposed["cast"]["MARLO_QUILL"]["writein_level"] - original["writein_level"] in (0, 1)
+    assert proposed == {"clip_id": "NP17", "proposals": []}
     assert yml.read_bytes() == before
 
 
-def test_deterministic(v5, tmp_path):
+def test_deterministic(v5, tmp_path, assembly_harness):
     an = v5("assemble_next").assemble_next
     a = an(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=tmp_path / "a", clip_id="NP17", **fixture_inputs(NP17))
     b = an(inputs_dir=NP17, base_spec=NP16 / "base_spec.json", out_dir=tmp_path / "b", clip_id="NP17", **fixture_inputs(NP17))

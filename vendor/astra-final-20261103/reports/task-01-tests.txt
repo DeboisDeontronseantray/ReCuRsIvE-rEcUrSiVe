@@ -1,0 +1,8 @@
+test_actual_process_death_rolls_back_and_restarts (test_final_hardening.Task01.test_actual_process_death_rolls_back_and_restarts) ... ok
+test_closed_receipt_even_with_permissive_verifier (test_final_hardening.Task01.test_closed_receipt_even_with_permissive_verifier) ... ok
+test_receipt_cannot_cross_independent_databases (test_final_hardening.Task01.test_receipt_cannot_cross_independent_databases) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.142s
+
+OK

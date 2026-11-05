@@ -1,5 +1,5 @@
 import json,os,sys,time,base64,subprocess,datetime,zoneinfo,requests
-P="/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-pilot-20261027"
+P="story-engine/data/pilots/ch04-forward-supply-pilot-20261027"
 OUT=os.path.dirname(os.path.abspath(__file__))
 cid,model=sys.argv[1],sys.argv[2]
 PRICE={"grok-imagine-video-1.5-lite":(0.02,0.01),"grok-imagine-video-1.5":(0.08,0.01),"grok-imagine-video":(0.05,0.002)}
@@ -35,6 +35,6 @@ if st=="done":
     if (j.get("video") or {}).get("duration"): usd=round(ps*float(j["video"]["duration"])+pi*len(imgs),4)
 else: fn=None; usd=0.0  # failed jobs assumed unbilled; flagged
 line={"time":datetime.datetime.now(zoneinfo.ZoneInfo("America/Chicago")).isoformat(timespec="seconds"),"prompt_id":"ch04-fs-pilot-480p-draft","provider":"xai_imagine","model":model,"cost_usd":usd,"clip":cid,"task":f"ch04 Forward Supply pilot 480p draft {cid} refs={len(imgs)} status={st}","request_id":rid,"source":"list-price estimate (480p)","channel":4}
-open("/workspace/fakenews/spend.jsonl","a").write(json.dumps(line)+"\n")
+open("out-of-scope/fakenews/spend.jsonl","a").write(json.dumps(line)+"\n")
 open(f"{OUT}/log.jsonl","a").write(json.dumps({**line,"file":fn,"resp":info,"prompt_chars":len(prompt)})+"\n")
 print(st,fn,usd,json.dumps(info)[:600])

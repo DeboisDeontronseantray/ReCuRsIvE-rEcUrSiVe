@@ -3,8 +3,8 @@
  "duration": 10,
  "resolution": "480p",
  "filename": "P05-3.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P05-2/P05-2_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P05-2/P05-2_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/channels/05-night-patrol/refs/sheets/SHEET_CH5_CAST_VEHICLES_v1.jpg"
+  "fixtures/thunder-trundle/channels/05-night-patrol/refs/sheets/SHEET_CH5_CAST_VEHICLES_v1.jpg"
  ]
 }

@@ -3,7 +3,7 @@
 Usage: resolve_embed.py <ref> [--host-global N --host-lineage 4.13 --host-gen 1]
 With --host-*, also prints the LINEAGE row (origin: embed) for CNB to append."""
 import json, os, sys, argparse
-LINEAGE = "/workspace/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/LINEAGE.jsonl"
+LINEAGE = "out-of-scope/fakenews/channel-ready/thunder-trundle/4_1_Military-Boutique/LINEAGE.jsonl"
 BAD = ("outbox", "/cut/", "_tag", "tagged", "lowerthird", "readtag", "/held/")
 
 def rows():

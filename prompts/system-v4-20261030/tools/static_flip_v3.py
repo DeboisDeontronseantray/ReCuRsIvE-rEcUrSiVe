@@ -6,7 +6,7 @@
   collapse_dot(A, out): TRUE CRT power-off: picture squashes to a bright line (0.12 s), line shrinks to a dot (0.12 s), dot glows and fades (0.3 s)
 Static is one option, not only a universe signal (t362u: "just as a running gag maybe")."""
 import sys,os,subprocess,tempfile,random,importlib.util,numpy as np,cv2
-_s=importlib.util.spec_from_file_location("sf2","/workspace/thunder-trundle/prompts/experiments/round9-design-20261030/tools/static_flip_v2.py")
+_s=importlib.util.spec_from_file_location("sf2","fixtures/thunder-trundle/prompts/experiments/round9-design-20261030/tools/static_flip_v2.py")
 sf2=importlib.util.module_from_spec(_s); _s.loader.exec_module(sf2)
 V=sf2.V
 def run(*a): subprocess.run(["ffmpeg","-v","error","-y",*a],check=True)

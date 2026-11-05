@@ -3,8 +3,8 @@
  "duration": 10,
  "resolution": "480p",
  "filename": "P10-2.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P10-1/P10-1_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P10-1/P10-1_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/channels/10-action/refs/sheets/SHEET_CH10_ACTION_CAST_v1.jpg"
+  "fixtures/thunder-trundle/channels/10-action/refs/sheets/SHEET_CH10_ACTION_CAST_v1.jpg"
  ]
 }

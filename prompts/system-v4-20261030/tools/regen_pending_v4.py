@@ -5,14 +5,14 @@ import json,os,re,sys,glob,difflib
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import build_prompt_v4 as B
 import canon as C
-H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); E="/workspace/thunder-trundle/prompts/experiments"
+H=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); E="fixtures/thunder-trundle/prompts/experiments"
 OD=f"{E}/odyssey-design-20261030/ODYSSEY"; R9=f"{E}/round9-20261030"
 SIDE=f"{H}/refs_side"
 # Keys are canon-mapped source paths (tools/canon.py runs first); refs_side files renamed GIDEON_QUILL_* on Nov 2 2026.
 REF_SWAP={f"{OD}/refs/GIDEON_QUILL_face.png":f"{SIDE}/GIDEON_QUILL_threequarter_face.png",f"{OD}/refs/GIDEON_QUILL_front.png":f"{SIDE}/GIDEON_QUILL_side_full.png",
           f"{OD}/refs/CONCIERGE_face.png":f"{SIDE}/CONCIERGE_threequarter_face.png",f"{OD}/refs/CONCIERGE_front.png":f"{SIDE}/CONCIERGE_side_full.png",
-          "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_WREN_v1.jpg":f"{SIDE}/WREN_side_full.png",
-          "/workspace/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_GRAVES_ARCHIVIST_GUARD_v1.jpg":f"{SIDE}/GRAVES_guard_side_full.png",
+          "fixtures/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_WREN_v1.jpg":f"{SIDE}/WREN_side_full.png",
+          "fixtures/thunder-trundle/prompts/experiments/round3-20261030/clips/C16-20pm-c3/refs_small/SHEET_CH16_GRAVES_ARCHIVIST_GUARD_v1.jpg":f"{SIDE}/GRAVES_guard_side_full.png",
           "TBD:ODYSSEY/refs/GIDEON_QUILL_face.png (look sheet needs trundle yes)":f"{SIDE}/GIDEON_QUILL_threequarter_face.png","TBD:ODYSSEY/refs/CONCIERGE_face.png":f"{SIDE}/CONCIERGE_threequarter_face.png"}
 SENT=re.compile(r'(?<=[.!?\]"])\s+(?=[A-Z\[<(])')
 INK=re.compile(r"(hand-?inked|ink outlines|crosshatch|comic|flat 2D|Never 3D|never 3D|Effects are drawn)",re.I)

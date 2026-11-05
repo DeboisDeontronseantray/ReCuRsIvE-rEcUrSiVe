@@ -1,10 +1,10 @@
 """The Efficiency Review (Ch 4, lineage 4.12 g1) prompt builder. Story Bot, 2026-10-27. No API calls, no renders."""
 import json, sys
 from pathlib import Path
-sys.path.insert(0, '/workspace/streaming/story-engine/live'); import checker as C
+sys.path.insert(0, 'story-engine/live'); import checker as C
 import yaml
 OUT = Path(__file__).parent
-SE = Path('/workspace/streaming/story-engine')
+SE = Path('out-of-scope/streaming/story-engine')
 ref = yaml.safe_load(open(SE/'live/ref-index.yaml'))['cast']
 def refs(*keys):
     return [C.resolve_clean(p) for k in keys for p in ref[k]['stills']]
@@ -104,7 +104,7 @@ for s in shots:
         if len(o['text']) > 2: assert o['text'] not in s['visual_prompt'], (s['id'], o['text'])
         else: assert f'"{o["text"]}"' not in s['visual_prompt'] and 'labeled' not in s['visual_prompt'], (s['id'], o['text'])
 json.dump({"title": "The Efficiency Review", "show": "Military Boutique after hours", "channel": "4", "lineage": LINEAGE, "home_only": True,
-           "brief": "/workspace/director/brief-the-efficiency-review-20261027.md", "written": "2026-10-27 CT by Story Bot", "shots": shots},
+           "brief": "out-of-scope/director/brief-the-efficiency-review-20261027.md", "written": "2026-10-27 CT by Story Bot", "shots": shots},
           open(OUT/'prompts.json', 'w'), indent=1, ensure_ascii=False)
 json.dump({"rule": "post-process overlay on a separate copy; never in generation; clean master is the anchor/mutation parent", "overlays": overlays},
           open(OUT/'overlay_specs.json', 'w'), indent=1, ensure_ascii=False)

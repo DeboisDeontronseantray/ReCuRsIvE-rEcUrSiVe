@@ -3,8 +3,8 @@
  "duration": 10,
  "resolution": "480p",
  "filename": "P07-3.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P07-2/P07-2_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P07-2/P07-2_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/channels/07-monster-hour/refs/sheets/SHEET_CH7_CAST_v2.jpg"
+  "fixtures/thunder-trundle/channels/07-monster-hour/refs/sheets/SHEET_CH7_CAST_v2.jpg"
  ]
 }

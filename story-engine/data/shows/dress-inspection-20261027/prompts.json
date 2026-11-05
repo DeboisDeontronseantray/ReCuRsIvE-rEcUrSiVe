@@ -3,7 +3,7 @@
  "show": "clearance-brief (rebuild)",
  "channel": "4",
  "home_only": true,
- "brief": "/workspace/director/brief-dress-inspection-20261027.md",
+ "brief": "out-of-scope/director/brief-dress-inspection-20261027.md",
  "written": "2026-10-27 CT by Story Bot",
  "shots": [
   {
@@ -31,9 +31,9 @@
    "dialogue": [],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: locked symmetrical wide, no camera move. ACTION: Seven products stand on matte pedestals in a straight line across the wet deck like recruits. Bill enters from frame left, boots loud, and halts at the first pedestal. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -89,9 +89,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Graphite Cloak on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -149,9 +149,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Scout Drone on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -209,9 +209,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Quietline Helmet on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -269,9 +269,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Modular Field Pack on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -329,9 +329,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Exo-Gauntlet on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -389,9 +389,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Night Cruiser on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -449,9 +449,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. LOCATION: forward depot bay parade deck. CAMERA: low-angle handheld with an aggressive push-in. ACTION: Bill stops nose-to-nose with the Field Glass on its pedestal, leans in with his jaw tight and quiet menace, and delivers one flat line close to the product. Hard cut at the end of the line. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -503,12 +503,12 @@
    "dialogue": [],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. Mira: compact adult officer, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots, cool cyan rim light on her face. LOCATION: forward depot bay parade deck. CAMERA: over the shoulder of Bill, handheld, slow drift. ACTION: Mira walks behind Bill along the pedestal line, writing on her clipboard without looking up; she never reacts. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -557,9 +557,9 @@
    "dialogue": [],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, earnest worried expression. LOCATION: forward depot bay parade deck. CAMERA: tight close shot, locked. ACTION: Osmund stands rigid at attention, sweat on his brow, his eyes flicking sideways toward Bill off-frame; he does not move. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -611,12 +611,12 @@
    "dialogue": [],
    "visual_prompt": "Photoreal grounded near-future forward depot bay turned parade deck: wet concrete floor, hard top light, deep shadows, cold haze, seven matte pedestals in a straight line, each holding one product; biting, tough tone, never slapstick; candid observational framing, eyelines on each other or the products, characters never acknowledge the lens. CAST (only these): Bill: tall, extremely muscular adult host with a huge chest, shoulders and arms, stiff posture, black utility duty shirt with sleeves straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text; always wears the shirt with sleeves and always wears the glasses. Osmund: young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag on the chest, earnest worried expression. LOCATION: forward depot bay parade deck. CAMERA: medium wide, locked, then holds on the empty deck. ACTION: Bill lifts the Modular Field Pack off its pedestal, presses it into the hands of Osmund, turns and walks out of frame without a word. Osmund does not move. Hold two seconds on the empty deck. Audio: dry and quiet; only boots on wet concrete, breathing and the low flat voice of Bill; no music, no hum, no sub-bass, no low drone; steady level. no on-screen text, no readable lettering or signage; no readable text, no signage lettering",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",

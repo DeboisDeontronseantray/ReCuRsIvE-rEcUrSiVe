@@ -1,0 +1,667 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "scope": "offline lifecycle package; legacy installations remain read-only",
+  "source_inventory": [
+    {
+      "machine": "D09",
+      "source": "prompts/system-v5-draft/aired.py",
+      "replacement": "D09/aired and derive_aired",
+      "present": true,
+      "expected_symbols": [
+        "build_index",
+        "require_aired"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "8a6097188513fcbbb71422a7aea4790d10419f43b67902fadbd91827efd50417",
+      "definitions": [
+        {
+          "name": "build_index",
+          "line": 34
+        },
+        {
+          "name": "require_aired",
+          "line": 68
+        }
+      ]
+    },
+    {
+      "machine": "D09",
+      "source": "lineage/aired.py",
+      "replacement": "derive_aired reads only the canonical store",
+      "present": true,
+      "expected_symbols": [
+        "clip_id_aired",
+        "build_aired_index"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "c37be17cacc0d2715188f686e5f7acc82aa725b0a3114102a86af2bbda2d8e18",
+      "definitions": [
+        {
+          "name": "clip_id_aired",
+          "line": 10
+        },
+        {
+          "name": "build_aired_index",
+          "line": 44
+        }
+      ]
+    },
+    {
+      "machine": "D09",
+      "source": "lineage/air_status.py",
+      "replacement": "authorization/status booleans cannot establish air",
+      "present": true,
+      "expected_symbols": [
+        "source_indicates_aired"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "0560d959a6446cafe5297c9b4c7dfc7974a28d5134db22ac7398ceb7b51edd3f",
+      "definitions": [
+        {
+          "name": "source_indicates_aired",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "machine": "D09",
+      "source": "lineage/derive_aired.py",
+      "replacement": "receipt event projection; no independent air latch",
+      "present": true,
+      "expected_symbols": [
+        "append_aired_derivation_for_clip",
+        "derive_aired_append_patches"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "5b6a3f742bc97275bf3304ed3134256078b22d689706b420e819d294d0f39700",
+      "definitions": [
+        {
+          "name": "derive_aired_append_patches",
+          "line": 113
+        },
+        {
+          "name": "append_aired_derivation_for_clip",
+          "line": 154
+        }
+      ]
+    },
+    {
+      "machine": "D13",
+      "source": "prompts/system-v5-draft/intake.py",
+      "replacement": "D13/place; consumption from verified air",
+      "present": true,
+      "expected_symbols": [
+        "mark_consumed",
+        "load_consumed"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "9512aec75e319683504b7b5d0e5eae5cdea580b650e9b6f21465e893c97029ea",
+      "definitions": [
+        {
+          "name": "load_consumed",
+          "line": 30
+        },
+        {
+          "name": "mark_consumed",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "machine": "D14",
+      "source": "prompts/system-v5-draft/placement.py",
+      "replacement": "pure placement plus D14/carry and eligible",
+      "present": true,
+      "expected_symbols": [
+        "place"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "bd8088d4937c0b3e970c5fc6b226b164f976f071c4155c9f9fe1d80c00e08262",
+      "definitions": [
+        {
+          "name": "place",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "machine": "D15",
+      "source": "prompts/system-v5-draft/memory.py",
+      "replacement": "D15/propose; receipt reducer commits counters",
+      "present": true,
+      "expected_symbols": [
+        "summon",
+        "proposed_update"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "9cc4512f9b117d5fa3bb0cd66f5c081ace16de5b7bf136491f72af77561835c6",
+      "definitions": [
+        {
+          "name": "summon",
+          "line": 32
+        },
+        {
+          "name": "proposed_update",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "machine": "D10",
+      "source": "charmeta/promote.py",
+      "replacement": "D10/propose; receipt reducer commits traits",
+      "present": true,
+      "expected_symbols": [],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "72950914e16e58b45f2c736382d20d03252b6a8bc88b0fdf76de69c0b4258d90",
+      "definitions": [
+        {
+          "name": "_observation_groups",
+          "line": 36
+        },
+        {
+          "name": "_has_proposed_duplicate",
+          "line": 55
+        },
+        {
+          "name": "_append_proposed_item",
+          "line": 77
+        },
+        {
+          "name": "_resolve_cast_entry",
+          "line": 129
+        },
+        {
+          "name": "promote",
+          "line": 140
+        },
+        {
+          "name": "main",
+          "line": 221
+        }
+      ]
+    },
+    {
+      "machine": "B01",
+      "source": "story-engine/live/checker.py",
+      "replacement": "B01/approve, preempt, head",
+      "present": true,
+      "expected_symbols": [
+        "approve",
+        "rollback",
+        "slot_head"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "e99f781bd0238a777230de9e7d4e291e0f5bd12e863bc4cafb8c0a987d00e0b4",
+      "definitions": [
+        {
+          "name": "slot_head",
+          "line": 361
+        },
+        {
+          "name": "approve",
+          "line": 377
+        },
+        {
+          "name": "rollback",
+          "line": 387
+        }
+      ]
+    },
+    {
+      "machine": "B04",
+      "source": "story-engine/live/checker.py",
+      "replacement": "canonical placement/filter/release; no arbitrary setters",
+      "present": true,
+      "expected_symbols": [
+        "set_state",
+        "combine",
+        "hold_prompt"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "e99f781bd0238a777230de9e7d4e291e0f5bd12e863bc4cafb8c0a987d00e0b4",
+      "definitions": [
+        {
+          "name": "set_state",
+          "line": 420
+        },
+        {
+          "name": "combine",
+          "line": 441
+        },
+        {
+          "name": "hold_prompt",
+          "line": 447
+        },
+        {
+          "name": "set_state",
+          "line": 482
+        },
+        {
+          "name": "combine",
+          "line": 489
+        },
+        {
+          "name": "hold_prompt",
+          "line": 494
+        }
+      ]
+    },
+    {
+      "machine": "B04",
+      "source": "out-of-scope/streaming/commenter-pipeline/comment_prompts.py",
+      "replacement": "canonical prompt projection and D14/carry",
+      "present": true,
+      "expected_symbols": [
+        "set_status",
+        "bump_skip",
+        "current"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "7348de12d290688a56b00871b112d8985e39de358b65890ed98899192debbab0",
+      "definitions": [
+        {
+          "name": "current",
+          "line": 50
+        },
+        {
+          "name": "set_status",
+          "line": 53
+        },
+        {
+          "name": "bump_skip",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "machine": "B01",
+      "source": "out-of-scope/de-parity/pickup.py",
+      "replacement": "canonical preemption and terminal transitions; verified air only",
+      "present": true,
+      "expected_symbols": [
+        "preempt",
+        "rollback",
+        "retire",
+        "clip_airing"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "b106c4c4ec86a0f8d3400fb1e7542d9a8d76c9d67893705fab2b85418ed9c459",
+      "definitions": [
+        {
+          "name": "clip_airing",
+          "line": 260
+        },
+        {
+          "name": "retire",
+          "line": 266
+        },
+        {
+          "name": "preempt",
+          "line": 391
+        },
+        {
+          "name": "rollback",
+          "line": 424
+        }
+      ]
+    },
+    {
+      "machine": "B04",
+      "source": "out-of-scope/de-parity/pickup.py",
+      "replacement": "canonical eligible/consumed/released projection",
+      "present": true,
+      "expected_symbols": [
+        "prompt_state",
+        "unterminated",
+        "prompts_block"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "b106c4c4ec86a0f8d3400fb1e7542d9a8d76c9d67893705fab2b85418ed9c459",
+      "definitions": [
+        {
+          "name": "prompt_state",
+          "line": 495
+        },
+        {
+          "name": "unterminated",
+          "line": 509
+        },
+        {
+          "name": "prompts_block",
+          "line": 512
+        }
+      ]
+    },
+    {
+      "machine": "D08",
+      "source": "story-engine/server/app/tv/pipeline.py",
+      "replacement": "D08/local_export and episodes_done projection",
+      "present": true,
+      "expected_symbols": [],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "468daf0bfc160080282a7f4f95338c8859376d5ee5c3a635c4152d1c517f545c",
+      "definitions": [
+        {
+          "name": "_extract_json",
+          "line": 21
+        },
+        {
+          "name": "_j",
+          "line": 36
+        },
+        {
+          "name": "generate_bible",
+          "line": 40
+        },
+        {
+          "name": "generate_episode_beats",
+          "line": 60
+        },
+        {
+          "name": "generate_ad",
+          "line": 88
+        },
+        {
+          "name": "run_smoke",
+          "line": 112
+        }
+      ]
+    },
+    {
+      "machine": "A07",
+      "source": "out-of-scope/streaming/commenter-pipeline/pipeline.py",
+      "replacement": "A07/intake before seen; filter and recover",
+      "present": true,
+      "expected_symbols": [],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "2d4eea3cd0cf0aa05f6cb06b7cb30d450bbef464c8a3a96797b54ff2670d5057",
+      "definitions": [
+        {
+          "name": "log",
+          "line": 10
+        },
+        {
+          "name": "refs_for",
+          "line": 15
+        },
+        {
+          "name": "_sha",
+          "line": 23
+        },
+        {
+          "name": "_tainted_shas",
+          "line": 28
+        },
+        {
+          "name": "input_guard",
+          "line": 37
+        },
+        {
+          "name": "guard_list",
+          "line": 46
+        },
+        {
+          "name": "extract_last_frame",
+          "line": 53
+        },
+        {
+          "name": "intake_legacy",
+          "line": 60
+        },
+        {
+          "name": "_ids_in",
+          "line": 73
+        },
+        {
+          "name": "credit_fallback",
+          "line": 82
+        },
+        {
+          "name": "intake",
+          "line": 86
+        },
+        {
+          "name": "gate",
+          "line": 120
+        },
+        {
+          "name": "wrap",
+          "line": 129
+        },
+        {
+          "name": "weak_score",
+          "line": 167
+        },
+        {
+          "name": "pick_injections",
+          "line": 174
+        },
+        {
+          "name": "apply_injections",
+          "line": 194
+        },
+        {
+          "name": "est",
+          "line": 211
+        },
+        {
+          "name": "xai_month_spend",
+          "line": 212
+        },
+        {
+          "name": "tries",
+          "line": 219
+        },
+        {
+          "name": "sess_rows",
+          "line": 224
+        },
+        {
+          "name": "sess_add",
+          "line": 227
+        },
+        {
+          "name": "safety_stop",
+          "line": 228
+        },
+        {
+          "name": "auto_revert_check",
+          "line": 237
+        },
+        {
+          "name": "render",
+          "line": 243
+        },
+        {
+          "name": "ocr_text",
+          "line": 279
+        },
+        {
+          "name": "name_ocr",
+          "line": 288
+        },
+        {
+          "name": "frame_check",
+          "line": 299
+        },
+        {
+          "name": "post",
+          "line": 315
+        },
+        {
+          "name": "manifest",
+          "line": 354
+        },
+        {
+          "name": "main",
+          "line": 363
+        },
+        {
+          "name": "input_guard",
+          "line": 380
+        },
+        {
+          "name": "_provenance",
+          "line": 382
+        },
+        {
+          "name": "render",
+          "line": 388
+        },
+        {
+          "name": "manifest",
+          "line": 393
+        },
+        {
+          "name": "main",
+          "line": 405
+        },
+        {
+          "name": "manifest",
+          "line": 421
+        },
+        {
+          "name": "main",
+          "line": 433
+        },
+        {
+          "name": "_tag_esc",
+          "line": 445
+        },
+        {
+          "name": "tag_vf",
+          "line": 446
+        },
+        {
+          "name": "stamp_lineage_tag",
+          "line": 451
+        },
+        {
+          "name": "record_prompts",
+          "line": 467
+        }
+      ]
+    },
+    {
+      "machine": "D09",
+      "source": "story-engine/live/intake.py",
+      "replacement": "last frame may derive only from verified canonical air",
+      "present": true,
+      "expected_symbols": [
+        "pick_end_frame"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "94616b85ace7cb1a24fc071183bbd1fdd15ff0d20779e048c362dd8478deb956",
+      "definitions": [
+        {
+          "name": "pick_end_frame",
+          "line": 218
+        }
+      ]
+    },
+    {
+      "machine": "D12",
+      "source": "prompts/system-v5-draft/assemble_next.py",
+      "replacement": "D12/assemble gate must succeed before production",
+      "present": true,
+      "expected_symbols": [],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "923abda86e6c5fef3c049a5439fccacf739df34bd37fa97dc6d70d37659341a4",
+      "definitions": [
+        {
+          "name": "_sha",
+          "line": 49
+        },
+        {
+          "name": "_file",
+          "line": 53
+        },
+        {
+          "name": "_check_out_dir",
+          "line": 57
+        },
+        {
+          "name": "_has_refs",
+          "line": 63
+        },
+        {
+          "name": "_fails",
+          "line": 67
+        },
+        {
+          "name": "_screen",
+          "line": 73
+        },
+        {
+          "name": "_now",
+          "line": 86
+        },
+        {
+          "name": "_write",
+          "line": 91
+        },
+        {
+          "name": "assemble_next",
+          "line": 96
+        },
+        {
+          "name": "main",
+          "line": 239
+        }
+      ]
+    },
+    {
+      "machine": "D16",
+      "source": "prompts/system-v4-20261030/tools/layers_v4.py",
+      "replacement": "canonical consequence clock; D16/propose",
+      "present": true,
+      "expected_symbols": [
+        "tier_alive"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "c1ba6f418532c988302e89b1c3a7fb2ba4231ba1f6dc17b1cf0ba83ccf29681f",
+      "definitions": [
+        {
+          "name": "tier_alive",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "machine": "D17",
+      "source": "prompts/system-v4-20261030/tools/layers_v4.py",
+      "replacement": "D17/propose with attested registered still",
+      "present": true,
+      "expected_symbols": [
+        "carry_text"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "c1ba6f418532c988302e89b1c3a7fb2ba4231ba1f6dc17b1cf0ba83ccf29681f",
+      "definitions": [
+        {
+          "name": "carry_text",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "machine": "render",
+      "source": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/clip_render.py",
+      "replacement": "render/reserve, dispatch, rendered; offline adapter only",
+      "present": true,
+      "expected_symbols": [
+        "render"
+      ],
+      "deployment": "read-only; overlay not installed upstream",
+      "sha256": "10d491bd92acde9e08b31200b5baa18850113687ced4fca6bd075436d7657610",
+      "definitions": [
+        {
+          "name": "render",
+          "line": 449
+        }
+      ]
+    }
+  ]
+}

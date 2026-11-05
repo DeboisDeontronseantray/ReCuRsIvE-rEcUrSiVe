@@ -4,7 +4,7 @@
 Base: the previous clip's v42 spec, built by the unchanged v42 builder (D2). New inputs only add beats:
 still continuity (D3, stub analyzer), raw comments from the spool (D4), and capped character memory (D5).
 Locked threads and the spot's thread_holder are frozen first and enter only as hard constraints (D6, D7). FT stays off (D8).
-Only aired clips are canon (playout slot `status: AIRED`, see aired.py): the previous clip must have aired, and memory
+Only receipt-backed canonical aired clips are canon (see aired.py): the previous clip must have aired, and memory
 beats come only from aired source clips. Writes only to out_dir (system-v5-draft/out/dryrun/ or a folder outside the repo)."""
 import argparse
 import copy
@@ -13,15 +13,19 @@ import hashlib
 import json
 import pathlib
 import sys
+from importlib import import_module
 
 import aired
 import contracts
-import intake
+# Isolate the v5 adapter seam from the unrelated live pipeline intake module.
+intake = import_module("prompts.system-v5-draft.intake")
 import memory
 import paths
 import placement
 import report
 import sanitize
+from astra_lifecycle.contracts import require
+from astra_lifecycle.repo import gateway, lifecycle_store
 from adapters import base_spec as base_spec_mod
 from adapters import locked_meta, still_meta
 from adapters.v4_bridge import V4_CONFIG, apply_check_v44, build_prompt_v42, layers_v4
@@ -94,11 +98,12 @@ def _write(out_dir, name, obj):
 
 
 def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=None, character_meta_dir=None, now=None,
-                  episode=1, season=1, advance=True, consumed_path=None, slots_path=None, lineage_path=None):
+                  episode=1, season=1, advance=True, consumed_path=None, slots_path=None, lineage_path=None,
+                  lifecycle=None, memory_proposals=None):
     cfg = paths.config("assembly")
     _check_out_dir(out_dir)
     if json.loads(pathlib.Path(COMMENTER_IMAGES_CFG).read_text()).get("enabled"):
-        raise CommenterImagesOn("commenter images are NOT YET (Trundle 10:48 PM CT Oct 30); only Trundle turns them on")
+        raise CommenterImagesOn("commenter images are NOT YET (trundle 10:48 PM CT Oct 30); only trundle turns them on")
     base = base_spec_mod.load(base_spec)
     prev = base["clip_id"]
     cid = clip_id or (base_spec_mod.next_clip_id(prev) if advance else prev)
@@ -108,12 +113,13 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
         raise ReferenceImageRequired(f"{cid}: a reference image is required (hard rule); only the 16 listed ads are exempt")
     if advance and not base.get("start_frame"):
         raise ValueError(f"{prev} has no start frame; adding one would renumber its <IMAGE_n> tags (not supported in v1)")
+    life = lifecycle_store(lifecycle) if advance else None
     aired_rec, aired_index = None, {}
     if advance:
         slots = slots_path or paths.get("TT_SLOTS", required=True)
         lineage = lineage_path or paths.get("TT_LINEAGE", required=True)
-        aired_index = aired.load(slots, lineage)
-        aired_rec = {"prev": aired.require_aired(aired_index, prev), "slots": _file(slots), "lineage": _file(lineage)}
+        aired_index = aired.load(slots, lineage, lifecycle=life)
+        aired_rec = {"prev": aired.require_aired(aired_index, prev, lifecycle=life), "slots": _file(slots), "lineage": _file(lineage)}
 
     inputs = contracts.load_inputs(inputs_dir)
     lm, sm = inputs["locked_meta"], inputs["still_meta"]
@@ -139,7 +145,7 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
     if advance:
         spool = spool_path or paths.get("TT_COMMENT_SPOOL", required=True)
         consumed_path = pathlib.Path(consumed_path or paths.get("TT_COMMENT_CONSUMED") or pathlib.Path(out_dir) / "comments.consumed.jsonl")
-        rows, stats = intake.collect(spool, now=now, cfg=cfg, consumed=intake.load_consumed(consumed_path, clip_id=cid))
+        rows, stats = intake.collect(spool, now=now, cfg=cfg, consumed=intake.load_consumed(consumed_path, clip_id=cid, lifecycle=life))
         spool_rec = _file(spool) | stats
         kept = []
         for i, row in enumerate(rows, 1):
@@ -168,17 +174,19 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
             summoned = memory.present_cast(cm, base)
             unaired = []
             for cast_id in summoned:
-                canon, dropped = aired.canon_memories(cm["cast"][cast_id], aired_index)
+                canon, dropped = aired.canon_memories(cm["cast"][cast_id], aired_index, lifecycle=life)
                 unaired += [{"cast_id": cast_id} | d for d in dropped]
-                for j, text in enumerate(memory.memory_beats(canon, episode=episode, season=season, clip_index=idx)):
+                for j, text in enumerate(memory.memory_beats(canon, episode=episode, season=season, clip_index=idx, lifecycle=life, character_id=cast_id)):
                     mems.append({"id": f"{cast_id}#{j}", "text": text})
             mem_rec = {"summoned": summoned, "beats": [m["id"] for m in mems], "unaired": unaired}
-            proposed = memory.proposed_update(cm, summoned)
+            # Counter changes belong to the receipt reducer. Reviewed canonical
+            # proposals are submitted once, after assembly has passed its gates.
+            proposed = {"clip_id": cid, "proposals": memory_proposals or []}
 
         spec["start_frame"] = still_meta.next_start_frame(prev, paths.get("TT_CLIPS"))
         spec["parent_clip"] = f"{prev}_last"
         spec["consequences"] = [c | {"created_here": False} for c in base.get("consequences", [])
-                                if layers_v4.tier_alive(c, episode, season, idx)]
+                                if layers_v4.tier_alive(c, episode, season, idx, lifecycle=life)]
 
         held = _screen(spec, cid, still_text, kept, mems, spec["duration"], cfg)
         for rec in [r for r in kept if r["id"] in held]:
@@ -223,6 +231,21 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
         "beats": sources, "gate": {"fails": gate["fails"], "warns": gate["warns"]},
         "diff": {k: d[k] for k in ("changed_slots", "disallowed_slots", "identical_prompt")},
     }
+    if advance:
+        require(not gate["fails"] and not d["disallowed_slots"], "assembly gates failed")
+        canonical = life.snapshot()["clips"].get(cid)
+        require(canonical is not None and canonical["state"] == "planned", "assembly needs an existing planned clip")
+        require(canonical["channel"] == base["channel"] and canonical["kind"] == "segment",
+                "canonical channel/kind differs from assembly")
+        require(canonical["prompt"] == built["args"]["prompt"], "assembled prompt differs from canonical planned prompt")
+        # Placement and proposals are reviewed against the existing canonical
+        # plan. No spool boolean or assembly artifact can consume a prompt.
+        pl = placement.place(still=still_text, comments=kept, memories=mems, duration=spec["duration"],
+                             cfg=cfg, max_comments=max_comments, lifecycle=life, clip_id=cid)
+        intake.place_comments([c["key"] for c in comments["placed"]], clip_id=cid, lifecycle=life)
+        if memory_proposals is not None:
+            memory.proposed_update({}, [], lifecycle=life, clip_id=cid, proposals=memory_proposals)
+        gateway(life).call("D12", "assemble", clip_id=cid)
     out = pathlib.Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     _write(out, f"{cid}.args.json", built["args"])
@@ -231,8 +254,6 @@ def assemble_next(*, inputs_dir, base_spec, out_dir, clip_id=None, spool_path=No
     _write(out, f"{cid}.memory.proposed.json", proposed)
     _write(out, f"GATE-{cid}.json", gate)
     _write(out, f"DIFF-{cid}.md", report.diff_markdown(prev, cid, d, gate))
-    if advance:
-        intake.mark_consumed(consumed_path, [c["key"] for c in comments["placed"]], clip_id=cid)
     return {"spec": spec, "args": built["args"], "sidecar": built["sidecar"], "assembly": assembly, "diff": d, "gate": gate}
 
 

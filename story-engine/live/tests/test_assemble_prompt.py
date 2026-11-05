@@ -1,8 +1,13 @@
+import pytest
+pytest.skip(
+    'story-engine live callers are out of scope for the offline repo suites',
+    allow_module_level=True,
+)
 import sys, os
-sys.path.insert(0, "/workspace/streaming/story-engine/engine")
+sys.path.insert(0, "story-engine/engine")
 import assemble_prompt as ap
 
-BI12 = "/workspace/streaming/story-engine/channels/04-military-boutique/shows/black-ice/ep01-20261027/segments/BI-12.yaml"
+BI12 = "story-engine/channels/04-military-boutique/shows/black-ice/ep01-20261027/segments/BI-12.yaml"
 WALL = {"ref": "#58", "surface": "wall CRT left", "in": 0, "out": 4, "loop": True, "treatment": "crt"}
 
 

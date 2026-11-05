@@ -19,5 +19,9 @@ lineage-derive-aired = "lineage.derive_aired:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["charmeta*", "lineage*"]
+include = ["charmeta*", "lineage*", "astra_lifecycle*"]
 namespaces = false
+
+[tool.pytest.ini_options]
+# These are executable provider comparison tools with no test functions.
+norecursedirs = ["story-engine/server/app/scripts"]

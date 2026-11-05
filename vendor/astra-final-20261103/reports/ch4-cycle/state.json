@@ -1,0 +1,1250 @@
+{
+  "aliases": {
+    "ch4-recipe-v1": "ch4-recipe-v2"
+  },
+  "approvals": {
+    "batch/ch4-proof-1": {
+      "authorization": {
+        "action": "authorize_batch",
+        "actor": "trundle",
+        "ceiling_cents": 0,
+        "decision": "yes",
+        "id": "batch/ch4-proof-1",
+        "mode": "offline-fixture",
+        "reason": "offline synthetic fixture authorization; no live authority",
+        "subject": "1b7d57b0163290def74623476fef3c21c78398473572603ff28b089a5222ec38",
+        "timestamp": "2026-11-04T00:13:38.977558+00:00"
+      },
+      "batch_digest": "1b7d57b0163290def74623476fef3c21c78398473572603ff28b089a5222ec38",
+      "ceiling_cents": 0,
+      "id": "batch/ch4-proof-1",
+      "manifests": [
+        {
+          "channel": "Ch4",
+          "consequences": [
+            {
+              "character_id": "HERON",
+              "evidence": "synthetic fixture annotation",
+              "id": "handoff-tension",
+              "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+              "text": "the handoff sharpens HERON\u2019s resolve",
+              "tier": "FLASH"
+            }
+          ],
+          "dependencies": [],
+          "episode": 1,
+          "filter_versions": {
+            "ch4-comment-1": 2
+          },
+          "id": "ch4-proof-1",
+          "kind": "segment",
+          "lineage": "Ch4-fixture/ch4-proof-1",
+          "logical_id": "fixture/ch4-proof-1",
+          "price_cents": 0,
+          "prompt_hash": "badfc3c772bdd9fa0644651b3887cf0b885f90d0d7f923ed1096cd8584724f6e",
+          "prompt_ids": [
+            "ch4-comment-1"
+          ],
+          "proposals": [
+            {
+              "attestation": "08adc88180c42f1fd545ff4df67fdcc347c3e6e3192d07a55b93a451c4b930ab",
+              "base_version": 1,
+              "character_id": "HERON",
+              "evidence": "synthetic fixture state-still annotation; not a real visual QC claim",
+              "patch": {
+                "mood": "resolute"
+              },
+              "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+            }
+          ],
+          "reference_hashes": [
+            "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+            "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+          ],
+          "reuses": [],
+          "route": "offline-existing-media",
+          "season": 1,
+          "slot": "fixture-slot/ch4-proof-1",
+          "spec": {
+            "anchors": [
+              "ferry landing"
+            ],
+            "big_changes": 1,
+            "cast": [
+              "HERON"
+            ],
+            "corner_tag": "Ch4 / D0",
+            "depth": 0,
+            "end_mode": "free",
+            "episode_complete": true,
+            "held_still": false,
+            "pin_reason": null,
+            "state_so_far": "HERON holds the ferry landing."
+          }
+        }
+      ],
+      "version": 1
+    }
+  },
+  "assets": {
+    "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108": {
+      "evidence": "existing bytes; synthetic state-still stand-in only",
+      "hash": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/SEED-S2_last.png",
+      "version": 1
+    },
+    "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5": {
+      "evidence": "existing Ch4 SEED-S1 last frame; fixture state reference",
+      "hash": "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+      "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/SEED-S1_last.png",
+      "version": 1
+    },
+    "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281": {
+      "evidence": "existing Ch4 seed media; mock transport only",
+      "hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+      "path": "fixtures/thunder-trundle/channels/04-military-boutique/seeds-20261029/renders/SEED-S1_gen1_480p_parody.mp4",
+      "version": 1
+    }
+  },
+  "authority_id": "7803757f-42ec-48c0-b84f-51fb9126d413",
+  "budget_cents": 0,
+  "card_history": {
+    "HERON": [
+      {
+        "abilities": [
+          "Systema turn"
+        ],
+        "field_versions": {
+          "abilities": 1,
+          "id": 1,
+          "locked": 1,
+          "locked.color": 1,
+          "locked.signature_prop": 1,
+          "locked.silhouette": 1,
+          "memory_log": 1,
+          "name": 1,
+          "plastic": 1,
+          "plastic.carried_consequences": 1,
+          "plastic.gear": 1,
+          "plastic.health": 1,
+          "plastic.mood": 1,
+          "plastic.relationships": 1,
+          "refs": 1,
+          "summon_count": 1,
+          "version": 1,
+          "voice": 1,
+          "writein_level": 1
+        },
+        "id": "HERON",
+        "locked": {
+          "color": "dark coat",
+          "signature_prop": "KOLOKOL-7 resonance baton",
+          "silhouette": "dark fur greatcoat"
+        },
+        "memory_log": [],
+        "name": "HERON",
+        "plastic": {
+          "carried_consequences": [],
+          "gear": [
+            "baton"
+          ],
+          "health": "steady",
+          "mood": "watchful",
+          "relationships": {}
+        },
+        "refs": [
+          {
+            "evidence": "fixture current-state baseline",
+            "hash": "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5"
+          }
+        ],
+        "summon_count": 0,
+        "version": 1,
+        "voice": "unassigned",
+        "writein_level": 0
+      },
+      {
+        "abilities": [
+          "Systema turn"
+        ],
+        "field_versions": {
+          "abilities": 1,
+          "id": 1,
+          "locked": 1,
+          "locked.color": 1,
+          "locked.signature_prop": 1,
+          "locked.silhouette": 1,
+          "memory_log": 2,
+          "name": 1,
+          "plastic": 1,
+          "plastic.carried_consequences": 2,
+          "plastic.gear": 1,
+          "plastic.health": 1,
+          "plastic.mood": 2,
+          "plastic.relationships": 1,
+          "refs": 2,
+          "summon_count": 2,
+          "version": 1,
+          "voice": 1,
+          "writein_level": 2
+        },
+        "id": "HERON",
+        "locked": {
+          "color": "dark coat",
+          "signature_prop": "KOLOKOL-7 resonance baton",
+          "silhouette": "dark fur greatcoat"
+        },
+        "memory_log": [
+          {
+            "clip_id": "ch4-proof-1",
+            "index": 1,
+            "patch": {
+              "mood": "resolute"
+            }
+          }
+        ],
+        "name": "HERON",
+        "plastic": {
+          "carried_consequences": [
+            "handoff-tension"
+          ],
+          "gear": [
+            "baton"
+          ],
+          "health": "steady",
+          "mood": "resolute",
+          "relationships": {}
+        },
+        "refs": [
+          {
+            "evidence": "synthetic fixture state-still annotation; not a real visual QC claim",
+            "hash": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+            "state_digest": "b0fe47682d482bf2667444b6db9dea724288f70d264cb7eea2328a9910b98da9"
+          }
+        ],
+        "summon_count": 1,
+        "version": 2,
+        "voice": "unassigned",
+        "writein_level": 1
+      }
+    ]
+  },
+  "cards": {
+    "HERON": {
+      "abilities": [
+        "Systema turn"
+      ],
+      "field_versions": {
+        "abilities": 1,
+        "id": 1,
+        "locked": 1,
+        "locked.color": 1,
+        "locked.signature_prop": 1,
+        "locked.silhouette": 1,
+        "memory_log": 2,
+        "name": 1,
+        "plastic": 1,
+        "plastic.carried_consequences": 2,
+        "plastic.gear": 1,
+        "plastic.health": 1,
+        "plastic.mood": 2,
+        "plastic.relationships": 1,
+        "refs": 2,
+        "summon_count": 2,
+        "version": 1,
+        "voice": 1,
+        "writein_level": 2
+      },
+      "id": "HERON",
+      "locked": {
+        "color": "dark coat",
+        "signature_prop": "KOLOKOL-7 resonance baton",
+        "silhouette": "dark fur greatcoat"
+      },
+      "memory_log": [
+        {
+          "clip_id": "ch4-proof-1",
+          "index": 1,
+          "patch": {
+            "mood": "resolute"
+          }
+        }
+      ],
+      "name": "HERON",
+      "plastic": {
+        "carried_consequences": [
+          "handoff-tension"
+        ],
+        "gear": [
+          "baton"
+        ],
+        "health": "steady",
+        "mood": "resolute",
+        "relationships": {}
+      },
+      "refs": [
+        {
+          "evidence": "synthetic fixture state-still annotation; not a real visual QC claim",
+          "hash": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+          "state_digest": "b0fe47682d482bf2667444b6db9dea724288f70d264cb7eea2328a9910b98da9"
+        }
+      ],
+      "summon_count": 1,
+      "version": 2,
+      "voice": "unassigned",
+      "writein_level": 1
+    }
+  },
+  "channel_batches": {
+    "Ch4": {
+      "channel": "Ch4",
+      "execution_history": [
+        {
+          "approval_id": "batch/ch4-proof-1",
+          "clip_id": "ch4-proof-1",
+          "mode": "offline-fixture",
+          "spent_cents": 0,
+          "timestamp": "2026-11-04T00:13:38.982332+00:00"
+        }
+      ],
+      "revisions": [
+        {
+          "approval_id": "batch/ch4-proof-1",
+          "batch_digest": "1b7d57b0163290def74623476fef3c21c78398473572603ff28b089a5222ec38",
+          "ceiling_cents": 0,
+          "inventory_evidence": {
+            "SEED-S1": {
+              "evidence": "Ch4 seed lineage done row",
+              "logical_id": "SEED-S1",
+              "state": "rendered"
+            },
+            "SEED-S2": {
+              "evidence": "Ch4 seed lineage done row",
+              "logical_id": "SEED-S2",
+              "state": "rendered"
+            },
+            "SEED-S3": {
+              "evidence": "Ch4 seed lineage done row",
+              "logical_id": "SEED-S3",
+              "state": "rendered"
+            }
+          },
+          "items": [
+            {
+              "channel": "Ch4",
+              "consequences": [
+                {
+                  "character_id": "HERON",
+                  "evidence": "synthetic fixture annotation",
+                  "id": "handoff-tension",
+                  "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+                  "text": "the handoff sharpens HERON\u2019s resolve",
+                  "tier": "FLASH"
+                }
+              ],
+              "dependencies": [],
+              "episode": 1,
+              "filter_versions": {
+                "ch4-comment-1": 2
+              },
+              "id": "ch4-proof-1",
+              "kind": "segment",
+              "lineage": "Ch4-fixture/ch4-proof-1",
+              "logical_id": "fixture/ch4-proof-1",
+              "price_cents": 0,
+              "prompt_hash": "badfc3c772bdd9fa0644651b3887cf0b885f90d0d7f923ed1096cd8584724f6e",
+              "prompt_ids": [
+                "ch4-comment-1"
+              ],
+              "proposals": [
+                {
+                  "attestation": "08adc88180c42f1fd545ff4df67fdcc347c3e6e3192d07a55b93a451c4b930ab",
+                  "base_version": 1,
+                  "character_id": "HERON",
+                  "evidence": "synthetic fixture state-still annotation; not a real visual QC claim",
+                  "patch": {
+                    "mood": "resolute"
+                  },
+                  "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+                }
+              ],
+              "reference_hashes": [
+                "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+                "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+              ],
+              "reuses": [],
+              "route": "offline-existing-media",
+              "season": 1,
+              "slot": "fixture-slot/ch4-proof-1",
+              "spec": {
+                "anchors": [
+                  "ferry landing"
+                ],
+                "big_changes": 1,
+                "cast": [
+                  "HERON"
+                ],
+                "corner_tag": "Ch4 / D0",
+                "depth": 0,
+                "end_mode": "free",
+                "episode_complete": true,
+                "held_still": false,
+                "pin_reason": null,
+                "state_so_far": "HERON holds the ferry landing."
+              }
+            }
+          ],
+          "mode": "offline-fixture",
+          "timestamp": "2026-11-04T00:13:38.977897+00:00",
+          "version": 1
+        }
+      ],
+      "version": 1
+    }
+  },
+  "clips": {
+    "ch4-dependent": {
+      "air_permission": null,
+      "authority_id": "7803757f-42ec-48c0-b84f-51fb9126d413",
+      "channel": "Ch4",
+      "consequences": [],
+      "dependencies": [
+        "ch4-pulled"
+      ],
+      "episode": 1,
+      "filter_versions": {},
+      "id": "ch4-dependent",
+      "invalidated_by": [
+        "ch4-pulled"
+      ],
+      "kind": "segment",
+      "lineage": "Ch4-fixture/ch4-dependent",
+      "logical_id": "fixture/ch4-dependent",
+      "manifest": "353965bb29e8d46d0ceb0a0f5fb64c00134710ce896a430a452327d329144bd9",
+      "media_hash": null,
+      "observations": {},
+      "price_cents": 0,
+      "prompt": "State so far: HERON holds the ferry landing.\nShow arc: the handoff.\nNetwork Saga: DEAD AIR: The Lost Remote.\nHERON: dark coat; KOLOKOL-7 resonance baton; dark fur greatcoat.\nAt 0.5 s, HERON turns past WOLFHOUND, using a circular Systema step, with the KOLOKOL-7 resonance baton; this causes his grip to open.\nContinue from the real last frame; motion carries through the free end frame.",
+      "prompt_hash": "7b8b9adb91a37c38e2339e430e37883bf0ab312041c4db26a09d566aaa4fb0e6",
+      "prompt_ids": [],
+      "proposals": [],
+      "reference_hashes": [
+        "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+      ],
+      "reuses": [],
+      "route": "offline-existing-media",
+      "season": 1,
+      "slot": "fixture-slot/ch4-dependent",
+      "spec": {
+        "anchors": [
+          "ferry landing"
+        ],
+        "big_changes": 1,
+        "cast": [
+          "HERON"
+        ],
+        "corner_tag": "Ch4 / D0",
+        "depth": 0,
+        "end_mode": "free",
+        "episode_complete": true,
+        "held_still": false,
+        "pin_reason": null,
+        "state_so_far": "HERON holds the ferry landing."
+      },
+      "state": "queued",
+      "version": 2
+    },
+    "ch4-proof-1": {
+      "air_permission": {
+        "action": "approve_air",
+        "actor": "trundle",
+        "decision": "yes",
+        "id": "air/ch4-proof-1",
+        "manifest": "abb2095399540331c014e769584098349ad17b37ac3797974c650a86ecca3668",
+        "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+        "mode": "offline-fixture",
+        "reason": "offline synthetic fixture authorization; no live authority",
+        "subject": "ch4-proof-1",
+        "timestamp": "2026-11-04T00:13:38.989716+00:00"
+      },
+      "authority_id": "7803757f-42ec-48c0-b84f-51fb9126d413",
+      "channel": "Ch4",
+      "consequences": [
+        {
+          "character_id": "HERON",
+          "evidence": "synthetic fixture annotation",
+          "id": "handoff-tension",
+          "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+          "text": "the handoff sharpens HERON\u2019s resolve",
+          "tier": "FLASH"
+        }
+      ],
+      "dependencies": [],
+      "episode": 1,
+      "filter_versions": {
+        "ch4-comment-1": 2
+      },
+      "id": "ch4-proof-1",
+      "invalidated_by": [],
+      "kind": "segment",
+      "lineage": "Ch4-fixture/ch4-proof-1",
+      "logical_id": "fixture/ch4-proof-1",
+      "manifest": "abb2095399540331c014e769584098349ad17b37ac3797974c650a86ecca3668",
+      "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+      "observations": {
+        "ch4-comment-1": {
+          "appeared_text": "HERON follows him across the bridge",
+          "evidence": "mock appearance observation; existing seed media does not establish this action",
+          "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+          "mode": "offline-fixture",
+          "prompt_hash": "badfc3c772bdd9fa0644651b3887cf0b885f90d0d7f923ed1096cd8584724f6e",
+          "score": 1
+        }
+      },
+      "price_cents": 0,
+      "prompt": "State so far: HERON holds the ferry landing.\nShow arc: the handoff.\nNetwork Saga: DEAD AIR: The Lost Remote.\nHERON: dark coat; KOLOKOL-7 resonance baton; dark fur greatcoat.\nAt 0.5 s, HERON turns past WOLFHOUND, using a circular Systema step, with the KOLOKOL-7 resonance baton; this causes his grip to open.\nAt 3 s, A bystander reacts and says: \"heron should follow him across the bridge\"; stepping aside with an open hand, clearing the path.\nContinue from the real last frame; motion carries through the free end frame.",
+      "prompt_hash": "badfc3c772bdd9fa0644651b3887cf0b885f90d0d7f923ed1096cd8584724f6e",
+      "prompt_ids": [
+        "ch4-comment-1"
+      ],
+      "proposals": [
+        {
+          "attestation": "08adc88180c42f1fd545ff4df67fdcc347c3e6e3192d07a55b93a451c4b930ab",
+          "base_version": 1,
+          "character_id": "HERON",
+          "evidence": "synthetic fixture state-still annotation; not a real visual QC claim",
+          "patch": {
+            "mood": "resolute"
+          },
+          "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+        }
+      ],
+      "reference_hashes": [
+        "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+        "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+      ],
+      "reuses": [],
+      "route": "offline-existing-media",
+      "season": 1,
+      "slot": "fixture-slot/ch4-proof-1",
+      "spec": {
+        "anchors": [
+          "ferry landing"
+        ],
+        "big_changes": 1,
+        "cast": [
+          "HERON"
+        ],
+        "corner_tag": "Ch4 / D0",
+        "depth": 0,
+        "end_mode": "free",
+        "episode_complete": true,
+        "held_still": false,
+        "pin_reason": null,
+        "state_so_far": "HERON holds the ferry landing."
+      },
+      "state": "aired",
+      "version": 5
+    },
+    "ch4-pulled": {
+      "air_permission": null,
+      "authority_id": "7803757f-42ec-48c0-b84f-51fb9126d413",
+      "channel": "Ch4",
+      "consequences": [],
+      "dependencies": [
+        "ch4-proof-1"
+      ],
+      "episode": 1,
+      "filter_versions": {
+        "ch4-comment-unseen": 2
+      },
+      "id": "ch4-pulled",
+      "invalidated_by": [],
+      "kind": "segment",
+      "lineage": "Ch4-fixture/ch4-pulled",
+      "logical_id": "fixture/ch4-pulled",
+      "manifest": "a2a36d66fb9d08df82f61d03c472bc1e8712a7b873d2396b54e75df7c0d7ff44",
+      "media_hash": null,
+      "observations": {},
+      "price_cents": 0,
+      "prompt": "State so far: HERON holds the ferry landing.\nShow arc: the handoff.\nNetwork Saga: DEAD AIR: The Lost Remote.\nHERON: dark coat; KOLOKOL-7 resonance baton; dark fur greatcoat.\nAt 0.5 s, HERON turns past WOLFHOUND, using a circular Systema step, with the KOLOKOL-7 resonance baton; this causes his grip to open.\nAt 3 s, A bystander reacts and says: \"keep the microfilm canister moving\"; stepping aside with an open hand, clearing the path.\nContinue from the real last frame; motion carries through the free end frame.",
+      "prompt_hash": "f7ac28fd331c558c0f36c609609d41936fe582081d339f5b02f4adaaf18e039e",
+      "prompt_ids": [
+        "ch4-comment-unseen"
+      ],
+      "proposals": [],
+      "reference_hashes": [
+        "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108"
+      ],
+      "reuses": [],
+      "route": "offline-existing-media",
+      "season": 1,
+      "slot": "fixture-slot/ch4-pulled",
+      "spec": {
+        "anchors": [
+          "ferry landing"
+        ],
+        "big_changes": 1,
+        "cast": [
+          "HERON"
+        ],
+        "corner_tag": "Ch4 / D0",
+        "depth": 0,
+        "end_mode": "free",
+        "episode_complete": true,
+        "held_still": false,
+        "pin_reason": null,
+        "state_so_far": "HERON holds the ferry landing."
+      },
+      "state": "pulled",
+      "version": 3
+    }
+  },
+  "clocks": {
+    "Ch4": {
+      "away": 0,
+      "episode": 1,
+      "index": 1,
+      "season": 1
+    }
+  },
+  "commits": [
+    {
+      "channel": "Ch4",
+      "clip_id": "ch4-proof-1",
+      "id": 1,
+      "index": 1,
+      "receipt_id": "ch4-mock-playback-1"
+    }
+  ],
+  "consequences": {
+    "handoff-tension": {
+      "active": true,
+      "channel": "Ch4",
+      "character_id": "HERON",
+      "content_hash": "68bd906edf3f33a98ae2cbed1cf483bf4a7b096bfccef1888e83dd63f1d5d132",
+      "episode": 1,
+      "evidence": "synthetic fixture annotation",
+      "id": "handoff-tension",
+      "ref": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "season": 1,
+      "since_index": 1,
+      "source": "ch4-proof-1",
+      "text": "the handoff sharpens HERON\u2019s resolve",
+      "tier": "FLASH",
+      "version": 1
+    },
+    "old-rain": {
+      "active": false,
+      "channel": "Ch4",
+      "character_id": "HERON",
+      "content_hash": "96051f98d5b8676da0596b98e6254abb545b14a0e5bda053ea35de283a172ab5",
+      "episode": 1,
+      "id": "old-rain",
+      "season": 1,
+      "since_index": 0,
+      "source": "baseline",
+      "text": "rain-slick coat",
+      "tier": "FLASH",
+      "version": 1
+    }
+  },
+  "events": [
+    {
+      "after": 1,
+      "before": null,
+      "evidence": "fixture import; no canon advancement",
+      "id": 1,
+      "kind": "baseline",
+      "subject": "HERON",
+      "timestamp": "2026-11-04T00:13:38.948880+00:00"
+    },
+    {
+      "after": "FLASH",
+      "before": null,
+      "evidence": null,
+      "id": 2,
+      "kind": "baseline_consequence",
+      "subject": "old-rain",
+      "timestamp": "2026-11-04T00:13:38.956558+00:00"
+    },
+    {
+      "after": 1,
+      "before": 0,
+      "evidence": null,
+      "id": 3,
+      "kind": "metadata",
+      "subject": "ch4-recipe-v1",
+      "timestamp": "2026-11-04T00:13:38.957308+00:00"
+    },
+    {
+      "after": 1,
+      "before": 0,
+      "evidence": null,
+      "id": 4,
+      "kind": "metadata",
+      "subject": "ch4-recipe-v2",
+      "timestamp": "2026-11-04T00:13:38.957938+00:00"
+    },
+    {
+      "after": "open",
+      "before": null,
+      "evidence": null,
+      "id": 5,
+      "kind": "idea",
+      "subject": "keep-canister-open",
+      "timestamp": "2026-11-04T00:13:38.959243+00:00"
+    },
+    {
+      "after": "eligible",
+      "before": null,
+      "evidence": "durable before seen/wrap",
+      "id": 6,
+      "kind": "prompt",
+      "subject": "ch4-comment-1",
+      "timestamp": "2026-11-04T00:13:38.959952+00:00"
+    },
+    {
+      "after": "eligible",
+      "before": null,
+      "evidence": "durable before seen/wrap",
+      "id": 7,
+      "kind": "prompt",
+      "subject": "ch4-comment-unseen",
+      "timestamp": "2026-11-04T00:13:38.961303+00:00"
+    },
+    {
+      "after": "eligible",
+      "before": "eligible",
+      "evidence": "beat budget full; preserved for next offer",
+      "id": 8,
+      "kind": "carry",
+      "subject": "ch4-comment-unseen",
+      "timestamp": "2026-11-04T00:13:38.963680+00:00"
+    },
+    {
+      "after": "candidate",
+      "before": null,
+      "evidence": "synthetic candidate; no visual QC claim",
+      "id": 9,
+      "kind": "still",
+      "subject": "HERON:8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "timestamp": "2026-11-04T00:13:38.967103+00:00"
+    },
+    {
+      "after": "accepted",
+      "before": "candidate",
+      "evidence": "fixture review only; no visual QC claim",
+      "id": 10,
+      "kind": "still",
+      "subject": "HERON:8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "timestamp": "2026-11-04T00:13:38.968602+00:00"
+    },
+    {
+      "after": "planned",
+      "before": null,
+      "evidence": null,
+      "id": 11,
+      "kind": "clip",
+      "subject": "ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.971422+00:00"
+    },
+    {
+      "after": "eligible",
+      "before": "eligible",
+      "evidence": {
+        "clip_id": "ch4-proof-1"
+      },
+      "id": 12,
+      "kind": "placement",
+      "subject": "ch4-comment-1",
+      "timestamp": "2026-11-04T00:13:38.973451+00:00"
+    },
+    {
+      "after": "queued",
+      "before": "planned",
+      "evidence": null,
+      "id": 13,
+      "kind": "clip",
+      "subject": "ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.976609+00:00"
+    },
+    {
+      "after": "mock_dispatched",
+      "before": "reserved",
+      "evidence": "1b7d57b0163290def74623476fef3c21c78398473572603ff28b089a5222ec38",
+      "id": 14,
+      "kind": "mock_dispatch",
+      "subject": "ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.982343+00:00"
+    },
+    {
+      "after": "rendered",
+      "before": "queued",
+      "evidence": {
+        "asset_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281"
+      },
+      "id": 15,
+      "kind": "clip",
+      "subject": "ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.987681+00:00"
+    },
+    {
+      "after": "approved",
+      "before": "rendered",
+      "evidence": {
+        "action": "approve_air",
+        "actor": "trundle",
+        "decision": "yes",
+        "id": "air/ch4-proof-1",
+        "manifest": "abb2095399540331c014e769584098349ad17b37ac3797974c650a86ecca3668",
+        "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+        "mode": "offline-fixture",
+        "reason": "offline synthetic fixture authorization; no live authority",
+        "subject": "ch4-proof-1",
+        "timestamp": "2026-11-04T00:13:38.989716+00:00"
+      },
+      "id": 16,
+      "kind": "clip",
+      "subject": "ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.989951+00:00"
+    },
+    {
+      "after": "consumed",
+      "before": "eligible",
+      "evidence": "ch4-mock-playback-1",
+      "id": 17,
+      "kind": "prompt",
+      "subject": "ch4-comment-1",
+      "timestamp": "2026-11-04T00:13:38.996301+00:00"
+    },
+    {
+      "after": "aired",
+      "before": "approved",
+      "evidence": {
+        "authority_id": "7803757f-42ec-48c0-b84f-51fb9126d413",
+        "clip_id": "ch4-proof-1",
+        "completed": true,
+        "id": "ch4-mock-playback-1",
+        "lineage": "Ch4-fixture/ch4-proof-1",
+        "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+        "mode": "offline-fixture",
+        "signature": "e2c2453b2ee7ffeb67b57a20897f9ee0640b1e1a7c08a48b13546ff75ca65cee",
+        "slot": "fixture-slot/ch4-proof-1",
+        "timestamp": "2026-11-04T00:13:38.991312+00:00"
+      },
+      "id": 18,
+      "kind": "clip",
+      "subject": "ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.996331+00:00"
+    },
+    {
+      "after": "ch4-recipe-v2",
+      "before": "ch4-recipe-v1",
+      "evidence": "audited offline scaffolding revision; no episode boundary rule",
+      "id": 19,
+      "kind": "alias",
+      "subject": "ch4-recipe-v1",
+      "timestamp": "2026-11-04T00:13:38.998965+00:00"
+    },
+    {
+      "after": "planned",
+      "before": null,
+      "evidence": null,
+      "id": 20,
+      "kind": "clip",
+      "subject": "ch4-pulled",
+      "timestamp": "2026-11-04T00:13:39.002648+00:00"
+    },
+    {
+      "after": "eligible",
+      "before": "eligible",
+      "evidence": {
+        "clip_id": "ch4-pulled"
+      },
+      "id": 21,
+      "kind": "placement",
+      "subject": "ch4-comment-unseen",
+      "timestamp": "2026-11-04T00:13:39.004089+00:00"
+    },
+    {
+      "after": "queued",
+      "before": "planned",
+      "evidence": null,
+      "id": 22,
+      "kind": "clip",
+      "subject": "ch4-pulled",
+      "timestamp": "2026-11-04T00:13:39.005827+00:00"
+    },
+    {
+      "after": "planned",
+      "before": null,
+      "evidence": null,
+      "id": 23,
+      "kind": "clip",
+      "subject": "ch4-dependent",
+      "timestamp": "2026-11-04T00:13:39.008135+00:00"
+    },
+    {
+      "after": "queued",
+      "before": "planned",
+      "evidence": null,
+      "id": 24,
+      "kind": "clip",
+      "subject": "ch4-dependent",
+      "timestamp": "2026-11-04T00:13:39.010027+00:00"
+    },
+    {
+      "after": "invalidated",
+      "before": "tentative",
+      "evidence": "ch4-pulled",
+      "id": 25,
+      "kind": "dependency",
+      "subject": "ch4-dependent",
+      "timestamp": "2026-11-04T00:13:39.011663+00:00"
+    },
+    {
+      "after": "pulled",
+      "before": "queued",
+      "evidence": {
+        "reason": "fixture pull after assembly, before playback"
+      },
+      "id": 26,
+      "kind": "clip",
+      "subject": "ch4-pulled",
+      "timestamp": "2026-11-04T00:13:39.011702+00:00"
+    }
+  ],
+  "fix_library": [
+    {
+      "conditions": [
+        "overlap_frames"
+      ],
+      "conflicts": [
+        "identity_mismatch"
+      ],
+      "cost_class": "free ffmpeg",
+      "id": "zipper",
+      "problem_solved": [
+        "seam pop"
+      ],
+      "version": 1
+    },
+    {
+      "conditions": [
+        "bridge_allowed"
+      ],
+      "conflicts": [
+        "continuous_take"
+      ],
+      "cost_class": "free ffmpeg",
+      "id": "crt-bridge",
+      "problem_solved": [
+        "seam pop",
+        "style drift"
+      ],
+      "version": 1
+    },
+    {
+      "conditions": [
+        "contact_frame"
+      ],
+      "conflicts": [],
+      "cost_class": "free ffmpeg",
+      "id": "impact",
+      "problem_solved": [
+        "weak contact"
+      ],
+      "version": 1
+    },
+    {
+      "conditions": [
+        "reference_review"
+      ],
+      "conflicts": [],
+      "cost_class": "still",
+      "id": "refresh-still",
+      "problem_solved": [
+        "morph",
+        "style drift"
+      ],
+      "version": 1
+    },
+    {
+      "conditions": [
+        "cheaper_fixes_exhausted"
+      ],
+      "conflicts": [],
+      "cost_class": "full regen",
+      "id": "regen",
+      "problem_solved": [
+        "seam pop",
+        "standing around",
+        "style drift",
+        "morph"
+      ],
+      "version": 1
+    }
+  ],
+  "fix_queue": [
+    {
+      "fix_id": "zipper",
+      "problem_id": 1,
+      "status": "proposed"
+    }
+  ],
+  "inventory": {
+    "SEED-S1": {
+      "evidence": "Ch4 seed lineage done row",
+      "logical_id": "SEED-S1",
+      "state": "rendered"
+    },
+    "SEED-S2": {
+      "evidence": "Ch4 seed lineage done row",
+      "logical_id": "SEED-S2",
+      "state": "rendered"
+    },
+    "SEED-S3": {
+      "evidence": "Ch4 seed lineage done row",
+      "logical_id": "SEED-S3",
+      "state": "rendered"
+    },
+    "fixture/ch4-proof-1": {
+      "evidence": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+      "logical_id": "fixture/ch4-proof-1",
+      "state": "rendered"
+    }
+  },
+  "ledger": [
+    {
+      "aired": true,
+      "aired_at": "2026-11-04T00:13:38.991312+00:00",
+      "appeared_text": "HERON follows him across the bridge",
+      "channel": "Ch4",
+      "clip_id": "ch4-proof-1",
+      "contributor_id": "fixture-contributor-1",
+      "delivery_status": "appeared",
+      "landed": true,
+      "observation_evidence": "mock appearance observation; existing seed media does not establish this action",
+      "prompt_id": "ch4-comment-1",
+      "receipt_id": "ch4-mock-playback-1",
+      "requested_hash": "e7fd4020912008c1d5e989f628947020b66f4acc7374e1d78c22708730b646ed",
+      "requested_text": "heron should follow him across the bridge",
+      "score": 1,
+      "subject_matter": [],
+      "version": 2,
+      "votes": 0
+    },
+    {
+      "aired": false,
+      "aired_at": null,
+      "appeared_text": "",
+      "channel": "Ch4",
+      "clip_id": "ch4-pulled",
+      "contributor_id": "fixture-contributor-2",
+      "delivery_status": "pending",
+      "landed": false,
+      "observation_evidence": null,
+      "prompt_id": "ch4-comment-unseen",
+      "receipt_id": null,
+      "requested_hash": "6a5e2ceca02fbf2593735a3e81a6454eb4d2b4e7467a13e0c838e9d75b882b28",
+      "requested_text": "keep the microfilm canister moving",
+      "score": 0,
+      "subject_matter": [],
+      "version": 1,
+      "votes": 0
+    }
+  ],
+  "metadata": {
+    "ch4-recipe-v1": [
+      {
+        "executable_rule": false,
+        "field_versions": {
+          "arc": 1,
+          "layer_lifetime": 1,
+          "style": 1
+        },
+        "fields": {
+          "arc": "the handoff",
+          "layer_lifetime": "durable",
+          "style": "photoreal winter 1971"
+        },
+        "id": "ch4-recipe-v1",
+        "kind": "layer",
+        "role": "scaffolding",
+        "version": 1
+      }
+    ],
+    "ch4-recipe-v2": [
+      {
+        "executable_rule": false,
+        "field_versions": {
+          "arc": 1,
+          "layer_lifetime": 1,
+          "saga": 1,
+          "style": 1
+        },
+        "fields": {
+          "arc": "the handoff",
+          "layer_lifetime": "durable",
+          "saga": "DEAD AIR: The Lost Remote",
+          "style": "photoreal winter 1971"
+        },
+        "id": "ch4-recipe-v2",
+        "kind": "layer",
+        "role": "scaffolding",
+        "version": 1
+      }
+    ]
+  },
+  "mode": "offline-fixture",
+  "open_ideas": {
+    "keep-canister-open": {
+      "id": "keep-canister-open",
+      "status": "open",
+      "text": "Keep the microfilm-canister callback open until an explicit decision.",
+      "version": 1
+    }
+  },
+  "problems": [
+    {
+      "clip_id": "ch4-proof-1",
+      "evidence": "synthetic seam watcher observation",
+      "failure_type": "seam pop",
+      "fix_id": "zipper",
+      "id": 1,
+      "resolution": null,
+      "status": "open",
+      "timestamp": "2026-11-04T00:13:39.000193+00:00",
+      "version": 1
+    },
+    {
+      "clip_id": "ch4-dependent",
+      "evidence": "dependent premise invalidated",
+      "failure_type": "transition rejected",
+      "fix_id": null,
+      "id": 2,
+      "resolution": null,
+      "status": "open",
+      "timestamp": "2026-11-04T00:13:39.013303+00:00",
+      "version": 1
+    }
+  ],
+  "prompts": {
+    "ch4-comment-1": {
+      "attempts": [
+        {
+          "clip_id": "ch4-proof-1",
+          "merged_into": "ch4-proof-1",
+          "status": "aired",
+          "timestamp": "2026-11-04T00:13:38.973439+00:00"
+        }
+      ],
+      "channel": "Ch4",
+      "contributor_id": "fixture-contributor-1",
+      "contributor_metadata": {},
+      "filter": {
+        "allowed": true,
+        "reason": "offline fixture policy pass",
+        "version": 2
+      },
+      "final_outcome": {
+        "clip_id": "ch4-proof-1",
+        "merged_into": "ch4-proof-1",
+        "receipt_id": "ch4-mock-playback-1"
+      },
+      "id": "ch4-comment-1",
+      "original_text": "heron should follow him across the bridge",
+      "received_at": "2026-10-31T21:12:00-05:00",
+      "skipped": 0,
+      "status": "consumed",
+      "subject_matter": [],
+      "version": 2,
+      "votes": 0
+    },
+    "ch4-comment-unseen": {
+      "attempts": [
+        {
+          "clip_id": "ch4-pulled",
+          "merged_into": "ch4-pulled",
+          "status": "pulled",
+          "timestamp": "2026-11-04T00:13:39.004079+00:00"
+        }
+      ],
+      "channel": "Ch4",
+      "contributor_id": "fixture-contributor-2",
+      "contributor_metadata": {
+        "handle": "@fixture-two"
+      },
+      "filter": {
+        "allowed": true,
+        "reason": "offline fixture policy pass",
+        "version": 2
+      },
+      "final_outcome": null,
+      "id": "ch4-comment-unseen",
+      "original_text": "keep the microfilm canister moving",
+      "received_at": "2026-11-04T00:13:38.961095+00:00",
+      "skipped": 2,
+      "status": "eligible",
+      "subject_matter": [],
+      "version": 2,
+      "votes": 0
+    }
+  },
+  "receipts": {
+    "ch4-mock-playback-1": {
+      "authority_id": "7803757f-42ec-48c0-b84f-51fb9126d413",
+      "clip_id": "ch4-proof-1",
+      "completed": true,
+      "id": "ch4-mock-playback-1",
+      "lineage": "Ch4-fixture/ch4-proof-1",
+      "media_hash": "c157b7a95d62f906035e639ec465b96d430fd4a9f48b67664913b56aae57c281",
+      "mode": "offline-fixture",
+      "signature": "e2c2453b2ee7ffeb67b57a20897f9ee0640b1e1a7c08a48b13546ff75ca65cee",
+      "slot": "fixture-slot/ch4-proof-1",
+      "timestamp": "2026-11-04T00:13:38.991312+00:00"
+    }
+  },
+  "releases": {},
+  "reservations": {
+    "ch4-proof-1": {
+      "approval_id": "batch/ch4-proof-1",
+      "manifest_digest": "abb2095399540331c014e769584098349ad17b37ac3797974c650a86ecca3668",
+      "price_cents": 0,
+      "state": "mock_dispatched"
+    }
+  },
+  "slots": {
+    "fixture-slot/ch4-proof-1": "ch4-proof-1"
+  },
+  "stills": {
+    "HERON:8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108": {
+      "character_id": "HERON",
+      "evidence": "fixture review only; no visual QC claim",
+      "hash": "8c22852c1df23dff566051623d4f329c8f600fb91cd0678c3e5d65e2bee1b108",
+      "state": "primary",
+      "state_digest": "08adc88180c42f1fd545ff4df67fdcc347c3e6e3192d07a55b93a451c4b930ab",
+      "version": 3
+    },
+    "HERON:9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5": {
+      "character_id": "HERON",
+      "evidence": "fixture current-state baseline",
+      "hash": "9e23b7dd27db1531479c7764190227bd6c76c47864fbcb8c77fa9219884935e5",
+      "state": "retired",
+      "state_digest": "42c7f32433d46e5a29da365f259c29cfa427f471a500a95f7dfc5b45a9f9d664",
+      "version": 2
+    }
+  },
+  "swaps": [
+    {
+      "crossover_test": false,
+      "new": "ch4-recipe-v2",
+      "old": "ch4-recipe-v1",
+      "proof": "audited offline scaffolding revision; no episode boundary rule",
+      "reason": "audited offline scaffolding revision; no episode boundary rule",
+      "version": 1
+    }
+  ],
+  "version": 1
+}

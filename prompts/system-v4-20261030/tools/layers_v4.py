@@ -29,15 +29,51 @@ SAFETY_POOL=["[Adults only. Original invented characters, no real people or look
  "[Adults only; original invented characters, no lookalikes; parody brands. Nobody looks into the camera. Stage-combat hits land on coats and props; no wounds or blood on skin, stains on clothing only. No on-screen text or logos. Theatrical props. One continuous {d} s take.]"]
 def fixed_threads():
     return json.load(open(f"{H}/config/fixed_threads.json"))
-def tier_alive(c,episode,season,clip_index):
-    t=c.get("tier","FLASH")
-    if t=="FLASH": return clip_index-c.get("since_index",clip_index)<1
-    if t=="SCAR": return c.get("episode",episode)==episode
-    if t=="MARK": return c.get("season",season)==season
-    return True
-def carry_text(c,clip_index):
-    """decay: no still -> full clause; still present -> 3-word key, then nothing after DECAY_CLIPS clips with a still"""
-    if not c.get("still"): return c["text"]
-    age=clip_index-c.get("still_since_index",clip_index)
-    if age>=DECAY_CLIPS: return None
-    return " ".join(c.get("short",c["text"]).split()[:3])
+def tier_alive(c,episode,season,clip_index, *, lifecycle=None, channel=None):
+    """Read consequence lifetime through the canonical clock and pure predicate."""
+    from astra_lifecycle.characters import alive
+    from astra_lifecycle.repo import lifecycle_store
+    life = lifecycle_store(lifecycle, required=False)
+    if life is not None:
+        state = life.snapshot()
+        stored = state["consequences"].get(c.get("id"))
+        if stored is None or not stored["active"]:
+            return False
+        clock = state["clocks"].get(channel or stored["channel"])
+        if clock is None:
+            return False
+        return alive(stored, clock["index"], clock["episode"], clock["season"])
+    # Pure formatting callers may preview lifetime. This does not advance a
+    # clock or persist a tier; all actual changes use D16/propose below.
+    preview = dict(c)
+    preview.setdefault("since_index", clip_index)
+    preview.setdefault("episode", episode)
+    preview.setdefault("season", season)
+    return alive(preview, clip_index, episode, season)
+
+
+def carry_text(c,clip_index, *, lifecycle=None):
+    """Read canonical carry text, or preview wording without persisting it."""
+    from astra_lifecycle.repo import lifecycle_store
+    life = lifecycle_store(lifecycle, required=False)
+    if life is None:
+        # Read-only wording preview; accepted still persistence uses D17.
+        if not c.get("still"):
+            return c["text"]
+        if clip_index - c.get("still_since_index", clip_index) >= DECAY_CLIPS:
+            return None
+        return " ".join(c.get("short", c["text"]).split()[:3])
+    stored = life.snapshot()["consequences"].get(c.get("id"))
+    return stored["text"] if stored and tier_alive(stored, 0, 0, 0, lifecycle=life) else None
+
+
+def propose_consequences(clip_id, *, lifecycle=None, consequences=None, reuses=None, proposals=None):
+    from astra_lifecycle.repo import propose_changes
+    return propose_changes("D16", clip_id, lifecycle=lifecycle,
+                           consequences=consequences, reuses=reuses, proposals=proposals)
+
+
+def propose_still(clip_id, *, lifecycle=None, proposals=None, consequences=None, reuses=None):
+    from astra_lifecycle.repo import propose_changes
+    return propose_changes("D17", clip_id, lifecycle=lifecycle,
+                           proposals=proposals, consequences=consequences, reuses=reuses)

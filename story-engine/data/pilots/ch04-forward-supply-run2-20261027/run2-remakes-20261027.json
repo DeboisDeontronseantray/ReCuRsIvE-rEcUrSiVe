@@ -1,7 +1,7 @@
 {
  "title": "Forward Supply Run 2 camera-rule remakes",
  "written": "2026-10-27 CT by Story Bot",
- "source": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/clip-prompts.json",
+ "source": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/clip-prompts.json",
  "channel": "Ch 4 Military Boutique",
  "show": "Forward Supply",
  "home_only": true,
@@ -38,11 +38,11 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Tim: Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height Tim's cargo (if any) stays visibly clipped to his armored ring in every frame; he never flies empty when carrying. Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. LOCATION: Outpost Quiet mess hall: small steel room, one long graphite table with bolted stools, olive wall lockers, a coffee urn, a fogged porthole window screen-left showing thick grey fog that never lifts, warm overhead practical lights with cyan edge light on the steel, blank amber HUD strip above the door. LIGHTING/FOG: Warm overhead practicals, cyan edge light, grey fog glow through porthole. PROPS/PRODUCTS: StrataClip Ration Tin: Sealed tin that clips to any brief or strap; house fiction. CONTINUES FROM: S1C end: Mira's hand leaving the sticker. ACTION: Bill clips a sealed ration tin onto Tim's armored ring with a firm click; Tim chirps; the tin stays visibly clipped. BACKGROUND BUSINESS: still room CUT MATCH: action: Bill's hand enters from screen-left with the tin Any intended text (cards, slips, HUD) left blank for post. CAMERA: medium side angle, profile two-shot, one move only; the camera is an unnoticed observer. EYELINES: Bill and Tim in profile facing each other; Bill's eyes on the clip and on Tim's optic, then on the porthole as he gives the order. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -101,7 +101,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1D_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1D_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -141,12 +141,12 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. LOCATION: Outpost Quiet mess hall: small steel room, one long graphite table with bolted stools, olive wall lockers, a coffee urn, a fogged porthole window screen-left showing thick grey fog that never lifts, warm overhead practical lights with cyan edge light on the steel, blank amber HUD strip above the door. LIGHTING/FOG: Warm overhead practicals, cyan edge light, grey fog glow through porthole. PROPS/PRODUCTS: none featured CONTINUES FROM: S1D end: Tim drifting out of frame screen-right with the tin. ACTION: Bill's eyes drift to Osmund patting his pockets again; Bill's finger taps the folder twice, a faint forehead vein appears and fades. BACKGROUND BUSINESS: still room CUT MATCH: eyeline: Bill looks off screen-left at Osmund Any intended text (cards, slips, HUD) left blank for post. CAMERA: medium side push-in on Bill from screen-right, three-quarter profile, one move only; the camera is an unnoticed observer. EYELINES: Bill seated in profile at his desk, gaze across the room on Osmund patting his pockets; Tim behind him faces Osmund too. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -205,7 +205,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1E_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1E_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -246,9 +246,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. LOCATION: Outpost supply bay: tall steel shelving of olive and black packs and sealed tins with blank tags, amber safety lights, a frosted Sky Diffuser panel on the screen-right shelf, cold white work light, fog seeping under a sealed roll-up door. LIGHTING/FOG: Amber safety lights, cold white work light, fog seeping under the roll-up door. PROPS/PRODUCTS: Mira's clipboard CONTINUES FROM: S2B end: helmet chirps. ACTION: The blank amber HUD strip above the shelves pulses once; Mira looks up at it, then writes a new color on a sticker. BACKGROUND BUSINESS: still room CUT MATCH: eyeline up to the HUD strip Any intended text (cards, slips, HUD) left blank for post. CAMERA: medium on Mira from a low side angle, three-quarter profile, one move only; the camera is an unnoticed observer. EYELINES: Mira tilts her head up toward the HUD strip above the shelves (off-axis, screen-left), then down to her clipboard; she answers Osmund by looking toward him off-frame right. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -309,7 +309,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S2C_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S2C_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -342,9 +342,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. LOCATION: Outer hatch and gantry: heavy graphite hatch open onto dense grey fog that never lifts, a thin relay mast with one cyan beacon barely visible in the fog, wind moving the fog, cold diffuse light, wet steel grating. LIGHTING/FOG: Cold diffuse grey light, dense moving fog, one faint cyan beacon on the mast. PROPS/PRODUCTS: Quietline Helmet: Matte helmet with a hush liner that damps outside noise to a murmur so the wearer can think in a howling wind; a clearance sticker slot on the brow; emits one soft chirp when the liner seats. No combat claims. CONTINUES FROM: S3B end: Tim circling. ACTION: Osmund taps the helmet; the hush liner quiets the wind; he hears Tim's chirps clearly and points the way. BACKGROUND BUSINESS: still room CUT MATCH: eyeline: Osmund looks screen-right toward Tim Any intended text (cards, slips, HUD) left blank for post. CAMERA: close on Osmund in three-quarter profile, one move only; the camera is an unnoticed observer. EYELINES: Osmund's eyes on the foggy ridge off-frame left where Tim's chirps come from; he points that way, never toward the lens. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -403,7 +403,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S3C_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S3C_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -434,9 +434,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. LOCATION: Command hut: cramped graphite office, metal desk with a sealed blank envelope dead center, a map board with a blank grid, amber HUD strip blank, single warm desk lamp, fog pressing at a small window. LIGHTING/FOG: Single warm desk lamp, fog pressing at the small window. PROPS/PRODUCTS: none featured CONTINUES FROM: S5A end: last finger flexes. ACTION: Bill's fuse burns down: neck stretch, jaw tight, forehead veins bulging in classic anime-rage style; then a single huge silent eruption shout to the ceiling (mouth wide, glasses on, sleeves on). BACKGROUND BUSINESS: still room CUT MATCH: action continues Bill's tension Any intended text (cards, slips, HUD) left blank for post. CAMERA: slow push-in on Bill from a side three-quarter angle, one move only; the camera is an unnoticed observer. EYELINES: Bill's rage is aimed at the empty desk and then straight up at the ceiling; the eruption shout goes upward, his face in profile. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -495,7 +495,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5B_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5B_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -537,11 +537,11 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Tim: Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height Tim's cargo (if any) stays visibly clipped to his armored ring in every frame; he never flies empty when carrying. Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. LOCATION: Command hut: cramped graphite office, metal desk with a sealed blank envelope dead center, a map board with a blank grid, amber HUD strip blank, single warm desk lamp, fog pressing at a small window. LIGHTING/FOG: Single warm desk lamp, fog pressing at the small window. PROPS/PRODUCTS: Prop: sealed blank envelope (stays unopened) CONTINUES FROM: S5B end: Bill's shout ends, breathing. ACTION: Silence. Tim floats forward and, very carefully, lowers the sealed blank envelope from under his armored ring onto the desk. BACKGROUND BUSINESS: still room CUT MATCH: action: Tim descends to the desk Any intended text (cards, slips, HUD) left blank for post. CAMERA: medium side two-shot across the desk, one move only; the camera is an unnoticed observer. EYELINES: Tim floats in from screen-left; Bill in profile watches only Tim and the envelope; his quiet line goes to Tim. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -600,7 +600,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5C_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5C_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -643,15 +643,15 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. LOCATION: Command hut: cramped graphite office, metal desk with a sealed blank envelope dead center, a map board with a blank grid, amber HUD strip blank, single warm desk lamp, fog pressing at a small window. LIGHTING/FOG: Single warm desk lamp, fog pressing at the small window. PROPS/PRODUCTS: Prop: sealed blank envelope CONTINUES FROM: S5C end: envelope on desk. ACTION: Bill sits, calm again, squares the envelope with both hands without opening it; Mira and Osmund exhale. BACKGROUND BUSINESS: still room CUT MATCH: action match on hands to envelope Any intended text (cards, slips, HUD) left blank for post. CAMERA: three-shot from a side angle at desk height, one move only; the camera is an unnoticed observer. EYELINES: Bill in profile squares the envelope, eyes on his hands; Mira and Osmund look at Bill and at each other as they exhale. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -710,7 +710,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5D_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5D_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -748,12 +748,12 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. LOCATION: Windowless bunk room: four tidy steel bunks with olive blankets, a keepsake shelf with a small graphite box on a flat guard plate, plain pale ceiling, warm reading lamps, cyan edge light on bunk rails. LIGHTING/FOG: Warm reading lamps, cyan edge light on bunk rails, ceiling washed pale. PROPS/PRODUCTS: Valuables Motion Guard: Hidden guard plate under a keepsake box; if someone not on its manifest lifts the box, a small hatch in the shelf pops open and a disciplined squad of mutated fish-frogs (finned, gilled, damp, croaking in cadence) surrounds them and herds them step by step back to the shelf; a calm voice asks for their clearance color; a small blank slip prints (text added in post). No lights, no flashing, nobody touched or hurt; authorized people are ignored. CONTINUES FROM: S6D end: box in Mira's hands. ACTION: Osmund looks at the box in Mira's hands, then nods, decides; Mira sets it back on the plate. BACKGROUND BUSINESS: still room CUT MATCH: eyeline down to the box Any intended text (cards, slips, HUD) left blank for post. CAMERA: close on Osmund over Mira's shoulder, three-quarter, one move only; the camera is an unnoticed observer. EYELINES: Osmund's eyes on the box in Mira's hands, then on Mira as he nods. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -814,7 +814,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S6E_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S6E_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -848,9 +848,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. LOCATION: Outpost Quiet mess hall: small steel room, one long graphite table with bolted stools, olive wall lockers, a coffee urn, a fogged porthole window screen-left showing thick grey fog that never lifts, warm overhead practical lights with cyan edge light on the steel, blank amber HUD strip above the door. LIGHTING/FOG: Warm overhead practicals, cyan edge light, grey fog glow through porthole. PROPS/PRODUCTS: StrataClip Ration Tin: Sealed tin that clips to any brief or strap; house fiction. Prop: a small plain matte-grey unbranded pocket device the size of a lighter, no markings, no lights, never lit, never used, no vapor (NOT in frame; it is missing) CONTINUES FROM: S1A end: Osmund's hand in his side pouch. ACTION: Osmund lifts lids off three sealed ration tins in a row, peering inside each, very methodical. BACKGROUND BUSINESS: still room CUT MATCH: action match on the lifting hand Any intended text (cards, slips, HUD) left blank for post. CAMERA: medium over Osmund's shoulder, three-quarter rear, one move only; the camera is an unnoticed observer. EYELINES: Osmund's eyes stay on the tins in his hands; he never lifts his head past the table edge. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -909,7 +909,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1B_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1B_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -951,12 +951,12 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. LOCATION: Outpost supply bay: tall steel shelving of olive and black packs and sealed tins with blank tags, amber safety lights, a frosted Sky Diffuser panel on the screen-right shelf, cold white work light, fog seeping under a sealed roll-up door. LIGHTING/FOG: Amber safety lights, cold white work light, fog seeping under the roll-up door. PROPS/PRODUCTS: Thermal Ration Pack (helmet cavity): Insulated carry pack that keeps rations warm for a shift; has a molded cavity that happens to fit a Quietline Helmet. Practical, slightly absurd. CONTINUES FROM: Cut on Osmund exiting the mess hall (S1E). ACTION: Osmund unzips the thermal ration pack and searches its molded cavity by touch while Mira stickers shelf tags behind him. BACKGROUND BUSINESS: Mira moving shelf to shelf with stickers. CUT MATCH: action: unzip leads the cut Any intended text (cards, slips, HUD) left blank for post. CAMERA: wide dolly along shelves, side angle, one move only; the camera is an unnoticed observer. EYELINES: Osmund in profile, eyes down into the pack cavity; Mira behind him facing the shelves, eyes on her tags; when they talk they glance at each other. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -1015,7 +1015,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S2A_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S2A_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -1059,12 +1059,12 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. LOCATION: Windowless bunk room: four tidy steel bunks with olive blankets, a keepsake shelf with a small graphite box on a flat guard plate, plain pale ceiling, warm reading lamps, cyan edge light on bunk rails. LIGHTING/FOG: Warm reading lamps, cyan edge light on bunk rails, ceiling washed pale. PROPS/PRODUCTS: none featured CONTINUES FROM: S4B end: Mira looking at the shelf. ACTION: Bill in the doorway, fidgeting with his glasses, stretching one arm across his chest, vein visible; he watches Osmund lie flat to look under the bunk. BACKGROUND BUSINESS: still room CUT MATCH: action: Osmund drops to the floor as Bill appears Any intended text (cards, slips, HUD) left blank for post. CAMERA: medium two-shot from inside the bunk room, side angle, one move only; the camera is an unnoticed observer. EYELINES: Bill in profile at the hatch, eyes down on Osmund lying flat; Osmund's eyes under the bunk. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -1123,7 +1123,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S4C_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S4C_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -1165,17 +1165,17 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. Tim: Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height Tim's cargo (if any) stays visibly clipped to his armored ring in every frame; he never flies empty when carrying. LOCATION: Command hut: cramped graphite office, metal desk with a sealed blank envelope dead center, a map board with a blank grid, amber HUD strip blank, single warm desk lamp, fog pressing at a small window. LIGHTING/FOG: Single warm desk lamp, fog pressing at the small window. PROPS/PRODUCTS: none featured CONTINUES FROM: Back from break. ACTION: The crew stands in a row; the desk has a blank rectangle where the envelope sat. Bill stands very still, then flexes his fingers one at a time. BACKGROUND BUSINESS: Tim's tin still clipped; Osmund holding his helmet. CUT MATCH: action: Bill's finger flex Any intended text (cards, slips, HUD) left blank for post. CAMERA: wide from the side of the desk, three-quarter angle, one move only; the camera is an unnoticed observer. EYELINES: The crew faces the desk and each other; Bill stares down at the blank rectangle on the desk, then at his own flexing fingers. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -1234,7 +1234,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5A_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S5A_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -1268,9 +1268,9 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. LOCATION: Outpost supply bay: tall steel shelving of olive and black packs and sealed tins with blank tags, amber safety lights, a frosted Sky Diffuser panel on the screen-right shelf, cold white work light, fog seeping under a sealed roll-up door. LIGHTING/FOG: Amber safety lights, cold white work light, fog seeping under the roll-up door. PROPS/PRODUCTS: Quietline Helmet: Matte helmet with a hush liner that damps outside noise to a murmur so the wearer can think in a howling wind; a clearance sticker slot on the brow; emits one soft chirp when the liner seats. No combat claims. Thermal Ration Pack (helmet cavity): Insulated carry pack that keeps rations warm for a shift; has a molded cavity that happens to fit a Quietline Helmet. Practical, slightly absurd. CONTINUES FROM: S2A end: hand deep in the cavity. ACTION: Osmund lifts the Quietline Helmet out of the cavity and checks inside the liner; it seats back with one soft chirp. BACKGROUND BUSINESS: still room CUT MATCH: action match on the lift Any intended text (cards, slips, HUD) left blank for post. CAMERA: close on hands, over Osmund's shoulder, one move only; the camera is an unnoticed observer. EYELINES: Osmund's face mostly turned away, eyes on the helmet liner. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -1329,7 +1329,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S2B_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S2B_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -1378,17 +1378,17 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. Tim: Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height Tim's cargo (if any) stays visibly clipped to his armored ring in every frame; he never flies empty when carrying. LOCATION: Outpost Quiet mess hall: small steel room, one long graphite table with bolted stools, olive wall lockers, a coffee urn, a fogged porthole window screen-left showing thick grey fog that never lifts, warm overhead practical lights with cyan edge light on the steel, blank amber HUD strip above the door. LIGHTING/FOG: Evening: warm practicals dimmed, storm light flickering in the fog outside the porthole, lamp flicker in sync. PROPS/PRODUCTS: Lightning Lamp: Small vessel lamp that flickers in sync with storm light outside. Mood light only, not a warning device. Prop: blank brass shift tag CONTINUES FROM: Fade from S6E. ACTION: The crew at the long table; the Lightning Lamp on the table flickers in sync with storm light in the fog; Osmund's hands fidget with the blank brass tag Tim found. BACKGROUND BUSINESS: Tim's tin unclipped and set on the table CUT MATCH: action: tag turning in Osmund's fingers Any intended text (cards, slips, HUD) left blank for post. CAMERA: wide from the end of the table, side angle, one move only; the camera is an unnoticed observer. EYELINES: The crew faces each other along the table; eyes on the lamp, on Osmund's hands and on each other; Bill turns toward Osmund, not the room's far wall. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -1447,7 +1447,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7A_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S7A_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },
@@ -1487,17 +1487,17 @@
    ],
    "visual_prompt": "Photoreal grounded near-future remote forward outpost on Channel 4 Military Boutique: lived-in matte black, graphite and olive steel, chrome fittings, cyan edge light, amber HUD strips that stay blank, late-90s broadcast polish, 4:3-safe center-weighted framing, dry deadpan tone, absurd tactics that feel real, respectful of the military, never slapstick. CAST (only these, nobody else in frame): Osmund: Young adult man with a short buzz cut and light stubble, olive coveralls, blank brass tag hanging on the chest, slightly out of breath, big olive and black modular field pack with side pouches, earnest worried expression Osmund in olive coveralls with his big modular field pack. Lt. Mira S'mirin': Compact adult co-host, slate-gray short-sleeve duty tunic, olive utility scarf, long dark side braid, dry half-smile, black clipboard with four small color dots (blue, yellow, green, red), cool cyan rim light on her face Mira is the only woman on screen. Tim: Floating cybernetic brain the size of a beach ball: gray textured brain under a tall clear glass dome, seated in a dark armored ring with one glowing cyan optic on the front, small cyan hover thrusters underneath and a bundle of black cables trailing below, a tight column of small rectangular implant chips with tiny cyan lights clustered on its right side with fine wires, no logos, no gore, hovering at shoulder height Tim's cargo (if any) stays visibly clipped to his armored ring in every frame; he never flies empty when carrying. Commander Bill D'bears: Tall, extremely muscular adult host with a huge chest, shoulders and arms (lab-experiment jacked), stiff posture, black utility duty shirt straining at the arms, blank brass name tag on the chest, short dark graying hair with a sharp side part, square jaw, thin mouth, amber-tinted rectangular glasses with no readable text Bill ALWAYS wears his black utility duty shirt with sleeves (never sleeveless) and ALWAYS wears his amber-tinted rectangular glasses. LOCATION: Outpost Quiet mess hall: small steel room, one long graphite table with bolted stools, olive wall lockers, a coffee urn, a fogged porthole window screen-left showing thick grey fog that never lifts, warm overhead practical lights with cyan edge light on the steel, blank amber HUD strip above the door. LIGHTING/FOG: Warm overhead practicals, cyan edge light, grey fog glow through porthole. PROPS/PRODUCTS: StrataClip Ration Tin: Sealed tin that clips to any brief or strap; house fiction. CONTINUES FROM: Fade up from black. ACTION: Osmund pats every pocket of his coveralls twice, then the pouches of his field pack, while the others carry on breakfast. BACKGROUND BUSINESS: Mira presses tiny color stickers onto her clipboard; Tim hovers by the urn; Bill reads a blank folder, calm. CUT MATCH: action: Osmund's hand dives into a side pouch Any intended text (cards, slips, HUD) left blank for post. CAMERA: wide locked, high corner angle from behind the coffee urn, one move only; the camera is an unnoticed observer. EYELINES: Everyone is busy with breakfast and each other; Osmund faces his pack, Bill reads his folder in profile, Mira looks down at her clipboard, Tim drifts toward the urn. OBSERVATIONAL RULE: characters never look at or address the camera; candid fly-on-the-wall framing; eyelines on each other, their task, or off-frame; no direct-to-camera dialogue.",
    "reference_images": [
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
-    "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+    "story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png"
    ],
    "negative_prompt": [
     "no real brands",
@@ -1556,7 +1556,7 @@
    "lineage": {
     "lineage": "4.1",
     "origin": "remake",
-    "parent_file": "/workspace/streaming/story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1A_480p_grok-imagine-video-1.5_parody.mp4",
+    "parent_file": "story-engine/data/pilots/ch04-forward-supply-run2-20261027/run2/renders-480p-20261027_1547/S1A_480p_grok-imagine-video-1.5_parody.mp4",
     "parent_used_as_input": false,
     "note": "Text prompt remake; parent render is NOT fed as ref or end frame. CNB assigns tag/global_no in LINEAGE.jsonl."
    },

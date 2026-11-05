@@ -2,7 +2,7 @@ import sys,os,re,json,glob;sys.path.insert(0,os.path.join(os.path.dirname(__file
 import build_prompt_v42 as B, apply_check_v42 as G
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 K="R-REFDESC no restated looks when an image is attached (t371u)"
-REF="/workspace/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
+REF="fixtures/thunder-trundle/channels/11-fist-theater/refs/sheets/SHEET_CH11_CAST_v1.jpg"
 def sp(**k):
     d={"clip_id":"T1","channel":"Ch11 Fist Theater","show":"THE NIGHT PORTER","duration":10,"refs_raw":[REF],"cast":[{"name":"GIDEON QUILL","ref":REF}],
        "beats":[{"t":1,"who":"GIDEON QUILL","line":"Not tonight.","cue":"tired"}]};d.update(k);return d

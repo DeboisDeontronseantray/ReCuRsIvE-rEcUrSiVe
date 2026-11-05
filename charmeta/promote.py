@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import uuid
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -11,6 +10,8 @@ from typing import Any
 
 import yaml
 
+from astra_lifecycle.contracts import GuardError, require
+from astra_lifecycle.repo import propose_changes
 from charmeta.conflicts import check_proposal_conflicts
 from charmeta.config import allow_live_paths as env_allow_live_paths
 from charmeta.normalize import normalize_trait_text
@@ -18,7 +19,7 @@ from charmeta.observations import load_observations
 from charmeta.paths import refuse_charmeta_path
 from charmeta.config import proposal_threshold
 from charmeta.channels import local_cast_id
-from charmeta.store import load_companion, save_companion
+from charmeta.store import load_companion
 from lineage.aired import load_lineage_jsonl
 from lineage.eligibility import ad_or_break_clip_ids, build_trait_promotion_aired_index
 
@@ -74,56 +75,8 @@ def _has_proposed_duplicate(
     return False
 
 
-def _append_proposed_item(
-    cast_entry: dict[str, Any],
-    field_name: str,
-    extracted_text: str,
-    source_clip: str,
-) -> str:
-    item_id = f"{field_name.replace('.', '-')}-{uuid.uuid4().hex[:8]}"
-    if field_name == "traits.tangible":
-        cast_entry.setdefault("traits", {}).setdefault("tangible", []).append(
-            {
-                "id": item_id,
-                "text": extracted_text,
-                "source_clip": source_clip,
-                "confidence": None,
-                "status": "proposed",
-            }
-        )
-    elif field_name == "traits.intangible":
-        cast_entry.setdefault("traits", {}).setdefault("intangible", []).append(
-            {
-                "id": item_id,
-                "text": extracted_text,
-                "source_clip": source_clip,
-                "status": "proposed",
-            }
-        )
-    elif field_name == "abilities":
-        cast_entry.setdefault("abilities", []).append(
-            {
-                "id": item_id,
-                "text": extracted_text,
-                "first_seen_clip": source_clip,
-                "times_seen": 1,
-                "status": "proposed",
-            }
-        )
-    elif field_name == "relationships":
-        cast_entry.setdefault("relationships", []).append(
-            {
-                "id": item_id,
-                "with": "",
-                "kind": "observed",
-                "text": extracted_text,
-                "first_seen_clip": source_clip,
-                "status": "proposed",
-            }
-        )
-    else:
-        raise ValueError(f"unsupported field {field_name}")
-    return item_id
+def _append_proposed_item(*args, **kwargs):
+    raise GuardError("direct companion mutation disabled; use D10/propose")
 
 
 def _resolve_cast_entry(
@@ -145,6 +98,9 @@ def promote(
     slots_path: Path | str | None = None,
     apply: bool = False,
     allow_live_paths: bool | None = None,
+    lifecycle=None,
+    clip_id=None,
+    proposals=None,
 ) -> PromoteReport:
     live_ok = env_allow_live_paths() if allow_live_paths is None else allow_live_paths
     refuse_charmeta_path(companion_path, allow_live_paths=live_ok)
@@ -154,11 +110,11 @@ def promote(
     companion = load_companion(companion_path)
     observations = load_observations(observations_path)
     lineage_rows = load_lineage_jsonl(lineage_path)
-    aired_index = build_trait_promotion_aired_index(lineage_rows)
+    aired_index = build_trait_promotion_aired_index(lineage_rows, lifecycle=lifecycle)
     if slots_path is not None:
         refuse_charmeta_path(slots_path, allow_live_paths=live_ok)
-        for clip_id in ad_or_break_clip_ids(lineage_rows, load_lineage_jsonl(slots_path)):
-            aired_index[clip_id] = False
+        for excluded in ad_or_break_clip_ids(lineage_rows, load_lineage_jsonl(slots_path)):
+            aired_index[excluded] = False
     cast = companion.get("cast")
     if not isinstance(cast, dict):
         raise ValueError("companion missing cast mapping")
@@ -212,13 +168,12 @@ def promote(
             "status": "proposed",
         }
         report.proposals.append(proposal)
-        if apply:
-            source_clip = sorted(clip_ids)[0]
-            item_id = _append_proposed_item(entry, field_name, sample_text, source_clip)
-            report.applied.append(item_id)
 
-    if apply and report.applied:
-        save_companion(companion_path, companion)
+    if apply and report.proposals:
+        require(clip_id is not None and proposals is not None,
+                "planned clip and reviewed canonical proposals required; companion setters disabled")
+        propose_changes("D10", clip_id, lifecycle=lifecycle, proposals=proposals)
+        report.applied = [p["character_id"] for p in proposals]
 
     return report
 

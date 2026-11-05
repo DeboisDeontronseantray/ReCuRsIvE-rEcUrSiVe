@@ -3,8 +3,8 @@
  "duration": 8,
  "resolution": "480p",
  "filename": "LS2.mp4",
- "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png",
+ "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/D1/D1_last.png",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/channels/02-news/refs/sheets/SHEET_CH2_NEWS_CAST_v1.jpg"
+  "fixtures/thunder-trundle/channels/02-news/refs/sheets/SHEET_CH2_NEWS_CAST_v1.jpg"
  ]
 }

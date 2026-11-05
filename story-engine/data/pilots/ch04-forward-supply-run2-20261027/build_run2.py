@@ -1,6 +1,6 @@
 # Run 2 (second full quick run) builder. Text only; no API calls. Source of truth: bible-v2.yaml.
 import json, yaml
-E="/workspace/streaming/story-engine/"
+E="story-engine/"
 B=yaml.safe_load(open(E+"continuity/ch04-military-boutique/bible-v2.yaml"))
 cast=B["cast"]
 def ld(k): return cast[k]["locked_description"].strip()

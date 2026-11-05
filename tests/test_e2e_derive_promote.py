@@ -1,3 +1,4 @@
+import pytest
 import tempfile
 import unittest
 from pathlib import Path
@@ -9,6 +10,7 @@ from lineage.derive_aired import derive_aired_enriched_copy
 from tests.test_support import BIBLE_FIXTURE, CAST_IDS, LINEAGE_STATUS
 
 
+@pytest.mark.usefixtures("canonical_history")
 class TestEndToEndDerivePromote(unittest.TestCase):
     def test_status_fixture_derive_then_promote_proposes(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -43,11 +45,11 @@ class TestEndToEndDerivePromote(unittest.TestCase):
                 companion_path=companion_path,
                 observations_path=observations_path,
                 lineage_path=derived_lineage,
-                apply=True,
+                apply=False,
             )
             self.assertEqual(len(report.proposals), 1)
             self.assertEqual(report.proposals[0]["status"], "proposed")
-            self.assertIn(trait, companion_path.read_text(encoding="utf-8"))
+            self.assertNotIn(trait, companion_path.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

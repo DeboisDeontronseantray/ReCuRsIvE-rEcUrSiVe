@@ -6,7 +6,7 @@ import sys,os,json,glob
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ALIASES=[json.loads(l) for l in open(f"{H}/config/meta_aliases.jsonl") if l.strip()]
 FIELD_ALIASES={a["old"]:a["new"] for a in ALIASES if a["kind"]=="field"}
-def latest_cards(path="/workspace/thunder-trundle/prompts/experiments/round8-prep-20261030/CHARACTERS.jsonl"):
+def latest_cards(path="fixtures/thunder-trundle/prompts/experiments/round8-prep-20261030/CHARACTERS.jsonl"):
     d={}
     if os.path.exists(path):
         for l in open(path):

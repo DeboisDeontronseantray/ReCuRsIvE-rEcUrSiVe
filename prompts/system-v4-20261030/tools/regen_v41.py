@@ -7,7 +7,7 @@ H=RG.H; B41.gate.ac1=types.SimpleNamespace(CAM=G41.CAM); RG.B=B41
 OUT=f"{H}/prompts_v41"; LOG=[]
 import glob
 SHEETS={}
-for f in sorted(glob.glob("/workspace/thunder-trundle/channels/*/refs/sheets/SHEET_*.jpg")):
+for f in sorted(glob.glob("fixtures/thunder-trundle/channels/*/refs/sheets/SHEET_*.jpg")):
     if "REJECTED" in f: continue
     n=int(os.path.basename(os.path.dirname(os.path.dirname(os.path.dirname(f))))[:2]); SHEETS.setdefault(n,f)
 SHOW={"Ch11 Fist Theater":"THE NIGHT PORTER"}

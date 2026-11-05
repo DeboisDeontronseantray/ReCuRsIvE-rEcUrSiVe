@@ -4,6 +4,6 @@
  "resolution": "480p",
  "filename": "P16-1.mp4",
  "reference_image_paths": [
-  "/workspace/thunder-trundle/prompts/system-v4-20261030/refs_side/WREN_side_full.png"
+  "prompts/system-v4-20261030/refs_side/WREN_side_full.png"
  ]
 }

@@ -92,7 +92,7 @@ class ModelRoutingKeyTests(unittest.TestCase):
     def test_missing_key(self):
         self.assert_key_error(
             "xAI key missing: set XAI_KEY_FILE to a key file, or put the render key at "
-            "/workspace/private/keys/xai-render.key (XAI_API_KEY env is a legacy "
+            "out-of-scope/private/keys/xai-render.key (XAI_API_KEY env is a legacy "
             "fallback). Do not invent a new key."
         )
 

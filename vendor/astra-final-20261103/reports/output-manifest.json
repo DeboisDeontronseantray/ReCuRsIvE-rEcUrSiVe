@@ -1,0 +1,320 @@
+{
+  "scope": "vendor/astra-final-20261103",
+  "files": [
+    {
+      "path": "INTEGRATION.md",
+      "bytes": 4709,
+      "sha256": "30f7023c7bfa7d87934de3b9700db422250f70d3979296e99e3ea30b67217d12"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1770,
+      "sha256": "c03cd0f78cc4129b8ebcd066daf2e5fdc79bc0fbe7cdf51ebd82c5ea1c4c6b57"
+    },
+    {
+      "path": "astra_lifecycle/__init__.py",
+      "bytes": 225,
+      "sha256": "d1710d02f2fc778c9be09e32c59ad2851cd2aabf686e38c46c7616ba27e404fa"
+    },
+    {
+      "path": "astra_lifecycle/adapters.py",
+      "bytes": 3655,
+      "sha256": "eda8a41fbecbf95dfd6ca366bfad379135712ca801b49c19b71a32a8f100066e"
+    },
+    {
+      "path": "astra_lifecycle/capture.py",
+      "bytes": 1110,
+      "sha256": "3d74cbae59e0568e2b47cf5b838c8994bc466044ccf07dcbd48d075fb8608f9c"
+    },
+    {
+      "path": "astra_lifecycle/characters.py",
+      "bytes": 6991,
+      "sha256": "a8ae9af4e294eea076dc9ed4a21e807ea236cc321b626359fa4d2d1c8db7f1d2"
+    },
+    {
+      "path": "astra_lifecycle/continuity.py",
+      "bytes": 2034,
+      "sha256": "2ad70eeb6666098142895b54b2160619a0135bb711103182944d7d462a4f8541"
+    },
+    {
+      "path": "astra_lifecycle/contracts.py",
+      "bytes": 5081,
+      "sha256": "9768e8857e093bcda4fd078a90f53fcc969613314b15c6ba75e33f49128688a2"
+    },
+    {
+      "path": "astra_lifecycle/demo.py",
+      "bytes": 11475,
+      "sha256": "00c94084fbef5abf4e40996ae91bd7f42fc2ed44c28bc9b5f92e3f35e17d9fb7"
+    },
+    {
+      "path": "astra_lifecycle/fixture.py",
+      "bytes": 3602,
+      "sha256": "ac110d7151cb1da4bf3bd49224ff33d906076feb65b661ca3d5fffddb8925829"
+    },
+    {
+      "path": "astra_lifecycle/integration.py",
+      "bytes": 6951,
+      "sha256": "eb01453618bbb36fe7330901bb4e4aa315cca5998c8938cc6505d22da697e002"
+    },
+    {
+      "path": "astra_lifecycle/legacy.py",
+      "bytes": 1885,
+      "sha256": "62338d55d9f92a1daaeb74680ce4085551472e9edbb61b49292db897d4b6a125"
+    },
+    {
+      "path": "astra_lifecycle/lifecycle.py",
+      "bytes": 40992,
+      "sha256": "6ff6ae299ff8295232262327d9400339b5db6b62143126e738267820a5e46f22"
+    },
+    {
+      "path": "astra_lifecycle/recipe.py",
+      "bytes": 3457,
+      "sha256": "c1150c269770f0ceacdebdb1d1408512b29298125d1d476eeaea6ad0151f22b7"
+    },
+    {
+      "path": "astra_lifecycle/registry.py",
+      "bytes": 2015,
+      "sha256": "759c324da17a7ff2679dc4f5f1bb60b1e47f241fbac9076a115ec66c252e1a08"
+    },
+    {
+      "path": "astra_lifecycle/schemas.py",
+      "bytes": 10528,
+      "sha256": "798f474019bc2622c79e991051a68869bcd87251d5e7f06e0f426c47ed41ca6d"
+    },
+    {
+      "path": "reports/COVERAGE-GRID.md",
+      "bytes": 2553,
+      "sha256": "7d04b01464541ed2d649a0f9c1097bffa7cf244b5d0a30c4d1a9883e77c65cee"
+    },
+    {
+      "path": "reports/adapter-audit.json",
+      "bytes": 16539,
+      "sha256": "1761068751f5f5805f75f5a3ab4f357b63930df5619d621e347e1f6b4563a669"
+    },
+    {
+      "path": "reports/baseline-tests.txt",
+      "bytes": 9872,
+      "sha256": "4f7887c1bc95f10060b612c75b61e4d397459c7b17522b946dc19b8eceebd1c7"
+    },
+    {
+      "path": "reports/build-validation.json",
+      "bytes": 346,
+      "sha256": "e0e5a96331b920d1a2607de138bb3d0f5c5fc9d494b75c24c1e6664a14aed726"
+    },
+    {
+      "path": "reports/ch4-cycle/CH4-OFFLINE-CYCLE.md",
+      "bytes": 8411,
+      "sha256": "7fb361405dc118d6dff59aa745a0b1eec026f219f008848881e70f857c751f68"
+    },
+    {
+      "path": "reports/ch4-cycle/canon-snapshot.json",
+      "bytes": 5103,
+      "sha256": "6daa1c3b1910370f9d286a90f9b3f17ada516a56ed92c03dbdc213fadeacbcd5"
+    },
+    {
+      "path": "reports/ch4-cycle/ch4.sqlite",
+      "bytes": 57344,
+      "sha256": "2743a9abf6ef0d74d10a76dd3c1f125a56e4e7ccd2c34ef553e9e8667e838d01"
+    },
+    {
+      "path": "reports/ch4-cycle/media.ffmetadata",
+      "bytes": 238,
+      "sha256": "6649953b7ce40e1bdd07d43ed20d5e21d9c1f61d19fceb7a033283e8ad3007f5"
+    },
+    {
+      "path": "reports/ch4-cycle/media.sidecar.json",
+      "bytes": 806,
+      "sha256": "bb56412859877272730f59ca8ac7313bb641dc6598cf9160ed75ad993baccc37"
+    },
+    {
+      "path": "reports/ch4-cycle/prompt.txt",
+      "bytes": 522,
+      "sha256": "68cc9b28d7f3262aa11a99df6fe14508a221a354c444fdb741076813c33d72f8"
+    },
+    {
+      "path": "reports/ch4-cycle/source-provenance.json",
+      "bytes": 1952,
+      "sha256": "21ed914297e727de026c9164d63b71fa5cb216b48175e4876398e0104bc0880b"
+    },
+    {
+      "path": "reports/ch4-cycle/state.json",
+      "bytes": 38023,
+      "sha256": "523be594c67ded6df54345ae1b3dd2502387dfa2812ef04f1ad2d2ce4ab7fbcd"
+    },
+    {
+      "path": "reports/ch4-cycle/transition-log.jsonl",
+      "bytes": 5714,
+      "sha256": "b4bcb567ac9c4866958550cac555319f28476e2f3e84a260646e6769409b2e05"
+    },
+    {
+      "path": "reports/ch4-cycle-result.json",
+      "bytes": 254,
+      "sha256": "a344bd3dbf53049fe4f9989dabc64c22f7355484b39e515e540e7048d29d6df3"
+    },
+    {
+      "path": "reports/source-baseline.json",
+      "bytes": 19182,
+      "sha256": "1161dbeabbe5bcd4f28bfb8c38b238f4e7cf7fcf6cb4f5994979771e855fbaeb"
+    },
+    {
+      "path": "reports/source-integrity.json",
+      "bytes": 22587,
+      "sha256": "1c83124ad8f10e7f10a81ea90b21006571b0dbaa20ed0bf0b31e1da7fb57bf60"
+    },
+    {
+      "path": "reports/task-01-tests.txt",
+      "bytes": 505,
+      "sha256": "81c8eedafa04bc61e8be271f369579bd1ad8ea9939ead56f52afee5a208bed6f"
+    },
+    {
+      "path": "reports/task-02-tests.txt",
+      "bytes": 646,
+      "sha256": "98a73f317d78c9070cadd759f7c513a0a26ca56cb6289c596226922c25332325"
+    },
+    {
+      "path": "reports/task-03-tests.txt",
+      "bytes": 1011,
+      "sha256": "3b2d590309a90d2cb9a9679558e3afaad7332ee42a5cfe6331baa71ea1e2bc28"
+    },
+    {
+      "path": "reports/task-04-tests.txt",
+      "bytes": 1321,
+      "sha256": "a048955ad843cee737b7bbd44b78197c55ce228dc941badb3b17b89bd2e3100f"
+    },
+    {
+      "path": "reports/task-05-tests.txt",
+      "bytes": 1715,
+      "sha256": "24e08616fd183f9cf899ffe8f052aa90a2c86016fdd4af6cf588b36022436063"
+    },
+    {
+      "path": "reports/task-06-tests.txt",
+      "bytes": 2291,
+      "sha256": "705731a6d6aa3d501eb85cd3c1543f1708694c650953c32a2502bc87119085d0"
+    },
+    {
+      "path": "reports/task-07-tests.txt",
+      "bytes": 2577,
+      "sha256": "d8f043aa84098e4443a1e0a6f841fc2a27b420608cdbf33f068c47fe6683b0da"
+    },
+    {
+      "path": "reports/task-08-tests.txt",
+      "bytes": 2978,
+      "sha256": "b5fb9b2238b7667f866b062d40401e031964e38aecd7571291dbcc6341950986"
+    },
+    {
+      "path": "reports/task-09-tests.txt",
+      "bytes": 3302,
+      "sha256": "7c6d705a579e48263cffa189a000ffc52c29ab399c344ba79ab6244a6bbd2d19"
+    },
+    {
+      "path": "reports/test-results.txt",
+      "bytes": 13258,
+      "sha256": "33cb3a5e92fc2a2ada763cfd141072b79cca12e62164b6c6c2f23f1d1bacf2f5"
+    },
+    {
+      "path": "reports/verification.json",
+      "bytes": 295,
+      "sha256": "34640be16f3a37f4d70b402fbcbe2c63bc969eaf90bd52d645200a22ef6eb9a9"
+    },
+    {
+      "path": "schemas/lifecycle.schema.json",
+      "bytes": 38646,
+      "sha256": "03d2870b7f9a00a0096de64b7c406305627bc4a5ca90b6869faf8d627e1ceb4e"
+    },
+    {
+      "path": "schemas/playback-receipt.schema.json",
+      "bytes": 38652,
+      "sha256": "a0e2eae5843f60816d4dfd4c94789203cd12c10f838c1b7ee7ccb10fac05f2ed"
+    },
+    {
+      "path": "schemas/records.schema.json",
+      "bytes": 38654,
+      "sha256": "754e4b437998e1f6ee8b6c95abf959d96747e8aa597b157817c14410d735939c"
+    },
+    {
+      "path": "task-notes/01-completion.md",
+      "bytes": 830,
+      "sha256": "955a9ed5ec18b2614b3c381b09bfb9a22fca03b00063d1b8b4c05435b6a2c551"
+    },
+    {
+      "path": "task-notes/02-completion.md",
+      "bytes": 610,
+      "sha256": "d33abee66fac4c357053565921b67066ddb74782be02bb43cd9d561109f7113c"
+    },
+    {
+      "path": "task-notes/03-completion.md",
+      "bytes": 735,
+      "sha256": "2ab428bc96d97254d4f6f385f9a5ded2b842ded9543b886b8116ec09973869a1"
+    },
+    {
+      "path": "task-notes/04-completion.md",
+      "bytes": 787,
+      "sha256": "3eb7a3a53a4f9719ca451c9fcfef3b66e32df1804b7b4a435d2a5ac7c6bf12e5"
+    },
+    {
+      "path": "task-notes/05-completion.md",
+      "bytes": 658,
+      "sha256": "8d98c028ef174db9bf975ba0b8b5a78442f21cb54c66a8940b2beddd6b6ce77b"
+    },
+    {
+      "path": "task-notes/06-completion.md",
+      "bytes": 930,
+      "sha256": "861aeab0ed70e3269a2e9676a89c6ffc7c527f4eec57770b6b5985809a77890d"
+    },
+    {
+      "path": "task-notes/07-completion.md",
+      "bytes": 752,
+      "sha256": "7b302a81603e7bb0611e17b78c1dc6f28b0152f4961fe1e7082a4a9fa16e2ab8"
+    },
+    {
+      "path": "task-notes/08-completion.md",
+      "bytes": 885,
+      "sha256": "088a90d7bc6a5927ad51035fb0443cb658dc6e917f2979f1ce3552c13a35bf04"
+    },
+    {
+      "path": "task-notes/09-completion.md",
+      "bytes": 749,
+      "sha256": "399877fe6d7a9fa8b6f6ecb16fc71e6e66cd1880b3366882c3b5b529dd65887d"
+    },
+    {
+      "path": "task-notes/10-completion.md",
+      "bytes": 1278,
+      "sha256": "2d5fccff4ccf6263e9b39b34f62a99c8b407845f1f8031d13c855e2c1246f8d0"
+    },
+    {
+      "path": "task-notes/11-completion.md",
+      "bytes": 792,
+      "sha256": "85b4dbd33ae8ff69c05cbc031beeca3140a7723b55e45debc4f005416b65b168"
+    },
+    {
+      "path": "tests/test_adversarial.py",
+      "bytes": 9730,
+      "sha256": "ee5f42fd1159852f3028ee2e427c567ae3a15ea00c23afdca20ed096d65a13aa"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "bytes": 6674,
+      "sha256": "9da61c5074bc23f1022f94bc6094dabfb7eac4aebb2c3c26892a5f315c215794"
+    },
+    {
+      "path": "tests/test_final_hardening.py",
+      "bytes": 16221,
+      "sha256": "d101db4634638f96191014c32dd8fb6849a40538a7497fe5b25255ca4d5499f4"
+    },
+    {
+      "path": "tests/test_lifecycle.py",
+      "bytes": 29536,
+      "sha256": "22e6ef3add3b4e051e3690b20e3eee9218dbf97b54179b9963e8cc7fa44dab27"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3196,
+      "sha256": "fe03fe0336aca5476585fefccb8b51120675348c3e3efff5da7775e4d14d9b1a"
+    }
+  ],
+  "excluded_from_recursive_hashing": [
+    "reports/output-manifest.json",
+    "ASTRA-BUILD-OUT-20261103.md"
+  ],
+  "summary_written_last": true
+}

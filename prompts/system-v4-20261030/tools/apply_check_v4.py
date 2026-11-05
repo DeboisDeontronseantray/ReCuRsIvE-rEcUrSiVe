@@ -7,7 +7,7 @@ def _cimg_on():
     try: return bool(_j.load(open(_o.path.join(_o.path.dirname(_o.path.dirname(_o.path.abspath(__file__))),"config","commenter_images.json"))).get("enabled"))
     except Exception: return False
 H=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-_AC1=os.environ.get("TT_ODYSSEY_APPLY_CHECK","/workspace/thunder-trundle/prompts/experiments/odyssey-design-20261030/tools/apply_check.py")
+_AC1=os.environ.get("TT_ODYSSEY_APPLY_CHECK","fixtures/thunder-trundle/prompts/experiments/odyssey-design-20261030/tools/apply_check.py")
 if not os.path.exists(_AC1): _AC1=os.path.join(os.path.dirname(H),"experiments","odyssey-design-20261030","tools","apply_check.py")
 _s=importlib.util.spec_from_file_location("ac1",_AC1)
 ac1=importlib.util.module_from_spec(_s); _s.loader.exec_module(ac1)

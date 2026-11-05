@@ -6,7 +6,7 @@ For every LINEAGE row that is a generation (remake/mutation/etc.), checks refs, 
 Clean = CNB's CLEAN-SOURCES.json (global_no -> path), else the row's inline clean_source, plus starter stills in ref-index.
 Tainted = built-in TAINT pattern, on the shared watchlist (re-read every check), or not in the clean map.
 Slip -> clip held locally (status "held", never routed), row in live/slips.jsonl, proposal in live/watchlist-proposals.jsonl.
-CNB is the ONLY writer of /workspace/shared/streaming/tag-slip-watchlist.jsonl and tag-slip-log.jsonl; we never touch them.
+CNB is the ONLY writer of out-of-scope/shared/streaming/tag-slip-watchlist.jsonl and tag-slip-log.jsonl; we never touch them.
 """
 import argparse, json, sys
 from datetime import datetime

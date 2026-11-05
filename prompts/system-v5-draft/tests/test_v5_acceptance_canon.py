@@ -25,7 +25,7 @@ def _manifest():
 
 
 @pytest.fixture
-def assemble(v5):
+def assemble(v5, assembly_harness):
     def go(base=None, **kw):
         bs = base or NP16 / "base_spec.json"
         inputs_dir = kw.pop("inputs_dir", NP17)

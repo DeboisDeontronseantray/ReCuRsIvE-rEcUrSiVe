@@ -6,7 +6,7 @@ BIBLE = ROOT / "continuity/ch04-military-boutique/bible-v2.yaml"
 RUN2 = ROOT / "data/pilots/ch04-forward-supply-run2-20261027"
 R = RUN2 / "run2/renders-480p-20261027_1547"
 F = R / "frames"
-ML = Path("/workspace/shared/media-library/ch04-military-boutique/cnb-series")
+ML = Path("out-of-scope/shared/media-library/ch04-military-boutique/cnb-series")
 b = yaml.safe_load(open(BIBLE))
 ALIASES = {"osmund": ["osmund", "oz"], "mira_smirin": ["mira", "lt. mira", "s'mirin"], "tim": ["tim"],
            "bill_dbears": ["bill", "commander", "d'bears", "dbears"]}

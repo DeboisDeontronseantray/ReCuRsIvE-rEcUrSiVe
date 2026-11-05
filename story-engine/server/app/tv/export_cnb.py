@@ -1,6 +1,6 @@
 """Export episode beats / ad scripts to Commercial News Break clip prompts.
 
-Formats follow /workspace/shared/streaming/grok-imagine-90s-news-guide.md and
+Formats follow out-of-scope/shared/streaming/grok-imagine-90s-news-guide.md and
 templates/PROMPT-TEMPLATES.md: structured brief, no on-screen text, 4:3-safe,
 one prompt per clip. Does NOT send anything to CNB — local files only.
 """

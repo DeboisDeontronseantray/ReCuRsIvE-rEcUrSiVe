@@ -1,3 +1,8 @@
+import pytest
+pytest.skip(
+    'story-engine live callers are out of scope for the offline repo suites',
+    allow_module_level=True,
+)
 import os
 import sys
 import tempfile

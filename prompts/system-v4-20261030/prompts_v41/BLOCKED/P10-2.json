@@ -10,7 +10,7 @@
   "duration": 10,
   "resolution": "480p",
   "filename": "P10-2.mp4",
-  "image_path": "/workspace/thunder-trundle/prompts/experiments/round9-20261030/clips/P10-1/P10-1_last.png"
+  "image_path": "fixtures/thunder-trundle/prompts/experiments/round9-20261030/clips/P10-1/P10-1_last.png"
  },
  "notes": [
   "ending replaced: 'From 9.5 s the motion carries on through the end, only easin'",
