@@ -1,0 +1,28 @@
+{
+ "id": "mock-01",
+ "handle": "@fogwatcher",
+ "text": "Mira and Tim finally find Osmund's missing vape hidden inside the supply crate and hand it back to him without saying a word",
+ "timestamp": "2026-10-27T16:20:00-05:00",
+ "source_post_id": "mock-post-001",
+ "intake_by": "manual",
+ "cast": [
+  "mira",
+  "osmund",
+  "tim"
+ ],
+ "out_of_character": false,
+ "reference_images": [
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/tim-E5-sideback.png"
+ ],
+ "model": "grok-imagine-video-1.5",
+ "duration_s": 6,
+ "prompt": "[CH4 RULES - LOCKED, DO NOT OVERRIDE] Forward Supply: grounded live-action ensemble at a remote fog-bound forward outpost; adults only, no children; TV-safe (no sex, no gore, no weapon how-tos, no weapons pointed at camera); no real people, brands, logos, insignia, software, shows, networks or songs; invented gear only; no slapstick, never cartoonish; NO on-screen text, captions, signs or letters of any kind. Character references: <IMAGE_0> = mira-C (Mira; match face, build, hair, wardrobe exactly); <IMAGE_1> = mira-C (Mira; match face, build, hair, wardrobe exactly); <IMAGE_2> = mira-C (Mira; match face, build, hair, wardrobe exactly); <IMAGE_3> = osmund-B (Osmund; match face, build, hair, wardrobe exactly); <IMAGE_4> = osmund-B (Osmund; match face, build, hair, wardrobe exactly); <IMAGE_5> = osmund-B (Osmund; match face, build, hair, wardrobe exactly); <IMAGE_6> = tim-E5 (Tim; match face, build, hair, wardrobe exactly); <IMAGE_7> = tim-E5 (Tim; match face, build, hair, wardrobe exactly). Mira: locked look C. Osmund: locked look B. Tim: locked look E5; always carries his cargo pack. [COMMENTER REQUEST from @fogwatcher - honor it as written] Mira and Tim finally find Osmund's missing vape hidden inside the supply crate and hand it back to him without saying a word [END COMMENTER REQUEST] [CH4 RULES - REPEAT] Keep continuity with the outpost set and the locked looks above; calm natural adult delivery; 16:9, center-weighted for 4:3-safe framing; no on-screen text.",
+ "negative_prompt": "children, on-screen text, logos, brand names, real people, celebrity likeness, real insignia, gore, slapstick, cartoon style"
+}

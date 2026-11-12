@@ -1,0 +1,161 @@
+{
+ "note": "All drafts until trundle approves. Spoken lines are never sent to the video model (post TTS only). Overlay text added in post only.",
+ "injections": [
+  {
+   "id": "inj-donation-line",
+   "kind": "spoken_line",
+   "text": "Comments steer this channel.",
+   "requires_people": true,
+   "speakers": [
+    "mira",
+    "bill"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "post_tts",
+   "status": "blocked-trundle-no-money-asks-1635",
+   "id_note": "renamed intent: channel line, no money ask (trundle 16:35 CT)",
+   "blocked_note": "trundle 4:35 PM CT: no donations/tips/support asks (LIVE-PIPELINE.md). Kept, never picked."
+  },
+  {
+   "id": "inj-bill-dry-aside",
+   "kind": "spoken_line",
+   "text": "Noted. Filed under things I'll pretend didn't happen.",
+   "requires_people": true,
+   "speakers": [
+    "bill"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "post_tts",
+   "status": "draft"
+  },
+  {
+   "id": "inj-osmund-vape-search",
+   "kind": "visual_beat",
+   "text": "In addition, in the background Osmund pats his pockets and checks under a crate, still searching for his missing plain unbranded vape.",
+   "requires_people": true,
+   "speakers": [
+    "osmund"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "in_prompt_soft",
+   "status": "draft"
+  },
+  {
+   "id": "inj-tim-cargo-cameo",
+   "kind": "visual_beat",
+   "text": "In addition, Tim briefly crosses the back of the frame with his full cargo pack, nods, and keeps walking.",
+   "requires_people": true,
+   "speakers": [
+    "tim"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "in_prompt_soft",
+   "status": "draft"
+  },
+  {
+   "id": "inj-fog-roll-in",
+   "kind": "visual_beat",
+   "text": "In addition, a slow bank of fog rolls in across the ground and softens the background lights.",
+   "requires_people": false,
+   "speakers": [],
+   "apply_when": "weak_score",
+   "delivery": "in_prompt_soft",
+   "status": "draft"
+  },
+  {
+   "id": "inj-requisition-denied",
+   "kind": "visual_beat",
+   "text": "In addition, a character receives a blank paper requisition slip, reads it, and sighs; the slip shows no legible writing.",
+   "requires_people": true,
+   "speakers": [
+    "bill",
+    "mira",
+    "osmund",
+    "tim"
+   ],
+   "apply_when": "manual",
+   "delivery": "in_prompt_soft",
+   "status": "draft"
+  },
+  {
+   "id": "inj-requisition-denied-text",
+   "kind": "overlay_text",
+   "text": "REQUISITION DENIED",
+   "requires_people": false,
+   "speakers": [],
+   "apply_when": "manual",
+   "delivery": "overlay",
+   "status": "draft"
+  },
+  {
+   "id": "inj-youre-watching-sting",
+   "kind": "spoken_line",
+   "text": "You're watching Channel 4, Military Boutique.",
+   "requires_people": false,
+   "speakers": [
+    "voice_of_forward"
+   ],
+   "apply_when": "every_nth",
+   "delivery": "post_tts",
+   "status": "draft"
+  },
+  {
+   "id": "inj-mira-clipboard",
+   "kind": "visual_beat",
+   "text": "In addition, Mira checks a blank clipboard, looks at the camera for one beat, and goes back to work.",
+   "requires_people": true,
+   "speakers": [
+    "mira"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "in_prompt_soft",
+   "status": "draft"
+  },
+  {
+   "id": "inj-generator-flicker",
+   "kind": "visual_beat",
+   "text": "In addition, the outpost lights flicker once and steady again.",
+   "requires_people": false,
+   "speakers": [],
+   "apply_when": "weak_score",
+   "delivery": "in_prompt_soft",
+   "status": "draft"
+  },
+  {
+   "id": "inj-commenter-credit",
+   "kind": "overlay_text",
+   "text": "Prompt by {handle}",
+   "requires_people": false,
+   "speakers": [],
+   "apply_when": "every_nth",
+   "delivery": "overlay",
+   "status": "draft"
+  },
+  {
+   "id": "inj-tim-aside",
+   "kind": "spoken_line",
+   "text": "Copy that. Adding it to the pack.",
+   "requires_people": true,
+   "speakers": [
+    "tim"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "post_tts",
+   "status": "draft"
+  },
+  {
+   "id": "inj-disclosure-subtle",
+   "kind": "spoken_line",
+   "text": "The comments steer this place.",
+   "requires_people": true,
+   "speakers": [
+    "mira",
+    "bill"
+   ],
+   "apply_when": "weak_score",
+   "delivery": "post_tts",
+   "status": "draft"
+  }
+ ],
+ "money_rule": "trundle 2026-10-27 16:35 CT: no injection may mention amounts, prices, donations, or ask for money/support. Keep channel flair subtle."
+}

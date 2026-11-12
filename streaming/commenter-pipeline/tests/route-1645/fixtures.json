@@ -1,0 +1,88 @@
+{
+ "xls-x-m1001.json": {
+  "id": "x-m1001",
+  "handle": "@fogwatcher",
+  "text": "Osmund checks the fog sensors on the roof while Mira holds the ladder",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "m1001",
+  "intake_by": "Story Bot",
+  "status": "IN_STORY",
+  "commenter_source": "x",
+  "commenter_text_sha256": "ef345c4adaa34befcad11b60b62c2e31c6fd5b364d5e453541f8c89ae2cd7e4c",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)",
+  "credit_line": null
+ },
+ "xls-x-m1002.json": {
+  "id": "x-m1002",
+  "handle": "@fogwatcher",
+  "text": "Bill reorganizes the depot shelves by color while Tim floats past",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "m1002",
+  "intake_by": "Story Bot",
+  "status": "IN_STORY",
+  "commenter_source": "x",
+  "commenter_text_sha256": "1d01080ef4743c6978d6954c19c1a15a0c9042b8a60baf908943d4c3c6c99853",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)",
+  "credit_line": "Bill did this because @shelfnerd asked"
+ },
+ "xls-x-m1001b.json": {
+  "id": "x-m1001",
+  "handle": "@fogwatcher",
+  "text": "Osmund checks the fog sensors on the roof while Mira holds the ladder",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "m1001",
+  "intake_by": "Story Bot",
+  "status": "IN_STORY",
+  "commenter_source": "x",
+  "commenter_text_sha256": "ef345c4adaa34befcad11b60b62c2e31c6fd5b364d5e453541f8c89ae2cd7e4c",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)"
+ },
+ "xls-x-m1003.json": {
+  "id": "x-m1003",
+  "handle": "@fogwatcher",
+  "text": "Mira sorts the mail",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "m1003",
+  "intake_by": "X Live Stream",
+  "status": null,
+  "commenter_source": "x",
+  "commenter_text_sha256": "2e0c948849779c2cb6316fda62a10c7b61a7bf0cce5b8d9d08c870b5ebbba66a",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)"
+ },
+ "xls-x-m1004.json": {
+  "id": "x-m1004",
+  "handle": "@fogwatcher",
+  "text": "Tim inspects the hatch",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "m1004",
+  "intake_by": "Story Bot",
+  "status": "HELD_FOR_trundle",
+  "commenter_source": "x",
+  "commenter_text_sha256": "257002f7eba8fd7fc7c1cbc67782f254ab06e89c857e9bca668596fd14132a62",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)"
+ },
+ "raw-comment-77.json": {
+  "id": "x-m1005",
+  "handle": "@fogwatcher",
+  "text": "fog",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "m1005",
+  "intake_by": "Story Bot",
+  "status": "IN_STORY",
+  "commenter_source": "x",
+  "commenter_text_sha256": "b04216546057e8659fecdec71043ffe7e3220178fa3df37650d6fdbb631dcda8",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)"
+ },
+ "xls-x-mock05.json": {
+  "id": "mock-05",
+  "handle": "@fogwatcher",
+  "text": "anything",
+  "timestamp": "2026-10-27T16:44:00-05:00",
+  "source_post_id": "mock05",
+  "intake_by": "Story Bot",
+  "status": "IN_STORY",
+  "commenter_source": "x",
+  "commenter_text_sha256": "ee0874170b7f6f32b8c2ac9573c428d35b575270a66b757c2c0185d2bd09718d",
+  "wrapped_prompt": "(Story Bot wrapper text, mock)"
+ }
+}

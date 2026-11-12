@@ -38,6 +38,12 @@ comment_prompt_slots:
     on_conflict: later_prompt_moves_to_later_slot
   max_wait_breaks: 3
   after_max_wait: very_next_open_slot_ahead_of_house_replacements
+  p90_percentile: 0.9
+  slot_miss_limit: 3
+  after_slot_miss_limit: slide_to_next_eligible_slot
+  placement:
+    requires_owner_air_yes: true
+    owner_air_yes_key: trundle_air_yes
   drop_valid_prompt: never
   hard_limit_violation:                 # Lead correction 12:56 PM CT
     applies_to: [kids, trundle_real_name, home_only, no_air_rule]

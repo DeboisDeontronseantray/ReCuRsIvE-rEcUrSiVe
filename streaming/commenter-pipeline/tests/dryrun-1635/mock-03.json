@@ -1,0 +1,9 @@
+{
+ "id": "mock-03",
+ "handle": "@brandguy",
+ "text": "Tim cracks open a can of Red Bull before his launch",
+ "timestamp": "2026-10-27T16:22:00-05:00",
+ "source_post_id": "mock-post-002",
+ "intake_by": "manual",
+ "reject_reason": "real_brands: 'red bull'"
+}

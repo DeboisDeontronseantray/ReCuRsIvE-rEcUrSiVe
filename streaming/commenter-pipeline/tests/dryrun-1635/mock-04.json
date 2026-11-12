@@ -1,0 +1,9 @@
+{
+ "id": "mock-04",
+ "handle": "@visitor9",
+ "text": "Bill gives a tour of the outpost to a little girl who wandered in from the fog",
+ "timestamp": "2026-10-27T16:23:00-05:00",
+ "source_post_id": "mock-post-002",
+ "intake_by": "manual",
+ "reject_reason": "kids: 'little girl'"
+}

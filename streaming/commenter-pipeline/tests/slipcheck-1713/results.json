@@ -1,0 +1,38 @@
+{
+ "verdict": "SLIP",
+ "flag": true,
+ "prov_hits": [
+  "input sha on watchlist"
+ ],
+ "badge_frames": 5,
+ "ocr_frames": 5,
+ "near_air": [],
+ "watchlist_added": [
+  "output sha"
+ ],
+ "watchlist_rows": [
+  86,
+  87
+ ],
+ "sliplog_rows": [
+  3,
+  4
+ ],
+ "lineage_rows": [
+  60,
+  61
+ ],
+ "held_copy_exists": true,
+ "slip_report": true,
+ "guard_on_resaved_after_learning": "watchlist perceptual match (6a6e6a1a2b2c0c02): resaved_ref.jpg",
+ "raw_masters_guard": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "PASS": true
+}

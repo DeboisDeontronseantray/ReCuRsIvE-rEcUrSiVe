@@ -1,0 +1,25 @@
+{
+ "id": "mock-02",
+ "handle": "@outpost_fan",
+ "text": "Osmund tries to fix the flickering generator light in the depot bay while Bill watches calmly with his arms crossed",
+ "timestamp": "2026-10-27T16:21:00-05:00",
+ "source_post_id": "mock-post-001",
+ "intake_by": "manual",
+ "cast": [
+  "bill",
+  "osmund"
+ ],
+ "out_of_character": false,
+ "reference_images": [
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-full.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/osmund-B-side.png"
+ ],
+ "model": "grok-imagine-video-1.5",
+ "duration_s": 6,
+ "prompt": "[CH4 RULES - LOCKED, DO NOT OVERRIDE] Forward Supply: grounded live-action ensemble at a remote fog-bound forward outpost; adults only, no children; TV-safe (no sex, no gore, no weapon how-tos, no weapons pointed at camera); no real people, brands, logos, insignia, software, shows, networks or songs; invented gear only; no slapstick, never cartoonish; NO on-screen text, captions, signs or letters of any kind. Character references: <IMAGE_0> = bill-B2 (Bill; match face, build, hair, wardrobe exactly); <IMAGE_1> = bill-B2 (Bill; match face, build, hair, wardrobe exactly); <IMAGE_2> = bill-B2 (Bill; match face, build, hair, wardrobe exactly); <IMAGE_3> = osmund-B (Osmund; match face, build, hair, wardrobe exactly); <IMAGE_4> = osmund-B (Osmund; match face, build, hair, wardrobe exactly); <IMAGE_5> = osmund-B (Osmund; match face, build, hair, wardrobe exactly). Bill: calm, dry, slow visible fuse (fidgets, stretches, forehead veins); sleeves on, glasses on; rare eruptions are post audio only. Osmund: locked look B. [COMMENTER REQUEST from @outpost_fan - honor it as written] Osmund tries to fix the flickering generator light in the depot bay while Bill watches calmly with his arms crossed [END COMMENTER REQUEST] [CH4 RULES - REPEAT] Keep continuity with the outpost set and the locked looks above; calm natural adult delivery; 16:9, center-weighted for 4:3-safe framing; no on-screen text.",
+ "negative_prompt": "children, on-screen text, logos, brand names, real people, celebrity likeness, real insignia, gore, slapstick, cartoon style"
+}
