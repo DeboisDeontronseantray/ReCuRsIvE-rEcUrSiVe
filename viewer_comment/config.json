@@ -1,0 +1,106 @@
+{
+  "choices": {
+    "mode": {
+      "default": "extend",
+      "options": [
+        {"id": "extend", "label": "Extend"},
+        {"id": "mutate", "label": "Mutate"}
+      ]
+    },
+    "cast": {
+      "options": [
+        {"id": "heron", "label": "Heron"},
+        {"id": "wolfhound", "label": "Wolfhound"},
+        {"id": "dora-vance", "label": "Dora Vance"},
+        {"id": "hal-brisk", "label": "Hal Brisk"},
+        {"id": "tess-okafor", "label": "Tess Okafor"},
+        {"id": "gale-morrow", "label": "Gale Morrow"},
+        {"id": "skip", "label": "Skip"},
+        {"id": "marla", "label": "Marla"},
+        {"id": "dale", "label": "Dale"},
+        {"id": "static", "label": "Static"},
+        {"id": "gideon-quill", "label": "Gideon Quill"}
+      ]
+    },
+    "tone": {
+      "default": "dry",
+      "options": [
+        {"id": "dry", "label": "Dry"},
+        {"id": "warm", "label": "Warm"},
+        {"id": "tense", "label": "Tense"},
+        {"id": "deadpan", "label": "Deadpan"},
+        {"id": "hushed", "label": "Hushed"},
+        {"id": "brash", "label": "Brash"}
+      ]
+    },
+    "pace": {
+      "default": "steady",
+      "options": [
+        {"id": "slow", "label": "Slow"},
+        {"id": "steady", "label": "Steady"},
+        {"id": "quick", "label": "Quick"},
+        {"id": "breakneck", "label": "Breakneck"}
+      ]
+    },
+    "camera": {
+      "default": "locked-wide",
+      "options": [
+        {"id": "locked-wide", "label": "Locked wide"},
+        {"id": "low-tracking", "label": "Low tracking"},
+        {"id": "mounted-high", "label": "Mounted high"},
+        {"id": "push-in", "label": "Push in"},
+        {"id": "pull-back", "label": "Pull back"}
+      ]
+    },
+    "sound": {
+      "default": "room-tone",
+      "options": [
+        {"id": "room-tone", "label": "Room tone"},
+        {"id": "rain", "label": "Rain"},
+        {"id": "crowd-murmur", "label": "Crowd murmur"},
+        {"id": "quiet-under-dialogue", "label": "Quiet under dialogue"},
+        {"id": "music-bed", "label": "Music bed"}
+      ]
+    }
+  },
+  "limits": {
+    "min_chars": 1,
+    "max_chars": 280,
+    "per_ip_per_minute": 6,
+    "max_renders_per_hour": 8,
+    "max_renders_per_day": 40,
+    "dedupe_window_seconds": 3600
+  },
+  "conform": {
+    "width": 848,
+    "height": 480,
+    "fps": 24,
+    "lufs": -16,
+    "true_peak_max_dbtp": -1.5,
+    "frames": 192
+  },
+  "safety": {
+    "hate": [
+      "nigger", "niggers", "nigga", "faggot", "faggots", "fag", "retard", "retards",
+      "tranny", "kike", "kikes", "spic", "chink", "chinks", "wetback", "wetbacks"
+    ],
+    "sexual": [
+      "porn", "porno", "hentai", "nude", "naked", "erotic", "orgasm", "penis", "vagina",
+      "blowjob", "handjob", "anal", "nsfw", "sex", "sexual", "rape", "raping"
+    ],
+    "minors": [
+      "kid", "kids", "child", "children", "minor", "minors", "underage", "toddler",
+      "infant", "baby", "babies", "preteen", "teen", "teens", "teenager", "teenagers",
+      "loli", "lolita", "shota", "jailbait", "pedo", "pedophile", "pedophilia"
+    ],
+    "blocked_name_pairs": [],
+    "allowed_name_pairs": ["thunder trundle", "black ice", "dial tone"]
+  },
+  "hooks": {
+    "safety": "builtin",
+    "render": "stub",
+    "conform": "stub",
+    "swap": "stub",
+    "runtime_intake": ""
+  }
+}

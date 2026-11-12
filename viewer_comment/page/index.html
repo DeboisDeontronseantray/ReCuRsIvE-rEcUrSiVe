@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thunder Trundle</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #3a2a1c;
+    color: #f4ecd8;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+  }
+  .set { width: min(560px, 100%); margin: 0 auto; padding: 16px 12px 32px; }
+  .bezel {
+    background: #111;
+    border: 12px solid #2b2b2b;
+    border-radius: 24px;
+    padding: 14px;
+  }
+  .screen {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(circle at 50% 40%, #16324a, #070b10 72%);
+    overflow: hidden;
+  }
+  .slate {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0d78c;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-align: center;
+    padding: 12px;
+  }
+  video { position: absolute; inset: 0; width: 100%; height: 100%; background: transparent; }
+  .scan {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, .22) 0 1px, transparent 1px 4px);
+  }
+  .bug {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #c81e1e;
+    color: #fff8e8;
+    font-weight: 800;
+    letter-spacing: .08em;
+    padding: 4px 8px;
+  }
+  .np {
+    margin: 8px 0 0;
+    background: #070b10;
+    color: #d7ffe2;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    padding: 8px;
+  }
+  .brand {
+    margin: 12px 0;
+    text-align: center;
+    color: #f0d78c;
+    font-weight: 800;
+    letter-spacing: .18em;
+  }
+  form { margin: 0; }
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 0 12px;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  textarea, select, button { font: inherit; font-size: 16px; }
+  textarea, select {
+    width: 100%;
+    background: #140c18;
+    color: #f4ecd8;
+    border: 3px solid #f0d78c;
+    padding: 10px;
+  }
+  textarea { min-height: 96px; resize: vertical; text-transform: none; letter-spacing: 0; }
+  fieldset { border: 3px solid #f0d78c; margin: 0 0 12px; padding: 8px; }
+  legend { letter-spacing: .08em; text-transform: uppercase; padding: 0 6px; }
+  .cast { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .hit {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #140c18;
+    border: 2px solid #5c5346;
+    padding: 4px 8px;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  button {
+    width: 100%;
+    margin-top: 4px;
+    background: #c81e1e;
+    color: #fff8e8;
+    border: 3px solid #4a0000;
+    border-bottom-width: 7px;
+    letter-spacing: .16em;
+    font-weight: 800;
+    padding: 14px;
+  }
+  button:disabled { opacity: .6; }
+  button:focus, select:focus, textarea:focus, input:focus { outline: 3px solid #f0d78c; outline-offset: 2px; }
+  #out { min-height: 1.4em; text-align: center; letter-spacing: .08em; font-weight: 800; }
+  .fine { color: #b7ad9c; font-size: 12px; text-align: center; margin: 0; }
+</style>
+</head>
+<body>
+  <div class="set">
+    <div class="bezel">
+      <div class="screen">
+        <div class="slate">THUNDER TRUNDLE</div>
+        <video id="air" playsinline></video>
+        <div class="scan"></div>
+        <div class="bug">LIVE</div>
+      </div>
+      <p class="np" id="np">READING THE DECK</p>
+      <p class="brand">THUNDER TRUNDLE</p>
+      <form id="f" autocomplete="off">
+        __FIELDS__
+        <button type="submit">SEND</button>
+      </form>
+      <p id="out" role="status"></p>
+      <p class="fine">Held comments stay off the air.</p>
+    </div>
+  </div>
+<script>
+const STREAM = __STREAM__;
+const form = document.getElementById("f");
+const out = document.getElementById("out");
+const np = document.getElementById("np");
+const air = document.getElementById("air");
+if (air.canPlayType("application/vnd.apple.mpegurl")) {
+  air.src = STREAM;
+}
+function showSlot(body) {
+  const now = body.now_playing || {};
+  const slot = now.first_swappable_slot;
+  if (!slot) {
+    np.textContent = now.error ? "NO READING" : "NO OPEN SLOT";
+    return;
+  }
+  const parts = String(slot.path).split("/");
+  np.textContent = "NEXT SLOT " + slot.index + "  " + parts[parts.length - 1];
+}
+function readNow() {
+  fetch("/now-playing").then(function (res) {
+    return res.json();
+  }).then(showSlot).catch(function () {
+    np.textContent = "NO READING";
+  });
+}
+readNow();
+setInterval(readNow, 15000);
+form.addEventListener("submit", function (ev) {
+  ev.preventDefault();
+  const data = new FormData(form);
+  const body = {
+    text: data.get("text") || "",
+    mode: data.get("mode"),
+    cast: data.getAll("cast"),
+    tone: data.get("tone"),
+    pace: data.get("pace"),
+    camera: data.get("camera"),
+    sound: data.get("sound")
+  };
+  const button = form.querySelector("button");
+  button.disabled = true;
+  out.textContent = "SENDING";
+  fetch("/comment", {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify(body)
+  }).then(function (res) {
+    return res.json().then(function (payload) {
+      return {ok: res.ok, payload: payload};
+    });
+  }).then(function (result) {
+    if (!result.ok) {
+      out.textContent = result.payload.error || "rejected";
+      return;
+    }
+    const comment = result.payload.comment || {};
+    const why = comment.hold_reasons && comment.hold_reasons.length ? " " + comment.hold_reasons.join(" ") : "";
+    out.textContent = (comment.status || "sent") + why;
+  }).catch(function () {
+    out.textContent = "NO ANSWER";
+  }).then(function () {
+    button.disabled = false;
+  });
+});
+</script>
+</body>
+</html>
