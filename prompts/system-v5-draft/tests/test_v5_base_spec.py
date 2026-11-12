@@ -27,7 +27,6 @@ def test_base_spec_is_never_mutated(v5):
     assert bs.load(NP16 / "base_spec.json")["beats"]
 
 
-@pytest.mark.xfail(reason="live NP16 snapshot is locked to prompts_v43 (GIDEON); current builder emits MARLO", strict=True)
 def test_parity_through_adapter(v5):
     bs = v5("adapters.base_spec")
     assert bs.verify_parity(bs.load(NP16 / "base_spec.json"), LIVE / "NP16.args.json", LIVE / "NP16.meta.json")
