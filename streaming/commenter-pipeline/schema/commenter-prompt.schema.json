@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Ch4 commenter prompt",
+ "type": "object",
+ "required": [
+  "handle",
+  "text",
+  "timestamp",
+  "source_post_id"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "description": "optional; pipeline assigns if missing"
+  },
+  "handle": {
+   "type": "string",
+   "pattern": "^@?[A-Za-z0-9_]{1,15}$"
+  },
+  "text": {
+   "type": "string",
+   "minLength": 3,
+   "maxLength": 500
+  },
+  "timestamp": {
+   "type": "string",
+   "description": "ISO 8601 with offset"
+  },
+  "source_post_id": {
+   "type": "string",
+   "description": "X post / broadcast id, or 'manual'"
+  },
+  "cast": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "bill",
+     "mira",
+     "osmund",
+     "tim"
+    ]
+   },
+   "description": "optional; auto-detected from text if missing"
+  },
+  "out_of_character": {
+   "type": "boolean",
+   "description": "optional; auto-detected if missing"
+  },
+  "intake_by": {
+   "type": "string",
+   "description": "X Live Stream | manual"
+  },
+  "screen_inserts": {
+   "type": "array",
+   "description": "optional (Oct 28 2026): older clips to play on a screen; resolved via story-engine/engine/resolve_embed.py, clean masters only; unknown ref = held",
+   "items": {
+    "type": "object",
+    "required": [
+     "ref"
+    ],
+    "properties": {
+     "ref": {
+      "type": [
+       "string",
+       "object"
+      ],
+      "description": "#global_no or {lineage, gen}"
+     },
+     "surface": {
+      "type": "string"
+     },
+     "in": {
+      "type": "number"
+     },
+     "out": {
+      "type": "number"
+     },
+     "loop": {
+      "type": "boolean"
+     },
+     "treatment": {
+      "enum": [
+       "crt",
+       "scanlines",
+       "none"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "additionalProperties": true
+}

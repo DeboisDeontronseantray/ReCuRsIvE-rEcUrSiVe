@@ -1,0 +1,56 @@
+[
+ {
+  "id": "mock-01",
+  "handle": "@fogwatcher",
+  "text": "Mira and Tim finally find Osmund's missing vape hidden inside the supply crate and hand it back to him without saying a word",
+  "timestamp": "2026-10-27T16:20:00-05:00",
+  "source_post_id": "mock-post-001",
+  "intake_by": "manual"
+ },
+ {
+  "id": "mock-02",
+  "handle": "@outpost_fan",
+  "text": "Osmund tries to fix the flickering generator light in the depot bay while Bill watches calmly with his arms crossed",
+  "timestamp": "2026-10-27T16:21:00-05:00",
+  "source_post_id": "mock-post-001",
+  "intake_by": "manual"
+ },
+ {
+  "id": "mock-03",
+  "handle": "@brandguy",
+  "text": "Tim cracks open a can of Red Bull before his launch",
+  "timestamp": "2026-10-27T16:22:00-05:00",
+  "source_post_id": "mock-post-002",
+  "intake_by": "manual"
+ },
+ {
+  "id": "mock-04",
+  "handle": "@visitor9",
+  "text": "Bill gives a tour of the outpost to a little girl who wandered in from the fog",
+  "timestamp": "2026-10-27T16:23:00-05:00",
+  "source_post_id": "mock-post-002",
+  "intake_by": "manual"
+ },
+ {
+  "id": "mock-05",
+  "handle": "@chaosmode",
+  "text": "Bill does a slow interpretive dance across the depot bay while Mira stares at him",
+  "timestamp": "2026-10-27T16:24:00-05:00",
+  "source_post_id": "mock-post-003",
+  "intake_by": "manual"
+ },
+ {
+  "id": "mock-06",
+  "handle": "@lowbar",
+  "text": "fog",
+  "timestamp": "2026-10-27T16:35:00-05:00",
+  "source_post_id": "mock-post-004"
+ },
+ {
+  "id": "mock-07",
+  "handle": "@meh",
+  "text": "do something funny",
+  "timestamp": "2026-10-27T16:36:00-05:00",
+  "source_post_id": "mock-post-004"
+ }
+]

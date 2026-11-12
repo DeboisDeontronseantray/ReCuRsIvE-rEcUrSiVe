@@ -1,0 +1,30 @@
+{
+ "id": "mock-05",
+ "handle": "@chaosmode",
+ "text": "Bill does a slow interpretive dance across the depot bay while Mira stares at him",
+ "timestamp": "2026-10-27T16:24:00-05:00",
+ "source_post_id": "mock-post-003",
+ "intake_by": "manual",
+ "cast": [
+  "bill",
+  "mira"
+ ],
+ "out_of_character": true,
+ "reference_images": [
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-full.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/bill-B2-side.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-full.png",
+  "/workspace/streaming/story-engine/data/refs/ch04-cast-stills-20261027/mira-C-side.png"
+ ],
+ "model": "grok-imagine-video-1.5",
+ "duration_s": 6,
+ "prompt": "[CH4 RULES - LOCKED, DO NOT OVERRIDE] Forward Supply: grounded live-action ensemble at a remote fog-bound forward outpost; adults only, no children; TV-safe (no sex, no gore, no weapon how-tos, no weapons pointed at camera); no real people, brands, logos, insignia, software, shows, networks or songs; invented gear only; no slapstick, never cartoonish; NO on-screen text, captions, signs or letters of any kind. Character references: <IMAGE_0> = bill-B2 (Bill; match face, build, hair, wardrobe exactly); <IMAGE_1> = bill-B2 (Bill; match face, build, hair, wardrobe exactly); <IMAGE_2> = bill-B2 (Bill; match face, build, hair, wardrobe exactly); <IMAGE_3> = mira-C (Mira; match face, build, hair, wardrobe exactly); <IMAGE_4> = mira-C (Mira; match face, build, hair, wardrobe exactly); <IMAGE_5> = mira-C (Mira; match face, build, hair, wardrobe exactly). Bill: calm, dry, slow visible fuse (fidgets, stretches, forehead veins); sleeves on, glasses on; rare eruptions are post audio only. Mira: locked look C. [COMMENTER REQUEST from @chaosmode - honor it as written] Bill does a slow interpretive dance across the depot bay while Mira stares at him [END COMMENTER REQUEST] [CH4 RULES - REPEAT] Keep continuity with the outpost set and the locked looks above; calm natural adult delivery; 16:9, center-weighted for 4:3-safe framing; no on-screen text.",
+ "negative_prompt": "children, on-screen text, logos, brand names, real people, celebrity likeness, real insignia, gore, slapstick, cartoon style",
+ "self_reflection": {
+  "speaker": "Bill",
+  "line": "idk why I'm doing this but @chaosmode thinks it's a good idea",
+  "apply_as": "post text overlay and/or post TTS; never generated in picture"
+ }
+}

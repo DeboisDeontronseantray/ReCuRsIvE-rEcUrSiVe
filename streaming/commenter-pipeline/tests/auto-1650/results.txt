@@ -1,0 +1,44 @@
+T1 AUTO_APPROVE off: AUTO_APPROVED rejected
+INTAKE-REJECT xls-x-a101.json -> no trundle-approved marker (status APPROVED/IN_STORY or trundle_approved:true)
+[]
+T2 AUTO_APPROVE on: accepted + stamped; gate still blocks brand/kid/money/cartoon
+('x-a102', 'auto-gate', True, 'pass')
+('x-a103', 'auto-gate', False, "real_brands: 'pepsi'")
+('x-a104', 'auto-gate', False, "kids: 'toddler'")
+('x-a105', 'auto-gate', False, "money: 'donate'")
+('x-a106', 'auto-gate', False, "cartoonish: 'cartoon'")
+T3 KILL_SWITCH: AUTO_APPROVED rejected, render stopped
+INTAKE-REJECT xls-x-a107.json -> no trundle-approved marker (status APPROVED/IN_STORY or trundle_approved:true)
+[]
+STOP: KILL_SWITCH on
+T4 SESSION_SPEND_CAP $1 (0.54 each)
+  t4-0 dry-run: no API call
+  t4-1 STOP: session spend $0.51+$0.51 > cap $1
+  t4-2 STOP: session spend $0.51+$0.51 > cap $1
+T5 MAX_CLIPS_PER_HOUR=2
+  t5-0 dry-run: no API call
+  t5-1 dry-run: no API call
+  t5-2 STOP: 2 clips in last hour >= MAX_CLIPS_PER_HOUR 2
+T6 post checks + held + AUTO_AIR_YES + auto-revert (2 flags)
+config restored: {'AUTO_APPROVE_PROMPTS': False, 'AUTO_AIR_YES': False, 'KILL_SWITCH': False, 'LIVE_ENABLED': False}
+Traceback (most recent call last):
+  File "/workspace/streaming/commenter-pipeline/tests/auto-1650/run_tests.py", line 32, in <module>
+    w2=dict(w,id=f"t6-clip{i}",cast=["bill","mira"]); r=P.post(w2,C1); print(" ",w2["id"],"held",r["held"],r["hold_reasons"],"lufs",r["lufs"])
+                                                        ~~~~~~^^^^^^^
+  File "/workspace/streaming/commenter-pipeline/pipeline.py", line 273, in post
+    fc=frame_check(src,w.get("cast",[]))
+  File "/workspace/streaming/commenter-pipeline/pipeline.py", line 238, in frame_check
+    cc=cv2.CascadeClassifier(cv2.data.haarcascades+"haarcascade_frontalface_default.xml"); mx=0; small=0
+       ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+T6 post checks + held + AUTO_AIR_YES + auto-revert (2 flags)
+  t6-clip0 held True ['face counter unavailable (cv2 build lacks CascadeClassifier): extra-people check needs review', 'kids/logo check not reliable locally: frames need human review (/workspace/streaming/commenter-pipeline/outbox/held/frames_FS-P01-C03_480p_grok-imagine-video-1.5_parody)'] lufs -13.7
+AUTO-REVERT: 2 flagged clips -> both auto switches set false
+  t6-clip1 held True ['face counter unavailable (cv2 build lacks CascadeClassifier): extra-people check needs review', 'kids/logo check not reliable locally: frames need human review (/workspace/streaming/commenter-pipeline/outbox/held/frames_FS-P01-C03_480p_grok-imagine-video-1.5_parody)'] lufs -13.7
+  after: {'AUTO_APPROVE_PROMPTS': False, 'AUTO_AIR_YES': False}
+T7 AUTO_AIR_YES on, all checks pass (frame check mode 'pass_if_clean' simulated)
+  True ['face counter unavailable (cv2 build lacks CascadeClassifier): extra-people check needs review'] {'status': 'held-not-for-air', 'trundle_air_yes': False, 'air_yes_by': None}
+T8 AUTO_AIR_YES off (default): trundle_air_yes false
+  {'status': 'held-not-for-air', 'trundle_air_yes': False, 'air_yes_by': None}
+config restored: {'AUTO_APPROVE_PROMPTS': False, 'AUTO_AIR_YES': False, 'KILL_SWITCH': False, 'LIVE_ENABLED': False}
+T9 stubbed frame check, AUTO_AIR_YES on: False {'status': 'auto-air-yes', 'trundle_air_yes': True, 'air_yes_by': 'auto-gate'}

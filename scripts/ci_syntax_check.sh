@@ -4,8 +4,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 echo "== Python compileall (syntax) =="
-python3 -m compileall -q charmeta lineage tests prompts scripts story-engine/engine story-engine/live 2>/dev/null \
-  || python3 -m compileall -q charmeta lineage tests prompts scripts
+python3 -m compileall -q charmeta lineage tests prompts scripts astra_lifecycle de-parity streaming story-engine/engine story-engine/live 2>/dev/null \
+  || python3 -m compileall -q charmeta lineage tests prompts scripts astra_lifecycle de-parity streaming story-engine/engine
 
 echo "== YAML parse (PyYAML) =="
 python3 - <<'PY'

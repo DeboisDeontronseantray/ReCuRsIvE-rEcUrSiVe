@@ -9,6 +9,9 @@ python3 -m pip install -q -r prompts/system-v5-draft/requirements.txt
 echo "== root tests =="
 python3 -m pytest -q -p no:cacheprovider tests
 
+echo "== comment slot policy =="
+python3 story-engine/tests/test_queue_policy.py
+
 echo "== v5 draft tests =="
 (
   cd prompts/system-v5-draft
