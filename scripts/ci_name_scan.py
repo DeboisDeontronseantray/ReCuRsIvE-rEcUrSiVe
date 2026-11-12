@@ -23,6 +23,7 @@ SCAN_ROOTS = (
     "story-engine/rules",
     "story-engine/templates",
     "story-engine/configs",
+    "viewer_comment",
 )
 REPO = Path(__file__).resolve().parents[1]
 # sha256(lowercase denylisted owner first name) — token itself is not stored here
@@ -51,6 +52,7 @@ TEXT_SUFFIXES = {
     ".cfg",
     ".ini",
     ".rst",
+    ".html",
 }
 WORD = re.compile(r"(?<![A-Za-z])([A-Za-z]+)(?![A-Za-z])")
 
