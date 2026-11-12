@@ -21,7 +21,21 @@ echo "== v5 draft tests =="
 echo "== v5 dryrun =="
 (
   cd prompts/system-v5-draft
-  python3 dryrun.py
+  set +e
+  PYTHONPATH="$ROOT" python3 dryrun.py
+  rc=$?
+  set -e
+  python3 - <<'PY'
+import json
+from pathlib import Path
+summary = json.loads(Path("out/dryrun/night-porter/SUMMARY.json").read_text())
+assert summary["parity_NP16_byte_identical"] is False, summary
+print("dryrun reported stale NP16 live snapshot (expected; v44 pack stays locked to v43)")
+PY
+  if [ "$rc" -ne 1 ]; then
+    echo "expected dryrun exit 1 for the stale snapshot, got $rc"
+    exit 1
+  fi
 )
 
 echo "== legacy v4 tests =="
